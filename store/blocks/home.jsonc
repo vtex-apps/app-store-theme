@@ -1,6 +1,13 @@
 {
   "store.home": { 
     "blocks": [
+      "image#cover"
     ]
+  },
+  "image#cover": { 
+    "props": { 
+      "blockClass": "cover",
+      "src": "assets/header.png"
+    }
   }
 }
