@@ -5,98 +5,32 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
-  "header-layout.desktop": {
+  "header-layout.desktop": { 
     "children": [
-      "flex-layout.row#header-desktop"
+      "flex-layout.row#transparent"
     ]
   },
-  "flex-layout.row#header-desktop": { 
+  "header-layout.mobile": { 
+    "children": [
+      "flex-layout.row#transparent"
+    ]
+  },
+  "flex-layout.row#transparent": { 
     "props": { 
-      "blockClass": "headerDesktop"
+      "blockClass": "transparent"
     },
     "children": [
-      "flex-layout.col#header-desktop"
-    ]
-  },
-  "flex-layout.col#header-desktop": {
-    "children": [
-      "flex-layout.row#desktop",
-      "rich-text#evolve",
-      "flex-layout.row#search" 
-    ]
-  },
-  "rich-text#evolve": { 
-    "props": { 
-      "text": "Evolve your  store with the best apps.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-header-2"
-    }
-  },
-  "flex-layout.row#search": { 
-    "props": { 
-      "horizontalAlign": "CENTER"
-    },
-    "children": [
-      "search-bar"
-    ]
-  },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "locale-switcher",
+      "logo",
+      "vtex.menu@2.x:menu#main-menu",
       "login"
     ]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
-  },
   "logo": {
     "props": {
-      "title": "Logo",
+      "title": "VTEX logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "width": "90", 
+      "url": "assets/vtex-logo.svg"
     }
-  },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
   }
 }

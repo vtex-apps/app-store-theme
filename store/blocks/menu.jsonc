@@ -1,0 +1,70 @@
+{
+  "vtex.menu@2.x:menu#main-menu": {
+    "children": [
+      "menu-item#appinstegration",
+      "menu-item#becomepartner",
+      "menu-item#findagency",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#appinstegration": {
+    "props": {
+      "id": "menu-item-appsintegration",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Apps and integration",
+        "text": "Apps and integration"
+      }
+    }
+  },
+  "menu-item#becomepartner": {
+    "props": {
+      "id": "menu-item-becomepartner",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Become a partner",
+        "text": "Become a partner"
+      }
+    }
+  },
+  "menu-item#findagency": {
+    "props": {
+      "id": "menu-item-becomepartner",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Find an agency",
+        "text": "Find an agency"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  }
+}
