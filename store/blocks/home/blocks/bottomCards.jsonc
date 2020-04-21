@@ -1,0 +1,164 @@
+{
+  "flex-layout.row#bottomCards": {
+    "children": [
+      "flex-layout.col#bottomCards"      
+    ]      
+  },
+  "flex-layout.col#bottomCards": {
+    "children": [
+      "rich-text#bottomCardsTitle",
+      "flex-layout.row#bottomCardsBody"
+    ]
+  },
+  "flex-layout.row#bottomCardsBody": {
+    "props": {
+      "colGap": 8,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "stack-layout#bottomCard1",
+      "stack-layout#bottomCard2",
+      "stack-layout#bottomCard3"
+    ]
+  },
+  "stack-layout#bottomCard1": {
+    "children": [
+      "image#bottomCard1",
+      "flex-layout.col#bottomCardsCard1"
+    ]
+  },
+  "stack-layout#bottomCard2": {
+    "children": [
+      "image#bottomCard2",
+      "flex-layout.col#bottomCardsCard2"
+    ]
+  },
+  "stack-layout#bottomCard3": {
+    "children": [
+      "image#bottomCard3",
+      "flex-layout.col#bottomCardsCard3"
+    ]
+  },
+  "image#bottomCard1": {
+    "props": {
+      "height": "44.81rem",
+      "blockClass": "bottomCard",
+      "src": "assets/bottomCard1.png"
+    }
+  },
+  "image#bottomCard2": {
+    "props": {
+      "height": "44.81rem",
+      "blockClass": "bottomCard",
+      "src": "assets/bottomCard2.png"
+    }
+  },
+
+  /**
+    Used a block class that is never assigned because we need to 
+    improve readibility on bottom card images but I haven't talked to 
+    Pedro Alexandria to find out how yet
+  */
+
+  "image#bottomCard3": {
+    "props": {
+      "height": "44.81rem", 
+      "width": "auto",
+      "blockClass": "bottomCard",
+      "src": "assets/bottomCard3.png"
+    }
+  },
+  "flex-layout.col#bottomCardsCard1": {
+    "props": {
+      "blockClass": "bottomCardsCol",
+      "paddingLeft": 7,
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#bottomCardsText1",
+      "link#bottomCardsLink1"
+    ]
+  },
+  "flex-layout.col#bottomCardsCard2": {
+    "props": {
+      "blockClass": "bottomCardsCol",
+      "paddingLeft": 7,
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#bottomCardsText2",
+      "link#bottomCardsLink2"
+    ]
+  },
+  "flex-layout.col#bottomCardsCard3": {
+    "props": {
+      "blockClass": "bottomCardsCol",
+      "paddingLeft": 7,
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#bottomCardsText3",
+      "link#bottomCardsLink3"
+    ]
+  },
+  "rich-text#bottomCardsTitle": {
+    "props": {
+      "text": "Everything you need to evolve with our ecosystem.",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#bottomCardsText1": {
+    "props": {
+      "text": "Find the best\n[agencies to build]()\nyour store.",
+      "font": "t-body",
+      "blockClass": "bottomCardsBody"
+    }
+  },
+  "rich-text#bottomCardsText2": {
+    "props": {
+      "text": "Find the best\n[solutions to grow]()\nyour business.",
+      "font": "t-body",
+      "blockClass": "bottomCardsBody"
+    }
+  },
+  "rich-text#bottomCardsText3": {
+    "props": {
+      "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
+      "font": "t-body",
+      "blockClass": "bottomCardsBodyBig"
+    }
+  },
+  "link#bottomCardsLink1": {
+    "props": { 
+      "label": "FIND AN AGENCY",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  },
+  "link#bottomCardsLink2": {
+    "props": { 
+      "label": "FIND SOLUTIONS",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary",
+        "size": "large"
+      }
+    }
+  },
+  "link#bottomCardsLink3": {
+    "props": { 
+      "label": "BECOME A DEVELOPER",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  }
+}

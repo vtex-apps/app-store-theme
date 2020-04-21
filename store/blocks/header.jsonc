@@ -7,23 +7,38 @@
   },
   "header-layout.desktop": { 
     "children": [
-      "flex-layout.row#transparent"
+      "flex-layout.row#header"
     ]
   },
   "header-layout.mobile": { 
     "children": [
-      "flex-layout.row#transparent"
+      "flex-layout.row#header"
     ]
   },
-  "flex-layout.row#transparent": { 
+  "flex-layout.row#header": { 
     "props": { 
-      "blockClass": "transparent"
+      "blockClass": "transparent",
+      "preventHorizontalStretch": true
     },
     "children": [
       "logo",
-      "vtex.menu@2.x:menu#main-menu",
-      "login"
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#main-menu"
     ]
+  },
+  "flex-layout.col#spacer": { 
+    "props": { 
+      "width": "grow"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOGIN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPraceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
   },
   "logo": {
     "props": {

@@ -1,0 +1,56 @@
+.paragraph--storeHeadline {
+  font-weight: normal;
+  color: white;
+}
+
+.paragraph--categoryCard {
+  margin-left: 2rem;
+  font-weight: normal;
+  color: white;
+}
+
+.paragraph--homeInfoCardBody {
+  font-weight: 300;
+  font-size: 1.63rem;
+}
+
+.paragraph--infoCardTitle {
+  color: #DD1659;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.paragraph--bottomCardsBody {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.paragraph--bottomCardsBodyBig {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.paragraph--testimonyAuthor { 
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.link--bottomCardsBodyBig {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+
+.link--bottomCardsBody {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.paragraph--testimonyBody {
+  font-weight: 300;
+  font-size: 2rem;
+}

@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#infocard": {
+    "props": {
+      "blockClass": "infocardHome",
+      "marginTop": 9,
+      "marginBottom": 9,
+      "paddingTop": 9,
+      "paddingBottom": 9
+    },
+    "children": [
+      "flex-layout.col#textAndButton",
+      "flex-layout.col#image"
+    ]
+  },
+  "flex-layout.col#textAndButton": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [ 
+      "rich-text#homeInforCardTitle",
+      "rich-text#homeInforCardBody",
+      "link#homeInfoCard"
+    ]
+  },
+  "rich-text#homeInforCardTitle": {
+    "props": { 
+      "blockClass": "infoCardTitle",
+      "textAlign": "CENTER",
+      "textPosition": "CENTER",
+      "text": "One click to go.",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#homeInforCardBody": {
+    "props": { 
+      "textAlign": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "homeInfoCardBody",
+      "text": "Save time and money by taking\nadvantage of apps that are\nalready **programmed, tested**\n**and reviewed**.",
+      "font": "t-body"
+    }
+  },
+  "link#homeInfoCard": { 
+    "props": { 
+      "label": "EXPLORE ALL",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  },
+  "flex-layout.col#image": { 
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#infoCardImage"
+    ]
+  },
+  "image#infoCardImage": { 
+    "props": {
+      "src": "assets/home-info.png"
+    }
+  }
+}

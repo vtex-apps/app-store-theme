@@ -1,0 +1,14 @@
+{
+  "store.home": { 
+    "blocks": [
+      "stack-layout#cover",
+      "flex-layout.row#homeShelf",
+      "search-result-layout.customQuery#mostUsed",
+      "flex-layout.row#categoriesTitle",
+      "flex-layout.row#categories",
+      "flex-layout.row#infocard",
+      "slider-layout#testimonies",
+      "flex-layout.row#bottomCards"
+    ]
+  }
+}

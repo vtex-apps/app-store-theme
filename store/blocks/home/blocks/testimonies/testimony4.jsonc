@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#testimony4": {
+    "children": [
+      "flex-layout.col#testimony4colImg",
+      "flex-layout.col#testimony4colText"
+    ]
+  },
+  "flex-layout.col#testimony4colImg": {
+    "children": [
+      "image#testimony4"
+    ]
+  },
+  "flex-layout.col#testimony4colText": { 
+    "children": [
+      "rich-text#testimonyText4",
+      "rich-text#testimonyAuthor4"
+    ]
+  },
+  "image#testimony4": {
+    "props": {
+      "src": "assets/testimonyPlaceholder.png",
+      "blockClass": "testimonyImg"
+    }
+  },
+  "rich-text#testimonyText4": {
+    "props": {
+      "text": "“Apps have saved us a tremendous amount of time and money.”"
+    }
+  },
+  "rich-text#testimonyAuthor4": { 
+    "props": {
+      "text": "— Morgan Haynes, COO at Karm"
+    }
+  }
+}

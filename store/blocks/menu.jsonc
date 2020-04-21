@@ -4,7 +4,8 @@
       "menu-item#appinstegration",
       "menu-item#becomepartner",
       "menu-item#findagency",
-      "menu-item#faq"
+      "menu-item#faq",
+      "login"
     ]
   },
   "menu-item#appinstegration": {
@@ -18,7 +19,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Apps and integration",
-        "text": "Apps and integration"
+        "text": "APPS AND INTEGRATION"
       }
     }
   },
@@ -33,7 +34,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Become a partner",
-        "text": "Become a partner"
+        "text": "BECOME A PARTNER"
       }
     }
   },
@@ -48,7 +49,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Find an agency",
-        "text": "Find an agency"
+        "text": "FIND AN AGENCY"
       }
     }
   },

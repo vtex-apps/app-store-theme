@@ -1,0 +1,52 @@
+{
+  "stack-layout#cover": { 
+    "props": { 
+      "blockClass": "cover"
+    },
+    "children": [ 
+      "image#cover",
+      "flex-layout.row#headline"
+    ]
+  },
+  "flex-layout.row#headline": {
+    "props": { 
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "headline"
+    },
+    "children": [
+      "flex-layout.col#cover-content"
+    ]
+  },
+  "flex-layout.col#cover-content": { 
+    "props": { 
+      "width": "grow",
+      "horizontalAlign": "center",
+      "blockClass": "headlinecover"
+    },
+    "children": [
+      "rich-text#store-headline",
+      "search-bar"
+    ]
+  },
+  "search-bar": { 
+    "props": {
+      "placeholder": "Search an app",
+      "hasIconLeft": true
+    }
+  },
+  "image#cover": { 
+    "props": { 
+      "src": "assets/header.png"
+    }
+  },
+  "rich-text#store-headline": { 
+    "props": { 
+      "font": "t-heading-1",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Evolve your store with the best apps.",
+      "blockClass": "storeHeadline"
+    }
+  }
+}

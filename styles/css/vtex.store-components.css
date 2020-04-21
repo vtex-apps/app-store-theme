@@ -2,7 +2,16 @@
   display: block;
 }
 
-.imageElement--cover {
-  position: absolute;
-  top: 0;
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border-style: none;
+  max-width: 46rem;
+  height: 64px;
+}
+
+.searchBarContainer :global(.vtex-input__suffix) {
+  display: none;
+}
+
+.imageElement--testimonyImg {
+  border-radius: 50%;
 }

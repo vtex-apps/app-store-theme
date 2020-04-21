@@ -1,0 +1,22 @@
+{
+  "slider-layout#testimonies": {
+    "props": {
+      "showPaginationDots": "never",
+      "infinite": true,
+      "fullWidth": true,
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "mobile": 1
+      }
+    },
+    "children": [
+      "flex-layout.row#testimony1",
+      "flex-layout.row#testimony2",
+      "flex-layout.row#testimony3",
+      "flex-layout.row#testimony4",
+      "flex-layout.row#testimony5",
+      "flex-layout.row#testimony6"
+    ]
+  }
+}
