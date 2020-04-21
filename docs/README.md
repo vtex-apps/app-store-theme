@@ -1,1 +1,1 @@
-# VTEX IO & Dlieve
+# App Store Theme
