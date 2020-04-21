@@ -4,7 +4,7 @@
       "blockClass": "testimonyContainer",
       "paddingTop": 8,
       "paddingBottom": 8,
-      "preventHorizontalStrech": true
+      "preventHorizontalStretch": true
     },
     "children": [
       "flex-layout.col#testimony1colImg",
