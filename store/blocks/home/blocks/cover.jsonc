@@ -4,8 +4,24 @@
       "blockClass": "cover"
     },
     "children": [ 
-      "image#cover",
+      "flex-layout.row#cover-image",
       "flex-layout.row#headline"
+    ]
+  },
+  "flex-layout.row#cover-image": {
+    "children": [
+      "responsive-layout.mobile#cover-mobile",
+      "responsive-layout.desktop#cover-desktop"
+    ]
+  },
+  "responsive-layout.desktop#cover-desktop": {
+    "children": [
+      "image#cover-desktop"
+    ]
+  },
+  "responsive-layout.mobile#cover-mobile": {
+    "children": [
+      "image#cover-mobile"
     ]
   },
   "flex-layout.row#headline": {
@@ -35,14 +51,24 @@
       "hasIconLeft": true
     }
   },
-  "image#cover": { 
+  "image#cover-desktop": { 
     "props": { 
+      "blockClass": "coverImage",
       "src": "assets/header.png"
+    }
+  },
+  "image#cover-mobile": { 
+    "props": { 
+      "blockClass": "coverImage",
+      "src": "assets/header-mobile.png"
     }
   },
   "rich-text#store-headline": { 
     "props": { 
-      "font": "t-heading-1",
+      "font": { 
+        "desktop": "t-heading-1",
+        "mobile": "t-heading-3"
+      },
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Evolve your store with the best apps.",

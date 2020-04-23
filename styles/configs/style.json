@@ -340,7 +340,7 @@
       "heading-3": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "700",
-        "fontSize": "1.75rem",
+        "fontSize": "2rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

@@ -1,10 +1,17 @@
 {
   "flex-layout.row#bottomCards": {
+    "props": { 
+      "marginTop": 10,
+      "marginBottom": 10
+    },
     "children": [
       "flex-layout.col#bottomCards"      
     ]      
   },
   "flex-layout.col#bottomCards": {
+    "props": { 
+      "rowGap": 9
+    },
     "children": [
       "rich-text#bottomCardsTitle",
       "flex-layout.row#bottomCardsBody"
@@ -42,29 +49,19 @@
   "image#bottomCard1": {
     "props": {
       "height": "44.81rem",
-      "blockClass": "bottomCard",
       "src": "assets/bottomCard1.png"
     }
   },
   "image#bottomCard2": {
     "props": {
       "height": "44.81rem",
-      "blockClass": "bottomCard",
       "src": "assets/bottomCard2.png"
     }
   },
-
-  /**
-    Used a block class that is never assigned because we need to 
-    improve readibility on bottom card images but I haven't talked to 
-    Pedro Alexandria to find out how yet
-  */
-
   "image#bottomCard3": {
     "props": {
       "height": "44.81rem", 
       "width": "auto",
-      "blockClass": "bottomCard",
       "src": "assets/bottomCard3.png"
     }
   },
@@ -103,6 +100,7 @@
   },
   "rich-text#bottomCardsTitle": {
     "props": {
+      "blockClass": "noMargin",
       "text": "Everything you need to evolve with our ecosystem.",
       "font": "t-heading-3"
     }
@@ -125,11 +123,12 @@
     "props": {
       "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
       "font": "t-body",
-      "blockClass": "bottomCardsBodyBig"
+      "blockClass": ["bottomCardsBodyBig"]
     }
   },
   "link#bottomCardsLink1": {
     "props": { 
+      "blockClass": "cardButton",
       "label": "FIND AN AGENCY",
       "href": "#",
       "displayMode": "button",
@@ -141,6 +140,7 @@
   },
   "link#bottomCardsLink2": {
     "props": { 
+      "blockClass": "cardButton",
       "label": "FIND SOLUTIONS",
       "href": "#",
       "displayMode": "button",
@@ -152,6 +152,7 @@
   },
   "link#bottomCardsLink3": {
     "props": { 
+      "blockClass": "card3Link",
       "label": "BECOME A DEVELOPER",
       "href": "#",
       "displayMode": "button",

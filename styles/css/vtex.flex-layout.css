@@ -10,12 +10,21 @@
   border: 1px solid #E3E4E6;
   box-sizing: border-box;
   border-radius: 8px;
+  max-width: 46rem
 }
 
 .flexRow--infocardHome {
   background: white;
   margin: 0 auto 0 auto;
   max-width: 96rem;
+}
+
+.flexColChild--bottomCardsCol {
+  padding-bottom: .5rem;
+}
+
+.flexCol--testimonyTextCol {
+  max-width: 25rem;
 }
 
 .flexColChild--headlinecover {
@@ -26,6 +35,8 @@
 
 .flexRow--headline {
   height: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,6 +44,11 @@
 
 .flexCol--categoryCard {
   border-radius: 8px;
+  height: 8rem;
+}
+
+.flexCol--textAlignLeft {
+  text-align: left;
 }
 
 .flexCol--card1Color {
@@ -53,4 +69,26 @@
 
 .flexCol--bottomCardsCol {
   padding-bottom: 2rem;
+}
+
+.flexRow--categoriesMobile {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.flexRow--categoriesMobile2 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+/**
+  Desktop specifics
+*/
+
+@media (min-width: 600px) {
+  .flexCol--categoryCard {
+    border-radius: 8px;
+    margin-right: 2rem;
+    height: 10rem;
+  }
 }

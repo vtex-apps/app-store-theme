@@ -2,8 +2,8 @@
   "flex-layout.row#testimony1": {
     "props": {
       "blockClass": "testimonyContainer",
-      "paddingTop": 8,
-      "paddingBottom": 8,
+      "paddingTop": 6,
+      "paddingBottom": 6,
       "preventHorizontalStretch": true
     },
     "children": [
@@ -13,6 +13,7 @@
   },
   "flex-layout.col#testimony1colImg": {
     "props": {
+      "marginLeft": 9,
       "verticalAlign": "middle"
     },
     "children": [
@@ -21,7 +22,9 @@
   },
   "flex-layout.col#testimony1colText": { 
     "props": {
-      "verticalAlign": "middle"
+      "marginLeft": 9,
+      "verticalAlign": "middle",
+      "blockClass": "testimonyTextCol"
     },
     "children": [
       "rich-text#testimonyText1",

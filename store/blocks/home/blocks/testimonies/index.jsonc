@@ -1,12 +1,13 @@
 {
   "slider-layout#testimonies": {
     "props": {
+      // "usePagination": false,
       "showPaginationDots": "never",
       "infinite": true,
       "fullWidth": true,
       "itemsPerPage": {
         "desktop": 1,
-        "tablet": 2,
+        "tablet": 1,
         "mobile": 1
       }
     },

@@ -2,8 +2,8 @@
   "flex-layout.row#infocard": {
     "props": {
       "blockClass": "infocardHome",
-      "marginTop": 9,
-      "marginBottom": 9,
+      "marginTop": 10,
+      "marginBottom": 10,
       "paddingTop": 9,
       "paddingBottom": 9
     },

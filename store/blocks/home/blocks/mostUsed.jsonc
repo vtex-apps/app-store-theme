@@ -1,5 +1,9 @@
 {
   "flex-layout.row#homeShelf": { 
+    "props": {
+      "marginTop": 9,
+      "marginBottom": 8
+    },
     "children": [ 
       "flex-layout.col#homeShelf1",
       "flex-layout.col#homeShelf2"
@@ -7,6 +11,7 @@
   },
   "flex-layout.col#homeShelf1": {  
     "props": {
+      "rowGap": 3,
       "verticalAlign": "bottom"
     },
     "children": [
@@ -19,11 +24,17 @@
       "verticalAlign": "bottom"
     },
     "children": [
+      "responsive-layout.desktop#explore"
+    ]
+  },
+  "responsive-layout.desktop#explore": { 
+    "children": [
       "rich-text#homeShelf3"
     ]
   },
   "rich-text#homeShelf1": {
     "props": {
+      "blockClass": "noMargin",
       "font": "t-heading-3",
       "textPosition": "LEFT",
       "text": "Most used apps"
@@ -31,7 +42,11 @@
   },
   "rich-text#homeShelf2": {
     "props": { 
-      "font": "t-heading-4",
+      "blockClass": "noMargin",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "body"
+      },
       "textPosition": "LEFT",
       "text": "Selected apps for VTEX businesses based in Brazil."
     }
@@ -40,6 +55,7 @@
     "props": { 
       "font": "t-body",
       "textPosition": "RIGHT",
+      "blockClass": "hideMobile",
       "text": "[Explore all apps](www.google.com)"
     }
   },
@@ -68,7 +84,8 @@
   "gallery#mostUsed": {
     "props": {
       "maxItemsPerRow": {
-        "desktop": 4
+        "desktop": 4,
+        "tablet": 3
       }
     },
     "blocks": ["product-summary.shelf#mostUsed"]
@@ -79,6 +96,9 @@
     ]
   },
   "flex-layout.row#mostUsed": { 
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
     "children": [
       "flex-layout.col#psImage",
       "flex-layout.col#psDetails"
@@ -95,12 +115,18 @@
   "flex-layout.col#psDetails": {
     "props": {
       "verticalAlign": "middle",
+      "blockClass": "textAlignLeft",
       "marginLeft": 7
     },
     "children": [
       "product-summary-name",
       "product-summary-description"
     ]
+  },
+  "product-summary-name": { 
+    "props": { 
+      "blockClass": "mostUsed"
+    }
   },
   "product-summary-image#mostUsed": {
     "props": {

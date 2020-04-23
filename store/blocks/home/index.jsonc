@@ -5,7 +5,8 @@
       "flex-layout.row#homeShelf",
       "search-result-layout.customQuery#mostUsed",
       "flex-layout.row#categoriesTitle",
-      "flex-layout.row#categories",
+      "responsive-layout.desktop#categories",
+      "responsive-layout.mobile#categories",
       "flex-layout.row#infocard",
       "slider-layout#testimonies",
       "flex-layout.row#bottomCards"
