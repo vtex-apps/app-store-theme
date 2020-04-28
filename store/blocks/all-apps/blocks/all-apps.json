@@ -1,0 +1,21 @@
+{
+  "store.custom#all-apps": {
+    "parent": {
+      "header": "header#dark"
+    },
+    "blocks": ["flex-layout.row#search"]
+  },
+  "flex-layout.row#search": {
+    "props": {
+      "verticalAlign": "center",
+      "blockClass": "search"
+    },
+    "children": ["search-bar#full"]
+  },
+  "search-bar#full": {
+    "props": {
+      "placeholder": "Search an app",
+      "hasIconLeft": true
+    }
+  }
+}

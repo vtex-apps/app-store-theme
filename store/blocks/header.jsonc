@@ -1,13 +1,19 @@
 {
-  "header": {
+  "header#transparent": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
-  "header.full": {
+  "header.full#transparent": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header#dark": {
+    "blocks": ["header-layout.desktop#dark", "header-layout.mobile#dark"]
+  },
+  "header.full#dark": {
+    "blocks": ["header-layout.desktop#dark", "header-layout.mobile#dark"]
   },
   "header-layout.desktop": { 
     "children": [
-      "flex-layout.row#header"
+      "flex-layout.row#transparent-header"
     ]
   },
   "header-layout.mobile": { 
@@ -26,9 +32,30 @@
       "flex-layout.row#header-mobile"
     ]
   },
-  "flex-layout.row#header": { 
+  "header-layout.mobile#dark": { 
+    "children": [
+      "flex-layout.row#dark-header"
+    ]
+  },
+  "flex-layout.row#transparent-header": { 
     "props": { 
       "blockClass": "transparent",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "logo",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#main-menu"
+    ]
+  },
+  "flex-layout.col#spacer": { 
+    "props": { 
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#dark-header": { 
+    "props": { 
+      "blockClass": "dark",
       "preventHorizontalStretch": true
     },
     "children": [

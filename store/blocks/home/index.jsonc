@@ -1,5 +1,8 @@
 {
   "store.home": { 
+    "parent": {
+      "header": "header#transparent"
+    },
     "blocks": [
       "stack-layout#cover",
       "flex-layout.row#main-container"
