@@ -1,4 +1,40 @@
 {
+  "responsive-layout.desktop#infocard": {
+    "children": [
+      "flex-layout.row#infocard-desktop"
+    ]
+  },
+  "responsive-layout.mobile#infocard": {
+    "children": [
+      "flex-layout.row#infocard-mobile"
+    ]
+  },
+  "flex-layout.row#infocard-desktop": {
+    "props": {
+      "blockClass": "infocardHome",
+      "marginTop": 10,
+      "marginBottom": 10,
+      "paddingTop": 9,
+      "paddingBottom": 9
+    },
+    "children": [
+      "flex-layout.col#textAndButton",
+      "flex-layout.col#image"
+    ]
+  },
+  "flex-layout.row#infocard-mobile": {
+    "props": {
+      "blockClass": ["infocardHome", "infocardHomeMobile"],
+      "marginTop": 10,
+      "marginBottom": 10,
+      "paddingTop": 9,
+      "paddingBottom": 9
+    },
+    "children": [
+      "flex-layout.col#image",
+      "flex-layout.col#textAndButton"
+    ]
+  },
   "flex-layout.row#infocard": {
     "props": {
       "blockClass": "infocardHome",
@@ -26,19 +62,25 @@
   "rich-text#homeInforCardTitle": {
     "props": { 
       "blockClass": "infoCardTitle",
-      "textAlign": "CENTER",
+      "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "One click to go.",
-      "font": "t-heading-1"
+      "font": {
+        "desktop": "t-heading-1",
+        "mobile": "t-heading-4"
+      }
     }
   },
   "rich-text#homeInforCardBody": {
     "props": { 
-      "textAlign": "CENTER",
+      "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "homeInfoCardBody",
       "text": "Save time and money by taking\nadvantage of apps that are\nalready **programmed, tested**\n**and reviewed**.",
-      "font": "t-body"
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "t-paragraph"
+      }
     }
   },
   "link#homeInfoCard": { 

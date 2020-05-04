@@ -9,6 +9,9 @@
     ]
   },
   "flex-layout.row#cover-image": {
+    "props": { 
+      "experimentalHideEmptyCols": true
+    },
     "children": [
       "responsive-layout.mobile#cover-mobile",
       "responsive-layout.desktop#cover-desktop"

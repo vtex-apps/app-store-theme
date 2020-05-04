@@ -2,14 +2,30 @@
   "store.home": { 
     "blocks": [
       "stack-layout#cover",
+      "flex-layout.row#main-container"
+    ]
+  },
+  "flex-layout.row#main-container": {
+    "props": { 
+      "blockClass": "mainContainer"
+    },
+    "children": [
+      "flex-layout.col#main-container"
+    ]
+  },
+  "flex-layout.col#main-container": {
+    "children": [
       "flex-layout.row#homeShelf",
       "search-result-layout.customQuery#mostUsed",
       "flex-layout.row#categoriesTitle",
       "responsive-layout.desktop#categories",
       "responsive-layout.mobile#categories",
-      "flex-layout.row#infocard",
-      "slider-layout#testimonies",
-      "flex-layout.row#bottomCards"
+      "responsive-layout.desktop#infocard",
+      "responsive-layout.mobile#infocard",
+      "responsive-layout.desktop#testimonies",
+      "responsive-layout.mobile#testimonies",
+      "responsive-layout.mobile#bottomCards",
+      "responsive-layout.desktop#bottomCards"
     ]
   }
 }

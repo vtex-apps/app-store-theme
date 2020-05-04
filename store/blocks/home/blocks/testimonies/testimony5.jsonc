@@ -2,8 +2,8 @@
   "flex-layout.row#testimony5": {
     "props": {
       "blockClass": "testimonyContainer",
-      "paddingTop": 6,
-      "paddingBottom": 6,
+      "paddingTop": 7,
+      "paddingBottom": 7,
       "preventHorizontalStretch": true
     },
     "children": [
@@ -13,8 +13,8 @@
   },
   "flex-layout.col#testimony5colImg": {
     "props": {
-      "marginLeft": 9,
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
     },
     "children": [
       "image#testimony5"
@@ -22,8 +22,8 @@
   },
   "flex-layout.col#testimony5colText": { 
     "props": {
-      "marginLeft": 9,
       "verticalAlign": "middle",
+      "horizontalAlign": "center",
       "blockClass": "testimonyTextCol"
     },
     "children": [
@@ -40,12 +40,15 @@
   "rich-text#testimonyText5": {
     "props": {
       "blockClass": "testimonyBody",
+      "textAlignment": "CENTER",
       "text": "“Apps have saved us a tremendous amount of time and money.”"
     }
   },
   "rich-text#testimonyAuthor5": { 
     "props": {
       "blockClass": "testimonyAuthor",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "text": "— Morgan Haynes, COO at Karm"
     }
   }

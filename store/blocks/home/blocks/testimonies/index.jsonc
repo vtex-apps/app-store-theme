@@ -1,4 +1,9 @@
 {
+  "responsive-layout.desktop#testimonies": {
+    "children": [
+      "slider-layout#testimonies" 
+    ]
+  },
   "slider-layout#testimonies": {
     "props": {
       // "usePagination": false,
@@ -6,11 +11,33 @@
       "infinite": true,
       "fullWidth": true,
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
+        "desktop": 3,
+        "tablet": 2,
         "mobile": 1
       }
     },
+    "children": [
+      "flex-layout.row#testimony1",
+      "flex-layout.row#testimony2",
+      "flex-layout.row#testimony3",
+      "flex-layout.row#testimony4",
+      "flex-layout.row#testimony5",
+      "flex-layout.row#testimony6"
+    ]
+  },
+
+  /* Mobile Layout */
+  "responsive-layout.mobile#testimonies": {
+    "children": [
+      "flex-layout.row#testimoniesMobile"
+    ]
+  },
+  "flex-layout.row#testimoniesMobile": { 
+    "children": [
+      "flex-layout.col#testimoniesMobile"
+    ]
+  },
+  "flex-layout.col#testimoniesMobile": {
     "children": [
       "flex-layout.row#testimony1",
       "flex-layout.row#testimony2",

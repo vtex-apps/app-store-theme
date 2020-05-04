@@ -5,12 +5,13 @@
   top: 0;
 }
 
-.flexRow--testimonyContainer {
-  background-color: white;
-  border: 1px solid #E3E4E6;
-  box-sizing: border-box;
-  border-radius: 8px;
-  max-width: 46rem
+.flexColChild--testimonyTextCol {
+  width: 100%;
+}
+
+.flexRow--mainContainer{ 
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .flexRow--infocardHome {
@@ -31,6 +32,11 @@
   display: flex;
   width: 100%;
   justify-content: center;
+}
+
+.flexRow--infocardHomeMobile {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .flexRow--headline {
@@ -71,21 +77,20 @@
   padding-bottom: 2rem;
 }
 
-.flexRow--categoriesMobile {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.flexRow--categoriesMobile2 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 /**
   Desktop specifics
 */
 
 @media (min-width: 600px) {
+  .flexRow--testimonyContainer {
+    background-color: white;
+    border: 1px solid #E3E4E6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    max-width: 46rem;
+    margin-left: 2rem;
+  }
+
   .flexCol--categoryCard {
     border-radius: 8px;
     margin-right: 2rem;

@@ -1,4 +1,87 @@
 {
+  "responsive-layout.mobile#bottomCards": { 
+    "children": [
+      "flex-layout.row#bottomCardsMobile"
+    ]
+  },
+  "flex-layout.row#bottomCardsMobile": { 
+    "children": [ 
+      "flex-layout.col#bottomCardsMobile"
+    ]
+  },
+  "flex-layout.col#bottomCardsMobile": {
+    "children": [ 
+      "rich-text#bottomCardsTitle",
+      "flex-layout.row#bottomCardsBodyMobile"
+    ]
+  },
+  "flex-layout.row#bottomCardsBodyMobile": {
+    "props": { 
+      "marginTop": 6
+    },
+    "children": [ 
+      "flex-layout.col#bottomCardsBodyMobile"
+    ]
+  },
+  "flex-layout.col#bottomCardsBodyMobile": {
+    "props": { 
+      "rowGap": 6
+    },
+    "children": [ 
+      "stack-layout#bottomCard1Mobile",
+      "stack-layout#bottomCard2Mobile",
+      "stack-layout#bottomCard3Mobile"
+    ]
+  },
+  "stack-layout#bottomCard1Mobile": { 
+    "children": [
+      "image#bottomCard1Mobile",
+      "rich-text#bottomCardsText1"
+    ]
+  },
+  "stack-layout#bottomCard2Mobile": { 
+    "children": [
+      "image#bottomCard2Mobile",
+      "rich-text#bottomCardsText2"
+    ]
+  },
+  "stack-layout#bottomCard3Mobile": { 
+    "children": [
+      "image#bottomCard3Mobile",
+      "rich-text#bottomCardsText3"
+    ]
+  },
+  "image#bottomCard1Mobile": {
+    "props": {
+      "height": "8rem",
+      "src": "assets/bottomMobile.png"
+    }
+  },
+  "image#bottomCard2Mobile": {
+    "props": {
+      "height": "8rem",
+      "src": "assets/isaMobile.png"
+    }
+  },
+  "image#bottomCard3Mobile": {
+    "props": {
+      "height": "8rem",
+      "src": "assets/brenoMobile.png"
+    }
+  },
+
+
+
+  /**
+
+  DESKTOP LAYOUT 
+
+  */
+  "responsive-layout.desktop#bottomCards": { 
+    "children": [
+      "flex-layout.row#bottomCards"
+    ]
+  },
   "flex-layout.row#bottomCards": {
     "props": { 
       "marginTop": 10,
@@ -102,28 +185,37 @@
     "props": {
       "blockClass": "noMargin",
       "text": "Everything you need to evolve with our ecosystem.",
-      "font": "t-heading-3"
+      "font": {
+        "desktop": "t-heading-3",
+        "mobile": "t-heading-4"
+      }
     }
   },
   "rich-text#bottomCardsText1": {
     "props": {
       "text": "Find the best\n[agencies to build]()\nyour store.",
-      "font": "t-body",
-      "blockClass": "bottomCardsBody"
+      "font": { 
+        "mobile": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBody", "rightPositioned"]
     }
   },
   "rich-text#bottomCardsText2": {
     "props": {
       "text": "Find the best\n[solutions to grow]()\nyour business.",
-      "font": "t-body",
-      "blockClass": "bottomCardsBody"
+      "font": { 
+        "mobile": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBody", "leftPositioned"]
     }
   },
   "rich-text#bottomCardsText3": {
     "props": {
       "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
-      "font": "t-body",
-      "blockClass": ["bottomCardsBodyBig"]
+      "font": { 
+        "mobile": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBodyBig", "leftPositioned"]
     }
   },
   "link#bottomCardsLink1": {
