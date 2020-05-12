@@ -19,12 +19,14 @@
       "search-result-layout.customQuery#mostUsed",
       "flex-layout.row#categoriesTitle",
       "responsive-layout.desktop#categories",
-      "responsive-layout.mobile#categories",
+      "responsive-layout.phone#categories",
+      "responsive-layout.tablet#categories",
       "responsive-layout.desktop#infocard",
-      "responsive-layout.mobile#infocard",
+      "responsive-layout.phone#infocard",
+      "responsive-layout.tablet#infocard",
       "responsive-layout.desktop#testimonies",
-      "responsive-layout.mobile#testimonies",
-      "responsive-layout.mobile#bottomCards",
+      "responsive-layout.phone#testimonies",
+      "responsive-layout.phone#bottomCards",
       "responsive-layout.desktop#bottomCards"
     ]
   }

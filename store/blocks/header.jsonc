@@ -12,6 +12,17 @@
   },
   "header-layout.mobile": { 
     "children": [
+      "responsive-layout.tablet#header-tablet",
+      "responsive-layout.phone#header-tablet"
+    ]
+  },
+  "responsive-layout.tablet#header-tablet": {
+    "children": [
+      "flex-layout.row#header"
+    ]
+  },
+  "responsive-layout.phone#header-tablet": {
+    "children": [
       "flex-layout.row#header-mobile"
     ]
   },

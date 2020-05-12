@@ -4,7 +4,13 @@
       "flex-layout.row#categories"
     ]
   },
-  "responsive-layout.mobile#categories": {
+  "responsive-layout.tablet#categories": {
+    "children": [
+      "flex-layout.row#categories-mobile-1",
+      "flex-layout.row#categories-mobile-2"
+    ]
+  },
+  "responsive-layout.phone#categories": {
     "children": [
       "flex-layout.row#categories-mobile-1",
       "flex-layout.row#categories-mobile-2"

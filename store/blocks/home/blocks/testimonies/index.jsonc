@@ -27,7 +27,7 @@
   },
 
   /* Mobile Layout */
-  "responsive-layout.mobile#testimonies": {
+  "responsive-layout.phone#testimonies": {
     "children": [
       "flex-layout.row#testimoniesMobile"
     ]

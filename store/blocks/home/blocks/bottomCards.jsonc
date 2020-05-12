@@ -1,5 +1,5 @@
 {
-  "responsive-layout.mobile#bottomCards": { 
+  "responsive-layout.phone#bottomCards": { 
     "children": [
       "flex-layout.row#bottomCardsMobile"
     ]

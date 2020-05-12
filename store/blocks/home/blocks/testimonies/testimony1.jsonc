@@ -41,7 +41,11 @@
     "props": {
       "blockClass": "testimonyBody",
       "textAlignment": "CENTER",
-      "text": "“Apps have saved us a tremendous amount of time and money.”"
+      "text": "“Apps have saved us a tremendous amount of time and money.”",
+      "font": { 
+        "desktop": "t-heading-3",
+        "mobile": "t-heading-4"
+      }
     }
   },
   "rich-text#testimonyAuthor1": { 

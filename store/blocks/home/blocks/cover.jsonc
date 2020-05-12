@@ -13,8 +13,14 @@
       "experimentalHideEmptyCols": true
     },
     "children": [
-      "responsive-layout.mobile#cover-mobile",
+      "responsive-layout.phone#cover-mobile",
+      "responsive-layout.tablet#cover-tablet",
       "responsive-layout.desktop#cover-desktop"
+    ]
+  },
+  "responsive-layout.tablet#cover-tablet": { 
+    "children": [
+      "image#cover-desktop"
     ]
   },
   "responsive-layout.desktop#cover-desktop": {
@@ -22,7 +28,7 @@
       "image#cover-desktop"
     ]
   },
-  "responsive-layout.mobile#cover-mobile": {
+  "responsive-layout.phone#cover-mobile": {
     "children": [
       "image#cover-mobile"
     ]

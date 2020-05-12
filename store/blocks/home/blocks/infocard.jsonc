@@ -4,7 +4,12 @@
       "flex-layout.row#infocard-desktop"
     ]
   },
-  "responsive-layout.mobile#infocard": {
+  "responsive-layout.tablet#infocard": {
+    "children": [
+      "flex-layout.row#infocard-desktop"
+    ]
+  },
+  "responsive-layout.phone#infocard": {
     "children": [
       "flex-layout.row#infocard-mobile"
     ]
