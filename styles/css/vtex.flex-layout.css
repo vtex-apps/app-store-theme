@@ -6,6 +6,7 @@
 }
 
 .flexColChild--testimonyTextCol {
+  padding-right: 2rem;
   width: 100%;
 }
 
@@ -77,6 +78,9 @@
   padding-bottom: 2rem;
 }
 
+.flexCol--testimonyCol {
+  padding-left: 2rem;
+}
 /**
   Desktop specifics
 */
@@ -88,7 +92,6 @@
     box-sizing: border-box;
     border-radius: 8px;
     max-width: 46rem;
-    margin-left: 2rem;
   }
 
   .flexCol--categoryCard {

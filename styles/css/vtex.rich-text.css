@@ -25,19 +25,14 @@
   margin-top: 1rem;
 }
 
-.container--leftPositioned {
-  margin-left: 2rem;
-}
-
 .container--rightPositioned {
   margin-right: 2rem;
-  float:right;
 }
 
 .paragraph--bottomCardsBody {
   color: white;
    /* font-size: 2rem; */
-   /* font-weight: 500; */
+  font-weight: 500;
 }
 
 .paragraph--noMargin {
@@ -47,32 +42,25 @@
 
 .paragraph--bottomCardsBodyBig {
   color: white;
-  /* font-size: 2.5rem; */
-  /* font-weight: 500; */
+  font-weight: 500;
   padding-bottom: 1.5rem;
-}
-
-.paragraph--testimonyAuthor { 
-  font-weight: normal;
-  font-size: 1.3rem;
 }
 
 .link--bottomCardsBodyBig {
   color: white;
-  /* font-size: 2.5rem; */
-  /* font-weight: 500; */
 }
 
 
 .link--bottomCardsBody {
   color: white;
-  /* font-size: 2rem; */
-  /* font-weight: 500; */
 }
 
 .paragraph--testimonyBody {
   font-weight: 300;
-  /* font-size: 2rem; */
+}
+
+.paragraph--testimonyAuthor {
+  font-weight: normal;
 }
 
 /**

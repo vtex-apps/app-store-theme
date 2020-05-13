@@ -1,3 +1,4 @@
-/* .slide {
-  width: unset !important
-} */
+.slide--testimoniesSlider {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

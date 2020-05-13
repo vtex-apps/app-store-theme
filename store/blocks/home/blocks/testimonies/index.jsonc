@@ -4,16 +4,20 @@
       "slider-layout#testimonies" 
     ]
   },
+  "responsive-layout.tablet#testimonies": {
+    "children": [
+      "slider-layout#testimonies"
+    ]
+  },
   "slider-layout#testimonies": {
     "props": {
-      // "usePagination": false,
+      "blockClass": "testimoniesSlider",
       "showPaginationDots": "never",
       "infinite": true,
       "fullWidth": true,
       "itemsPerPage": {
         "desktop": 3,
-        "tablet": 2,
-        "mobile": 1
+        "tablet": 2
       }
     },
     "children": [

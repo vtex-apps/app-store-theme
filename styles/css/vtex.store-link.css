@@ -1,5 +1,5 @@
 .link--card3Link {
-  /* height: 5.5rem; */
+  height: 5.5rem;
   /* width: 22.1rem; */
   font-size: 1.5rem;
   border-color: #142032;
@@ -8,4 +8,11 @@
 
 .link--cardButton {
   height: 4rem;
+  width: 100%;
+  max-width: 13.75rem;
+}
+
+.label--cardButton{ 
+  padding-left: 0;
+  padding-right: 0;
 }

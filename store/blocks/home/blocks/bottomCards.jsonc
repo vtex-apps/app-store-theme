@@ -82,6 +82,11 @@
       "flex-layout.row#bottomCards"
     ]
   },
+  "responsive-layout.tablet#bottomCards": { 
+    "children": [
+      "flex-layout.row#bottomCards"
+    ]
+  },
   "flex-layout.row#bottomCards": {
     "props": { 
       "marginTop": 10,
@@ -131,27 +136,33 @@
   },
   "image#bottomCard1": {
     "props": {
-      "height": "44.81rem",
-      "src": "assets/bottomCard1.png"
+      "height": "auto",
+      "width": "auto",
+      "src": "assets/bottomCard1.png",
+      "blockClass": "bottomCards"
     }
   },
   "image#bottomCard2": {
     "props": {
-      "height": "44.81rem",
-      "src": "assets/bottomCard2.png"
+      "height": "auto",
+      "width": "auto",
+      "src": "assets/bottomCard2.png",
+      "blockClass": "bottomCards"
     }
   },
   "image#bottomCard3": {
     "props": {
-      "height": "44.81rem", 
+      "height": "auto",
       "width": "auto",
-      "src": "assets/bottomCard3.png"
+      "src": "assets/bottomCard3.png",
+      "blockClass": "bottomCards"
     }
   },
   "flex-layout.col#bottomCardsCard1": {
     "props": {
       "blockClass": "bottomCardsCol",
-      "paddingLeft": 7,
+      "paddingLeft": 6,
+      "paddingRight": 6,
       "verticalAlign": "bottom"
     },
     "children": [
@@ -162,7 +173,8 @@
   "flex-layout.col#bottomCardsCard2": {
     "props": {
       "blockClass": "bottomCardsCol",
-      "paddingLeft": 7,
+      "paddingLeft": 6,
+      "paddingRight": 6,
       "verticalAlign": "bottom"
     },
     "children": [
@@ -173,7 +185,8 @@
   "flex-layout.col#bottomCardsCard3": {
     "props": {
       "blockClass": "bottomCardsCol",
-      "paddingLeft": 7,
+      "paddingLeft": 6,
+      "paddingRight": 6,
       "verticalAlign": "bottom"
     },
     "children": [
@@ -187,7 +200,7 @@
       "text": "Everything you need to evolve with our ecosystem.",
       "font": {
         "desktop": "t-heading-3",
-        "mobile": "t-heading-4"
+        "phone": "t-heading-4"
       }
     }
   },
@@ -195,27 +208,33 @@
     "props": {
       "text": "Find the best\n[agencies to build]()\nyour store.",
       "font": { 
-        "mobile": "t-heading-5"
+        "phone": "t-heading-5",
+        "desktop": "t-heading-3",
+        "tablet": "t-heading-3"
       },
-      "blockClass": ["bottomCardsBody", "rightPositioned"]
+      "blockClass": ["bottomCardsBody", "noMargin", "rightPositioned"]
     }
   },
   "rich-text#bottomCardsText2": {
     "props": {
       "text": "Find the best\n[solutions to grow]()\nyour business.",
       "font": { 
-        "mobile": "t-heading-5"
+        "phone": "t-heading-5",
+        "desktop": "t-heading-3",
+        "tablet": "t-heading-3"
       },
-      "blockClass": ["bottomCardsBody", "leftPositioned"]
+      "blockClass": ["bottomCardsBody", "noMargin", "leftPositioned"]
     }
   },
   "rich-text#bottomCardsText3": {
     "props": {
       "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
       "font": { 
-        "mobile": "t-heading-5"
+        "mobile": "t-heading-5",
+        "desktop": "t-heading-2",
+        "tablet": "t-heading-2"
       },
-      "blockClass": ["bottomCardsBodyBig", "leftPositioned"]
+      "blockClass": ["bottomCardsBodyBig", "noMargin", "leftPositioned"]
     }
   },
   "link#bottomCardsLink1": {
@@ -233,7 +252,7 @@
   "link#bottomCardsLink2": {
     "props": { 
       "blockClass": "cardButton",
-      "label": "FIND SOLUTIONS",
+      "label": "FIND SOLUTIONS",  
       "href": "#",
       "displayMode": "button",
       "buttonProps": {
