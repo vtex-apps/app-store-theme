@@ -31,6 +31,7 @@
 
 .paragraph--bottomCardsBody {
   color: white;
+  padding-top: 1rem;
    /* font-size: 2rem; */
   font-weight: 500;
 }
@@ -44,6 +45,23 @@
   color: white;
   font-weight: 500;
   padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.paragraph--bottomCardsBodyMobile {
+  color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+.paragraph--bottomCardsBodyBigMobile {
+  color: white;
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
 }
 
 .link--bottomCardsBodyBig {
@@ -52,6 +70,16 @@
 
 
 .link--bottomCardsBody {
+  color: white;
+}
+
+
+.link--bottomCardsBodyBigMobile {
+  color: white;
+}
+
+
+.link--bottomCardsBodyMobile {
   color: white;
 }
 

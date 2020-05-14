@@ -5,6 +5,10 @@
     ]
   },
   "flex-layout.row#bottomCardsMobile": { 
+    "props": { 
+      "marginTop": 10,
+      "marginBottom": 10
+    },
     "children": [ 
       "flex-layout.col#bottomCardsMobile"
     ]
@@ -36,19 +40,19 @@
   "stack-layout#bottomCard1Mobile": { 
     "children": [
       "image#bottomCard1Mobile",
-      "rich-text#bottomCardsText1"
+      "rich-text#bottomCardsText1Mobile"
     ]
   },
   "stack-layout#bottomCard2Mobile": { 
     "children": [
       "image#bottomCard2Mobile",
-      "rich-text#bottomCardsText2"
+      "rich-text#bottomCardsText2Mobile"
     ]
   },
   "stack-layout#bottomCard3Mobile": { 
     "children": [
       "image#bottomCard3Mobile",
-      "rich-text#bottomCardsText3"
+      "rich-text#bottomCardsText3Mobile"
     ]
   },
   "image#bottomCard1Mobile": {
@@ -198,10 +202,7 @@
     "props": {
       "blockClass": "noMargin",
       "text": "Everything you need to evolve with our ecosystem.",
-      "font": {
-        "desktop": "t-heading-3",
-        "phone": "t-heading-4"
-      }
+      "font": "t-heading-3"
     }
   },
   "rich-text#bottomCardsText1": {
@@ -235,6 +236,34 @@
         "tablet": "t-heading-2"
       },
       "blockClass": ["bottomCardsBodyBig", "noMargin", "leftPositioned"]
+    }
+  },
+  "rich-text#bottomCardsText1Mobile": {
+    "props": {
+      "text": "Find the best\n[agencies to build]()\nyour store.",
+      "textPosition": "RIGHT",
+      "font": { 
+        "phone": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBodyMobile", "noMargin"]
+    }
+  },
+  "rich-text#bottomCardsText2Mobile": {
+    "props": {
+      "text": "Find the best\n[solutions to grow]()\nyour business.",
+      "font": { 
+        "phone": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBodyMobile", "noMargin", "leftPositioned"]
+    }
+  },
+  "rich-text#bottomCardsText3Mobile": {
+    "props": {
+      "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
+      "font": { 
+        "mobile": "t-heading-5"
+      },
+    "blockClass": ["bottomCardsBodyBigMobile", "noMargin", "leftPositioned"]
     }
   },
   "link#bottomCardsLink1": {
