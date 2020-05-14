@@ -16,6 +16,11 @@
       "flex-layout.row#transparent-header"
     ]
   },
+  "header-layout.desktop#dark": { 
+    "children": [
+      "flex-layout.row#dark-header"
+    ]
+  },
   "header-layout.mobile": { 
     "children": [
       "responsive-layout.tablet#header-tablet",

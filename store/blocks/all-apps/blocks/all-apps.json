@@ -40,6 +40,29 @@
       ]
     }
   },
+  "flex-layout.row#banners": {
+    "props": {
+      "marginTop": 9,
+      "marginBottom": 8
+    },
+    "children": ["list-context.image-list#demo"]
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://i.imgur.com/irYHIAJ.png",
+          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -51,7 +74,5 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
-=======
->>>>>>> Adding different headers
   }
 }
