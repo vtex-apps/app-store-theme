@@ -4,21 +4,6 @@
       "header": "header#transparent"
     },
     "blocks": [
-      "stack-layout#cover",
-      "flex-layout.row#main-container"
-    ]
-  },
-  "flex-layout.row#main-container": {
-    "props": { 
-      "blockClass": "mainContainer"
-    },
-    "children": [
-      "flex-layout.col#main-container"
-    ]
-  },
-  "flex-layout.col#main-container": {
-    "children": [
-      "flex-layout.row#homeShelf",
       "search-result-layout.customQuery#mostUsed",
       "flex-layout.row#categoriesTitle",
       "responsive-layout.desktop#categories",

@@ -1,0 +1,266 @@
+{
+  "rich-text#payment": {
+    "props": {
+      "blockClass": "noMargin",
+      "font": "t-heading-3",
+      "textPosition": "LEFT",
+      "text": "Payment and Security"
+    }
+  },
+  "rich-text#accounting": {
+    "props": {
+      "blockClass": "noMargin",
+      "font": "t-heading-3",
+      "textPosition": "LEFT",
+      "text": "Accounting and Finance"
+    }
+  },
+  "rich-text#marketing": {
+    "props": {
+      "blockClass": "noMargin",
+      "font": "t-heading-3",
+      "textPosition": "LEFT",
+      "text": "Marketing and Social Media"
+    }
+  },
+  "rich-text#shipping": {
+    "props": {
+      "blockClass": "noMargin",
+      "font": "t-heading-3",
+      "textPosition": "LEFT",
+      "text": "Shipping and Fulfillment"
+    }
+  },
+  "search-result-layout.customQuery#payment": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 4,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#payment"]
+  },
+  "search-result-layout.desktop#payment": {
+    "children": ["search-content#payment"]
+  },
+  "search-content#payment": {
+    "blocks": ["gallery#payment", "not-found"]
+  },
+  "gallery#payment": {
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#payment"]
+  },
+  "product-summary.shelf#payment": {
+    "children": ["flex-layout.row#payment"]
+  },
+  "flex-layout.row#payment": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.col#payment"]
+  },
+  "flex-layout.col#payment": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-summary-image#payment",
+      "product-summary-name#payment",
+      "product-summary-description"
+    ]
+  },
+  "product-summary-name#payment": {
+    "props": {
+      "blockClass": "payment"
+    }
+  },
+  "product-summary-image#payment": {
+    "props": {
+      "width": {
+        "desktop": "128px"
+      },
+      "height": {
+        "desktop": "128px"
+      }
+    }
+  },
+  "search-result-layout.customQuery#accounting": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 4,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#accounting"]
+  },
+  "search-result-layout.desktop#accounting": {
+    "children": ["search-content#accounting"]
+  },
+  "search-content#accounting": {
+    "blocks": ["gallery#accounting", "not-found"]
+  },
+  "gallery#accounting": {
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#accounting"]
+  },
+  "product-summary.shelf#accounting": {
+    "children": ["flex-layout.row#accounting"]
+  },
+  "flex-layout.row#accounting": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.col#accounting"]
+  },
+  "flex-layout.col#accounting": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-summary-image#accounting",
+      "product-summary-name#accounting",
+      "product-summary-description"
+    ]
+  },
+  "product-summary-name#accounting": {
+    "props": {
+      "blockClass": "accounting"
+    }
+  },
+  "product-summary-image#accounting": {
+    "props": {
+      "width": {
+        "desktop": "128px"
+      },
+      "height": {
+        "desktop": "128px"
+      }
+    }
+  },
+  "search-result-layout.customQuery#marketing": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 4,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#marketing"]
+  },
+  "search-result-layout.desktop#marketing": {
+    "children": ["search-content#marketing"]
+  },
+  "search-content#marketing": {
+    "blocks": ["gallery#marketing", "not-found"]
+  },
+  "gallery#marketing": {
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#marketing"]
+  },
+  "product-summary.shelf#marketing": {
+    "children": ["flex-layout.row#marketing"]
+  },
+  "flex-layout.row#marketing": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.col#marketing"]
+  },
+  "flex-layout.col#marketing": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-summary-image#marketing",
+      "product-summary-name#marketing",
+      "product-summary-description"
+    ]
+  },
+  "product-summary-name#marketing": {
+    "props": {
+      "blockClass": "marketing"
+    }
+  },
+  "product-summary-image#marketing": {
+    "props": {
+      "width": {
+        "desktop": "128px"
+      },
+      "height": {
+        "desktop": "128px"
+      }
+    }
+  },
+  "search-result-layout.customQuery#shipping": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 4,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#shipping"]
+  },
+  "search-result-layout.desktop#shipping": {
+    "children": ["search-content#shipping"]
+  },
+  "search-content#shipping": {
+    "blocks": ["gallery#shipping", "not-found"]
+  },
+  "gallery#shipping": {
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#shipping"]
+  },
+  "product-summary.shelf#shipping": {
+    "children": ["flex-layout.row#shipping"]
+  },
+  "flex-layout.row#shipping": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.col#shipping"]
+  },
+  "flex-layout.col#shipping": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-summary-image#shipping",
+      "product-summary-name#shipping",
+      "product-summary-description"
+    ]
+  },
+  "product-summary-name#shipping": {
+    "props": {
+      "blockClass": "shipping"
+    }
+  },
+  "product-summary-image#shipping": {
+    "props": {
+      "width": {
+        "desktop": "128px"
+      },
+      "height": {
+        "desktop": "128px"
+      }
+    }
+  }
+}

@@ -112,5 +112,6 @@
 }
 
 .flexRow--search {
-  background: #DD1659;
+  background-color: white;
+  padding: 1rem 0;
 }
