@@ -13,7 +13,7 @@
   "header-layout.mobile": { 
     "children": [
       "responsive-layout.tablet#header-tablet",
-      "responsive-layout.phone#header-tablet"
+      "responsive-layout.phone#header-phone"
     ]
   },
   "responsive-layout.tablet#header-tablet": {
@@ -21,7 +21,7 @@
       "flex-layout.row#header"
     ]
   },
-  "responsive-layout.phone#header-tablet": {
+  "responsive-layout.phone#header-phone": {
     "children": [
       "flex-layout.row#header-mobile"
     ]

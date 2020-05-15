@@ -81,6 +81,10 @@
 .flexCol--testimonyCol {
   padding-left: 2rem;
 }
+
+.flexRow--testimonyContainer {
+  padding-top: 3rem;
+}
 /**
   Desktop specifics
 */

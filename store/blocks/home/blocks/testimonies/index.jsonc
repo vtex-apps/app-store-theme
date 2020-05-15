@@ -42,6 +42,9 @@
     ]
   },
   "flex-layout.col#testimoniesMobile": {
+    "props": {
+      "blockClass": "testimoniesContainerMobile"
+    },
     "children": [
       "flex-layout.row#testimony1",
       "flex-layout.row#testimony2",
