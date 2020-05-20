@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-.flexRow--mainContainer{ 
+.flexRow--mainContainer {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -85,6 +85,7 @@
 .flexRow--testimonyContainer {
   padding-top: 3rem;
 }
+
 /**
   Desktop specifics
 */

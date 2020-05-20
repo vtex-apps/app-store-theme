@@ -1,0 +1,44 @@
+{
+  "flex-layout.col#appOverview": {
+    "props": {
+      "rowGap": 4,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#appOverviewHeader",
+      "flex-layout.row#appOverviewContent"
+    ]
+  },
+  "rich-text#appOverviewHeader": {
+    "props": {
+        "blockClass": "specificationName",
+        "text": "**Overview**",
+        "htmlId": "overview",
+        "font": "**t-heading-5**"
+      }
+  },
+  "flex-layout.row#appOverviewContent": {
+    "children": [
+      "product-specification-badges#overview",
+      "product-images#overview"
+    ]
+  },
+  "product-specification-badges#overview": {
+    "props": {
+      "blockClass": "specificationValue",
+      "specificationGroupName": "App Data",
+      "specificationsOptions": [
+        {
+          "displayValue": "SPECIFICATION_VALUE",
+          "specificationName": "overview"
+        }
+      ]
+    }
+  },
+  "product-images#overview": {
+    "props": {
+      "contentType": "videos",
+      "zoomMode": "disabled"
+    }
+  }
+}

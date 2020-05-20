@@ -1,0 +1,19 @@
+{
+  "flex-layout.col#appScreenshots": {
+    "props": {
+      "rowGap": 4,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#appScreenshotsHeader"
+    ]
+  },
+  "rich-text#appScreenshotsHeader": {
+    "props": {
+        "blockClass": "specificationName",
+        "text": "**Screenshots**",
+        "htmlId": "screenshots",
+        "font": "**t-heading-5**"
+      }
+  }
+}
