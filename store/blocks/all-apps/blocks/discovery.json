@@ -1,0 +1,32 @@
+{
+  "flex-layout.col#all-apps-discovery": {
+    "props": {
+      "blockClass": "allAppsDiscovery",
+      "width": "48%"
+    },
+    "children": ["rich-text#all-apps-discovery", "link#all-apps-discovery"]
+  },
+  "rich-text#all-apps-discovery": {
+    "props": {
+      "blockClass": "allAppsBottomRight",
+      "text": "Discovery the best solutions to grow your business",
+      "font": {
+        "desktop": "t-heading-2",
+        "phone": "t-heading-5"
+      }
+    }
+  },
+
+  "link#all-apps-discovery": {
+    "props": {
+      "blockClass": "cardButton",
+      "label": "EXPLORE ALL",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  }
+}

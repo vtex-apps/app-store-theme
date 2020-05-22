@@ -11,7 +11,6 @@
   color: white;
 }
 
-
 .paragraph--homeInfoCardBody {
   font-weight: 300;
   margin-bottom: 1.5rem;
@@ -19,7 +18,7 @@
 }
 
 .paragraph--infoCardTitle {
-  color: #DD1659;
+  color: #dd1659;
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 1rem;
@@ -32,7 +31,7 @@
 .paragraph--bottomCardsBody {
   color: white;
   padding-top: 1rem;
-   /* font-size: 2rem; */
+  /* font-size: 2rem; */
   font-weight: 500;
 }
 
@@ -68,16 +67,13 @@
   color: white;
 }
 
-
 .link--bottomCardsBody {
   color: white;
 }
 
-
 .link--bottomCardsBodyBigMobile {
   color: white;
 }
-
 
 .link--bottomCardsBodyMobile {
   color: white;
@@ -89,7 +85,7 @@
 
 .paragraph--testimonyAuthor {
   font-weight: normal;
-  margin-top:0;
+  margin-top: 0;
 }
 
 /**
@@ -115,9 +111,18 @@
   }
 
   .paragraph--infoCardTitle {
-    color: #DD1659;
+    color: #dd1659;
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 0;
   }
+}
+
+/** All Apps */
+.wrapper--allAppsBottomLeft {
+  color: #f71963;
+}
+
+.wrapper--allAppsBottomRight {
+  color: #f71963;
 }

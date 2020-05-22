@@ -16,3 +16,13 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+/** All Apps */
+.link--allAppsEarnMoney {
+  height: 5.5rem;
+  /* width: 22.1rem; */
+  font-size: 1.5rem;
+  border: 0;
+  background-color: #DD1659;
+}
+

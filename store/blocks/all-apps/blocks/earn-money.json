@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#all-apps-earn-money": {
+    "props": {
+      "blockClass": "allAppsEarnMoney"
+    },
+    "children": ["stack-layout#all-apps-earn-money"]
+  },
+  "stack-layout#all-apps-earn-money": {
+    "children": [
+      "image#all-apps-earn-money",
+      "flex-layout.col#all-apps-earn-money"
+    ]
+  },
+
+  "image#all-apps-earn-money": {
+    "props": {
+      "height": "auto",
+      "width": "auto",
+      "src": "assets/earnMoney.png",
+      "blockClass": "bottomCards"
+    }
+  },
+  "flex-layout.col#all-apps-earn-money": {
+    "props": {
+      "paddingLeft": 6,
+      "blockClass": "allAppsEarnMoney"
+    },
+    "children": ["rich-text#all-apps-earn-money", "link#all-apps-earn-money"]
+  },
+  "rich-text#all-apps-earn-money": {
+    "props": {
+      "text": "Earn money by selling 3rd party apps",
+      "font": {
+        "phone": "t-heading-5",
+        "desktop": "t-heading-1",
+        "tablet": "t-heading-1"
+      },
+      "blockClass": ["bottomCardsBody", "noMargin", "rightPositioned"]
+    }
+  },
+
+  "link#all-apps-earn-money": {
+    "props": {
+      "blockClass": "allAppsEarnMoney",
+      "label": "BECOME A PARTNER",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  }
+}

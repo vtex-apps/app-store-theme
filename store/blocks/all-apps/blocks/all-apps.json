@@ -14,7 +14,8 @@
       "rich-text#marketing",
       "search-result-layout.customQuery#marketing",
       "rich-text#shipping",
-      "search-result-layout.customQuery#shipping"
+      "search-result-layout.customQuery#shipping",
+      "flex-layout.row#all-apps-bottom"
     ]
   },
   "flex-layout.row#banners": {

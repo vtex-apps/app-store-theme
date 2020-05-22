@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#all-apps-bottom": {
+    "children": [
+      "flex-layout.col#all-apps-left",
+      "flex-layout.row#all-apps-right"
+    ]
+  },
+  "flex-layout.row#all-apps-right": {
+    "children": ["flex-layout.row#all-apps-earn-money"]
+  },
+  "flex-layout.col#all-apps-left": {
+    "props": {
+      "blockClass": "allAppsLeftCol",
+      "rowGap": "6"
+    },
+    "children": [
+      "flex-layout.row#testimonyallapps",
+      "flex-layout.row#all-apps-two"
+    ]
+  },
+  "flex-layout.row#all-apps-two": {
+    "props": {
+      "blockClass": "allAppsTwoTiles",
+      "colJustify": "between"
+    },
+    "children": [
+      "flex-layout.col#all-apps-find-agencies",
+      "flex-layout.col#all-apps-discovery"
+    ]
+  },
+  "flex-layout.row#testimonyallapps": {
+    "props": {
+      "blockClass": "testimonyAllApps",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#testimonyallappscolImg",
+      "flex-layout.col#testimonyallappscolText"
+    ]
+  },
+  "flex-layout.col#testimonyallappscolImg": {
+    "props": {
+      "blockClass": "testimonyCol",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#testimonyallapps"]
+  },
+  "flex-layout.col#testimonyallappscolText": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": ["testimonyTextCol", "testimonyCol"]
+    },
+    "children": [
+      "rich-text#testimonyTextallapps",
+      "rich-text#testimonyAuthorallapps"
+    ]
+  },
+  "image#testimonyallapps": {
+    "props": {
+      "src": "assets/testimonyPlaceholder.png",
+      "blockClass": "testimonyImg"
+    }
+  },
+  "rich-text#testimonyTextallapps": {
+    "props": {
+      "blockClass": "testimonyBody",
+      "textAlignment": "CENTER",
+      "textColor": "c-action-secondary",
+      "text": "“Apps have saved us a tremendous amount of time and money.”",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "t-heading-4"
+      }
+    }
+  },
+  "rich-text#testimonyAuthorallapps": {
+    "props": {
+      "blockClass": "testimonyAuthor",
+      "textColor": "c-action-secondary",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5",
+      "text": "— Morgan Haynes, COO at Karm"
+    }
+  }
+}
