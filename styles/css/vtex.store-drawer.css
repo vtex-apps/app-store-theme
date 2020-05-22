@@ -1,0 +1,10 @@
+.menuIcon {
+  color: white;
+  display: block
+}
+
+.openIconContainer {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}

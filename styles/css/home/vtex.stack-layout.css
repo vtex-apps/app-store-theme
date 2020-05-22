@@ -1,0 +1,11 @@
+.stackItem { 
+  width: 100%;
+  height: 100%;
+}
+
+/**
+* This will break if we change the image
+*/
+.stackContainer--cover {
+  background: #AA244C;
+}

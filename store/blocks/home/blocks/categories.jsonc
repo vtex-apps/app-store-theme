@@ -1,0 +1,160 @@
+{
+  "responsive-layout.desktop#categories": {
+    "children": [
+      "flex-layout.row#categories"
+    ]
+  },
+  "responsive-layout.tablet#categories": {
+    "children": [
+      "flex-layout.row#categories-mobile-1",
+      "flex-layout.row#categories-mobile-2"
+    ]
+  },
+  "responsive-layout.phone#categories": {
+    "children": [
+      "flex-layout.row#categories-mobile-1",
+      "flex-layout.row#categories-mobile-2"
+    ]
+  },
+  "flex-layout.row#categories-mobile-1": {
+    "props": {
+      "colGap": 3,
+      "preserveLayoutOnMobile": true,
+      "marginBottom": 3,
+      "blockClass": "categoriesMobile"
+    },
+    "children": [
+      "flex-layout.col#categories1",
+      "flex-layout.col#categories2"
+    ]
+  },
+  "flex-layout.row#categories-mobile-2": {
+    "props": {
+      "colGap": 3,
+      "preserveLayoutOnMobile": true,
+      "marginRight": 7,
+      "blockClass": "categoriesMobile2"
+    },
+    "children": [
+      "flex-layout.col#categories3",
+      "flex-layout.col#categories4"
+    ]
+  },
+  "flex-layout.row#categoriesTitle": {
+    "props": { 
+      "marginTop": 8,
+      "marginBottom": 9
+    },
+    "children": [
+      "flex-layout.col#categoriesTitle1",
+      "flex-layout.col#categoriesTitle2"    
+    ]
+  },
+  "flex-layout.col#categoriesTitle1": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#categoriesTitle"    
+    ]
+  },
+  "flex-layout.col#categoriesTitle2": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "responsive-layout.desktop#explore"
+    ]
+  },
+  "flex-layout.row#categories": {
+    "children": [
+      "flex-layout.col#categories1",
+      "flex-layout.col#categories2",
+      "flex-layout.col#categories3",
+      "flex-layout.col#categories4"
+    ]
+  },
+  "flex-layout.col#categories1": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["categoryCard", "card1Color"]
+    },
+    "children": [
+      "rich-text#categories1"
+    ]
+  },
+  "flex-layout.col#categories2": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["categoryCard", "card2Color"]
+    },
+    "children": [
+      "rich-text#categories2"
+    ]
+  },
+  "flex-layout.col#categories3": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["categoryCard", "card3Color"]
+    },
+    "children": [
+      "rich-text#categories3"
+    ]
+  },
+  "flex-layout.col#categories4": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["categoryCard", "card4Color"]
+    },
+    "children": [
+      "rich-text#categories4"
+    ]
+  },
+  "rich-text#categoriesTitle": {
+    "props": {
+      "blockClass": "noMargin",
+      "font": "t-heading-3",
+      "text": "Categories"
+    }
+  },
+  "rich-text#categories1": {
+    "props": {
+      "font": {
+        "desktop": "t-heading-3",
+        "mobile": "t-heading-5"
+      },
+      "text": "Payments\nand Security",
+      "blockClass": "categoryCard"
+    }
+  },
+  "rich-text#categories2": {
+    "props": {
+      "font": {
+        "desktop": "t-heading-3",
+        "mobile": "t-heading-5"
+      },
+      "text": "Accounting\nand Finance",
+      "blockClass": "categoryCard"
+    }
+  },
+  "rich-text#categories3": {
+    "props": {
+      "font": {
+        "desktop": "t-heading-3",
+        "mobile": "t-heading-5"
+      },
+      "text": "Marketing\nand Social Media",
+      "blockClass": "categoryCard"
+    }
+  },
+  "rich-text#categories4": {
+    "props": {
+      "font": {
+        "desktop": "t-heading-3",
+        "mobile": "t-heading-5"
+      },
+      "text": "Shipping\nand Fulfillment",
+      "blockClass": "categoryCard"
+    }
+  }
+}

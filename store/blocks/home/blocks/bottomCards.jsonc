@@ -1,0 +1,305 @@
+{
+  "responsive-layout.phone#bottomCards": { 
+    "children": [
+      "flex-layout.row#bottomCardsMobile"
+    ]
+  },
+  "flex-layout.row#bottomCardsMobile": { 
+    "props": { 
+      "marginTop": 8,
+      "marginBottom": 8
+    },
+    "children": [ 
+      "flex-layout.col#bottomCardsMobile"
+    ]
+  },
+  "flex-layout.col#bottomCardsMobile": {
+    "children": [ 
+      "rich-text#bottomCardsTitle",
+      "flex-layout.row#bottomCardsBodyMobile"
+    ]
+  },
+  "flex-layout.row#bottomCardsBodyMobile": {
+    "props": { 
+      "marginTop": 6
+    },
+    "children": [ 
+      "flex-layout.col#bottomCardsBodyMobile"
+    ]
+  },
+  "flex-layout.col#bottomCardsBodyMobile": {
+    "props": { 
+      "rowGap": 6
+    },
+    "children": [ 
+      "stack-layout#bottomCard1Mobile",
+      "stack-layout#bottomCard2Mobile",
+      "stack-layout#bottomCard3Mobile"
+    ]
+  },
+  "stack-layout#bottomCard1Mobile": { 
+    "children": [
+      "image#bottomCard1Mobile",
+      "rich-text#bottomCardsText1Mobile"
+    ]
+  },
+  "stack-layout#bottomCard2Mobile": { 
+    "children": [
+      "image#bottomCard2Mobile",
+      "rich-text#bottomCardsText2Mobile"
+    ]
+  },
+  "stack-layout#bottomCard3Mobile": { 
+    "children": [
+      "image#bottomCard3Mobile",
+      "rich-text#bottomCardsText3Mobile"
+    ]
+  },
+  "image#bottomCard1Mobile": {
+    "props": {
+      "height": "8rem",
+      "src": "assets/bottomMobile.png"
+    }
+  },
+  "image#bottomCard2Mobile": {
+    "props": {
+      "height": "8rem",
+      "src": "assets/isaMobile.png"
+    }
+  },
+  "image#bottomCard3Mobile": {
+    "props": {
+      "height": "8rem",
+      "src": "assets/brenoMobile.png"
+    }
+  },
+
+
+
+  /**
+
+  DESKTOP LAYOUT 
+
+  */
+  "responsive-layout.desktop#bottomCards": { 
+    "children": [
+      "flex-layout.row#bottomCards"
+    ]
+  },
+  "responsive-layout.tablet#bottomCards": { 
+    "children": [
+      "flex-layout.row#bottomCards"
+    ]
+  },
+  "flex-layout.row#bottomCards": {
+    "props": { 
+      "marginTop": 10,
+      "marginBottom": 10
+    },
+    "children": [
+      "flex-layout.col#bottomCards"      
+    ]      
+  },
+  "flex-layout.col#bottomCards": {
+    "props": { 
+      "rowGap": 9
+    },
+    "children": [
+      "rich-text#bottomCardsTitle",
+      "flex-layout.row#bottomCardsBody"
+    ]
+  },
+  "flex-layout.row#bottomCardsBody": {
+    "props": {
+      "colGap": 8,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "stack-layout#bottomCard1",
+      "stack-layout#bottomCard2",
+      "stack-layout#bottomCard3"
+    ]
+  },
+  "stack-layout#bottomCard1": {
+    "children": [
+      "image#bottomCard1",
+      "flex-layout.col#bottomCardsCard1"
+    ]
+  },
+  "stack-layout#bottomCard2": {
+    "children": [
+      "image#bottomCard2",
+      "flex-layout.col#bottomCardsCard2"
+    ]
+  },
+  "stack-layout#bottomCard3": {
+    "children": [
+      "image#bottomCard3",
+      "flex-layout.col#bottomCardsCard3"
+    ]
+  },
+  "image#bottomCard1": {
+    "props": {
+      "height": "auto",
+      "width": "auto",
+      "src": "assets/bottomCard1.png",
+      "blockClass": "bottomCards"
+    }
+  },
+  "image#bottomCard2": {
+    "props": {
+      "height": "auto",
+      "width": "auto",
+      "src": "assets/bottomCard2.png",
+      "blockClass": "bottomCards"
+    }
+  },
+  "image#bottomCard3": {
+    "props": {
+      "height": "auto",
+      "width": "auto",
+      "src": "assets/bottomCard3.png",
+      "blockClass": "bottomCards"
+    }
+  },
+  "flex-layout.col#bottomCardsCard1": {
+    "props": {
+      "blockClass": "bottomCardsCol",
+      "paddingLeft": 6,
+      "paddingRight": 6,
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#bottomCardsText1",
+      "link#bottomCardsLink1"
+    ]
+  },
+  "flex-layout.col#bottomCardsCard2": {
+    "props": {
+      "blockClass": "bottomCardsCol",
+      "paddingLeft": 6,
+      "paddingRight": 6,
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#bottomCardsText2",
+      "link#bottomCardsLink2"
+    ]
+  },
+  "flex-layout.col#bottomCardsCard3": {
+    "props": {
+      "blockClass": "bottomCardsCol",
+      "paddingLeft": 6,
+      "paddingRight": 6,
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#bottomCardsText3",
+      "link#bottomCardsLink3"
+    ]
+  },
+  "rich-text#bottomCardsTitle": {
+    "props": {
+      "blockClass": "noMargin",
+      "text": "Everything you need to evolve with our ecosystem.",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#bottomCardsText1": {
+    "props": {
+      "text": "Find the best\n[agencies to build]()\nyour store.",
+      "font": { 
+        "phone": "t-heading-5",
+        "desktop": "t-heading-3",
+        "tablet": "t-heading-3"
+      },
+      "blockClass": ["bottomCardsBody", "noMargin", "rightPositioned"]
+    }
+  },
+  "rich-text#bottomCardsText2": {
+    "props": {
+      "text": "Find the best\n[solutions to grow]()\nyour business.",
+      "font": { 
+        "phone": "t-heading-5",
+        "desktop": "t-heading-3",
+        "tablet": "t-heading-3"
+      },
+      "blockClass": ["bottomCardsBody", "noMargin", "leftPositioned"]
+    }
+  },
+  "rich-text#bottomCardsText3": {
+    "props": {
+      "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
+      "font": { 
+        "mobile": "t-heading-5",
+        "desktop": "t-heading-2",
+        "tablet": "t-heading-2"
+      },
+      "blockClass": ["bottomCardsBodyBig", "noMargin", "leftPositioned"]
+    }
+  },
+  "rich-text#bottomCardsText1Mobile": {
+    "props": {
+      "text": "Find the best\n[agencies to build]()\nyour store.",
+      "textPosition": "RIGHT",
+      "font": { 
+        "phone": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBodyMobile", "noMargin"]
+    }
+  },
+  "rich-text#bottomCardsText2Mobile": {
+    "props": {
+      "text": "Find the best\n[solutions to grow]()\nyour business.",
+      "font": { 
+        "phone": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBodyMobile", "noMargin", "leftPositioned"]
+    }
+  },
+  "rich-text#bottomCardsText3Mobile": {
+    "props": {
+      "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
+      "font": { 
+        "mobile": "t-heading-5"
+      },
+    "blockClass": ["bottomCardsBodyBigMobile", "noMargin", "leftPositioned"]
+    }
+  },
+  "link#bottomCardsLink1": {
+    "props": { 
+      "blockClass": "cardButton",
+      "label": "FIND AN AGENCY",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  },
+  "link#bottomCardsLink2": {
+    "props": { 
+      "blockClass": "cardButton",
+      "label": "FIND SOLUTIONS",  
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary",
+        "size": "large"
+      }
+    }
+  },
+  "link#bottomCardsLink3": {
+    "props": { 
+      "blockClass": "card3Link",
+      "label": "BECOME A DEVELOPER",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  }
+}

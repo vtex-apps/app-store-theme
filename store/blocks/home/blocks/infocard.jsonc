@@ -1,0 +1,115 @@
+{
+  "responsive-layout.desktop#infocard": {
+    "children": [
+      "flex-layout.row#infocard-desktop"
+    ]
+  },
+  "responsive-layout.tablet#infocard": {
+    "children": [
+      "flex-layout.row#infocard-desktop"
+    ]
+  },
+  "responsive-layout.phone#infocard": {
+    "children": [
+      "flex-layout.row#infocard-mobile"
+    ]
+  },
+  "flex-layout.row#infocard-desktop": {
+    "props": {
+      "blockClass": "infocardHome",
+      "marginTop": 10,
+      "marginBottom": 10,
+      "paddingTop": 9,
+      "paddingBottom": 9
+    },
+    "children": [
+      "flex-layout.col#textAndButton",
+      "flex-layout.col#image"
+    ]
+  },
+  "flex-layout.row#infocard-mobile": {
+    "props": {
+      "blockClass": ["infocardHome", "infocardHomeMobile"],
+      "marginTop": 10,
+      "marginBottom": 8,
+      "paddingTop": 9,
+      "paddingBottom": 9
+    },
+    "children": [
+      "flex-layout.col#image",
+      "flex-layout.col#textAndButton"
+    ]
+  },
+  "flex-layout.row#infocard": {
+    "props": {
+      "blockClass": "infocardHome",
+      "marginTop": 10,
+      "marginBottom": 10,
+      "paddingTop": 9,
+      "paddingBottom": 9
+    },
+    "children": [
+      "flex-layout.col#textAndButton",
+      "flex-layout.col#image"
+    ]
+  },
+  "flex-layout.col#textAndButton": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [ 
+      "rich-text#homeInforCardTitle",
+      "rich-text#homeInforCardBody",
+      "link#homeInfoCard"
+    ]
+  },
+  "rich-text#homeInforCardTitle": {
+    "props": { 
+      "blockClass": "infoCardTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "One click to go.",
+      "font": {
+        "desktop": "t-heading-1",
+        "mobile": "t-heading-4"
+      }
+    }
+  },
+  "rich-text#homeInforCardBody": {
+    "props": { 
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "homeInfoCardBody",
+      "text": "Save time and money by taking\nadvantage of apps that are\nalready **programmed, tested**\n**and reviewed**.",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "t-paragraph"
+      }
+    }
+  },
+  "link#homeInfoCard": { 
+    "props": { 
+      "label": "EXPLORE ALL",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  },
+  "flex-layout.col#image": { 
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#infoCardImage"
+    ]
+  },
+  "image#infoCardImage": { 
+    "props": {
+      "src": "assets/home-info.png"
+    }
+  }
+}

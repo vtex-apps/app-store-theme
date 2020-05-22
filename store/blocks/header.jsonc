@@ -7,23 +7,49 @@
   },
   "header-layout.desktop": { 
     "children": [
-      "flex-layout.row#transparent"
+      "flex-layout.row#header"
     ]
   },
   "header-layout.mobile": { 
     "children": [
-      "flex-layout.row#transparent"
+      "responsive-layout.tablet#header-tablet",
+      "responsive-layout.phone#header-phone"
     ]
   },
-  "flex-layout.row#transparent": { 
+  "responsive-layout.tablet#header-tablet": {
+    "children": [
+      "flex-layout.row#header"
+    ]
+  },
+  "responsive-layout.phone#header-phone": {
+    "children": [
+      "flex-layout.row#header-mobile"
+    ]
+  },
+  "flex-layout.row#header": { 
     "props": { 
-      "blockClass": "transparent"
+      "blockClass": "transparent",
+      "preventHorizontalStretch": true
     },
     "children": [
       "logo",
-      "vtex.menu@2.x:menu#main-menu",
-      "login"
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#main-menu"
     ]
+  },
+  "flex-layout.col#spacer": { 
+    "props": { 
+      "width": "grow"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOGIN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPraceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
   },
   "logo": {
     "props": {
@@ -32,5 +58,23 @@
       "width": "90", 
       "url": "assets/vtex-logo.svg"
     }
+  },
+  "flex-layout.row#header-mobile": { 
+    "props": { 
+      "blockClass": "transparent",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "drawer"
+    ]
+  },
+  "drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#main-menu"
+    ]
   }
 }

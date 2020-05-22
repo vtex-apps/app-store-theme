@@ -1,0 +1,107 @@
+.flexRow--transparent {
+  z-index: 1000;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.flexColChild--testimonyTextCol {
+  padding-right: 2rem;
+  width: 100%;
+}
+
+.flexRow--mainContainer{ 
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.flexRow--infocardHome {
+  background: white;
+  margin: 0 auto 0 auto;
+  max-width: 96rem;
+}
+
+.flexColChild--bottomCardsCol {
+  padding-bottom: .5rem;
+}
+
+.flexCol--testimonyTextCol {
+  max-width: 25rem;
+}
+
+.flexColChild--headlinecover {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.flexRow--infocardHomeMobile {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.flexRow--headline {
+  height: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexCol--categoryCard {
+  border-radius: 8px;
+  height: 8rem;
+}
+
+.flexCol--textAlignLeft {
+  text-align: left;
+}
+
+.flexCol--card1Color {
+  background: #25354D;
+}
+
+.flexCol--card2Color {
+  background: #134CD8;
+}
+
+.flexCol--card3Color {
+  background: #3D5980;
+}
+
+.flexCol--card4Color {
+  background: #DD1659;
+}
+
+.flexCol--bottomCardsCol {
+  padding-bottom: 2rem;
+}
+
+.flexCol--testimonyCol {
+  padding-left: 2rem;
+}
+
+.flexRow--testimonyContainer {
+  padding-top: 3rem;
+}
+/**
+  Desktop specifics
+*/
+
+@media (min-width: 600px) {
+  .flexRow--testimonyContainer {
+    background-color: white;
+    border: 1px solid #E3E4E6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    max-width: 46rem;
+    padding-top: 0rem;
+  }
+
+  .flexCol--categoryCard {
+    border-radius: 8px;
+    margin-right: 2rem;
+    height: 10rem;
+  }
+}

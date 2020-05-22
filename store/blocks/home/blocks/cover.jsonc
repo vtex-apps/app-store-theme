@@ -1,0 +1,87 @@
+{
+  "stack-layout#cover": { 
+    "props": { 
+      "blockClass": "cover"
+    },
+    "children": [ 
+      "flex-layout.row#cover-image",
+      "flex-layout.row#headline"
+    ]
+  },
+  "flex-layout.row#cover-image": {
+    "props": { 
+      "experimentalHideEmptyCols": true
+    },
+    "children": [
+      "responsive-layout.phone#cover-mobile",
+      "responsive-layout.tablet#cover-tablet",
+      "responsive-layout.desktop#cover-desktop"
+    ]
+  },
+  "responsive-layout.tablet#cover-tablet": { 
+    "children": [
+      "image#cover-desktop"
+    ]
+  },
+  "responsive-layout.desktop#cover-desktop": {
+    "children": [
+      "image#cover-desktop"
+    ]
+  },
+  "responsive-layout.phone#cover-mobile": {
+    "children": [
+      "image#cover-mobile"
+    ]
+  },
+  "flex-layout.row#headline": {
+    "props": { 
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "headline"
+    },
+    "children": [
+      "flex-layout.col#cover-content"
+    ]
+  },
+  "flex-layout.col#cover-content": { 
+    "props": { 
+      "width": "grow",
+      "horizontalAlign": "center",
+      "blockClass": "headlinecover"
+    },
+    "children": [
+      "rich-text#store-headline",
+      "search-bar"
+    ]
+  },
+  "search-bar": { 
+    "props": {
+      "placeholder": "Search an app",
+      "hasIconLeft": true
+    }
+  },
+  "image#cover-desktop": { 
+    "props": { 
+      "blockClass": "coverImage",
+      "src": "assets/header.png"
+    }
+  },
+  "image#cover-mobile": { 
+    "props": { 
+      "blockClass": "coverImage",
+      "src": "assets/header-mobile.png"
+    }
+  },
+  "rich-text#store-headline": { 
+    "props": { 
+      "font": { 
+        "desktop": "t-heading-1",
+        "mobile": "t-heading-3"
+      },
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Evolve your store with the best apps.",
+      "blockClass": "storeHeadline"
+    }
+  }
+}

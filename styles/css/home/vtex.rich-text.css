@@ -1,0 +1,123 @@
+.paragraph--storeHeadline {
+  font-weight: normal;
+  color: white;
+}
+
+.paragraph--categoryCard {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 2rem;
+  font-weight: normal;
+  color: white;
+}
+
+
+.paragraph--homeInfoCardBody {
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  /* font-size: 1.63rem; */
+}
+
+.paragraph--infoCardTitle {
+  color: #DD1659;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.container--rightPositioned {
+  margin-right: 2rem;
+}
+
+.paragraph--bottomCardsBody {
+  color: white;
+  padding-top: 1rem;
+   /* font-size: 2rem; */
+  font-weight: 500;
+}
+
+.paragraph--noMargin {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.paragraph--bottomCardsBodyBig {
+  color: white;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.paragraph--bottomCardsBodyMobile {
+  color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+.paragraph--bottomCardsBodyBigMobile {
+  color: white;
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.link--bottomCardsBodyBig {
+  color: white;
+}
+
+
+.link--bottomCardsBody {
+  color: white;
+}
+
+
+.link--bottomCardsBodyBigMobile {
+  color: white;
+}
+
+
+.link--bottomCardsBodyMobile {
+  color: white;
+}
+
+.paragraph--testimonyBody {
+  font-weight: 300;
+}
+
+.paragraph--testimonyAuthor {
+  font-weight: normal;
+  margin-top:0;
+}
+
+/**
+  Desktop specifics
+*/
+
+@media (min-width: 600px) {
+  .paragraph--categoryCard {
+    margin-left: 2rem;
+    font-weight: normal;
+    color: white;
+  }
+
+  .container--testimonyBody {
+    text-align: left;
+  }
+
+  .container--testimonyAuthor {
+    text-align: left;
+    align-items: left;
+    justify-content: start;
+    -webkit-box-pack: start;
+  }
+
+  .paragraph--infoCardTitle {
+    color: #DD1659;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}

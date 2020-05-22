@@ -1,5 +1,6 @@
 .label {
-  color: white
+  color: white;
+  display: block;
 }
 
 .container :global(.vtex-button):hover {

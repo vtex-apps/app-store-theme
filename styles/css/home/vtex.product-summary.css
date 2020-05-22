@@ -1,0 +1,37 @@
+.imageContainer {
+  height: 160px;
+  width: 160px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.imageNormal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.description {
+  text-align: left
+}
+
+.nameContainer--mostUsed {
+  padding-top: 0;
+  padding-bottom: .5rem;
+  justify-content: left;
+}
+
+.container--mostUsed {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: none !important;
+}

@@ -1,0 +1,58 @@
+{
+  "responsive-layout.desktop#testimonies": {
+    "children": [
+      "slider-layout#testimonies" 
+    ]
+  },
+  "responsive-layout.tablet#testimonies": {
+    "children": [
+      "slider-layout#testimonies"
+    ]
+  },
+  "slider-layout#testimonies": {
+    "props": {
+      "blockClass": "testimoniesSlider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": true,
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2
+      }
+    },
+    "children": [
+      "flex-layout.row#testimony1",
+      "flex-layout.row#testimony2",
+      "flex-layout.row#testimony3",
+      "flex-layout.row#testimony4",
+      "flex-layout.row#testimony5",
+      "flex-layout.row#testimony6"
+    ]
+  },
+
+  /* Mobile Layout */
+  "responsive-layout.phone#testimonies": {
+    "children": [
+      "flex-layout.row#testimoniesMobile"
+    ]
+  },
+  "flex-layout.row#testimoniesMobile": { 
+    "children": [
+      "flex-layout.col#testimoniesMobile"
+    ]
+  },
+  "flex-layout.col#testimoniesMobile": {
+    "props": {
+      "blockClass": "testimoniesContainerMobile"
+    },
+    "children": [
+      "flex-layout.row#testimony1",
+      "flex-layout.row#testimony2",
+      "flex-layout.row#testimony3",
+      "flex-layout.row#testimony4",
+      "flex-layout.row#testimony5",
+      "flex-layout.row#testimony6"
+    ]
+  }
+}

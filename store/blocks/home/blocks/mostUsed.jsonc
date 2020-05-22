@@ -1,0 +1,146 @@
+{
+  "flex-layout.row#homeShelf": { 
+    "props": {
+      "marginTop": 9,
+      "marginBottom": 8
+    },
+    "children": [ 
+      "flex-layout.col#homeShelf1",
+      "flex-layout.col#homeShelf2"
+    ]
+  },
+  "flex-layout.col#homeShelf1": {  
+    "props": {
+      "rowGap": 3,
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#homeShelf1",
+      "rich-text#homeShelf2"
+    ]
+  },
+  "flex-layout.col#homeShelf2": { 
+    "props": {
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "responsive-layout.desktop#explore"
+    ]
+  },
+  "responsive-layout.desktop#explore": { 
+    "children": [
+      "rich-text#homeShelf3"
+    ]
+  },
+  "rich-text#homeShelf1": {
+    "props": {
+      "blockClass": "noMargin",
+      "font": "t-heading-3",
+      "textPosition": "LEFT",
+      "text": "Most used apps"
+    }
+  },
+  "rich-text#homeShelf2": {
+    "props": { 
+      "blockClass": "noMargin",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "body"
+      },
+      "textPosition": "LEFT",
+      "text": "Selected apps for VTEX businesses based in Brazil."
+    }
+  },
+  "rich-text#homeShelf3": {
+    "props": { 
+      "font": "t-body",
+      "textPosition": "RIGHT",
+      "blockClass": "hideMobile",
+      "text": "[Explore all apps](www.google.com)"
+    }
+  },
+  "search-result-layout.customQuery#mostUsed": { 
+    "props": { 
+      "querySchema": {
+        "maxItemsPerPage": 8,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#mostUsed"
+    ]
+  },
+  "search-result-layout.desktop#mostUsed": {
+    "children": [
+      "search-content#mostUsed"
+    ]
+  },
+  "search-content#mostUsed": {
+    "blocks": [
+      "gallery#mostUsed",
+      "not-found"
+    ]
+  },
+  "gallery#mostUsed": {
+    "props": {
+      "blockClass": "mostUsed",
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#mostUsed"]
+  },
+  "product-summary.shelf#mostUsed": {
+    "props": {
+      "blockClass": "mostUsed"
+    },
+    "children": [
+      "flex-layout.row#mostUsed"
+    ]
+  },
+  "flex-layout.row#mostUsed": { 
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#psImage",
+      "flex-layout.col#psDetails"
+    ]
+  },
+  "flex-layout.col#psImage": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-summary-image#mostUsed"
+    ]
+  },
+  "flex-layout.col#psDetails": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "textAlignLeft",
+      "marginLeft": 6
+    },
+    "children": [
+      "product-summary-name",
+      "product-summary-description"
+    ]
+  },
+  "product-summary-name": { 
+    "props": { 
+      "blockClass": "mostUsed"
+    }
+  },
+  "product-summary-image#mostUsed": {
+    "props": {
+      "width": {
+        "desktop": "128px"
+      },
+      "height": {
+        "desktop": "128px"
+      }
+    }
+  }
+}
