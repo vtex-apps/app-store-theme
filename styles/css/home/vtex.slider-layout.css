@@ -1,0 +1,11 @@
+.slide--testimoniesSlider {
+  padding-right: 2rem;
+}
+
+.slide--testimoniesSlider--lastVisible {
+  padding-right: 0rem;
+}
+
+.paginationDotsContainer {
+  margin-bottom: -2rem;
+}

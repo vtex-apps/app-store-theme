@@ -83,6 +83,7 @@
   },
   "gallery#mostUsed": {
     "props": {
+      "blockClass": "mostUsed",
       "maxItemsPerRow": {
         "desktop": 4,
         "tablet": 3
@@ -91,12 +92,16 @@
     "blocks": ["product-summary.shelf#mostUsed"]
   },
   "product-summary.shelf#mostUsed": {
+    "props": {
+      "blockClass": "mostUsed"
+    },
     "children": [
       "flex-layout.row#mostUsed"
     ]
   },
   "flex-layout.row#mostUsed": { 
     "props": {
+      "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
     },
     "children": [
@@ -116,7 +121,7 @@
     "props": {
       "verticalAlign": "middle",
       "blockClass": "textAlignLeft",
-      "marginLeft": 7
+      "marginLeft": 6
     },
     "children": [
       "product-summary-name",

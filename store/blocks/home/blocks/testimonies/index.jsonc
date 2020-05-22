@@ -12,7 +12,8 @@
   "slider-layout#testimonies": {
     "props": {
       "blockClass": "testimoniesSlider",
-      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
       "infinite": true,
       "fullWidth": true,
       "itemsPerPage": {
