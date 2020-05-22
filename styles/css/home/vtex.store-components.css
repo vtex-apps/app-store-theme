@@ -4,7 +4,6 @@
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
   border-style: none;
-  max-width: 46rem;
   height: 64px;
 }
 
