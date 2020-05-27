@@ -1,0 +1,10 @@
+{
+  "rich-text#highlights": {
+    "props": {
+      "blockClass": "noMargin",
+      "font": "t-heading-3",
+      "textPosition": "LEFT",
+      "text": "Highlights"
+    }
+  }
+}

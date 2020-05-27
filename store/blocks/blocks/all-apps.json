@@ -1,0 +1,78 @@
+{
+  "store.custom#all-apps": {
+    "parent": {
+      "header": "header#dark"
+    },
+    "blocks": [
+      "flex-layout.row#banners",
+      "rich-text#highlights",
+      "rich-text#payment",
+      "search-result-layout.customQuery#payment",
+      "rich-text#accounting",
+      "search-result-layout.customQuery#accounting",
+      "rich-text#marketing",
+      "search-result-layout.customQuery#marketing",
+      "rich-text#shipping",
+      "search-result-layout.customQuery#shipping",
+      "flex-layout.row#all-apps-bottom"
+    ]
+  },
+  "flex-layout.row#banners": {
+    "props": {
+      "marginTop": 9,
+      "marginBottom": 8
+    },
+    "children": ["list-context.image-list#demo"]
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://i.imgur.com/irYHIAJ.png",
+          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#banners": {
+    "props": {
+      "marginTop": 9,
+      "marginBottom": 8
+    },
+    "children": ["list-context.image-list#demo"]
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://i.imgur.com/irYHIAJ.png",
+          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.flexRow--search {
+  background-color: white;
+  padding: 1rem 0;
+}
+
+.flexRow--testimonyAllApps {
+  background-color: #003352;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.flexCol--allAppsLeftCol {
+  margin-right: 1.5rem
+}
+
+.flexRowContent--allAppsTwoTiles {
+  justify-content: space-between;
+}
+
+.flexCol--allAppsFindAgencies, .flexCol--allAppsDiscovery {
+  background-color: white;
+  padding: 2rem;
+}
+
+.flexCol--allAppsEarnMoney {
+  width: 50%;
+  padding: 3rem 0 0 4rem;
+  border-radius: 8px;
+}
+
+/** Verify it it's here */
+.flexRow--dark {
+  width: 100%;
+  background: #25354D;
+}
