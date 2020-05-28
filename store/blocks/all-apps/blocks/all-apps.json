@@ -6,6 +6,7 @@
     "blocks": [
       "flex-layout.row#banners",
       "rich-text#highlights",
+      "flex-layout.row#all-apps-highlights",
       "rich-text#payment",
       "search-result-layout.customQuery#payment",
       "rich-text#accounting",
@@ -34,8 +35,8 @@
           "mobileImage": "https://i.imgur.com/irYHIAJ.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://i.imgur.com/uQ7ljRk.png",
+          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
         }
       ]
     }

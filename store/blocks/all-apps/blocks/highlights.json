@@ -6,5 +6,118 @@
       "textPosition": "LEFT",
       "text": "Highlights"
     }
+  },
+  "flex-layout.row#all-apps-highlights": {
+    "children": [
+      "flex-layout.col#all-apps-highlight-1",
+      "flex-layout.col#all-apps-highlight-2",
+      "flex-layout.col#all-apps-highlight-3",
+      "flex-layout.col#all-apps-highlight-4"
+    ]
+  },
+  "flex-layout.col#all-apps-highlight-1": {
+    "children": [
+      "image#all-apps-highlight-1",
+      "rich-text#all-apps-highlight-1",
+      "rich-text#all-apps-highlight-1-description"
+    ]
+  },
+  "image#all-apps-highlight-1": {
+    "props": {
+      "blockClass": "allAppsHighlight",
+      "src": "https://extensions.vtexassets.com/assets/vtex.file-manager-graphql/images/template%20%282%29___81fd011195a0b8acef1b74ab9e7b1567.png",
+      "maxHeight": "unset"
+    }
+  },
+  "rich-text#all-apps-highlight-1": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "**Mercado Libre**"
+    }
+  },
+  "rich-text#all-apps-highlight-1-description": {
+    "props": {
+      "textColor": "c-on-disabled",
+      "text": "Send SKUs and manage your sales on Mercado Livre directly from the VTEX admin."
+    }
+  },
+  "flex-layout.col#all-apps-highlight-2": {
+    "children": [
+      "image#all-apps-highlight-2",
+      "rich-text#all-apps-highlight-2",
+      "rich-text#all-apps-highlight-2-description"
+    ]
+  },
+  "image#all-apps-highlight-2": {
+    "props": {
+      "blockClass": "allAppsHighlight",
+      "src": "https://extensions.vtexassets.com/assets/vtex.file-manager-graphql/images/template%20%282%29___81fd011195a0b8acef1b74ab9e7b1567.png",
+      "maxHeight": "unset"
+    }
+  },
+  "rich-text#all-apps-highlight-2": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "**Apple Pay**"
+    }
+  },
+  "rich-text#all-apps-highlight-2-description": {
+    "props": {
+      "textColor": "c-on-disabled",
+      "text": "Send SKUs and manage your sales on Mercado Livre directly from the VTEX admin."
+    }
+  },
+  "flex-layout.col#all-apps-highlight-3": {
+    "children": [
+      "image#all-apps-highlight-3",
+      "rich-text#all-apps-highlight-3",
+      "rich-text#all-apps-highlight-3-description"
+    ]
+  },
+  "image#all-apps-highlight-3": {
+    "props": {
+      "blockClass": "allAppsHighlight",
+      "src": "https://extensions.vtexassets.com/assets/vtex.file-manager-graphql/images/template%20%282%29___81fd011195a0b8acef1b74ab9e7b1567.png",
+      "maxHeight": "unset"
+    }
+  },
+  "rich-text#all-apps-highlight-3": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "**Loggi**"
+    }
+  },
+  "rich-text#all-apps-highlight-3-description": {
+    "props": {
+      "textColor": "c-on-disabled",
+      "text": "Send SKUs and manage your sales on Mercado Livre directly from the VTEX admin."
+    }
+  },
+
+  "flex-layout.col#all-apps-highlight-4": {
+    "children": [
+      "image#all-apps-highlight-4",
+      "rich-text#all-apps-highlight-4",
+      "rich-text#all-apps-highlight-4-description"
+    ]
+  },
+  "image#all-apps-highlight-4": {
+    "props": {
+      "blockClass": "allAppsHighlight",
+      "src": "https://extensions.vtexassets.com/assets/vtex.file-manager-graphql/images/template%20%282%29___81fd011195a0b8acef1b74ab9e7b1567.png",
+      "maxHeight": "unset"
+    }
+  },
+  "rich-text#all-apps-highlight-4": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "**Google Shopping**"
+    }
+  },
+  "rich-text#all-apps-highlight-4-description": {
+    "props": {
+      "textColor": "c-on-disabled",
+      "text": "Send SKUs and manage your sales on Mercado Livre directly from the VTEX admin."
+    }
   }
 }
