@@ -29,6 +29,10 @@
   border-radius: 8px;
 }
 
+.flexRow--allAppsBanners{
+  margin-top: 2rem;
+}
+
 /** Verify it it's here */
 .flexRow--dark {
   width: 100%;

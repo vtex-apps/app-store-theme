@@ -1,8 +1,5 @@
 {
   "store.custom#all-apps": {
-    "parent": {
-      "header": "header#dark"
-    },
     "blocks": [
       "flex-layout.row#banners",
       "rich-text#highlights",
@@ -20,6 +17,7 @@
   },
   "flex-layout.row#banners": {
     "props": {
+      "blockClass": "allAppsBanners",
       "marginTop": 9,
       "marginBottom": 8
     },
