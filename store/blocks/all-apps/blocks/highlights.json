@@ -1,19 +1,51 @@
 {
   "rich-text#highlights": {
     "props": {
-      "blockClass": "noMargin",
       "font": "t-heading-3",
       "textPosition": "LEFT",
       "text": "Highlights"
     }
   },
-  "flex-layout.row#all-apps-highlights": {
+  "slider-layout#highlights": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    },
     "children": [
-      "flex-layout.col#all-apps-highlight-1",
-      "flex-layout.col#all-apps-highlight-2",
-      "flex-layout.col#all-apps-highlight-3",
-      "flex-layout.col#all-apps-highlight-4"
+      "flex-layout.row#all-apps-highlight-1",
+      "flex-layout.row#all-apps-highlight-2",
+      "flex-layout.row#all-apps-highlight-3",
+      "flex-layout.row#all-apps-highlight-4"
     ]
+  },
+  "flex-layout.row#all-apps-highlight-1": {
+    "props": {
+      "blockClass": "hMargin"
+    },
+    "children": ["flex-layout.col#all-apps-highlight-1"]
+  },
+  "flex-layout.row#all-apps-highlight-2": {
+    "props": {
+      "blockClass": "hMargin"
+    },
+    "children": ["flex-layout.col#all-apps-highlight-2"]
+  },
+  "flex-layout.row#all-apps-highlight-3": {
+    "props": {
+      "blockClass": "hMargin"
+    },
+    "children": ["flex-layout.col#all-apps-highlight-3"]
+  },
+  "flex-layout.row#all-apps-highlight-4": {
+    "props": {
+      "blockClass": "hMargin"
+    },
+    "children": ["flex-layout.col#all-apps-highlight-4"]
   },
   "flex-layout.col#all-apps-highlight-1": {
     "children": [
@@ -31,12 +63,14 @@
   },
   "rich-text#all-apps-highlight-1": {
     "props": {
+      "blockClass": "noMargin",
       "font": "t-heading-4",
       "text": "**Mercado Libre**"
     }
   },
   "rich-text#all-apps-highlight-1-description": {
     "props": {
+      "blockClass": "noMarginTop",
       "textColor": "c-on-disabled",
       "text": "Send SKUs and manage your sales on Mercado Livre directly from the VTEX admin."
     }
@@ -57,12 +91,14 @@
   },
   "rich-text#all-apps-highlight-2": {
     "props": {
+      "blockClass": "noMargin",
       "font": "t-heading-4",
       "text": "**Apple Pay**"
     }
   },
   "rich-text#all-apps-highlight-2-description": {
     "props": {
+      "blockClass": "noMarginTop",
       "textColor": "c-on-disabled",
       "text": "Send SKUs and manage your sales on Mercado Livre directly from the VTEX admin."
     }
@@ -83,12 +119,14 @@
   },
   "rich-text#all-apps-highlight-3": {
     "props": {
+      "blockClass": "noMargin",
       "font": "t-heading-4",
       "text": "**Loggi**"
     }
   },
   "rich-text#all-apps-highlight-3-description": {
     "props": {
+      "blockClass": "noMarginTop",
       "textColor": "c-on-disabled",
       "text": "Send SKUs and manage your sales on Mercado Livre directly from the VTEX admin."
     }
@@ -110,12 +148,14 @@
   },
   "rich-text#all-apps-highlight-4": {
     "props": {
+      "blockClass": "noMargin",
       "font": "t-heading-4",
       "text": "**Google Shopping**"
     }
   },
   "rich-text#all-apps-highlight-4-description": {
     "props": {
+      "blockClass": "noMarginTop",
       "textColor": "c-on-disabled",
       "text": "Send SKUs and manage your sales on Mercado Livre directly from the VTEX admin."
     }

@@ -28,13 +28,51 @@
   padding: 3rem 0 0 4rem;
   border-radius: 8px;
 }
+.flexCol--allAppsEarnMoney {
+  width: 50%;
+  padding: 3rem 0 0 4rem;
+  border-radius: 8px;
+}
 
 .flexRow--allAppsBanners{
   margin-top: 2rem;
+}
+
+.flexRow--allAppsBottom{ 
+  margin-top: 5rem;
+}
+
+.flexRow--allAppsContainer{ 
+  padding-top: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.flexCol--allAppsEarnMoney {
+  padding: 1rem 0 0 1rem;
+  border-radius: 8px;
+}
+
+.flexCol--testimonyAllApps {
+  margin-top: 1.5rem;
+}
+
+.flexRow--searchBar {
+  background-color: white;
 }
 
 /** Verify it it's here */
 .flexRow--dark {
   width: 100%;
   background: #25354D;
+}
+
+@media(min-width: 600px){
+
+  .flexCol--allAppsEarnMoney {
+    width: 50%;
+    padding: 3rem 0 0 4rem;
+    border-radius: 8px;
+  }
+
 }

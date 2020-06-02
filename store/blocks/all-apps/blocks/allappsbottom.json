@@ -1,5 +1,28 @@
 {
+  "responsive-layout.desktop#all-apps": {
+    "children": ["flex-layout.row#all-apps-bottom"]
+  },
+  "responsive-layout.phone#all-apps": {
+    "children": ["flex-layout.col#all-apps-bottom-col"]
+  },
+  "responsive-layout.tablet#all-apps": {
+    "children": ["flex-layout.col#all-apps-bottom-col"]
+  },
+  "flex-layout.col#all-apps-bottom-col": {
+    "props": {
+      "rowGap": "4"
+    },
+    "children": [
+      "flex-layout.row#all-apps-earn-money",
+      "flex-layout.row#testimonyallapps",
+      "flex-layout.col#all-apps-find-agencies",
+      "flex-layout.col#all-apps-discovery"
+    ]
+  },
   "flex-layout.row#all-apps-bottom": {
+    "props": {
+      "blockClass": "allAppsBottom"
+    },
     "children": [
       "flex-layout.col#all-apps-left",
       "flex-layout.row#all-apps-right"
@@ -40,7 +63,7 @@
   },
   "flex-layout.col#testimonyallappscolImg": {
     "props": {
-      "blockClass": "testimonyCol",
+      "blockClass": "testimonyAllApps",
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },

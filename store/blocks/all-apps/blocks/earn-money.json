@@ -22,7 +22,6 @@
   },
   "flex-layout.col#all-apps-earn-money": {
     "props": {
-      "paddingLeft": 6,
       "blockClass": "allAppsEarnMoney"
     },
     "children": ["rich-text#all-apps-earn-money", "link#all-apps-earn-money"]
@@ -47,7 +46,7 @@
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
-        "size": "large"
+        "size": "regular"
       }
     }
   }
