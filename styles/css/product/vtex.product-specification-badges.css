@@ -1,0 +1,17 @@
+.badgeContainer--specificationValue {
+  background-color: #FFFFFF;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.groupContainer-specificationValue {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.badgeText--specificationValue {
+  font-size: 1.3125rem;
+  text-align: left;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}

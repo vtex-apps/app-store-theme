@@ -1,0 +1,48 @@
+.flexRow--main {
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+.flexCol--topBar {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  border-bottom: 1px solid #E3E4E6;
+}
+
+.flexCol--pdpContainer {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.flexCol--sideBar {
+  width: 10rem;
+}
+
+.flexCol--debug {
+  background-color: pink;
+}
+
+.flexRow--debug {
+  background-color: pink;
+}
+
+
+.flexRowContent--header {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+/* .flexRow--reviewRight {
+    align-items: center;
+  } */
+
+.flexRow--brand {
+  display: flex;
+  align-items: center;
+}
+
+.flexCol--specifications {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
