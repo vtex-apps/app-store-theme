@@ -1,0 +1,8 @@
+.summaryContainer--rating {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  color: #f2c94c
+}

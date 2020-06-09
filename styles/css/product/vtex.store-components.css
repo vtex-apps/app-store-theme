@@ -1,0 +1,21 @@
+.productImage--productLogo {
+  border-radius: 0.25rem;
+  border: 1px solid #E3E4E6
+}
+
+.productImage--scrennshots {
+  width: 100px;
+}
+
+.productBrand--appName {
+  font-size: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.productBrandContainer--brand {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
