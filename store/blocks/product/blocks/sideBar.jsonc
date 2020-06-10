@@ -1,240 +1,239 @@
 {
-    "flex-layout.col#sideBar": {
-        "props": {
-          "blockClass": "sideBar",
-          "preventVerticalStretch": true,
-          "rowGap": 6
-        },
-        "children": [
-          "product-images#productLogo",
-          "flex-layout.col#partnerContainer",
-          "flex-layout.col#versionContainer",
-          "flex-layout.col#supportContainer"
-        ]
+  "flex-layout.col#sideBar": {
+    "props": {
+      "blockClass": "sideBar",
+      "preventVerticalStretch": true,
+      "rowGap": 6
+    },
+    "children": [
+      "product-images#productLogo",
+      "flex-layout.col#partnerContainer",
+      "flex-layout.col#versionContainer",
+      "flex-layout.col#supportContainer"
+    ]
+  },
+  "product-images#productLogo": {
+    "props": {
+      "hiddenImages": [
+        "logoOld",
+        "screenshot"
+      ],
+      "contentType": "images",
+      "blockClass": "productLogo",
+      "zoomMode": "disabled"
+    }
+  },
+  "flex-layout.col#partnerContainer": {
+    "props": {
+      "blockClass": "productHeading",
+      "rowGap": 1
+    },
+    "children": [
+      "rich-text#partner",
+      "product-brand#partnerName"
+    ]
+  },
+  "rich-text#partner": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
       },
-      "product-images#productLogo": {
-        "props": {
-          "contentType": "images",
-          "blockClass": "productLogo",
-          "zoomMode": "disabled"
-        }
+      "text": "**Partner**"
+    }
+  },
+  "product-brand#partnerName": {
+    "props": {
+      "blockClass": "partnerName",
+      "displayMode": "text"
+    }
+  },
+  "flex-layout.col#versionContainer": {
+    "props": {
+      "blockClass": "productHeading",
+      "rowGap": 1
+    },
+    "children": [
+      "rich-text#version",
+      "product-identifier.product#version"
+    ]
+  },
+  "rich-text#version": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
       },
-      "flex-layout.col#partnerContainer": {
-        "props": {
-          "blockClass": "productHeading",
-          "rowGap": 1
-        },
-        "children": [
-          "rich-text#partner",
-          "rich-text#partnerName"
-        ]
+      "text": "**Latest version**"
+    }
+  },
+  "product-identifier.product#version": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "idField": "skuReferenceId",
+      "label": "hide"
+    }
+  },
+  "flex-layout.col#supportContainer": {
+    "props": {
+      "blockClass": "productHeading",
+      "rowGap": 4,
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#support",
+      "flex-layout.col#supportOptions"
+    ]
+  },
+  "rich-text#support": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
       },
-      "rich-text#partner": {
-        "props": {
-          "blockClass": "noMargin",
-          "font": {
-            "desktop": "body",
-            "mobile": "body"
-          },
-          "text": "**Partner**"
-        }
+      "text": "**Support**"
+    }
+  },
+  "flex-layout.col#supportOptions": {
+    "props": {
+      "rowGap": 4,
+      "blockClass": "supportOptions"
+    },
+    "children": [
+      "flex-layout.row#faq",
+      "flex-layout.row#documentation",
+      "flex-layout.row#website",
+      "flex-layout.row#getSupport",
+      "flex-layout.row#privacyPolicy"
+    ]
+  },
+  "flex-layout.row#faq": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#faq",
+      "rich-text#faq"
+    ]
+  },
+  "image#faq": {
+    "props": {
+      "blockClass": "supportImages",
+      "src": "assets/website.svg"
+    }
+  },
+  "rich-text#faq": {
+    "props": {
+      "blockClass": "supportOption",
+      "font": {
+        "desktop": "t-small",
+        "mobile": "body"
       },
-      "rich-text#partnerName": {
-        "props": { 
-          "blockClass": "noMargin",
-          "font": {
-            "desktop": "t-small",
-            "mobile": "body"
-          },
-          "textPosition": "LEFT",
-          "text": "Mastercard"
-        }
+      "text": "[FAQ](www.google.com)"
+    }
+  },
+  "flex-layout.row#documentation": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#documentation",
+      "rich-text#documentation"
+    ]
+  },
+  "image#documentation": {
+    "props": {
+      "src": "assets/website.svg"
+    }
+  },
+  "rich-text#documentation": {
+    "props": {
+      "blockClass": "supportOption",
+      "font": {
+        "desktop": "t-small",
+        "mobile": "body"
       },
-      "flex-layout.col#versionContainer": {
-        "props": {
-          "blockClass": "productHeading",
-          "rowGap": 1
-        },
-        "children": [
-          "rich-text#version",
-          "product-identifier.product"
-        ]
+      "text": "[Documentation](www.google.com)"
+    }
+  },
+  "flex-layout.row#website": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#website",
+      "rich-text#website"
+    ]
+  },
+  "image#website": {
+    "props": {
+      "src": "assets/website.svg"
+    }
+  },
+  "rich-text#website": {
+    "props": {
+      "blockClass": "supportOption",
+      "font": {
+        "desktop": "t-small",
+        "mobile": "body"
       },
-      "rich-text#version": {
-        "props": {
-          "blockClass": "noMargin",
-          "font": {
-            "desktop": "body",
-            "mobile": "body"
-          },
-          "text": "**Latest version**"
-        }
+      "text": "[Website](www.google.com)"
+    }
+  },
+  "flex-layout.row#getSupport": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#getSupport",
+      "rich-text#getSupport"
+    ]
+  },
+  "image#getSupport": {
+    "props": {
+      "src": "assets/website.svg"
+    }
+  },
+  "rich-text#getSupport": {
+    "props": {
+      "blockClass": "supportOption",
+      "font": {
+        "desktop": "t-small",
+        "mobile": "body"
       },
-      "product-identifier.product": {
-        "props": {
-          "blockClass": "noMargin",
-          "idField": "skuReferenceId",
-          "label": "hide"
-        }
+      "text": "[Get support](www.google.com)"
+    }
+  },
+  "flex-layout.row#privacyPolicy": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#privacyPolicy",
+      "rich-text#privacyPolicy"
+    ]
+  },
+  "image#privacyPolicy": {
+    "props": {
+      "src": "assets/website.svg"
+    }
+  },
+  "rich-text#privacyPolicy": {
+    "props": {
+      "blockClass": "supportOption",
+      "font": {
+        "desktop": "t-small",
+        "mobile": "body"
       },
-      "flex-layout.col#supportContainer": {
-        "props": {
-          "blockClass": "productHeading",
-          "rowGap": 4,
-          "horizontalAlign": "left"
-        },
-        "children": [
-          "rich-text#support",
-          "flex-layout.col#supportOptions"
-        ]
-      },
-      "rich-text#support": {
-        "props": {
-          "blockClass": "noMargin",
-          "font": {
-            "desktop": "body",
-            "mobile": "body"
-          },
-          "text": "**Support**"
-        }
-      },
-      "flex-layout.col#supportOptions": {
-        "props": {
-          "rowGap": 4,
-          "blockClass": "supportOptions"
-        },
-        "children": [
-          "flex-layout.row#faq",
-          "flex-layout.row#documentation",
-          "flex-layout.row#website",
-          "flex-layout.row#getSupport",
-          "flex-layout.row#privacyPolicy"
-        ]
-      },
-      "flex-layout.row#faq": {
-        "props": {
-          "colGap": 4,
-          "preventHorizontalStretch": true
-        },
-        "children": [
-          "image#faq",
-          "rich-text#faq"
-        ]
-      },
-      "image#faq": {
-        "props": {
-          "blockClass": "supportImages",
-          "src": "assets/website.svg"
-        }
-      },
-      "rich-text#faq": {
-        "props": {
-          "blockClass": "supportOption",
-          "font": {
-            "desktop": "t-small",
-            "mobile": "body"
-          },
-          "text": "[FAQ](www.google.com)"
-        }
-      },
-      "flex-layout.row#documentation": {
-        "props": {
-          "colGap": 4,
-          "preventHorizontalStretch": true
-        },
-        "children": [
-          "image#documentation",
-          "rich-text#documentation"
-        ]
-      },
-      "image#documentation": {
-        "props": {
-          "src": "assets/website.svg"
-        }
-      },
-      "rich-text#documentation": {
-        "props": {
-          "blockClass": "supportOption",
-          "font": {
-            "desktop": "t-small",
-            "mobile": "body"
-          },
-          "text": "[Documentation](www.google.com)"
-        }
-      },
-      "flex-layout.row#website": {
-        "props": {
-          "colGap": 4,
-          "preventHorizontalStretch": true
-        },
-        "children": [
-          "image#website",
-          "rich-text#website"
-        ]
-      },
-      "image#website": {
-        "props": {
-          "src": "assets/website.svg"
-        }
-      },
-      "rich-text#website": {
-        "props": {
-          "blockClass": "supportOption",
-          "font": {
-            "desktop": "t-small",
-            "mobile": "body"
-          },
-          "text": "[Website](www.google.com)"
-        }
-      },
-      "flex-layout.row#getSupport": {
-        "props": {
-          "colGap": 4,
-          "preventHorizontalStretch": true
-        },
-        "children": [
-          "image#getSupport",
-          "rich-text#getSupport"
-        ]
-      },
-      "image#getSupport": {
-        "props": {
-          "src": "assets/website.svg"
-        }
-      },
-      "rich-text#getSupport": {
-        "props": {
-          "blockClass": "supportOption",
-          "font": {
-            "desktop": "t-small",
-            "mobile": "body"
-          },
-          "text": "[Get support](www.google.com)"
-        }
-      },
-      "flex-layout.row#privacyPolicy": {
-        "props": {
-          "colGap": 4,
-          "preventHorizontalStretch": true
-        },
-        "children": [
-          "image#privacyPolicy",
-          "rich-text#privacyPolicy"
-        ]
-      },
-      "image#privacyPolicy": {
-        "props": {
-          "src": "assets/website.svg"
-        }
-      },
-      "rich-text#privacyPolicy": {
-        "props": {
-          "blockClass": "supportOption",
-          "font": {
-            "desktop": "t-small",
-            "mobile": "body"
-          },
-          "text": "[Privacy policy](www.google.com)"
-        }
-      }
+      "text": "[Privacy policy](www.google.com)"
+    }
+  }
 }

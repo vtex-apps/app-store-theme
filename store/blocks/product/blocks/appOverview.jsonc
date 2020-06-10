@@ -1,7 +1,7 @@
 {
   "flex-layout.col#appOverview": {
     "props": {
-      "rowGap": 4,
+      "rowGap": 5,
       "preventVerticalStretch": true
     },
     "children": [
@@ -11,13 +11,17 @@
   },
   "rich-text#appOverviewHeader": {
     "props": {
-        "blockClass": "specificationName",
-        "text": "**Overview**",
-        "htmlId": "overview",
-        "font": "**t-heading-5**"
-      }
+      "blockClass": "specificationName",
+      "text": "**Overview**",
+      "htmlId": "overview",
+      "font": "**t-heading-5**"
+    }
   },
   "flex-layout.row#appOverviewContent": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "colGap": 8
+    },
     "children": [
       "product-specification-badges#overview",
       "product-images#overview"
@@ -37,6 +41,7 @@
   },
   "product-images#overview": {
     "props": {
+      "blockClass": "video",
       "contentType": "videos",
       "zoomMode": "disabled"
     }

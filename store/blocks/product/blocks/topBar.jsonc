@@ -13,7 +13,7 @@
     ]
   },
   "flex-layout.row#topBarReview": {
-    "props":{
+    "props": {
       "blockClass": "header",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
@@ -36,7 +36,7 @@
   },
   "product-name": {
     "props": {
-      "blockClass": "appName" 
+      "blockClass": "appName"
     }
   },
   "flex-layout.row#CategoryAndSeller": {
@@ -53,7 +53,7 @@
   },
   "rich-text#separator": {
     "props": {
-      "blockClass": "noMarginAndPadding",
+      "blockClass": "dot",
       "text": "&middot;",
       "textColor": "c-muted-2"
     }
