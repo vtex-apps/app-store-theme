@@ -8,7 +8,14 @@
     "children": [
       "flex-layout.col#appOverview",
       "flex-layout.col#appFeatures",
-      "flex-layout.col#appScreenshots"
+      "flex-layout.col#appScreenshots",
+      "product-reviews#reviews"
     ]
+  },
+  "product-reviews#reviews": {
+    "props": {
+      "blockClass": "reviews",
+      "htmlId": "reviews"
+    }
   }
 }

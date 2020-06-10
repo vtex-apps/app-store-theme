@@ -23,17 +23,11 @@
       "blockClass": "pdpContainer",
       "marginRight": 0,
       "preventHorizontalStretch": true,
-      "rowGap": 7
+      "rowGap": 8
     },
     "children": [
       "flex-layout.col#topBar",
-      "flex-layout.col#specifications",
-      "product-reviews"
+      "flex-layout.col#specifications"
     ]
-  },
-  "product-reviews": {
-    "props": {
-      "htmlId": "reviews"
-    }
   }
 }

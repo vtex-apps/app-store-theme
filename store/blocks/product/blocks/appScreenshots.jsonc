@@ -1,19 +1,34 @@
 {
   "flex-layout.col#appScreenshots": {
     "props": {
-      "rowGap": 4,
-      "preventVerticalStretch": true
+      "rowGap": 5,
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
     },
     "children": [
-      "rich-text#appScreenshotsHeader"
+      "rich-text#appScreenshotsHeader",
+      "product-images#screenshots"
     ]
   },
   "rich-text#appScreenshotsHeader": {
     "props": {
-        "blockClass": "specificationName",
-        "text": "**Screenshots**",
-        "htmlId": "screenshots",
-        "font": "**t-heading-5**"
-      }
+      "blockClass": "specificationName",
+      "text": "**Screenshots**",
+      "htmlId": "screenshots",
+      "font": "**t-heading-5**"
+    }
+  },
+  "product-images#screenshots": {
+    "props": {
+      "blockClass": "screenshots",
+      "thumbnailsOrientation": "horizontal",
+      "hiddenImages": [
+        "logoOld",
+        "logo"
+      ],
+      "contentType": "images",
+      "thumbnailMaxHeight": true,
+      "showNavigationArrows": true
+    }
   }
 }
