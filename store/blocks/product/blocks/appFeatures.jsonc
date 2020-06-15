@@ -13,8 +13,7 @@
     "props": {
       "blockClass": "specificationName",
       "htmlId": "features",
-      "text": "**Features**",
-      "font": "**t-heading-5**"
+      "text": "**Features**"
     }
   },
   "product-specification-badges#features": {

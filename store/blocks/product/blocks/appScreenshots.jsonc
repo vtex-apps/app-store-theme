@@ -14,8 +14,7 @@
     "props": {
       "blockClass": "specificationName",
       "text": "**Screenshots**",
-      "htmlId": "screenshots",
-      "font": "**t-heading-5**"
+      "htmlId": "screenshots"
     }
   },
   "product-images#screenshots": {

@@ -13,8 +13,7 @@
     "props": {
       "blockClass": "specificationName",
       "text": "**Overview**",
-      "htmlId": "overview",
-      "font": "**t-heading-5**"
+      "htmlId": "overview"
     }
   },
   "flex-layout.row#appOverviewContent": {
