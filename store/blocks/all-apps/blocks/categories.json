@@ -1,7 +1,7 @@
 {
   "rich-text#payment": {
     "props": {
-      "blockClass": "noMargin",
+      "blockClass": "categories",
       "font": "t-heading-3",
       "textPosition": "LEFT",
       "text": "Payment and Security"
@@ -9,7 +9,7 @@
   },
   "rich-text#accounting": {
     "props": {
-      "blockClass": "noMargin",
+      "blockClass": "categories",
       "font": "t-heading-3",
       "textPosition": "LEFT",
       "text": "Accounting and Finance"
@@ -17,7 +17,7 @@
   },
   "rich-text#marketing": {
     "props": {
-      "blockClass": "noMargin",
+      "blockClass": "categories",
       "font": "t-heading-3",
       "textPosition": "LEFT",
       "text": "Marketing and Social Media"
@@ -25,7 +25,7 @@
   },
   "rich-text#shipping": {
     "props": {
-      "blockClass": "noMargin",
+      "blockClass": "categories",
       "font": "t-heading-3",
       "textPosition": "LEFT",
       "text": "Shipping and Fulfillment"

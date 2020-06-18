@@ -5,3 +5,12 @@
 .wrapper--allAppsBottomRight {
   color: #f71963;
 }
+
+.wrapper--categories {
+  margin: 3rem 0 0 0;
+}
+
+.paragraph--categories {
+  margin: 0;
+  padding: 0;
+}
