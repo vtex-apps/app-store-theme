@@ -17,7 +17,8 @@
       "height": "auto",
       "width": "auto",
       "src": "assets/earnMoney.png",
-      "blockClass": "earnMoney"
+      "blockClass": "earnMoney",
+      "height": "100%"
     }
   },
   "flex-layout.col#all-apps-earn-money": {
