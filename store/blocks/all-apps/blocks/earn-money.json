@@ -17,7 +17,7 @@
       "height": "auto",
       "width": "auto",
       "src": "assets/earnMoney.png",
-      "blockClass": "bottomCards"
+      "blockClass": "earnMoney"
     }
   },
   "flex-layout.col#all-apps-earn-money": {

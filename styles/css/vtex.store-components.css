@@ -2,3 +2,7 @@
   background-color: white;
   max-width: unset;
 }
+
+.imageElement--earnMoney {
+  border-radius: 0.5rem;
+}
