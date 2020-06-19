@@ -46,7 +46,7 @@
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
-        "size": "regular"
+        "size": "large"
       }
     }
   }

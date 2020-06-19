@@ -54,7 +54,8 @@
   "flex-layout.row#testimonyallapps": {
     "props": {
       "blockClass": "testimonyAllApps",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.col#testimonyallappscolImg",

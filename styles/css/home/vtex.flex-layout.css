@@ -51,7 +51,7 @@
 }
 
 .flexCol--categoryCard {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   height: 8rem;
 }
 

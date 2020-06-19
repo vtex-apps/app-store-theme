@@ -6,9 +6,7 @@
 
 @media(min-width: 600px){
   .link--allAppsEarnMoney {
-    height: 5.5rem;
-    font-size: 1.5rem;
-    border: 0;
+    padding: 1.2rem 0;
     background-color: #DD1659;
   }
 }
