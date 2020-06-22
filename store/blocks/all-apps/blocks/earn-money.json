@@ -11,31 +11,39 @@
       "flex-layout.col#all-apps-earn-money"
     ]
   },
-
   "image#all-apps-earn-money": {
     "props": {
-      "height": "auto",
       "width": "auto",
       "src": "assets/earnMoney.png",
-      "blockClass": "earnMoney",
-      "height": "100%"
+      "blockClass": "earnMoney"
     }
   },
   "flex-layout.col#all-apps-earn-money": {
     "props": {
       "blockClass": "allAppsEarnMoney"
     },
-    "children": ["rich-text#all-apps-earn-money", "link#all-apps-earn-money"]
+    "children": ["flex-layout.row#earn-money-text", "link#all-apps-earn-money"]
+  },
+  "flex-layout.row#earn-money-text": {
+    "props": {
+      "blockClass": "earnMoneyText"
+    },
+    "children": ["rich-text#all-apps-earn-money"]
   },
   "rich-text#all-apps-earn-money": {
     "props": {
       "text": "Earn money by selling 3rd party apps",
       "font": {
-        "phone": "t-heading-5",
+        "phone": "t-heading-4",
         "desktop": "t-heading-1",
-        "tablet": "t-heading-1"
+        "tablet": "t-heading-3"
       },
-      "blockClass": ["bottomCardsBody", "noMargin", "rightPositioned"]
+      "blockClass": [
+        "bottomCardsBody",
+        "noMargin",
+        "rightPositioned",
+        "noLineHeight"
+      ]
     }
   },
 
