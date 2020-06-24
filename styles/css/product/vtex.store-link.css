@@ -1,0 +1,13 @@
+.label--supportOption {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.013rem;
+  line-height: 0.875rem;
+  font-size: 0.875rem;
+}
+
+.link--supportOption {
+  cursor: pointer;
+  text-decoration: none;
+  color: #134CD8;
+}
