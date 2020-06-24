@@ -117,23 +117,20 @@
     },
     "children": [
       "image#faq",
-      "rich-text#faq"
+      "link.product#faq"
     ]
   },
   "image#faq": {
     "props": {
       "blockClass": "supportImages",
-      "src": "assets/website.svg"
+      "src": "assets/faq.svg"
     }
   },
-  "rich-text#faq": {
+  "link.product#faq": {
     "props": {
       "blockClass": "supportOption",
-      "font": {
-        "desktop": "t-small",
-        "mobile": "body"
-      },
-      "text": "[FAQ](www.google.com)"
+      "href": "{specificationGroups.App Data.specifications.faqURL}",
+      "label": "FAQ"
     }
   },
   "flex-layout.row#documentation": {
@@ -143,22 +140,19 @@
     },
     "children": [
       "image#documentation",
-      "rich-text#documentation"
+      "link.product#documentation"
     ]
   },
   "image#documentation": {
     "props": {
-      "src": "assets/website.svg"
+      "src": "assets/documentation.svg"
     }
   },
-  "rich-text#documentation": {
+  "link.product#documentation": {
     "props": {
       "blockClass": "supportOption",
-      "font": {
-        "desktop": "t-small",
-        "mobile": "body"
-      },
-      "text": "[Documentation](www.google.com)"
+      "href": "{specificationGroups.App Data.specifications.documentationURL}",
+      "label": "Documentation"
     }
   },
   "flex-layout.row#website": {
@@ -168,7 +162,7 @@
     },
     "children": [
       "image#website",
-      "rich-text#website"
+      "link.product#website"
     ]
   },
   "image#website": {
@@ -176,14 +170,11 @@
       "src": "assets/website.svg"
     }
   },
-  "rich-text#website": {
+  "link.product#website": {
     "props": {
       "blockClass": "supportOption",
-      "font": {
-        "desktop": "t-small",
-        "mobile": "body"
-      },
-      "text": "[Website](www.google.com)"
+      "href": "{specificationGroups.App Data.specifications.websiteURL}",
+      "label": "Website"
     }
   },
   "flex-layout.row#getSupport": {
@@ -193,22 +184,19 @@
     },
     "children": [
       "image#getSupport",
-      "rich-text#getSupport"
+      "link.product#getSupport"
     ]
   },
   "image#getSupport": {
     "props": {
-      "src": "assets/website.svg"
+      "src": "assets/support.svg"
     }
   },
-  "rich-text#getSupport": {
+  "link.product#getSupport": {
     "props": {
       "blockClass": "supportOption",
-      "font": {
-        "desktop": "t-small",
-        "mobile": "body"
-      },
-      "text": "[Get support](www.google.com)"
+      "href": "{specificationGroups.App Data.specifications.supportURL}",
+      "label": "Get support"
     }
   },
   "flex-layout.row#privacyPolicy": {
@@ -218,22 +206,19 @@
     },
     "children": [
       "image#privacyPolicy",
-      "rich-text#privacyPolicy"
+      "link.product#privacyPolicy"
     ]
   },
   "image#privacyPolicy": {
     "props": {
-      "src": "assets/website.svg"
+      "src": "assets/policy.svg"
     }
   },
-  "rich-text#privacyPolicy": {
+  "link.product#privacyPolicy": {
     "props": {
       "blockClass": "supportOption",
-      "font": {
-        "desktop": "t-small",
-        "mobile": "body"
-      },
-      "text": "[Privacy policy](www.google.com)"
+      "href": "{specificationGroups.App Data.specifications.privacyURL}",
+      "label": "Privacy policy"
     }
   }
 }

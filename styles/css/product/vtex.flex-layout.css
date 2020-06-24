@@ -33,10 +33,6 @@
   justify-content: space-between;
 }
 
-/* .flexRow--reviewRight {
-    align-items: center;
-  } */
-
 .flexRow--brand {
   display: flex;
   align-items: center;
