@@ -14,7 +14,8 @@
         "phone": 1
       },
       "showNavigationArrows": "never",
-      "showPaginationDots": "never"
+      "showPaginationDots": "never",
+      "blockClass": "borderBottom"
     },
     "children": [
       "flex-layout.row#all-apps-highlight-1",

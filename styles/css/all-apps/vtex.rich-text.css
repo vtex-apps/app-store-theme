@@ -19,6 +19,13 @@
   line-height: unset;
 }
 
-.paragraph--bigTitle {
-  font-size: 4rem;
+.container--categories {
+  padding-bottom: 1rem
 }
+
+@media(min-width: 600px){
+  .paragraph--bigTitle {
+    font-size: 4rem;
+  }
+}
+
