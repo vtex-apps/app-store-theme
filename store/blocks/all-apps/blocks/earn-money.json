@@ -42,7 +42,8 @@
         "bottomCardsBody",
         "noMargin",
         "rightPositioned",
-        "noLineHeight"
+        "noLineHeight",
+        "bigTitle"
       ]
     }
   },

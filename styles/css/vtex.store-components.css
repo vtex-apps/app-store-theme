@@ -1,6 +1,9 @@
 .searchBarContainer {
-  background-color: white;
   max-width: unset;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  background-color: white;
 }
 
 .imageElement--earnMoney {

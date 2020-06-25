@@ -18,3 +18,7 @@
 .paragraph--noLineHeight {
   line-height: unset;
 }
+
+.paragraph--bigTitle {
+  font-size: 4rem;
+}

@@ -41,6 +41,9 @@
     "blocks": ["search-result-layout.desktop#payment"]
   },
   "search-result-layout.desktop#payment": {
+    "props": {
+      "blockClass": "borderBottom"
+    },
     "children": ["search-content#payment"]
   },
   "search-content#payment": {
@@ -65,6 +68,9 @@
     "blocks": ["search-result-layout.desktop#accounting"]
   },
   "search-result-layout.desktop#accounting": {
+    "props": {
+      "blockClass": "borderBottom"
+    },
     "children": ["search-content#accounting"]
   },
   "search-content#accounting": {
@@ -89,6 +95,9 @@
     "blocks": ["search-result-layout.desktop#marketing"]
   },
   "search-result-layout.desktop#marketing": {
+    "props": {
+      "blockClass": "borderBottom"
+    },
     "children": ["search-content#marketing"]
   },
   "search-content#marketing": {
@@ -113,6 +122,9 @@
     "blocks": ["search-result-layout.desktop#shipping"]
   },
   "search-result-layout.desktop#shipping": {
+    "props": {
+      "blockClass": "lastPadding"
+    },
     "children": ["search-content#shipping"]
   },
   "search-content#shipping": {

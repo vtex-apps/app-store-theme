@@ -1,0 +1,8 @@
+.searchResultContainer--borderBottom {
+  border-bottom: 1px solid #cacbcc;
+  padding-bottom: 4rem;
+}
+
+.searchResultContainer--lastPadding {
+  padding-bottom: 4rem;
+}
