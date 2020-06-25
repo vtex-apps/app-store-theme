@@ -1,5 +1,7 @@
 .searchBarContainer {
   max-width: unset;
+  height: 80px;
+  padding-top: 0.5rem;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input),
