@@ -2,7 +2,8 @@
   max-width: unset;
 }
 
-.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+.searchBarContainer :global(.vtex-styleguide-9-x-input),
+.searchBarContainer :global(.vtex-input__prefix) {
   background-color: white;
 }
 

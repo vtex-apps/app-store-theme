@@ -40,7 +40,9 @@
   },
   "search-bar#all-apps": {
     "props": {
-      "blockClass": "allApps"
+      "blockClass": "allApps",
+      "placeholder": "Search an app",
+      "hasIconLeft": true
     }
   },
   "flex-layout.row#banners": {
