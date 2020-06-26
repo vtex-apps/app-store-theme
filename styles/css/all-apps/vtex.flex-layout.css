@@ -8,6 +8,7 @@
   box-sizing: border-box;
   border-radius: 8px;
   height: 100%;
+  display: flex;
 }
 
 .flexCol--allAppsLeftCol {
@@ -60,10 +61,6 @@
 .flexRow--dark {
   width: 100%;
   background: #25354d;
-}
-
-.flexCol--testimonyAllApps {
-  margin-top: 2rem;
 }
 
 .flexColChild--allAppsFindAgencies, .flexColChild--allAppsDiscovery {

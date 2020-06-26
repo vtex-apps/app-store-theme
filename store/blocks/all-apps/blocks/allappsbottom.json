@@ -6,7 +6,17 @@
     "children": ["flex-layout.col#all-apps-bottom-col"]
   },
   "responsive-layout.tablet#all-apps": {
-    "children": ["flex-layout.col#all-apps-bottom-col"]
+    "children": ["flex-layout.col#all-apps-bottom-tablet"]
+  },
+  "flex-layout.col#all-apps-bottom-tablet": {
+    "props": {
+      "rowGap": "4"
+    },
+    "children": [
+      "flex-layout.row#all-apps-earn-money",
+      "flex-layout.row#testimonyallapps",
+      "flex-layout.row#all-apps-two"
+    ]
   },
   "flex-layout.col#all-apps-bottom-col": {
     "props": {
