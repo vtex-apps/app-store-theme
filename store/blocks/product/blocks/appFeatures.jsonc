@@ -1,0 +1,31 @@
+{
+  "flex-layout.col#appFeatures": {
+    "props": {
+      "rowGap": 5,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#appFeaturesHeader",
+      "product-specification-badges#features"
+    ]
+  },
+  "rich-text#appFeaturesHeader": {
+    "props": {
+      "blockClass": "specificationName",
+      "htmlId": "features",
+      "text": "**Features**"
+    }
+  },
+  "product-specification-badges#features": {
+    "props": {
+      "blockClass": "specificationValue",
+      "specificationGroupName": "App Data",
+      "specificationsOptions": [
+        {
+          "displayValue": "SPECIFICATION_VALUE",
+          "specificationName": "features"
+        }
+      ]
+    }
+  }
+}

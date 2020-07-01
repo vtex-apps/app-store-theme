@@ -1,0 +1,25 @@
+.summaryContainer--rating {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  color: #f2c94c
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+
+.reviewsHeading {
+  margin-top: 0;
+  font-size: 1.313rem;
+  color: #3F3F40;
+  font-weight: 500;
+  letter-spacing: -0.013rem;
+  line-height: 1.625rem;
+  border: none;
+}

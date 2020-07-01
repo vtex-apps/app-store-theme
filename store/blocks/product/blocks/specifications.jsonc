@@ -1,0 +1,21 @@
+{
+  "flex-layout.col#specifications": {
+    "props": {
+      "blockClass": "specifications",
+      "rowGap": 8,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#appOverview",
+      "flex-layout.col#appFeatures",
+      "flex-layout.col#appScreenshots",
+      "product-reviews#reviews"
+    ]
+  },
+  "product-reviews#reviews": {
+    "props": {
+      "blockClass": "reviews",
+      "htmlId": "reviews"
+    }
+  }
+}

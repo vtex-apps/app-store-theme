@@ -1,0 +1,48 @@
+.productImage--productLogo {
+  border-radius: 0.25rem;
+  border: 1px solid #E3E4E6;
+  background-color: white;
+}
+
+.productImagesContainer--screenshots {
+  width: 696px;
+  border-radius: 8px;
+  background-color: #F2F4F5;
+}
+
+.carouselGaleryThumbs--screenshots {
+  display: none;
+}
+
+.productBrand--appName {
+  font-size: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.013rem;
+}
+
+.productBrandName--partnerName {
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+  color: #727273;
+  letter-spacing: -0.013rem;
+}
+
+.productBrandContainer--brand {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.carrouselContainer--video {
+  height: 100%;
+} 
+
+.productImagesContainer--video {
+  width: 324px;
+}
+

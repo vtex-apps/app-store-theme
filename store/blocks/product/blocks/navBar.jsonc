@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#navBar": {
+    "props": {
+      "blockClass": "navBar",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colGap": 0
+    },
+    "children": [
+      "rich-text#overview",
+      "rich-text#features",
+      "rich-text#pricing",
+      "rich-text#screenshots",
+      "rich-text#reviews"
+    ]
+  },
+  "rich-text#overview": {
+    "props": {
+      "blockClass": "navBarItem",
+      "font": "t-small",
+      "text": "[Overview](#overview)"
+    }
+  },
+  "rich-text#features": {
+    "props": {
+      "blockClass": "navBarItem",
+      "font": "t-small",
+      "text": "[Features](#features)"
+    }
+  },
+  "rich-text#pricing": {
+    "props": {
+      "blockClass": "navBarItem",
+      "font": "t-small",
+      "text": "[Pricing](#pricing)"
+    }
+  },
+  "rich-text#screenshots": {
+    "props": {
+      "blockClass": "navBarItem",
+      "font": "t-small",
+      "text": "[Screenshots](#screenshots)"
+    }
+  },
+  "rich-text#reviews": {
+    "props": {
+      "blockClass": "navBarItem",
+      "font": "t-small",
+      "text": "[Reviews](#reviews)"
+    }
+  }
+}

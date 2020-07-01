@@ -1,0 +1,224 @@
+{
+  "flex-layout.col#sideBar": {
+    "props": {
+      "blockClass": "sideBar",
+      "preventVerticalStretch": true,
+      "rowGap": 6
+    },
+    "children": [
+      "product-images#productLogo",
+      "flex-layout.col#partnerContainer",
+      "flex-layout.col#versionContainer",
+      "flex-layout.col#supportContainer"
+    ]
+  },
+  "product-images#productLogo": {
+    "props": {
+      "hiddenImages": [
+        "logoOld",
+        "screenshot"
+      ],
+      "contentType": "images",
+      "blockClass": "productLogo",
+      "zoomMode": "disabled"
+    }
+  },
+  "flex-layout.col#partnerContainer": {
+    "props": {
+      "blockClass": "productHeading",
+      "rowGap": 1
+    },
+    "children": [
+      "rich-text#partner",
+      "product-brand#partnerName"
+    ]
+  },
+  "rich-text#partner": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
+      },
+      "text": "**Partner**"
+    }
+  },
+  "product-brand#partnerName": {
+    "props": {
+      "blockClass": "partnerName",
+      "displayMode": "text"
+    }
+  },
+  "flex-layout.col#versionContainer": {
+    "props": {
+      "blockClass": "productHeading",
+      "rowGap": 1
+    },
+    "children": [
+      "rich-text#version",
+      "product-identifier.product#version"
+    ]
+  },
+  "rich-text#version": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
+      },
+      "text": "**Latest version**"
+    }
+  },
+  "product-identifier.product#version": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "idField": "skuReferenceId",
+      "label": "hide"
+    }
+  },
+  "flex-layout.col#supportContainer": {
+    "props": {
+      "blockClass": "productHeading",
+      "rowGap": 4,
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#support",
+      "flex-layout.col#supportOptions"
+    ]
+  },
+  "rich-text#support": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
+      },
+      "text": "**Support**"
+    }
+  },
+  "flex-layout.col#supportOptions": {
+    "props": {
+      "rowGap": 4,
+      "blockClass": "supportOptions"
+    },
+    "children": [
+      "flex-layout.row#faq",
+      "flex-layout.row#documentation",
+      "flex-layout.row#website",
+      "flex-layout.row#getSupport",
+      "flex-layout.row#privacyPolicy"
+    ]
+  },
+  "flex-layout.row#faq": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#faq",
+      "link.product#faq"
+    ]
+  },
+  "image#faq": {
+    "props": {
+      "blockClass": "supportImages",
+      "src": "assets/faq.svg"
+    }
+  },
+  "link.product#faq": {
+    "props": {
+      "blockClass": "supportOption",
+      "href": "{specificationGroups.App Data.specifications.faqURL}",
+      "label": "FAQ"
+    }
+  },
+  "flex-layout.row#documentation": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#documentation",
+      "link.product#documentation"
+    ]
+  },
+  "image#documentation": {
+    "props": {
+      "src": "assets/documentation.svg"
+    }
+  },
+  "link.product#documentation": {
+    "props": {
+      "blockClass": "supportOption",
+      "href": "{specificationGroups.App Data.specifications.documentationURL}",
+      "label": "Documentation"
+    }
+  },
+  "flex-layout.row#website": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#website",
+      "link.product#website"
+    ]
+  },
+  "image#website": {
+    "props": {
+      "src": "assets/website.svg"
+    }
+  },
+  "link.product#website": {
+    "props": {
+      "blockClass": "supportOption",
+      "href": "{specificationGroups.App Data.specifications.websiteURL}",
+      "label": "Website"
+    }
+  },
+  "flex-layout.row#getSupport": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#getSupport",
+      "link.product#getSupport"
+    ]
+  },
+  "image#getSupport": {
+    "props": {
+      "src": "assets/support.svg"
+    }
+  },
+  "link.product#getSupport": {
+    "props": {
+      "blockClass": "supportOption",
+      "href": "{specificationGroups.App Data.specifications.supportURL}",
+      "label": "Get support"
+    }
+  },
+  "flex-layout.row#privacyPolicy": {
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#privacyPolicy",
+      "link.product#privacyPolicy"
+    ]
+  },
+  "image#privacyPolicy": {
+    "props": {
+      "src": "assets/policy.svg"
+    }
+  },
+  "link.product#privacyPolicy": {
+    "props": {
+      "blockClass": "supportOption",
+      "href": "{specificationGroups.App Data.specifications.privacyURL}",
+      "label": "Privacy policy"
+    }
+  }
+}

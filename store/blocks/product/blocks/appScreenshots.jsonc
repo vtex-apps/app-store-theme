@@ -1,0 +1,33 @@
+{
+  "flex-layout.col#appScreenshots": {
+    "props": {
+      "rowGap": 5,
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#appScreenshotsHeader",
+      "product-images#screenshots"
+    ]
+  },
+  "rich-text#appScreenshotsHeader": {
+    "props": {
+      "blockClass": "specificationName",
+      "text": "**Screenshots**",
+      "htmlId": "screenshots"
+    }
+  },
+  "product-images#screenshots": {
+    "props": {
+      "blockClass": "screenshots",
+      "thumbnailsOrientation": "horizontal",
+      "hiddenImages": [
+        "logoOld",
+        "logo"
+      ],
+      "contentType": "images",
+      "thumbnailMaxHeight": true,
+      "showNavigationArrows": true
+    }
+  }
+}

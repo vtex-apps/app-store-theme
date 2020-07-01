@@ -1,0 +1,60 @@
+.paragraph--noMarginAndPadding {
+  margin: 0;
+  padding: 0;
+}
+
+.container--navBarItem {
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  margin: 0;
+  border-bottom: 2px solid #F71963;
+}
+
+.paragraph--navBarItem {
+  margin: 0 0 0 0;
+}
+
+.link--navBarItem {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paragraph--supportOption {
+  margin: 0;
+  letter-spacing: -0.013rem;
+  line-height: 0.875rem;
+}
+
+.link--supportOption {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paragraph--specificationName {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 1.3125rem;
+  line-height: 1.625rem;
+}
+
+.strong--specificationName {
+  font-weight: 500;
+  letter-spacing: -0.013rem;
+}
+
+.strong--sideBarTitle {
+  font-weight: 500;
+  letter-spacing: -0.013rem;
+}
+
+.paragraph--sideBarTitle {
+  margin: 0;
+}
+
+.paragraph--dot {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
