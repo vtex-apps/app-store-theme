@@ -24,13 +24,13 @@
   text-align: left
 }
 
-.nameContainer--mostUsed {
+.nameContainer--defaultSearch {
   padding-top: 0;
   padding-bottom: .5rem;
   justify-content: left;
 }
 
-.container--mostUsed {
+.container--defaultSearch {
   margin-left: 0;
   margin-right: 0;
   max-width: none !important;

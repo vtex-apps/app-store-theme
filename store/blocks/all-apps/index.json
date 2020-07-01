@@ -7,7 +7,8 @@
   },
   "flex-layout.row#allapps-container": {
     "props": {
-      "blockClass": "allAppsContainer"
+      "blockClass": "allAppsContainer",
+      "paddingBottom": 10
     },
     "children": ["flex-layout.col#allapps-container"]
   },
@@ -43,30 +44,6 @@
       "blockClass": "allApps",
       "placeholder": "Search an app",
       "hasIconLeft": true
-    }
-  },
-  "flex-layout.row#banners": {
-    "props": {
-      "blockClass": "allAppsBanners",
-      "marginTop": 9,
-      "marginBottom": 8
-    },
-    "children": ["list-context.image-list#demo"]
-  },
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 720,
-      "images": [
-        {
-          "image": "https://i.imgur.com/irYHIAJ.png",
-          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
-        },
-        {
-          "image": "https://i.imgur.com/uQ7ljRk.png",
-          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
-        }
-      ]
     }
   },
   "flex-layout.row#banners": {

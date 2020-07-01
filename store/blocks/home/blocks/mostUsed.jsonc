@@ -56,7 +56,7 @@
       "font": "t-body",
       "textPosition": "RIGHT",
       "blockClass": "hideMobile",
-      "text": "[Explore all apps](www.google.com)"
+      "text": "[Explore all apps](/all-apps)"
     }
   },
   "search-result-layout.customQuery#mostUsed": { 
@@ -72,75 +72,7 @@
   },
   "search-result-layout.desktop#mostUsed": {
     "children": [
-      "search-content#mostUsed"
+      "search-content#defaultSearch"
     ]
-  },
-  "search-content#mostUsed": {
-    "blocks": [
-      "gallery#mostUsed",
-      "not-found"
-    ]
-  },
-  "gallery#mostUsed": {
-    "props": {
-      "blockClass": "mostUsed",
-      "maxItemsPerRow": {
-        "desktop": 4,
-        "tablet": 3
-      }
-    },
-    "blocks": ["product-summary.shelf#mostUsed"]
-  },
-  "product-summary.shelf#mostUsed": {
-    "props": {
-      "blockClass": "mostUsed"
-    },
-    "children": [
-      "flex-layout.row#mostUsed"
-    ]
-  },
-  "flex-layout.row#mostUsed": { 
-    "props": {
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
-    },
-    "children": [
-      "flex-layout.col#psImage",
-      "flex-layout.col#psDetails"
-    ]
-  },
-  "flex-layout.col#psImage": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "product-summary-image#mostUsed"
-    ]
-  },
-  "flex-layout.col#psDetails": {
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass": "textAlignLeft",
-      "marginLeft": 6
-    },
-    "children": [
-      "product-summary-name",
-      "product-summary-description"
-    ]
-  },
-  "product-summary-name": { 
-    "props": { 
-      "blockClass": "mostUsed"
-    }
-  },
-  "product-summary-image#mostUsed": {
-    "props": {
-      "width": {
-        "desktop": "128px"
-      },
-      "height": {
-        "desktop": "128px"
-      }
-    }
   }
 }

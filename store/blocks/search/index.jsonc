@@ -1,0 +1,14 @@
+{
+  "store.search": {
+    "blocks": [
+      "flex-layout.row#search-bar",
+      "search-result-layout"
+    ],
+    "props": { 
+      "context": { 
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    }
+  }
+}

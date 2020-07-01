@@ -98,7 +98,8 @@
     box-sizing: border-box;
     border-radius: 8px;
     max-width: 46rem;
-    padding-top: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .flexCol--categoryCard {

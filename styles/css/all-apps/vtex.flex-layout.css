@@ -9,6 +9,7 @@
   border-radius: 8px;
   height: 100%;
   display: flex;
+  padding-top: 1.5rem;
 }
 
 .flexCol--allAppsLeftCol {
@@ -69,6 +70,10 @@
 }
 
 @media (min-width: 600px) {
+  .flexRow--testimonyAllApps {
+    padding-top: 0
+  }
+
   .flexCol--allAppsEarnMoney {
     padding: 3rem 0 0 4rem;
     border-radius: 8px;

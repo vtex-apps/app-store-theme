@@ -93,6 +93,8 @@
   },
   "image#testimonyallapps": {
     "props": {
+      "width": 120,
+      "height": "auto",
       "src": "assets/testimonyPlaceholder.png",
       "blockClass": "testimonyImg"
     }
