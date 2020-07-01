@@ -1,8 +1,9 @@
 .flexRow--transparent {
   z-index: 1000;
   width: 100%;
-  position: absolute;
   top: 0;
+  background-color: #25354D;
+  padding-top: 5px;
 }
 
 .flexColChild--testimonyTextCol {
@@ -50,7 +51,7 @@
 }
 
 .flexCol--categoryCard {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   height: 8rem;
 }
 
@@ -103,5 +104,9 @@
     border-radius: 8px;
     margin-right: 2rem;
     height: 10rem;
+  }
+
+  .flexRow--hMargin {
+    margin: 0 1rem;
   }
 }

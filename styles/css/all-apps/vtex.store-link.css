@@ -1,0 +1,12 @@
+.link--allAppsEarnMoney {
+  font-size: 1rem;
+  border: 0;
+  background-color: #DD1659;
+}
+
+@media(min-width: 600px){
+  .link--allAppsEarnMoney {
+    padding: 1.2rem 0;
+    background-color: #DD1659;
+  }
+}

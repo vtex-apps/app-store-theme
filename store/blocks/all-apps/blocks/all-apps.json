@@ -1,0 +1,107 @@
+{
+  "store.custom#all-apps": {
+    "blocks": [
+      "flex-layout.row#search-bar",
+      "flex-layout.row#allapps-container"
+    ]
+  },
+  "flex-layout.row#allapps-container": {
+    "props": {
+      "blockClass": "allAppsContainer"
+    },
+    "children": ["flex-layout.col#allapps-container"]
+  },
+  "flex-layout.col#allapps-container": {
+    "children": [
+      "flex-layout.row#banners",
+      "rich-text#highlights",
+      "slider-layout#highlights",
+      "rich-text#payment",
+      "search-result-layout.customQuery#payment",
+      "rich-text#accounting",
+      "search-result-layout.customQuery#accounting",
+      "rich-text#marketing",
+      "search-result-layout.customQuery#marketing",
+      "rich-text#shipping",
+      "search-result-layout.customQuery#shipping",
+      "responsive-layout.desktop#all-apps",
+      "responsive-layout.tablet#all-apps",
+      "responsive-layout.phone#all-apps"
+    ]
+  },
+  "flex-layout.row#search-bar": {
+    "props": {
+      "blockClass": "searchBar"
+    },
+    "children": ["flex-layout.col#search-bar"]
+  },
+  "flex-layout.col#search-bar": {
+    "children": ["search-bar#all-apps"]
+  },
+  "search-bar#all-apps": {
+    "props": {
+      "blockClass": "allApps",
+      "placeholder": "Search an app",
+      "hasIconLeft": true
+    }
+  },
+  "flex-layout.row#banners": {
+    "props": {
+      "blockClass": "allAppsBanners",
+      "marginTop": 9,
+      "marginBottom": 8
+    },
+    "children": ["list-context.image-list#demo"]
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://i.imgur.com/irYHIAJ.png",
+          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
+        },
+        {
+          "image": "https://i.imgur.com/uQ7ljRk.png",
+          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#banners": {
+    "props": {
+      "marginTop": 9,
+      "marginBottom": 8
+    },
+    "children": ["list-context.image-list#demo"]
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://i.imgur.com/irYHIAJ.png",
+          "mobileImage": "https://i.imgur.com/irYHIAJ.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  }
+}
