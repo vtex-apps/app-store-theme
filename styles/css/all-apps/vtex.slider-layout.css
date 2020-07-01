@@ -1,0 +1,15 @@
+.paginationDotsContainer--carousel {
+  margin-bottom: 1rem !important;
+}
+
+.sliderLayoutContainer--borderBottom {
+  border-bottom: 1px solid #cacbcc;
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width) {
+  .paginationDotsContainer--carousel {
+    margin-bottom: 0.5rem !important;
+  }
+}

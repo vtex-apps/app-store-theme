@@ -1,0 +1,142 @@
+{
+  "rich-text#payment": {
+    "props": {
+      "blockClass": "categories",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "text": "**Payment and Security**"
+    }
+  },
+  "rich-text#accounting": {
+    "props": {
+      "blockClass": "categories",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "text": "**Accounting and Finance**"
+    }
+  },
+  "rich-text#marketing": {
+    "props": {
+      "blockClass": "categories",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "text": "**Marketing and Social Media**"
+    }
+  },
+  "rich-text#shipping": {
+    "props": {
+      "blockClass": "categories",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "text": "**Shipping and Fulfillment**"
+    }
+  },
+  "search-result-layout.customQuery#payment": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 4,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#payment"]
+  },
+  "search-result-layout.desktop#payment": {
+    "props": {
+      "blockClass": "borderBottom"
+    },
+    "children": ["search-content#payment"]
+  },
+  "search-content#payment": {
+    "blocks": ["gallery#payment", "not-found"]
+  },
+  "gallery#payment": {
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#mostUsed"]
+  },
+  "search-result-layout.customQuery#accounting": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 4,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#accounting"]
+  },
+  "search-result-layout.desktop#accounting": {
+    "props": {
+      "blockClass": "borderBottom"
+    },
+    "children": ["search-content#accounting"]
+  },
+  "search-content#accounting": {
+    "blocks": ["gallery#accounting", "not-found"]
+  },
+  "gallery#accounting": {
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#mostUsed"]
+  },
+  "search-result-layout.customQuery#marketing": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 4,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#marketing"]
+  },
+  "search-result-layout.desktop#marketing": {
+    "props": {
+      "blockClass": "borderBottom"
+    },
+    "children": ["search-content#marketing"]
+  },
+  "search-content#marketing": {
+    "blocks": ["gallery#marketing", "not-found"]
+  },
+  "gallery#marketing": {
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#mostUsed"]
+  },
+  "search-result-layout.customQuery#shipping": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 4,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#shipping"]
+  },
+  "search-result-layout.desktop#shipping": {
+    "props": {
+      "blockClass": "lastPadding"
+    },
+    "children": ["search-content#shipping"]
+  },
+  "search-content#shipping": {
+    "blocks": ["gallery#shipping", "not-found"]
+  },
+  "gallery#shipping": {
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#mostUsed"]
+  }
+}

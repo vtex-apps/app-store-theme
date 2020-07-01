@@ -1,0 +1,35 @@
+{
+  "flex-layout.col#all-apps-find-agencies": {
+    "props": {
+      "blockClass": "allAppsFindAgencies",
+      "width": "48%"
+    },
+    "children": [
+      "rich-text#all-apps-find-agencies",
+      "link#all-apps-find-agencies"
+    ]
+  },
+  "rich-text#all-apps-find-agencies": {
+    "props": {
+      "blockClass": "allAppsBottomLeft",
+      "text": "Find the best agencies to build your store.",
+      "font": {
+        "desktop": "t-heading-2",
+        "phone": "t-heading-4"
+      }
+    }
+  },
+
+  "link#all-apps-find-agencies": {
+    "props": {
+      "blockClass": "cardButton",
+      "label": "EXPLORE ALL",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "large"
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "vendor": "extensions",
   "name": "appstoretheme",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -49,6 +49,7 @@
     "vtex.store-link": "0.x",
     "vtex.seller-selector": "0.x",
     "vtex.reviews-and-ratings": "1.x"
+    "vtex.store-image": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

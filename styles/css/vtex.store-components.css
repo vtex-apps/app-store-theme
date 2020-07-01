@@ -1,0 +1,22 @@
+.searchBarContainer {
+  max-width: unset;
+  height: 80px;
+  padding-top: 0.5rem;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input),
+.searchBarContainer :global(.vtex-input__prefix) {
+  background-color: white;
+}
+
+.imageElement--earnMoney {
+  border-radius: 0.5rem;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  .imageElement--earnMoney {
+    border-radius: 0.5rem;
+    height: 100%;
+  }
+}

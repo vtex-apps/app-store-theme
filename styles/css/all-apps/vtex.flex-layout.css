@@ -1,0 +1,76 @@
+.flexRow--search {
+  background-color: white;
+  padding: 1rem 0;
+}
+
+.flexRow--testimonyAllApps {
+  background-color: #003352;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+}
+
+.flexCol--allAppsLeftCol {
+  margin-right: 1.5rem;
+}
+
+.flexRowContent--allAppsTwoTiles {
+  justify-content: space-between;
+}
+
+.flexCol--allAppsFindAgencies,
+.flexCol--allAppsDiscovery {
+  background-color: white;
+  padding: 2rem;
+}
+
+.flexCol--allAppsEarnMoney {
+  padding: 3rem 0 0 4rem;
+  border-radius: 8px;
+}
+
+.flexRow--earnMoneyText {
+  width: 50%;
+}
+
+.flexRow--allAppsBanners {
+  margin-top: 2rem;
+}
+
+.flexRow--allAppsBottom {
+  margin-top: 5rem;
+}
+
+.flexRow--allAppsContainer {
+  padding-top: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.flexCol--allAppsEarnMoney {
+  padding: 1rem 0 0 1rem;
+  border-radius: 8px;
+}
+
+.flexRow--searchBar {
+  background-color: white;
+}
+
+/** Verify it it's here */
+.flexRow--dark {
+  width: 100%;
+  background: #25354d;
+}
+
+.flexColChild--allAppsFindAgencies, .flexColChild--allAppsDiscovery {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (min-width: 600px) {
+  .flexCol--allAppsEarnMoney {
+    padding: 3rem 0 0 4rem;
+    border-radius: 8px;
+  }
+}
