@@ -7,7 +7,7 @@
   },
   "flex-layout.row#main": {
     "props": {
-      "marginTop": 8,
+      "marginTop": 4,
       "blockClass": "main"
     },
     "children": [
@@ -16,7 +16,7 @@
   },
   "flex-layout.col#main": { 
     "props": { 
-      "rowGap": 6
+      "rowGap": 9
     },
     "children": [
       "breadcrumb",
