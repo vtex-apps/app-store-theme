@@ -56,7 +56,7 @@
       "font": "t-body",
       "textPosition": "RIGHT",
       "blockClass": "hideMobile",
-      "text": "[Explore all apps](www.google.com)"
+      "text": "[Explore all apps](/all-apps)"
     }
   },
   "search-result-layout.customQuery#mostUsed": { 
