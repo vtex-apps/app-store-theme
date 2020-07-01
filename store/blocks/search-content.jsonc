@@ -1,0 +1,57 @@
+{
+  "search-content#defaultSearch": {
+    "blocks": ["gallery#defaultSearch", "not-found"]
+  },
+  "gallery#defaultSearch": {
+    "props": {
+      "blockClass": "defaultSearch",
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3
+      }
+    },
+    "blocks": ["product-summary.shelf#defaultSearch"]
+  },
+  "product-summary.shelf#defaultSearch": {
+    "props": {
+      "blockClass": "defaultSearch"
+    },
+    "children": ["flex-layout.row#defaultSearch"]
+  },
+  "flex-layout.row#defaultSearch": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.col#psImage", "flex-layout.col#psDetails"]
+  },
+  "flex-layout.col#psImage": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["product-summary-image#defaultSearch"]
+  },
+  "flex-layout.col#psDetails": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "textAlignLeft",
+      "marginLeft": 6
+    },
+    "children": ["product-summary-name", "product-summary-description"]
+  },
+  "product-summary-name": {
+    "props": {
+      "blockClass": "defaultSearch"
+    }
+  },
+  "product-summary-image#defaultSearch": {
+    "props": {
+      "width": {
+        "desktop": "128px"
+      },
+      "height": {
+        "desktop": "128px"
+      }
+    }
+  }
+}

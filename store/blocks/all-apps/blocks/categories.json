@@ -34,7 +34,7 @@
   "search-result-layout.customQuery#payment": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 4,
+        "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC"
       }
     },
@@ -44,24 +44,12 @@
     "props": {
       "blockClass": "borderBottom"
     },
-    "children": ["search-content#payment"]
-  },
-  "search-content#payment": {
-    "blocks": ["gallery#payment", "not-found"]
-  },
-  "gallery#payment": {
-    "props": {
-      "maxItemsPerRow": {
-        "desktop": 4,
-        "tablet": 3
-      }
-    },
-    "blocks": ["product-summary.shelf#mostUsed"]
+    "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#accounting": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 4,
+        "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC"
       }
     },
@@ -71,24 +59,12 @@
     "props": {
       "blockClass": "borderBottom"
     },
-    "children": ["search-content#accounting"]
-  },
-  "search-content#accounting": {
-    "blocks": ["gallery#accounting", "not-found"]
-  },
-  "gallery#accounting": {
-    "props": {
-      "maxItemsPerRow": {
-        "desktop": 4,
-        "tablet": 3
-      }
-    },
-    "blocks": ["product-summary.shelf#mostUsed"]
+    "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#marketing": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 4,
+        "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC"
       }
     },
@@ -98,24 +74,12 @@
     "props": {
       "blockClass": "borderBottom"
     },
-    "children": ["search-content#marketing"]
-  },
-  "search-content#marketing": {
-    "blocks": ["gallery#marketing", "not-found"]
-  },
-  "gallery#marketing": {
-    "props": {
-      "maxItemsPerRow": {
-        "desktop": 4,
-        "tablet": 3
-      }
-    },
-    "blocks": ["product-summary.shelf#mostUsed"]
+    "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#shipping": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 4,
+        "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC"
       }
     },
@@ -125,18 +89,6 @@
     "props": {
       "blockClass": "lastPadding"
     },
-    "children": ["search-content#shipping"]
-  },
-  "search-content#shipping": {
-    "blocks": ["gallery#shipping", "not-found"]
-  },
-  "gallery#shipping": {
-    "props": {
-      "maxItemsPerRow": {
-        "desktop": 4,
-        "tablet": 3
-      }
-    },
-    "blocks": ["product-summary.shelf#mostUsed"]
+    "children": ["search-content#defaultSearch"]
   }
 }

@@ -1,0 +1,33 @@
+.totalProducts--layout{ 
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  text-transform: none;
+}
+
+.galleryTitle--layout { 
+  margin: 0;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.gallery {
+  padding-left: 0
+}
+
+@media (max-width: 600px) {
+  .totalProducts--layout{ 
+    font-size: 1rem;
+  }
+  
+  .galleryTitle--layout { 
+    font-size: 1rem;
+  }
+}
