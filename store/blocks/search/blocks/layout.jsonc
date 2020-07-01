@@ -1,0 +1,57 @@
+{
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#searchContainer"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false
+    }
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#searchContainer"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false
+    }
+  },
+  "flex-layout.row#searchContainer": { 
+    "props": { 
+      "paddingTop": 3
+    },
+    "children": [
+      "flex-layout.col#searchContainer"
+    ]
+  },
+  "flex-layout.col#searchContainer": { 
+    "props": { 
+      "rowGap": 6
+    },
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#searchCount",
+      "search-content#defaultSearch"
+    ]
+  },
+  "flex-layout.row#searchCount": {
+    "props": { 
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["total-products.v2", "search-title.v2"]
+  },
+  "total-products.v2": { 
+    "props": { 
+      "message": "We found {recordsFiltered} {recordsFiltered, plural, one {result} other {results}} for"
+    }
+  }
+}
