@@ -17,16 +17,10 @@
 
 .flexCol--sideBar {
   width: 10rem;
+  height: fit-content;
+  position: sticky;
+  top: 1.5rem;
 }
-
-.flexCol--debug {
-  background-color: pink;
-}
-
-.flexRow--debug {
-  background-color: pink;
-}
-
 
 .flexRowContent--header {
   align-items: flex-end;
@@ -42,4 +36,8 @@
   padding-right: 3rem;
   padding-left: 3rem;
   padding-bottom: 6rem;
+}
+
+.flexRow--supportItem {
+  margin-bottom: 1rem;
 }

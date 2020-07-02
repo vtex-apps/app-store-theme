@@ -1,0 +1,18 @@
+{
+  "flex-layout.col#appPricing": {
+    "props": {
+      "rowGap": 5,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#appPricingHeader"
+    ]
+  },
+  "rich-text#appPricingHeader": {
+    "props": {
+      "blockClass": "specificationName",
+      "htmlId": "pricing",
+      "text": "**Pricing**"
+    }
+  }
+}

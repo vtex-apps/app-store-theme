@@ -17,3 +17,10 @@
   align-items: center;
   padding: 0 0 0 0;
 }
+
+.container--main {
+  padding-top: 1.3125rem;
+  padding-bottom: 1.3125rem;
+  padding-left: 13rem;
+  border-bottom: 1px solid #E3E4E6;
+}

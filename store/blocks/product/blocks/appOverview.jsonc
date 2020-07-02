@@ -19,11 +19,11 @@
   "flex-layout.row#appOverviewContent": {
     "props": {
       "preventHorizontalStretch": true,
-      "colGap": 8
+      "colGap": 0
     },
     "children": [
       "product-specification-badges#overview",
-      "product-images#overview"
+      "condition-layout.product#video"
     ]
   },
   "product-specification-badges#overview": {
@@ -37,6 +37,25 @@
         }
       ]
     }
+  },
+  "condition-layout.product#video": {
+    "children": [
+      "condition.product#video"
+    ]
+  },
+  "condition.product#video": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "verb": "contains",
+          "object": ["video"]
+        }
+      ]
+    },
+    "children": [
+      "product-images#overview"
+    ]
   },
   "product-images#overview": {
     "props": {
