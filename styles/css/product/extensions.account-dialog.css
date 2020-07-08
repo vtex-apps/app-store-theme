@@ -18,11 +18,11 @@
 
 .title {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.6;
   display: flex;
   align-items: center;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.0125rem;
 }
 
 .modalContainer :global(.vtex-styleguide-9-x-scrollBar) {
@@ -34,7 +34,7 @@
 }
 
 .dialogAction {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   display: flex;
   align-items: center;
