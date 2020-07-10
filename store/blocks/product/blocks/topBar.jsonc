@@ -112,7 +112,7 @@
     },
     "children": [
       "flex-layout.col#rating",
-      "add-to-cart-button"
+      "account-dialog"
     ]
   },
   "flex-layout.col#rating": {
