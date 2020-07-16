@@ -49,7 +49,9 @@
     "vtex.seller-selector": "0.x",
     "vtex.reviews-and-ratings": "1.x",
     "vtex.store-image": "0.x",
-    "extensions.account-dialog": "0.x"
+    "extensions.account-dialog": "0.x",
+    "vtex.condition-layout": "1.x",
+    "vtex.app-store-price": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
