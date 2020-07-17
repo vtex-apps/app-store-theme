@@ -99,19 +99,58 @@
   },
   "flex-layout.col#supportOptions": {
     "props": {
-      "rowGap": 4,
+      "rowGap": 0,
       "blockClass": "supportOptions"
     },
     "children": [
-      "flex-layout.row#faq",
-      "flex-layout.row#documentation",
+      "condition-layout.product#faq",
+      "condition-layout.product#documentation",
       "flex-layout.row#website",
       "flex-layout.row#getSupport",
       "flex-layout.row#privacyPolicy"
     ]
   },
+  "condition-layout.product#faq": {
+    "children": [
+      "condition.product#faqURL"
+    ]
+  },
+  "condition.product#faqURL": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "verb": "contains",
+          "object": ["faqURL"]
+        }
+      ]
+    },
+    "children": [
+      "flex-layout.row#faq"
+    ]
+  },
+  "condition-layout.product#documentation": {
+    "children": [
+      "condition.product#documentationURL"
+    ]
+  },
+  "condition.product#documentationURL": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "verb": "contains",
+          "object": ["documentationURL"]
+        }
+      ]
+    },
+    "children": [
+      "flex-layout.row#documentation"
+    ]
+  },
   "flex-layout.row#faq": {
     "props": {
+      "blockClass": "supportItem",
       "colGap": 4,
       "preventHorizontalStretch": true
     },
@@ -135,6 +174,7 @@
   },
   "flex-layout.row#documentation": {
     "props": {
+      "blockClass": "supportItem",
       "colGap": 4,
       "preventHorizontalStretch": true
     },
@@ -157,6 +197,7 @@
   },
   "flex-layout.row#website": {
     "props": {
+      "blockClass": "supportItem",
       "colGap": 4,
       "preventHorizontalStretch": true
     },
@@ -179,6 +220,7 @@
   },
   "flex-layout.row#getSupport": {
     "props": {
+      "blockClass": "supportItem",
       "colGap": 4,
       "preventHorizontalStretch": true
     },
@@ -201,6 +243,7 @@
   },
   "flex-layout.row#privacyPolicy": {
     "props": {
+      "blockClass": "supportItem",
       "colGap": 4,
       "preventHorizontalStretch": true
     },

@@ -8,6 +8,7 @@
     "children": [
       "flex-layout.col#appOverview",
       "flex-layout.col#appFeatures",
+      "flex-layout.col#appPricing",
       "flex-layout.col#appScreenshots",
       "product-reviews#reviews"
     ]

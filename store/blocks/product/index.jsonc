@@ -2,24 +2,29 @@
   "store.product": {
     "children": [
       "flex-layout.row#search-bar",
+      "breadcrumb#main",
       "flex-layout.row#main"
     ]
   },
+  "breadcrumb#main": {
+    "props": {
+      "blockClass": "main"
+    }
+  },
   "flex-layout.row#main": {
     "props": {
-      "marginTop": 4,
+      "marginTop": 8,
       "blockClass": "main"
     },
     "children": [
       "flex-layout.col#main"
     ]
   },
-  "flex-layout.col#main": { 
-    "props": { 
+  "flex-layout.col#main": {
+    "props": {
       "rowGap": 9
     },
     "children": [
-      "breadcrumb",
       "flex-layout.row#productContent"
     ]
   },

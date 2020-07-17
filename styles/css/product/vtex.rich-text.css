@@ -6,7 +6,11 @@
 .container--navBarItem {
   padding: 0 1.25rem 1.25rem 1.25rem;
   margin: 0;
+}
+
+.container--navBarItem:hover {
   border-bottom: 2px solid #F71963;
+  margin-bottom: -0.125rem;
 }
 
 .paragraph--navBarItem {
