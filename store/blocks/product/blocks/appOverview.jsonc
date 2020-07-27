@@ -22,20 +22,14 @@
       "colGap": 0
     },
     "children": [
-      "product-specification-badges#overview",
+      "specification-text#overview",
       "condition-layout.product#video"
     ]
   },
-  "product-specification-badges#overview": {
+  "specification-text#overview": {
     "props": {
-      "blockClass": "specificationValue",
-      "specificationGroupName": "App Data",
-      "specificationsOptions": [
-        {
-          "displayValue": "SPECIFICATION_VALUE",
-          "specificationName": "overview"
-        }
-      ]
+      "groupName": "App Data",
+      "specificationName": "overview"
     }
   },
   "condition-layout.product#video": {
@@ -49,7 +43,9 @@
         {
           "subject": "specificationProperties",
           "verb": "contains",
-          "object": ["video"]
+          "object": [
+            "video"
+          ]
         }
       ]
     },

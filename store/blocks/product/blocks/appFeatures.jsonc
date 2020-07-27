@@ -6,7 +6,7 @@
     },
     "children": [
       "rich-text#appFeaturesHeader",
-      "product-specification-badges#features"
+      "specification-list#features"
     ]
   },
   "rich-text#appFeaturesHeader": {
@@ -16,16 +16,10 @@
       "text": "**Features**"
     }
   },
-  "product-specification-badges#features": {
+  "specification-list#features": {
     "props": {
-      "blockClass": "specificationValue",
-      "specificationGroupName": "App Data",
-      "specificationsOptions": [
-        {
-          "displayValue": "SPECIFICATION_VALUE",
-          "specificationName": "features"
-        }
-      ]
+      "groupName": "App Data",
+      "specificationName": "features"
     }
   }
 }
