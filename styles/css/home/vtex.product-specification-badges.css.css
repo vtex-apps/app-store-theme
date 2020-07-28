@@ -1,0 +1,14 @@
+.badgeContainer--productSummary {
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+}
+
+.badgeText--productSummary {
+  letter-spacing: -0.013rem;
+  font-size: 1rem;
+  text-align: left !important;
+  line-height: 2rem;
+  margin: 0px;
+  padding: 0px;
+}

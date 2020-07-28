@@ -1,6 +1,9 @@
 {
   "search-content#defaultSearch": {
-    "blocks": ["gallery#defaultSearch", "not-found"]
+    "blocks": [
+      "gallery#defaultSearch",
+      "not-found"
+    ]
   },
   "gallery#defaultSearch": {
     "props": {
@@ -10,26 +13,35 @@
         "tablet": 3
       }
     },
-    "blocks": ["product-summary.shelf#defaultSearch"]
+    "blocks": [
+      "product-summary.shelf#defaultSearch"
+    ]
   },
   "product-summary.shelf#defaultSearch": {
     "props": {
       "blockClass": "defaultSearch"
     },
-    "children": ["flex-layout.row#defaultSearch"]
+    "children": [
+      "flex-layout.row#defaultSearch"
+    ]
   },
   "flex-layout.row#defaultSearch": {
     "props": {
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
     },
-    "children": ["flex-layout.col#psImage", "flex-layout.col#psDetails"]
+    "children": [
+      "flex-layout.col#psImage",
+      "flex-layout.col#psDetails"
+    ]
   },
   "flex-layout.col#psImage": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["product-summary-image#defaultSearch"]
+    "children": [
+      "product-summary-image#defaultSearch"
+    ]
   },
   "flex-layout.col#psDetails": {
     "props": {
@@ -37,11 +49,26 @@
       "blockClass": "textAlignLeft",
       "marginLeft": 6
     },
-    "children": ["product-summary-name", "product-summary-description"]
+    "children": [
+      "product-summary-name",
+      "product-specification-badges#productSummary"
+    ]
   },
   "product-summary-name": {
     "props": {
       "blockClass": "defaultSearch"
+    }
+  },
+  "product-specification-badges#productSummary": {
+    "props": {
+      "blockClass": "productSummary",
+      "specificationGroupName": "App Data",
+      "specificationsOptions": [
+        {
+          "displayValue": "SPECIFICATION_VALUE",
+          "specificationName": "headline"
+        }
+      ]
     }
   },
   "product-summary-image#defaultSearch": {

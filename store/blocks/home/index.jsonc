@@ -1,12 +1,15 @@
 {
-  "store.home": { 
+  "store.home": {
+    "parent": {
+      "header": "header#home"
+    },
     "blocks": [
       "stack-layout#cover",
       "flex-layout.row#main-container"
     ]
   },
   "flex-layout.row#main-container": {
-    "props": { 
+    "props": {
       "blockClass": "mainContainer"
     },
     "children": [
