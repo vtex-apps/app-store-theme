@@ -4,33 +4,7 @@
       "blockClass": "cover"
     },
     "children": [ 
-      "flex-layout.row#cover-image",
       "flex-layout.row#headline"
-    ]
-  },
-  "flex-layout.row#cover-image": {
-    "props": { 
-      "experimentalHideEmptyCols": true
-    },
-    "children": [
-      "responsive-layout.phone#cover-mobile",
-      "responsive-layout.tablet#cover-tablet",
-      "responsive-layout.desktop#cover-desktop"
-    ]
-  },
-  "responsive-layout.tablet#cover-tablet": { 
-    "children": [
-      "image#cover-desktop"
-    ]
-  },
-  "responsive-layout.desktop#cover-desktop": {
-    "children": [
-      "image#cover-desktop"
-    ]
-  },
-  "responsive-layout.phone#cover-mobile": {
-    "children": [
-      "image#cover-mobile"
     ]
   },
   "flex-layout.row#headline": {
@@ -50,15 +24,8 @@
       "blockClass": "headlinecover"
     },
     "children": [
-      "rich-text#store-headline",
-      "search-bar"
+      "rich-text#store-headline"
     ]
-  },
-  "search-bar": { 
-    "props": {
-      "placeholder": "Search an app",
-      "hasIconLeft": true
-    }
   },
   "image#cover-desktop": { 
     "props": { 
@@ -80,7 +47,7 @@
       },
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Evolve your store with the best apps.",
+      "text": "Accelerate time to revenue,\n using already programmed, tested, and reviewed apps.",
       "blockClass": "storeHeadline"
     }
   }

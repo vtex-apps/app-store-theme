@@ -37,7 +37,7 @@
       "blockClass": "noMargin",
       "font": "t-heading-3",
       "textPosition": "LEFT",
-      "text": "Most used apps"
+      "text": "Featured apps"
     }
   },
   "rich-text#homeShelf2": {
@@ -48,7 +48,7 @@
         "mobile": "body"
       },
       "textPosition": "LEFT",
-      "text": "Selected apps for VTEX businesses based in Brazil."
+      "text": "Evolve your store with the best apps."
     }
   },
   "rich-text#homeShelf3": {
