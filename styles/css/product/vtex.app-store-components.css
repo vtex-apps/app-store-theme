@@ -1,0 +1,14 @@
+.listItemContent {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+
+.paragraph {
+  letter-spacing: -0.013rem;
+  font-size: 1.3125rem;
+  text-align: left;
+  font-weight: 300;
+  line-height: 2rem;
+}
