@@ -1,4 +1,4 @@
-.flexRow--transparent {
+.flexRow--header {
   z-index: 1000;
   width: 100%;
   top: 0;
@@ -6,7 +6,7 @@
   padding-top: 5px;
 }
 
-.flexRow--transparentHome {
+.flexRow--transparent {
   z-index: 1000;
   width: 100%;
   top: 0;

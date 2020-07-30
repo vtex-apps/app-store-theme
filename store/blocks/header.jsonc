@@ -34,7 +34,7 @@
   },
   "flex-layout.row#header": {
     "props": {
-      "blockClass": "transparent",
+      "blockClass": "header",
       "preventHorizontalStretch": true
     },
     "children": [
@@ -67,7 +67,7 @@
   },
   "flex-layout.row#header-mobile": {
     "props": {
-      "blockClass": "transparent",
+      "blockClass": "header",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
     },
@@ -119,7 +119,7 @@
   },
   "flex-layout.row#headerhome": {
     "props": {
-      "blockClass": "transparentHome",
+      "blockClass": "transparent",
       "preventHorizontalStretch": true
     },
     "children": [
@@ -130,7 +130,7 @@
   },
   "flex-layout.row#header-mobilehome": {
     "props": {
-      "blockClass": "transparentHome",
+      "blockClass": "transparent",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
     },
