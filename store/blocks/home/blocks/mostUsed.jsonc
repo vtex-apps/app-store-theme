@@ -63,7 +63,9 @@
     "props": { 
       "querySchema": {
         "maxItemsPerPage": 8,
-        "orderByField": "OrderByTopSaleDESC"
+        "orderByField": "OrderByReleaseDateDESC",
+        "queryField": "139",
+        "mapField": "productClusterIds"
       }
     },
     "blocks": [
