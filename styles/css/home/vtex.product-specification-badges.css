@@ -4,8 +4,8 @@
 }
 
 .badgeText--productSummary {
-  letter-spacing: -0.013rem;
-  font-size: 0.5rem;
+  line-height: 0.9rem;
+  font-size: 0.8rem;
   text-align: left !important;
   margin: 0px;
   padding: 0px;

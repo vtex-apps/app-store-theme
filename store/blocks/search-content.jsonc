@@ -73,11 +73,8 @@
   },
   "product-summary-image#defaultSearch": {
     "props": {
-      "width": {
-        "desktop": "128px"
-      },
       "height": {
-        "desktop": "128px"
+        "desktop": "80px"
       }
     }
   }

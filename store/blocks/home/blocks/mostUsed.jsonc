@@ -15,7 +15,6 @@
       "verticalAlign": "bottom"
     },
     "children": [
-      "rich-text#homeShelf1",
       "rich-text#homeShelf2"
     ]
   },
@@ -31,14 +30,6 @@
     "children": [
       "rich-text#homeShelf3"
     ]
-  },
-  "rich-text#homeShelf1": {
-    "props": {
-      "blockClass": "noMargin",
-      "font": "t-heading-3",
-      "textPosition": "LEFT",
-      "text": "Featured apps"
-    }
   },
   "rich-text#homeShelf2": {
     "props": {

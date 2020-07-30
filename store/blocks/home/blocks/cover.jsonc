@@ -55,6 +55,7 @@
   },
   "image#cover-desktop": {
     "props": {
+      "height": "480px",
       "blockClass": "coverImage",
       "src": "assets/header.png"
     }
