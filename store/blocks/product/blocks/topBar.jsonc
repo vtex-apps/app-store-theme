@@ -14,7 +14,7 @@
   },
   "flex-layout.row#topBarReview": {
     "props": {
-      "blockClass": "header",
+      "blockClass": "contentHeaderPDP",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "colGap": 0

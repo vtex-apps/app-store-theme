@@ -22,7 +22,7 @@
   top: 1.5rem;
 }
 
-.flexRowContent--header {
+.flexRowContent--contentHeaderPDP {
   align-items: flex-end;
   justify-content: space-between;
 }
