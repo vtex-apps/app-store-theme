@@ -8,7 +8,8 @@
   text-align: left
 }
 
-.nameContainer--mostUsed, .nameContainer--highlights{
+.nameContainer--mostUsed,
+.nameContainer--highlights {
   padding-top: 0;
   padding-bottom: .5rem;
 }

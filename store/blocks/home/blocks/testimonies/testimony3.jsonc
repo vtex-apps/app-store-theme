@@ -19,11 +19,14 @@
       "image#testimony3"
     ]
   },
-  "flex-layout.col#testimony3colText": { 
+  "flex-layout.col#testimony3colText": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "blockClass": ["testimonyTextCol", "testimonyCol"]
+      "blockClass": [
+        "testimonyTextCol",
+        "testimonyCol"
+      ]
     },
     "children": [
       "rich-text#testimonyText3",
@@ -34,7 +37,7 @@
     "props": {
       "width": 120,
       "height": "auto",
-      "src": "assets/testimonyPlaceholder.png",
+      "src": "assets/ranieri.jpg",
       "blockClass": "testimonyImg"
     }
   },
@@ -42,20 +45,20 @@
     "props": {
       "blockClass": "testimonyBody",
       "textAlignment": "CENTER",
-      "text": "“Apps have saved us a tremendous amount of time and money.”",
-      "font": { 
+      "text": "“O Google Shopping, integrado junto à VTEX, gera 2x mais cliques do que um anúncio de texto normal.“",
+      "font": {
         "desktop": "t-heading-5",
         "mobile": "t-heading-5"
       }
     }
   },
-  "rich-text#testimonyAuthor3": { 
+  "rich-text#testimonyAuthor3": {
     "props": {
       "blockClass": "testimonyAuthor",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-6",
-      "text": "— Morgan Haynes, COO at Karm"
+      "text": "— Fernando Ranieri, Gerente em Google"
     }
   }
 }

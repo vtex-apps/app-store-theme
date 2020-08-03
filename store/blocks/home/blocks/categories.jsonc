@@ -41,13 +41,13 @@
     ]
   },
   "flex-layout.row#categoriesTitle": {
-    "props": { 
+    "props": {
       "marginTop": 8,
       "marginBottom": 9
     },
     "children": [
       "flex-layout.col#categoriesTitle1",
-      "flex-layout.col#categoriesTitle2"    
+      "flex-layout.col#categoriesTitle2"
     ]
   },
   "flex-layout.col#categoriesTitle1": {
@@ -55,7 +55,7 @@
       "verticalAlign": "middle"
     },
     "children": [
-      "rich-text#categoriesTitle"    
+      "rich-text#categoriesTitle"
     ]
   },
   "flex-layout.col#categoriesTitle2": {
@@ -77,7 +77,10 @@
   "flex-layout.col#categories1": {
     "props": {
       "verticalAlign": "middle",
-      "blockClass": ["categoryCard", "card1Color"]
+      "blockClass": [
+        "categoryCard",
+        "card1Color"
+      ]
     },
     "children": [
       "rich-text#categories1"
@@ -86,7 +89,10 @@
   "flex-layout.col#categories2": {
     "props": {
       "verticalAlign": "middle",
-      "blockClass": ["categoryCard", "card2Color"]
+      "blockClass": [
+        "categoryCard",
+        "card2Color"
+      ]
     },
     "children": [
       "rich-text#categories2"
@@ -95,7 +101,10 @@
   "flex-layout.col#categories3": {
     "props": {
       "verticalAlign": "middle",
-      "blockClass": ["categoryCard", "card3Color"]
+      "blockClass": [
+        "categoryCard",
+        "card3Color"
+      ]
     },
     "children": [
       "rich-text#categories3"
@@ -104,7 +113,10 @@
   "flex-layout.col#categories4": {
     "props": {
       "verticalAlign": "middle",
-      "blockClass": ["categoryCard", "card4Color"]
+      "blockClass": [
+        "categoryCard",
+        "card4Color"
+      ]
     },
     "children": [
       "rich-text#categories4"
@@ -113,7 +125,10 @@
   "rich-text#categoriesTitle": {
     "props": {
       "blockClass": "noMargin",
-      "font": "t-heading-3",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "body"
+      },
       "text": "Categories"
     }
   },

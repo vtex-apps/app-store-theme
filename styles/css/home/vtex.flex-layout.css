@@ -1,8 +1,16 @@
-.flexRow--transparent {
+.flexRow--header {
   z-index: 1000;
   width: 100%;
   top: 0;
   background-color: #25354D;
+  padding-top: 5px;
+}
+
+.flexRow--transparent {
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  position: absolute;
   padding-top: 5px;
 }
 
@@ -12,8 +20,8 @@
 }
 
 .flexRow--mainContainer {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .flexRow--infocardHome {
@@ -57,6 +65,7 @@
 
 .flexCol--textAlignLeft {
   text-align: left;
+  justify-content: flex-start;
 }
 
 .flexCol--card1Color {

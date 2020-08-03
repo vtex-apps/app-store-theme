@@ -1,7 +1,7 @@
 {
   "responsive-layout.desktop#testimonies": {
     "children": [
-      "slider-layout#testimonies" 
+      "slider-layout#testimonies"
     ]
   },
   "responsive-layout.tablet#testimonies": {
@@ -24,20 +24,16 @@
     "children": [
       "flex-layout.row#testimony1",
       "flex-layout.row#testimony2",
-      "flex-layout.row#testimony3",
-      "flex-layout.row#testimony4",
-      "flex-layout.row#testimony5",
-      "flex-layout.row#testimony6"
+      "flex-layout.row#testimony3"
     ]
   },
-
   /* Mobile Layout */
   "responsive-layout.phone#testimonies": {
     "children": [
       "flex-layout.row#testimoniesMobile"
     ]
   },
-  "flex-layout.row#testimoniesMobile": { 
+  "flex-layout.row#testimoniesMobile": {
     "children": [
       "flex-layout.col#testimoniesMobile"
     ]
@@ -49,10 +45,7 @@
     "children": [
       "flex-layout.row#testimony1",
       "flex-layout.row#testimony2",
-      "flex-layout.row#testimony3",
-      "flex-layout.row#testimony4",
-      "flex-layout.row#testimony5",
-      "flex-layout.row#testimony6"
+      "flex-layout.row#testimony3"
     ]
   }
 }

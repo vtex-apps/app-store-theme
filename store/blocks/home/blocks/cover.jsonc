@@ -1,15 +1,15 @@
 {
-  "stack-layout#cover": { 
-    "props": { 
+  "stack-layout#cover": {
+    "props": {
       "blockClass": "cover"
     },
-    "children": [ 
+    "children": [
       "flex-layout.row#cover-image",
       "flex-layout.row#headline"
     ]
   },
   "flex-layout.row#cover-image": {
-    "props": { 
+    "props": {
       "experimentalHideEmptyCols": true
     },
     "children": [
@@ -18,7 +18,7 @@
       "responsive-layout.desktop#cover-desktop"
     ]
   },
-  "responsive-layout.tablet#cover-tablet": { 
+  "responsive-layout.tablet#cover-tablet": {
     "children": [
       "image#cover-desktop"
     ]
@@ -34,7 +34,7 @@
     ]
   },
   "flex-layout.row#headline": {
-    "props": { 
+    "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "blockClass": "headline"
@@ -43,44 +43,38 @@
       "flex-layout.col#cover-content"
     ]
   },
-  "flex-layout.col#cover-content": { 
-    "props": { 
+  "flex-layout.col#cover-content": {
+    "props": {
       "width": "grow",
       "horizontalAlign": "center",
       "blockClass": "headlinecover"
     },
     "children": [
-      "rich-text#store-headline",
-      "search-bar"
+      "rich-text#store-headline"
     ]
   },
-  "search-bar": { 
+  "image#cover-desktop": {
     "props": {
-      "placeholder": "Search an app",
-      "hasIconLeft": true
-    }
-  },
-  "image#cover-desktop": { 
-    "props": { 
+      "height": "480px",
       "blockClass": "coverImage",
       "src": "assets/header.png"
     }
   },
-  "image#cover-mobile": { 
-    "props": { 
+  "image#cover-mobile": {
+    "props": {
       "blockClass": "coverImage",
       "src": "assets/header-mobile.png"
     }
   },
-  "rich-text#store-headline": { 
-    "props": { 
-      "font": { 
+  "rich-text#store-headline": {
+    "props": {
+      "font": {
         "desktop": "t-heading-1",
         "mobile": "t-heading-3"
       },
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Evolve your store with the best apps.",
+      "text": "Boost your business now.",
       "blockClass": "storeHeadline"
     }
   }

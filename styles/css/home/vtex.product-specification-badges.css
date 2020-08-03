@@ -1,0 +1,12 @@
+.badgeContainer--productSummary {
+  margin: 0px;
+  padding: 0px;
+}
+
+.badgeText--productSummary {
+  line-height: 0.9rem;
+  font-size: 0.8rem;
+  text-align: left !important;
+  margin: 0px;
+  padding: 0px;
+}

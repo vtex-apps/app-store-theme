@@ -1,25 +1,24 @@
 {
-  "flex-layout.row#homeShelf": { 
+  "flex-layout.row#homeShelf": {
     "props": {
       "marginTop": 9,
       "marginBottom": 8
     },
-    "children": [ 
+    "children": [
       "flex-layout.col#homeShelf1",
       "flex-layout.col#homeShelf2"
     ]
   },
-  "flex-layout.col#homeShelf1": {  
+  "flex-layout.col#homeShelf1": {
     "props": {
       "rowGap": 3,
       "verticalAlign": "bottom"
     },
     "children": [
-      "rich-text#homeShelf1",
       "rich-text#homeShelf2"
     ]
   },
-  "flex-layout.col#homeShelf2": { 
+  "flex-layout.col#homeShelf2": {
     "props": {
       "verticalAlign": "bottom"
     },
@@ -27,43 +26,37 @@
       "responsive-layout.desktop#explore"
     ]
   },
-  "responsive-layout.desktop#explore": { 
+  "responsive-layout.desktop#explore": {
     "children": [
       "rich-text#homeShelf3"
     ]
   },
-  "rich-text#homeShelf1": {
-    "props": {
-      "blockClass": "noMargin",
-      "font": "t-heading-3",
-      "textPosition": "LEFT",
-      "text": "Most used apps"
-    }
-  },
   "rich-text#homeShelf2": {
-    "props": { 
+    "props": {
       "blockClass": "noMargin",
       "font": {
         "desktop": "t-heading-4",
         "mobile": "body"
       },
       "textPosition": "LEFT",
-      "text": "Selected apps for VTEX businesses based in Brazil."
+      "text": "Evolve your store with the best apps."
     }
   },
   "rich-text#homeShelf3": {
-    "props": { 
+    "props": {
       "font": "t-body",
       "textPosition": "RIGHT",
       "blockClass": "hideMobile",
       "text": "[Explore all apps](/all-apps)"
     }
   },
-  "search-result-layout.customQuery#mostUsed": { 
-    "props": { 
+  "search-result-layout.customQuery#mostUsed": {
+    "props": {
       "querySchema": {
         "maxItemsPerPage": 8,
-        "orderByField": "OrderByTopSaleDESC"
+        "orderByField": "OrderByReleaseDateDESC",
+        "queryField": "139",
+        "mapField": "productClusterIds"
       }
     },
     "blocks": [

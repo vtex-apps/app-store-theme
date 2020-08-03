@@ -1,0 +1,16 @@
+.imageContainer {
+    height: 6rem;
+    width: 6rem;
+}
+
+.imageNormal {
+    width: 100px;
+    height: 5.5rem;
+}
+
+.productBrand {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+}
