@@ -1,26 +1,77 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
     ]
   },
-  "footer-layout.mobile": { 
+  "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-desktop"
     ]
   },
-  "flex-layout.row#footer": { 
+  "footer-layout.mobile": {
     "children": [
-      "image"
+      "flex-layout.row#footer-mobile"
     ]
   },
-  "image": {
+  "flex-layout.row#footer-desktop": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "footerContainer",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#vtex-logo",
+      "flex-layout.row#footer-info"
+    ]
+  },
+  "flex-layout.row#footer-mobile": {
+    "props": {
+      "blockClass": "footerContainer",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#vtex-logo",
+      "flex-layout.row#footer-info"
+    ]
+  },
+  "image#vtex-logo": {
+    "props": {
+      "width": 90,
+      "src": "assets/vtex-logo.svg"
+    }
+  },
+  "flex-layout.row#footer-info": {
+    "props": {
+      "colGap": 5,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "rich-text#contact",
+      "rich-text#privacy-policy"
+    ]
+  },
+  "rich-text#contact": {
+    "props": {
+      "blockClass": "footerInfo",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "body"
+      },
+      "text": "[Contato](https://www.google.com)"
+    }
+  },
+  "rich-text#privacy-policy": {
+    "props": {
+      "blockClass": "footerInfo",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "body"
+      },
+      "text": "[Política de privacidade](https://www.google.com)"
     }
   }
 }
