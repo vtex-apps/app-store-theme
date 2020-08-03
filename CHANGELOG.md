@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added 
+- Testimonies content
+- Different header to home
+- New shelf layout
+
+### Removed
+- Search of the home
+
+### Changed
+- Search result of `all-apps` and `home`
 
 ## [0.7.0] - 2020-07-30
 ### Added 
