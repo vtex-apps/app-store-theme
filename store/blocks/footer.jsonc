@@ -61,7 +61,7 @@
         "desktop": "t-heading-4",
         "mobile": "body"
       },
-      "text": "[Contato](https://www.google.com)"
+      "text": "[Contato](https://vtex.com/br-pt/contato/)"
     }
   },
   "rich-text#privacy-policy": {
@@ -71,7 +71,7 @@
         "desktop": "t-heading-4",
         "mobile": "body"
       },
-      "text": "[Política de privacidade](https://www.google.com)"
+      "text": "[Política de privacidade](https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy)"
     }
   }
 }
