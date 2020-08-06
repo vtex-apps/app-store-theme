@@ -16,3 +16,16 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+.link--categoryCard{
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+.label--categoryCard {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: -0.2px;
+  margin: 0;
+}

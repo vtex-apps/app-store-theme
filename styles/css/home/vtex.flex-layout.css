@@ -63,6 +63,10 @@
   height: 8rem;
 }
 
+.flexColChild--categoryCard {
+  text-align: center;
+}
+
 .flexCol--textAlignLeft {
   text-align: left;
   justify-content: flex-start;
