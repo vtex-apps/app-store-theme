@@ -10,6 +10,7 @@
   },
   "rich-text#review": {
     "props": {
+      "htmlId": "review",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -18,6 +19,7 @@
   },
   "rich-text#customerSupport": {
     "props": {
+      "htmlId": "customerSupport",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -26,6 +28,7 @@
   },
   "rich-text#channels": {
     "props": {
+      "htmlId": "channels",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -34,6 +37,7 @@
   },
   "rich-text#finance": {
     "props": {
+      "htmlId": "finance",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -42,6 +46,7 @@
   },
   "rich-text#omnichannel": {
     "props": {
+      "htmlId": "omnichannel",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -50,6 +55,7 @@
   },
   "rich-text#privacy": {
     "props": {
+      "htmlId": "privacy",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -58,6 +64,7 @@
   },
   "rich-text#developer": {
     "props": {
+      "htmlId": "developer",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
