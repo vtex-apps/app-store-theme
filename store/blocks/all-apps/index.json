@@ -68,10 +68,6 @@
       "images": [{
           "image": "https://i.imgur.com/irYHIAJ.png",
           "mobileImage": "https://i.imgur.com/irYHIAJ.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
     }
