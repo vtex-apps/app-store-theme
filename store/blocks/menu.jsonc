@@ -3,9 +3,7 @@
     "children": [
       "menu-item#appinstegration",
       "menu-item#becomepartner",
-      "menu-item#findagency",
-      "menu-item#faq"
-
+      "menu-item#findagency"
     ]
   },
   "menu-item#appinstegration": {
@@ -50,21 +48,6 @@
         "noFollow": false,
         "tagTitle": "Find an agency",
         "text": "FIND AN AGENCY"
-      }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
       }
     }
   }
