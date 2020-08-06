@@ -1,6 +1,7 @@
 {
   "rich-text#marketing": {
     "props": {
+      "htmlId": "marketing",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",

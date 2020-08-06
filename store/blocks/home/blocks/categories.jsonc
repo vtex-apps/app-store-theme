@@ -67,6 +67,9 @@
     ]
   },
   "flex-layout.row#categories": {
+    "props": {
+      "colGap": 7
+    },
     "children": [
       "flex-layout.col#categories1",
       "flex-layout.col#categories2",
@@ -95,7 +98,7 @@
       ]
     },
     "children": [
-      "rich-text#categories2"
+      "link#categories2"
     ]
   },
   "flex-layout.col#categories3": {
@@ -126,7 +129,7 @@
     "props": {
       "blockClass": "noMargin",
       "font": {
-        "desktop": "t-heading-4",
+        "desktop": "t-heading-5",
         "mobile": "body"
       },
       "text": "Categories"
@@ -135,27 +138,24 @@
   "rich-text#categories1": {
     "props": {
       "font": {
-        "desktop": "t-heading-3",
+        "desktop": "t-heading-5",
         "mobile": "t-heading-5"
       },
-      "text": "Marketing and affiliate programs",
+      "text": "[Marketing and affiliate programs](/all-apps#marketing)",
       "blockClass": "categoryCard"
     }
   },
-  "rich-text#categories2": {
+  "link#categories2": {
     "props": {
-      "font": {
-        "desktop": "t-heading-3",
-        "mobile": "t-heading-5"
-      },
-      "text": "Customer support and notifications",
-      "blockClass": "categoryCard"
+      "blockClass": "categoryCard",
+      "href": "/all-apps#marketing",
+      "label": "Customer support and notifications"
     }
   },
   "rich-text#categories3": {
     "props": {
       "font": {
-        "desktop": "t-heading-3",
+        "desktop": "t-heading-5",
         "mobile": "t-heading-5"
       },
       "text": "Channels",
@@ -165,7 +165,7 @@
   "rich-text#categories4": {
     "props": {
       "font": {
-        "desktop": "t-heading-3",
+        "desktop": "t-heading-5",
         "mobile": "t-heading-5"
       },
       "text": "Reviews and Analytics",
