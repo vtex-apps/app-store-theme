@@ -68,7 +68,9 @@
   },
   "flex-layout.row#categories": {
     "props": {
-      "colGap": 7
+      "preventHorizontalStretch": true,
+      "blockClass": "categoryRow" 
+      // "colGap": 7
     },
     "children": [
       "flex-layout.col#categories1",
@@ -153,14 +155,14 @@
     "props": {
       "blockClass": "categoryCard",
       "href": "/all-apps#channels",
-      "label": "Channels"
+      "label": "Marketplaces and omnichannel"
     }
   },
   "link#categories4": {
     "props": {
       "blockClass": "categoryCard",
       "href": "/all-apps#review",
-      "label": "Reviews and Analytics"
+      "label": "Reviews, ratings and analytics"
     }
   }
 }

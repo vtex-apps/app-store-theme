@@ -33,6 +33,13 @@
   }
 }
 
-.galleryItem--defaultSearch {
-  max-width: 25% !important;
+/* .galleryItem--defaultSearch {
+ 
+} */
+
+@media (min-width: 480px) {
+
+  .galleryItem--defaultSearch {
+    width: 33%;
+  }
 }

@@ -14,7 +14,7 @@
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
-      "text": "**Review and analytics**"
+      "text": "**Reviews, ratings and analytics**"
     }
   },
   "rich-text#customerSupport": {
@@ -32,7 +32,7 @@
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
-      "text": "**Channels**"
+      "text": "**Marketplaces and omnichannel**"
     }
   },
   "rich-text#finance": {
@@ -50,7 +50,7 @@
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
-      "text": "**Omnichannel and Logistics**"
+      "text": "**Logistics**"
     }
   },
   "rich-text#privacy": {
