@@ -29,3 +29,9 @@
   letter-spacing: -0.2px;
   margin: 0;
 }
+
+.link--homeShelf3 {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
