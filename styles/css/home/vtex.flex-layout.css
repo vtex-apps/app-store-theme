@@ -140,6 +140,7 @@
   .flexRow--mainContainer {
     padding-left: 10rem;
     padding-right: 10rem;
+    max-width: 88.75rem;
   }
 }
 
