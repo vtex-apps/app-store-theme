@@ -52,8 +52,9 @@
     "props": {
       "title": "VTEX logo",
       "href": "/",
-      "width": "90",
-      "url": "assets/vtex-logo.svg"
+      "width": "200",
+      "height": "40",
+      "url": "assets/logo-VTEX.png"
     }
   },
   "flex-layout.row#header-mobile": {
