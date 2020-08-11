@@ -28,7 +28,7 @@
   },
   "responsive-layout.desktop#explore": {
     "children": [
-      "rich-text#homeShelf3"
+      "link#homeShelf3"
     ]
   },
   "rich-text#homeShelf2": {
@@ -42,12 +42,11 @@
       "text": "Evolve your store with the best apps."
     }
   },
-  "rich-text#homeShelf3": {
+  "link#homeShelf3": {
     "props": {
-      "font": "t-body",
-      "textPosition": "RIGHT",
-      "blockClass": "hideMobile",
-      "text": "[Explore all apps](/all-apps)"
+      "blockClass": ["homeShelf3", "hideMobile"],
+      "href": "/all-apps",
+      "label": "Explore all apps"
     }
   },
   "search-result-layout.customQuery#mostUsed": {

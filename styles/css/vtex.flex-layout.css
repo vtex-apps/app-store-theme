@@ -1,0 +1,4 @@
+.flexRowContent--footerContainer {
+  display: flex;
+  justify-content: space-between;
+}

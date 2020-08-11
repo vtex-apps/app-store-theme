@@ -1,6 +1,7 @@
 {
   "rich-text#marketing": {
     "props": {
+      "htmlId": "marketing",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -9,14 +10,16 @@
   },
   "rich-text#review": {
     "props": {
+      "htmlId": "review",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
-      "text": "**Review and analytics**"
+      "text": "**Reviews, ratings and analytics**"
     }
   },
   "rich-text#customerSupport": {
     "props": {
+      "htmlId": "customerSupport",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -25,14 +28,16 @@
   },
   "rich-text#channels": {
     "props": {
+      "htmlId": "channels",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
-      "text": "**Channels**"
+      "text": "**Marketplaces and omnichannel**"
     }
   },
   "rich-text#finance": {
     "props": {
+      "htmlId": "finance",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -41,14 +46,16 @@
   },
   "rich-text#omnichannel": {
     "props": {
+      "htmlId": "omnichannel",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
-      "text": "**Omnichannel and Logistics**"
+      "text": "**Logistics**"
     }
   },
   "rich-text#privacy": {
     "props": {
+      "htmlId": "privacy",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",
@@ -57,6 +64,7 @@
   },
   "rich-text#developer": {
     "props": {
+      "htmlId": "developer",
       "blockClass": "categories",
       "font": "t-heading-4",
       "textPosition": "LEFT",

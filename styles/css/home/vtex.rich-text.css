@@ -4,10 +4,23 @@
 }
 
 .paragraph--categoryCard {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding-bottom: 2rem;
+  text-align: center;
   font-weight: normal;
+  color: white;
+}
+
+.container--categoryCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper--categoryCard {
+  text-align: center;
+}
+
+.link--categoryCard {
+  text-decoration: none;
   color: white;
 }
 
@@ -101,10 +114,29 @@
 */
 
 @media (min-width: 600px) {
+  .container--categoryCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper--categoryCard {
+    text-align: center;
+  }
+
+  .link--categoryCard {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+  }
+  
+
   .paragraph--categoryCard {
-    margin-left: 2rem;
+    margin: 0;
     font-weight: normal;
     color: white;
+    text-align: center;
+    padding-bottom: 0;
   }
 
   .container--testimonyBody {

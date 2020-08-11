@@ -20,8 +20,10 @@
 }
 
 .flexRow--mainContainer {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .flexRow--infocardHome {
@@ -61,6 +63,11 @@
 .flexCol--categoryCard {
   border-radius: 0.5rem;
   height: 8rem;
+}
+
+.flexColChild--categoryCard {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .flexCol--textAlignLeft {
@@ -113,11 +120,42 @@
 
   .flexCol--categoryCard {
     border-radius: 8px;
-    margin-right: 2rem;
-    height: 10rem;
+    height: 6.5rem;
   }
 
   .flexRow--hMargin {
     margin: 0 1rem;
+  }
+
+  .flexRowContent--categoryRow {
+    justify-content: space-between;
+  }
+  .flexRow--categoryRow {
+    justify-content: space-between;
+  }
+
+  .flexColChild--categoryCard {
+    width: 16.625rem;
+  }
+
+  .flexRow--mainContainer {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    max-width: 90rem;
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 600px) {
+
+  .flexRow--mainContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5.25rem;
+    padding-right: 5.25rem;
+  }
+
+  .flexColChild--categoryCard {
+    width: 16.625rem;
   }
 }

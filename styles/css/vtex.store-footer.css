@@ -1,0 +1,10 @@
+.footerLayout {
+  background-color: #142032;
+  padding: 4rem 1rem;
+}
+
+@media (min-width: 600px) {
+  .footerLayout {
+    padding: 4rem 8.1875rem;
+  }
+}

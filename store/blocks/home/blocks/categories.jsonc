@@ -67,6 +67,10 @@
     ]
   },
   "flex-layout.row#categories": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "categoryRow"
+    },
     "children": [
       "flex-layout.col#categories1",
       "flex-layout.col#categories2",
@@ -83,7 +87,7 @@
       ]
     },
     "children": [
-      "rich-text#categories1"
+      "link#categories1"
     ]
   },
   "flex-layout.col#categories2": {
@@ -95,7 +99,7 @@
       ]
     },
     "children": [
-      "rich-text#categories2"
+      "link#categories2"
     ]
   },
   "flex-layout.col#categories3": {
@@ -107,7 +111,7 @@
       ]
     },
     "children": [
-      "rich-text#categories3"
+      "link#categories3"
     ]
   },
   "flex-layout.col#categories4": {
@@ -119,57 +123,45 @@
       ]
     },
     "children": [
-      "rich-text#categories4"
+      "link#categories4"
     ]
   },
   "rich-text#categoriesTitle": {
     "props": {
       "blockClass": "noMargin",
       "font": {
-        "desktop": "t-heading-4",
+        "desktop": "t-heading-5",
         "mobile": "body"
       },
       "text": "Categories"
     }
   },
-  "rich-text#categories1": {
+  "link#categories1": {
     "props": {
-      "font": {
-        "desktop": "t-heading-3",
-        "mobile": "t-heading-5"
-      },
-      "text": "Payments\nand Security",
-      "blockClass": "categoryCard"
+      "blockClass": "categoryCard",
+      "href": "/all-apps#marketing",
+      "label": "Marketing and affiliate programs"
     }
   },
-  "rich-text#categories2": {
+  "link#categories2": {
     "props": {
-      "font": {
-        "desktop": "t-heading-3",
-        "mobile": "t-heading-5"
-      },
-      "text": "Accounting\nand Finance",
-      "blockClass": "categoryCard"
+      "blockClass": "categoryCard",
+      "href": "/all-apps#customerSupport",
+      "label": "Customer support and notifications"
     }
   },
-  "rich-text#categories3": {
+  "link#categories3": {
     "props": {
-      "font": {
-        "desktop": "t-heading-3",
-        "mobile": "t-heading-5"
-      },
-      "text": "Marketing\nand Social Media",
-      "blockClass": "categoryCard"
+      "blockClass": "categoryCard",
+      "href": "/all-apps#channels",
+      "label": "Marketplaces and omnichannel"
     }
   },
-  "rich-text#categories4": {
+  "link#categories4": {
     "props": {
-      "font": {
-        "desktop": "t-heading-3",
-        "mobile": "t-heading-5"
-      },
-      "text": "Shipping\nand Fulfillment",
-      "blockClass": "categoryCard"
+      "blockClass": "categoryCard",
+      "href": "/all-apps#review",
+      "label": "Reviews, ratings and analytics"
     }
   }
 }

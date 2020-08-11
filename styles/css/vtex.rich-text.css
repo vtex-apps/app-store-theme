@@ -1,0 +1,11 @@
+.link--footerInfo {
+    text-decoration: none;
+    line-height: 1.3125rem;
+    color: #CCCED8;
+    font-size: 0.875rem;
+}
+
+.paragraph--footerInfo {
+    margin: 0;
+    padding: 0;
+}

@@ -48,15 +48,6 @@
       "width": "grow"
     }
   },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "LOGIN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPraceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true
-    }
-  },
   "logo": {
     "props": {
       "title": "VTEX logo",
@@ -74,7 +65,6 @@
     "children": [
       "logo",
       "flex-layout.col#spacer",
-      "login",
       "drawer"
     ]
   },
@@ -137,7 +127,6 @@
     "children": [
       "logo",
       "flex-layout.col#spacer",
-      "login",
       "drawer"
     ]
   }

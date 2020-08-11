@@ -20,7 +20,7 @@
 
 .gallery {
   padding-left: 0;
-  justify-content: space-between;
+  justify-content: left;
 }
 
 @media (max-width: 600px) {
@@ -33,6 +33,9 @@
   }
 }
 
-.galleryItem--defaultSearch {
-  max-width: 20rem !important;
+@media (min-width: 480px) {
+
+  .galleryItem--defaultSearch {
+    width: 33%;
+  }
 }

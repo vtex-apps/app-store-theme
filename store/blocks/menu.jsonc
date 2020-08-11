@@ -3,9 +3,8 @@
     "children": [
       "menu-item#appinstegration",
       "menu-item#becomepartner",
-      "menu-item#findagency",
-      "menu-item#faq",
-      "login"
+      "menu-item#findagency"
+
     ]
   },
   "menu-item#appinstegration": {
@@ -30,8 +29,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "https://dashboard-network.vtex.com/be-a-partner",
         "noFollow": false,
         "tagTitle": "Become a partner",
         "text": "BECOME A PARTNER"
@@ -45,26 +44,11 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "https://store.vtex.com/en/agencias/",
         "noFollow": false,
         "tagTitle": "Find an agency",
         "text": "FIND AN AGENCY"
-      }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
       }
     }
   }
