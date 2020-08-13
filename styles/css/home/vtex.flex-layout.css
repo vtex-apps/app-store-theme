@@ -107,7 +107,7 @@
   Desktop specifics
 */
 
-@media (min-width: 600px) {
+@media (min-width: 64.1rem) {
   .flexRow--testimonyContainer {
     background-color: white;
     border: 1px solid #E3E4E6;
@@ -146,7 +146,7 @@
 }
 
 
-@media (min-width: 480px) and (max-width: 600px) {
+@media (min-width: 40rem) {
 
   .flexRow--mainContainer {
     margin-left: auto;
