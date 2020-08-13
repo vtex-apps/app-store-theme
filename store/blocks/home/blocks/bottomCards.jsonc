@@ -37,19 +37,28 @@
       "stack-layout#bottomCard3Mobile"
     ]
   },
-  "stack-layout#bottomCard1Mobile": { 
+  "stack-layout#bottomCard1Mobile": {
+    "props": {
+      "blockClass": "bottomCard1Mobile"
+    },
     "children": [
       "image#bottomCard1Mobile",
       "rich-text#bottomCardsText1Mobile"
     ]
   },
   "stack-layout#bottomCard2Mobile": { 
+    "props": {
+      "blockClass": "bottomCard1Mobile"
+    },
     "children": [
       "image#bottomCard2Mobile",
       "rich-text#bottomCardsText2Mobile"
     ]
   },
   "stack-layout#bottomCard3Mobile": { 
+    "props": {
+      "blockClass": "bottomCard1Mobile"
+    },
     "children": [
       "image#bottomCard3Mobile",
       "rich-text#bottomCardsText3Mobile"
@@ -201,8 +210,8 @@
   "rich-text#bottomCardsTitle": {
     "props": {
       "blockClass": "noMargin",
-      "text": "Everything you need to evolve with our ecosystem.",
-      "font": "t-heading-3"
+      "text": "Explore our ecosystem",
+      "font": "t-heading-4"
     }
   },
   "rich-text#bottomCardsText1": {
@@ -259,7 +268,7 @@
   },
   "rich-text#bottomCardsText3Mobile": {
     "props": {
-      "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
+      "text": "[Develop apps]()\n for global\nclients.",
       "font": { 
         "mobile": "t-heading-5"
       },

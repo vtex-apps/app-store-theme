@@ -62,6 +62,7 @@
   },
   "image#cover-mobile": {
     "props": {
+      "height": "400px",
       "blockClass": "coverImage",
       "src": "assets/header-mobile.png"
     }

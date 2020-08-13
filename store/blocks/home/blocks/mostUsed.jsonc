@@ -1,8 +1,8 @@
 {
   "flex-layout.row#homeShelf": {
     "props": {
-      "marginTop": 9,
-      "marginBottom": 8
+      "marginTop": 7,
+      "marginBottom": 6
     },
     "children": [
       "flex-layout.col#homeShelf1",
@@ -36,10 +36,10 @@
       "blockClass": "noMargin",
       "font": {
         "desktop": "t-heading-4",
-        "mobile": "body"
+        "mobile": "t-heading-4"
       },
       "textPosition": "LEFT",
-      "text": "Evolve your store with the best apps."
+      "text": "Most used apps"
     }
   },
   "link#homeShelf3": {

@@ -42,8 +42,8 @@
   },
   "flex-layout.row#categoriesTitle": {
     "props": {
-      "marginTop": 8,
-      "marginBottom": 9
+      "marginTop": 6,
+      "marginBottom": 7
     },
     "children": [
       "flex-layout.col#categoriesTitle1",
@@ -131,7 +131,7 @@
       "blockClass": "noMargin",
       "font": {
         "desktop": "t-heading-5",
-        "mobile": "body"
+        "mobile": "t-heading-4"
       },
       "text": "Categories"
     }
@@ -154,7 +154,7 @@
     "props": {
       "blockClass": "categoryCard",
       "href": "/all-apps#channels",
-      "label": "Marketplaces and omnichannel"
+      "label": "Marketplaces and channels"
     }
   },
   "link#categories4": {

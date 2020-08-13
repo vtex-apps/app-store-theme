@@ -68,10 +68,12 @@
 
 .paragraph--bottomCardsBodyMobile {
   color: white;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: 500;
+  line-height: 1.17;
+  font-size: 1.125rem;
 }
 .paragraph--bottomCardsBodyBigMobile {
   color: white;
@@ -79,7 +81,9 @@
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1.5rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  line-height: 1.17;
+  font-size: 1.125rem;
 }
 
 .link--bottomCardsBodyBig {
