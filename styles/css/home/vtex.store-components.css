@@ -24,3 +24,9 @@
   width: 100%;
   object-fit: cover;
 }
+
+@media (min-width: 40rem) {
+  .container {
+    padding: 0;
+  }
+}

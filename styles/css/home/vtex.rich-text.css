@@ -1,6 +1,7 @@
 .paragraph--storeHeadline {
   font-weight: normal;
   color: white;
+  line-height: 1.3125;
 }
 
 .paragraph--categoryCard {
