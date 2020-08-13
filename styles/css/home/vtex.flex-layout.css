@@ -95,14 +95,21 @@
   padding-bottom: 2rem;
 }
 
-.flexCol--testimonyCol {
-  /* padding-left: 2rem; */
-}
 
 .flexRow--testimonyContainer {
   padding-top: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.flexRow--homeShelf {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.flexRow--categoriesTitle {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /**
@@ -145,6 +152,16 @@
     padding-right: 10rem;
     max-width: 90rem;
   }
+
+  .flexRow--homeShelf {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .flexRow--categoriesTitle {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
 }
 
 
@@ -160,4 +177,14 @@
   .flexColChild--categoryCard {
     width: 16.625rem;
   }
+
+  .flexRow--testimonyContainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .flexCol--testimonyCol {
+    padding-left: 2rem; 
+  }
+
 }

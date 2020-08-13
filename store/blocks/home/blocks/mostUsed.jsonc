@@ -1,8 +1,7 @@
 {
   "flex-layout.row#homeShelf": {
     "props": {
-      "marginTop": 7,
-      "marginBottom": 6
+      "blockClass": "homeShelf"
     },
     "children": [
       "flex-layout.col#homeShelf1",

@@ -64,7 +64,7 @@
     "props": {
       "height": "400px",
       "blockClass": "coverImage",
-      "src": "assets/header-mobile.png"
+      "src": "assets/hero_mobile.png"
     }
   },
   "rich-text#store-headline": {

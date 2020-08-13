@@ -42,8 +42,7 @@
   },
   "flex-layout.row#categoriesTitle": {
     "props": {
-      "marginTop": 6,
-      "marginBottom": 7
+      "blockClass": "categoriesTitle"
     },
     "children": [
       "flex-layout.col#categoriesTitle1",
@@ -133,7 +132,7 @@
         "desktop": "t-heading-5",
         "mobile": "t-heading-4"
       },
-      "text": "Categories"
+      "text": "Top Categories"
     }
   },
   "link#categories1": {
