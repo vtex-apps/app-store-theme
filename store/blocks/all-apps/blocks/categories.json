@@ -135,7 +135,7 @@
   },
   "search-result-layout.desktop#channels": {
     "props": {
-      "blockClass": "lastPadding"
+      "blockClass": "borderBottom"
     },
     "children": ["search-content#defaultSearch"]
   },
@@ -152,7 +152,7 @@
   },
   "search-result-layout.desktop#finance": {
     "props": {
-      "blockClass": "lastPadding"
+      "blockClass": "borderBottom"
     },
     "children": ["search-content#defaultSearch"]
   },
@@ -203,7 +203,7 @@
   },
   "search-result-layout.desktop#developer": {
     "props": {
-      "blockClass": "borderBottom"
+      "blockClass": "lastPadding"
     },
     "children": ["search-content#defaultSearch"]
   }
