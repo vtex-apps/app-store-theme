@@ -66,18 +66,21 @@
   },
   "image#bottomCard1Mobile": {
     "props": {
+      "width": "100%",
       "height": "8rem",
       "src": "assets/bottomMobile.png"
     }
   },
   "image#bottomCard2Mobile": {
     "props": {
+      "width": "100%",
       "height": "8rem",
       "src": "assets/isaMobile.png"
     }
   },
   "image#bottomCard3Mobile": {
     "props": {
+      "width": "100%",
       "height": "8rem",
       "src": "assets/brenoMobile.png"
     }

@@ -102,6 +102,12 @@
   padding-right: 1rem;
 }
 
+.flexRowContent--testimonyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .flexRow--homeShelf {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -164,6 +170,9 @@
   }
 }
 
+/**
+  Tablet
+*/
 
 @media (min-width: 40rem) {
 

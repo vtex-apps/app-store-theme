@@ -27,8 +27,3 @@
 .container {
   padding: 0;
 }
-@media (min-width: 40rem) {
-  .container {
-    padding: 0;
-  }
-}
