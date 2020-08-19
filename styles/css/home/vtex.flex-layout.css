@@ -145,6 +145,7 @@
   .flexRowContent--categoryRow {
     justify-content: space-between;
   }
+
   .flexRow--categoryRow {
     justify-content: space-between;
   }
@@ -176,6 +177,16 @@
 
 @media (min-width: 40rem) {
 
+  .flexRow--testimonyContainer {
+    background-color: white;
+    border: 1px solid #E3E4E6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    max-width: 46rem;
+    padding: 2rem;
+    height: 100%;
+  }
+
   .flexRow--mainContainer {
     margin-left: auto;
     margin-right: auto;
@@ -187,13 +198,9 @@
     width: 16.625rem;
   }
 
-  .flexRow--testimonyContainer {
-    padding-left: 0;
-    padding-right: 0;
-  }
 
   .flexCol--testimonyCol {
-    padding-left: 2rem; 
+    /* padding-left: 2rem; */
   }
 
 }
