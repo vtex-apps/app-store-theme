@@ -8,6 +8,7 @@
 
 @media(min-width: 40rem) {
   .slide--testimoniesSlider {
+    padding: 0;
     flex-grow: column;
   }
 

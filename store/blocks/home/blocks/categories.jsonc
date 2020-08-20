@@ -6,8 +6,7 @@
   },
   "responsive-layout.tablet#categories": {
     "children": [
-      "flex-layout.row#categories-mobile-1",
-      "flex-layout.row#categories-mobile-2"
+      "flex-layout.row#categories"
     ]
   },
   "responsive-layout.phone#categories": {

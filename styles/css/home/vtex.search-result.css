@@ -15,6 +15,7 @@
 
 @media (min-width: 64rem) {
   .galleryItem--defaultSearch {
+    padding-right: 1.7rem;
     flex-basis: 33.3333% !important;
     max-width: 33.3333% !important;
   }

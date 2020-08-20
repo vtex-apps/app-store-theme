@@ -32,6 +32,10 @@
   max-width: 96rem;
 }
 
+.flexRowContent--infocardHome {
+  margin-top: 6rem;
+}
+
 .flexColChild--bottomCardsCol {
   padding-bottom: .5rem;
 }
@@ -119,13 +123,53 @@
 }
 
 /**
+  Tablet
+*/
+
+@media (min-width: 40rem) {
+
+  .flexRow--testimonyContainer {
+    box-sizing: border-box;
+    border-radius: 8px;
+    max-width: 46rem;
+    padding: 3rem;
+    height: 100%;
+  }
+
+  .flexRow--mainContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .flexColChild--categoryCard {
+    width: 16.625rem;
+  }
+
+  .flexRowContent--categoryRow {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flexColChild--categoryCard {
+    width: 9.625rem;
+  }
+
+}
+
+@media (min-width: 48.1rem) {
+  .flexColChild--categoryCard {
+    width: 13.500rem;
+  }
+}
+
+/**
   Desktop specifics
 */
 
-@media (min-width: 64.1rem) {
+@media (min-width: 80rem) {
   .flexRow--testimonyContainer {
-    background-color: white;
-    border: 1px solid #E3E4E6;
     box-sizing: border-box;
     border-radius: 8px;
     max-width: 46rem;
@@ -169,38 +213,4 @@
     margin-top: 3rem;
     margin-bottom: 4rem;
   }
-}
-
-/**
-  Tablet
-*/
-
-@media (min-width: 40rem) {
-
-  .flexRow--testimonyContainer {
-    background-color: white;
-    border: 1px solid #E3E4E6;
-    box-sizing: border-box;
-    border-radius: 8px;
-    max-width: 46rem;
-    padding: 2rem;
-    height: 100%;
-  }
-
-  .flexRow--mainContainer {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5.25rem;
-    padding-right: 5.25rem;
-  }
-
-  .flexColChild--categoryCard {
-    width: 16.625rem;
-  }
-
-
-  .flexCol--testimonyCol {
-    /* padding-left: 2rem; */
-  }
-
 }

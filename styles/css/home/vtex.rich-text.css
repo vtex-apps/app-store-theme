@@ -46,7 +46,7 @@
 .paragraph--bottomCardsBody {
   color: white;
   padding-top: 1rem;
-   /* font-size: 2rem; */
+  /* font-size: 2rem; */
   font-weight: 500;
 }
 
@@ -75,6 +75,7 @@
   line-height: 1.17;
   font-size: 1.125rem;
 }
+
 .paragraph--bottomCardsBodyBigMobile {
   color: white;
   font-weight: 500;
@@ -111,14 +112,14 @@
 
 .paragraph--testimonyAuthor {
   font-weight: normal;
-  margin-top:0;
+  margin-top: 0;
 }
 
 /**
   Desktop specifics
 */
 
-@media (min-width: 600px) {
+@media (min-width: 40rem) {
   .container--categoryCard {
     display: flex;
     align-items: center;
@@ -134,7 +135,7 @@
     color: white;
     padding: 1rem;
   }
-  
+
 
   .paragraph--categoryCard {
     margin: 0;
@@ -149,9 +150,8 @@
   }
 
   .container--testimonyAuthor {
-    text-align: left;
-    align-items: left;
-    justify-content: start;
+    display: flex;
+    justify-content: center;
     -webkit-box-pack: start;
   }
 
@@ -160,5 +160,9 @@
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 0;
+  }
+
+  .paragraph--testimonyBody {
+    text-align: center;
   }
 }
