@@ -122,6 +122,10 @@
   margin-bottom: 1.5rem;
 }
 
+.flexCol--imageContainer {
+  justify-content: flex-start;
+}
+
 /**
   Tablet
 */

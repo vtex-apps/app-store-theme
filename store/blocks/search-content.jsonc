@@ -37,6 +37,7 @@
   },
   "flex-layout.col#psImage": {
     "props": {
+      "blockClass": "imageContainer",
       "verticalAlign": "middle"
     },
     "children": [
