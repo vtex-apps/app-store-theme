@@ -36,7 +36,7 @@
 }
 
 .flexColChild--bottomCardsCol {
-  padding-bottom: .5rem;
+  padding-bottom: 0;
 }
 
 .flexCol--testimonyTextCol {
@@ -95,7 +95,7 @@
 }
 
 .flexCol--bottomCardsCol {
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 
@@ -123,6 +123,20 @@
 
 .flexCol--imageContainer {
   justify-content: flex-start;
+}
+
+.flexCol--bannerHome {
+  padding-right: 2rem;
+}
+.flexCol--bottomCards {
+  background-color: #FFF;
+}
+
+.flexCol--lastBottomCard {
+  background-color: #142032;
+}
+.flexColChild--lastBottomCard {
+  padding-bottom: 0;
 }
 
 /**
@@ -215,15 +229,5 @@
   .flexRow--categoriesTitle {
     margin-top: 3rem;
     margin-bottom: 4rem;
-  }
-  .flexCol--bannerHome {
-    padding-right: 2rem;
-  }
-  .flexCol--bottomCards {
-    background-color: #FFF;
-  }
-
-  .flexCol--lastBottomCard {
-    background-color: #142032;
   }
 }

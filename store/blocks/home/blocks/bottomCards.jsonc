@@ -106,7 +106,8 @@
   "flex-layout.row#bottomCards": {
     "props": { 
       "marginTop": 10,
-      "marginBottom": 10
+      "marginBottom": 10,
+      "preventVerticalStretch": true
     },
     "children": [
       "flex-layout.col#bottomCards"      
@@ -233,7 +234,7 @@
       "font": { 
         "phone": "t-heading-5",
         "desktop": "t-heading-4",
-        "tablet": "t-heading-3"
+        "tablet": "t-heading-5"
       },
       "blockClass": ["bottomCardsBody", "noMargin"]
     }
@@ -293,11 +294,7 @@
       "blockClass": "cardButton",
       "label": "FIND AN AGENCY",
       "href": "#",
-      "displayMode": "button",
-      "buttonProps": {
-        "variant": "primary",
-        "size": "large"
-      }
+      "displayMode": "button"
     }
   },
   "link#bottomCardsLink2": {
@@ -305,11 +302,7 @@
       "blockClass": "cardButton",
       "label": "FIND SOLUTIONS",  
       "href": "#",
-      "displayMode": "button",
-      "buttonProps": {
-        "variant": "secondary",
-        "size": "large"
-      }
+      "displayMode": "button"
     }
   },
   "link#bottomCardsLink3": {
@@ -317,11 +310,7 @@
       "blockClass": "cardButton",
       "label": "BECOME A DEVELOPER",
       "href": "#",
-      "displayMode": "button",
-      "buttonProps": {
-        "variant": "primary",
-        "size": "large"
-      }
+      "displayMode": "button"
     }
   }
 }

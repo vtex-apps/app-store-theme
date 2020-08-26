@@ -55,8 +55,9 @@
   },
   "flex-layout.col#textAndButton": {
     "props": {
+      "paddingLeft": 8,
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "left"
     },
     "children": [ 
       "rich-text#homeInforCardTitle",
@@ -67,7 +68,7 @@
   "rich-text#homeInforCardTitle": {
     "props": { 
       "blockClass": "infoCardTitle",
-      "textAlignment": "CENTER",
+      "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "text": "One click to go.",
       "font": {
@@ -78,7 +79,7 @@
   },
   "rich-text#homeInforCardBody": {
     "props": { 
-      "textAlignment": "CENTER",
+      "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "homeInfoCardBody",
       "text": "Save time and money by taking\nadvantage of apps that are\nalready **programmed, tested**\n**and reviewed**.",
@@ -90,13 +91,10 @@
   },
   "link#homeInfoCard": { 
     "props": { 
+      "blockClass": "cardButton",
       "label": "EXPLORE ALL",
       "href": "#",
-      "displayMode": "button",
-      "buttonProps": {
-        "variant": "primary",
-        "size": "large"
-      }
+      "displayMode": "button"
     }
   },
   "flex-layout.col#image": { 
