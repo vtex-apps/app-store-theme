@@ -219,4 +219,11 @@
   .flexCol--bannerHome {
     padding-right: 2rem;
   }
+  .flexCol--bottomCards {
+    background-color: #FFF;
+  }
+
+  .flexCol--lastBottomCard {
+    background-color: #142032;
+  }
 }

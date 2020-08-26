@@ -124,27 +124,37 @@
   "flex-layout.row#bottomCardsBody": {
     "props": {
       "colGap": 8,
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
     },
     "children": [
-      "stack-layout#bottomCard1",
-      "stack-layout#bottomCard2",
-      "stack-layout#bottomCard3"
+      "flex-layout.col#bottomCard1",
+      "flex-layout.col#bottomCard2",
+      "flex-layout.col#bottomCard3"
     ]
   },
-  "stack-layout#bottomCard1": {
+  "flex-layout.col#bottomCard1": {
+    "props": {
+      "blockClass": "bottomCards"
+    },
     "children": [
       "image#bottomCard1",
       "flex-layout.col#bottomCardsCard1"
     ]
   },
-  "stack-layout#bottomCard2": {
+  "flex-layout.col#bottomCard2": {
+    "props": {
+      "blockClass": "bottomCards"
+    },
     "children": [
       "image#bottomCard2",
       "flex-layout.col#bottomCardsCard2"
     ]
   },
-  "stack-layout#bottomCard3": {
+  "flex-layout.col#bottomCard3": {
+    "props": {
+      "blockClass": "lastBottomCard"
+    },
     "children": [
       "image#bottomCard3",
       "flex-layout.col#bottomCardsCard3"
@@ -154,7 +164,7 @@
     "props": {
       "height": "auto",
       "width": "auto",
-      "src": "assets/bottomCard1.png",
+      "src": "assets/newBottomCard1.jpg",
       "blockClass": "bottomCards"
     }
   },
@@ -162,7 +172,7 @@
     "props": {
       "height": "auto",
       "width": "auto",
-      "src": "assets/bottomCard2.png",
+      "src": "assets/newBottomCard2.jpg",
       "blockClass": "bottomCards"
     }
   },
@@ -170,7 +180,7 @@
     "props": {
       "height": "auto",
       "width": "auto",
-      "src": "assets/bottomCard3.png",
+      "src": "assets/newBottomCard3.jpg",
       "blockClass": "bottomCards"
     }
   },
@@ -219,13 +229,13 @@
   },
   "rich-text#bottomCardsText1": {
     "props": {
-      "text": "Find the best\n[agencies to build]()\nyour store.",
+      "text": "Find the best [agencies to build]()\nyour store.",
       "font": { 
         "phone": "t-heading-5",
-        "desktop": "t-heading-3",
+        "desktop": "t-heading-4",
         "tablet": "t-heading-3"
       },
-      "blockClass": ["bottomCardsBody", "noMargin", "rightPositioned"]
+      "blockClass": ["bottomCardsBody", "noMargin"]
     }
   },
   "rich-text#bottomCardsText2": {
@@ -233,7 +243,7 @@
       "text": "Find the best\n[solutions to grow]()\nyour business.",
       "font": { 
         "phone": "t-heading-5",
-        "desktop": "t-heading-3",
+        "desktop": "t-heading-4",
         "tablet": "t-heading-3"
       },
       "blockClass": ["bottomCardsBody", "noMargin", "leftPositioned"]
@@ -244,7 +254,7 @@
       "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
       "font": { 
         "mobile": "t-heading-5",
-        "desktop": "t-heading-2",
+        "desktop": "t-heading-4",
         "tablet": "t-heading-2"
       },
       "blockClass": ["bottomCardsBodyBig", "noMargin", "leftPositioned"]
@@ -304,7 +314,7 @@
   },
   "link#bottomCardsLink3": {
     "props": { 
-      "blockClass": "card3Link",
+      "blockClass": "cardButton",
       "label": "BECOME A DEVELOPER",
       "href": "#",
       "displayMode": "button",
