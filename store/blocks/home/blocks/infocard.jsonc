@@ -101,6 +101,7 @@
   },
   "flex-layout.col#image": { 
     "props": {
+      "blockClass": "bannerHome",
       "verticalAlign": "middle"
     },
     "children": [
@@ -109,7 +110,7 @@
   },
   "image#infoCardImage": { 
     "props": {
-      "src": "assets/home-info.png"
+      "src": "assets/banner-home.jpg"
     }
   }
 }

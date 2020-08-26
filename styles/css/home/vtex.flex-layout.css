@@ -216,4 +216,7 @@
     margin-top: 3rem;
     margin-bottom: 4rem;
   }
+  .flexCol--bannerHome {
+    padding-right: 2rem;
+  }
 }

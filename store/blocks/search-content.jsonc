@@ -75,7 +75,7 @@
   "product-summary-image#defaultSearch": {
     "props": {
       "height": {
-        "desktop": "80px"
+        "desktop": "160px"
       }
     }
   }
