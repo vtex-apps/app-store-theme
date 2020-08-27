@@ -245,7 +245,7 @@
       "font": { 
         "phone": "t-heading-5",
         "desktop": "t-heading-4",
-        "tablet": "t-heading-3"
+        "tablet": "t-heading-5"
       },
       "blockClass": ["bottomCardsBody", "noMargin", "leftPositioned"]
     }
@@ -256,7 +256,7 @@
       "font": { 
         "mobile": "t-heading-5",
         "desktop": "t-heading-4",
-        "tablet": "t-heading-2"
+        "tablet": "t-heading-5"
       },
       "blockClass": ["bottomCardsBodyBig", "noMargin", "leftPositioned"]
     }

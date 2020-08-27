@@ -36,6 +36,7 @@
   letter-spacing: -0.2px;
   margin: 0;
   max-width: 9.6rem;
+  display: inline-block;
 }
 
 .link--homeShelf3 {
