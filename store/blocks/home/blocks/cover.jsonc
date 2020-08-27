@@ -57,7 +57,7 @@
     "props": {
       "height": "480px",
       "blockClass": "coverImage",
-      "src": "assets/hero.png"
+      "src": "assets/newHero.png"
     }
   },
   "image#cover-mobile": {
