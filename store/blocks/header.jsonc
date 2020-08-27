@@ -52,8 +52,15 @@
     "props": {
       "title": "VTEX logo",
       "href": "/",
-      "width": "200",
       "height": "40",
+      "url": "assets/logo-VTEX.png"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "VTEX logo",
+      "href": "/",
+      "height": "32",
       "url": "assets/logo-VTEX.png"
     }
   },
@@ -64,7 +71,7 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "logo",
+      "logo#mobile",
       "flex-layout.col#spacer",
       "drawer"
     ]
@@ -100,7 +107,7 @@
   },
   "responsive-layout.tablet#header-tablethome": {
     "children": [
-      "flex-layout.row#headerhome"
+      "flex-layout.row#header-mobilehome"
     ]
   },
   "responsive-layout.phone#header-phonehome": {
@@ -126,7 +133,7 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "logo",
+      "logo#mobile",
       "flex-layout.col#spacer",
       "drawer"
     ]

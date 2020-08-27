@@ -1,0 +1,31 @@
+/**
+  Tablet
+*/
+
+@media (min-width: 48rem) {
+  .galleryItem--defaultSearch {
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+/**
+  Desktop specifics
+*/
+
+@media (min-width: 64rem) {
+  .galleryItem--defaultSearch {
+    padding-right: 1.7rem;
+    flex-basis: 33.3333% !important;
+    max-width: 33.3333% !important;
+  }
+}
+
+
+
+@media (min-width: 80rem) {
+  .galleryItem--defaultSearch {
+    flex-basis: 25% !important;
+    max-width: 25% !important;
+  }
+}

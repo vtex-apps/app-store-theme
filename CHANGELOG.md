@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Fixed
+- Shelf alignment
+- Adjust the height of the testimonies and remove margin right from the last element
+- Add locale Switcher
+### Added 
+- Some new assets
 
 ## [0.10.0] - 2020-08-12
 ### Added 

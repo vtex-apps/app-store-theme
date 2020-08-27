@@ -3,8 +3,8 @@
     "children": [
       "menu-item#appinstegration",
       "menu-item#becomepartner",
-      "menu-item#findagency"
-
+      "menu-item#findagency",
+      "locale-switcher"
     ]
   },
   "menu-item#appinstegration": {

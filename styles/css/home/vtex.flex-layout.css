@@ -15,7 +15,6 @@
 }
 
 .flexColChild--testimonyTextCol {
-  padding-right: 2rem;
   width: 100%;
 }
 
@@ -32,8 +31,12 @@
   max-width: 96rem;
 }
 
+.flexRowContent--infocardHome {
+  margin-top: 6rem;
+}
+
 .flexColChild--bottomCardsCol {
-  padding-bottom: .5rem;
+  padding-bottom: 0;
 }
 
 .flexCol--testimonyTextCol {
@@ -61,6 +64,7 @@
 }
 
 .flexCol--categoryCard {
+  
   border-radius: 0.5rem;
   height: 8rem;
 }
@@ -92,25 +96,98 @@
 }
 
 .flexCol--bottomCardsCol {
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
-.flexCol--testimonyCol {
-  padding-left: 2rem;
-}
 
 .flexRow--testimonyContainer {
   padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.flexRowContent--testimonyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRow--homeShelf {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.flexRow--categoriesTitle {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.flexCol--imageContainer {
+  justify-content: flex-start;
+}
+
+.flexCol--bannerHome {
+  padding-right: 2rem;
+}
+.flexCol--bottomCards {
+  background-color: #FFF;
+}
+
+.flexCol--lastBottomCard {
+  background-color: #142032;
+}
+.flexColChild--lastBottomCard {
+  padding-bottom: 0;
+}
+
+/**
+  Tablet
+*/
+
+@media (min-width: 40rem) {
+
+  .flexRow--testimonyContainer {
+    box-sizing: border-box;
+    border-radius: 8px;
+    max-width: 46rem;
+    padding: 3rem;
+    height: 100%;
+  }
+
+  .flexRow--mainContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .flexColChild--categoryCard {
+    width: 16.625rem;
+  }
+
+  .flexRowContent--categoryRow {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flexColChild--categoryCard {
+    width: 9.625rem;
+  }
+
+}
+
+@media (min-width: 48.1rem) {
+  .flexColChild--categoryCard {
+    width: 13.500rem;
+  }
 }
 
 /**
   Desktop specifics
 */
 
-@media (min-width: 600px) {
+@media (min-width: 80rem) {
   .flexRow--testimonyContainer {
-    background-color: white;
-    border: 1px solid #E3E4E6;
     box-sizing: border-box;
     border-radius: 8px;
     max-width: 46rem;
@@ -130,6 +207,7 @@
   .flexRowContent--categoryRow {
     justify-content: space-between;
   }
+
   .flexRow--categoryRow {
     justify-content: space-between;
   }
@@ -143,19 +221,14 @@
     padding-right: 10rem;
     max-width: 90rem;
   }
-}
 
-
-@media (min-width: 480px) and (max-width: 600px) {
-
-  .flexRow--mainContainer {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5.25rem;
-    padding-right: 5.25rem;
+  .flexRow--homeShelf {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
   }
 
-  .flexColChild--categoryCard {
-    width: 16.625rem;
+  .flexRow--categoriesTitle {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
   }
 }

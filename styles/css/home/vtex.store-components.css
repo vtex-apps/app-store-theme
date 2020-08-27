@@ -24,3 +24,6 @@
   width: 100%;
   object-fit: cover;
 }
+.container {
+  padding: 0;
+}

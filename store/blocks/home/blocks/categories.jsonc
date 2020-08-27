@@ -6,8 +6,7 @@
   },
   "responsive-layout.tablet#categories": {
     "children": [
-      "flex-layout.row#categories-mobile-1",
-      "flex-layout.row#categories-mobile-2"
+      "flex-layout.row#categories"
     ]
   },
   "responsive-layout.phone#categories": {
@@ -42,8 +41,7 @@
   },
   "flex-layout.row#categoriesTitle": {
     "props": {
-      "marginTop": 8,
-      "marginBottom": 9
+      "blockClass": "categoriesTitle"
     },
     "children": [
       "flex-layout.col#categoriesTitle1",
@@ -131,9 +129,9 @@
       "blockClass": "noMargin",
       "font": {
         "desktop": "t-heading-5",
-        "mobile": "body"
+        "mobile": "t-heading-4"
       },
-      "text": "Categories"
+      "text": "Top categories"
     }
   },
   "link#categories1": {
@@ -154,7 +152,7 @@
     "props": {
       "blockClass": "categoryCard",
       "href": "/all-apps#channels",
-      "label": "Marketplaces and omnichannel"
+      "label": "Marketplaces and channels"
     }
   },
   "link#categories4": {

@@ -5,3 +5,14 @@
 .paginationDotsContainer {
   margin-bottom: -2rem;
 }
+
+@media(min-width: 40rem) {
+  .slide--testimoniesSlider {
+    padding: 0;
+    flex-grow: column;
+  }
+
+  .slideChildrenContainer--testimoniesSlider {
+    height: 100%;
+  }
+}
