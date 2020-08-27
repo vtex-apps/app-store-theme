@@ -140,6 +140,15 @@
   padding-bottom: 0;
 }
 
+.flexRow--bottomCardMobileContainer {
+  background-color:rgb(255,191,221);
+  padding-bottom: 1rem;
+}
+.flexRow--bottomCardMobile3Container {
+  background-color: #142032;
+  padding-bottom: 1rem;
+}
+
 /**
   Tablet
 */

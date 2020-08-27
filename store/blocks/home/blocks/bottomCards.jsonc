@@ -29,60 +29,98 @@
   },
   "flex-layout.col#bottomCardsBodyMobile": {
     "props": { 
-      "rowGap": 6
+      "rowGap": 5
     },
     "children": [ 
-      "stack-layout#bottomCard1Mobile",
-      "stack-layout#bottomCard2Mobile",
-      "stack-layout#bottomCard3Mobile"
+      "flex-layout.row#bottomCard1Mobile",
+      "flex-layout.row#bottomCard2Mobile",
+      "flex-layout.row#bottomCard3Mobile"
     ]
   },
-  "stack-layout#bottomCard1Mobile": {
+  "flex-layout.row#bottomCard1Mobile": {
     "props": {
-      "blockClass": "bottomCard1Mobile"
+      "blockClass": "bottomCardMobileContainer",
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "right",
+      "preventVerticalStretch": true
     },
     "children": [
-      "image#bottomCard1Mobile",
-      "rich-text#bottomCardsText1Mobile"
+      "rich-text#bottomCardsText1Mobile",
+      "image#bottomCard1Mobile"
     ]
   },
-  "stack-layout#bottomCard2Mobile": { 
+  "flex-layout.row#bottomCard2Mobile": { 
     "props": {
-      "blockClass": "bottomCard1Mobile"
+      "blockClass": "bottomCardMobileContainer",
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "right"
     },
     "children": [
-      "image#bottomCard2Mobile",
-      "rich-text#bottomCardsText2Mobile"
+      "rich-text#bottomCardsText2Mobile",
+      "image#bottomCard2Mobile"
     ]
   },
-  "stack-layout#bottomCard3Mobile": { 
+  "flex-layout.row#bottomCard3Mobile": { 
     "props": {
-      "blockClass": "bottomCard1Mobile"
+      "blockClass": "bottomCardMobile3Container",
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "right"
     },
     "children": [
-      "image#bottomCard3Mobile",
-      "rich-text#bottomCardsText3Mobile"
+      "rich-text#bottomCardsText3Mobile",
+      "image#bottomCard3Mobile"
     ]
   },
   "image#bottomCard1Mobile": {
     "props": {
-      "width": "100%",
+      "blockClass": "bottomCardImageMobile",
       "height": "8rem",
-      "src": "assets/bottomMobile.png"
+      "width": "9rem",
+      "src": "assets/newBottomCard1.jpg"
     }
   },
   "image#bottomCard2Mobile": {
     "props": {
-      "width": "100%",
+      "blockClass": "bottomCardImageMobile",
       "height": "8rem",
-      "src": "assets/isaMobile.png"
+      "width": "9rem",
+      "src": "assets/newBottomCard2.jpg"
     }
   },
   "image#bottomCard3Mobile": {
     "props": {
-      "width": "100%",
+      "blockClass": "bottomCardImageMobile",
       "height": "8rem",
-      "src": "assets/brenoMobile.png"
+      "width": "9rem",
+      "src": "assets/newBottomCard3.jpg"
+    }
+  },
+
+  "rich-text#bottomCardsText1Mobile": {
+    "props": {
+      "text": "Find the best\n[agencies to build]()\nyour store.",
+      "font": { 
+        "phone": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBodyMobile", "noMargin"]
+    }
+  },
+  "rich-text#bottomCardsText2Mobile": {
+    "props": {
+      "text": "Find the best\n[solutions to grow]()\nyour business.",
+      "font": { 
+        "phone": "t-heading-5"
+      },
+      "blockClass": ["bottomCardsBodyMobile", "noMargin"]
+    }
+  },
+  "rich-text#bottomCardsText3Mobile": {
+    "props": {
+      "text": "[Develop apps]()\n for global\nclients.",
+      "font": { 
+        "phone": "t-heading-5"
+      },
+    "blockClass": ["bottomCardsBodyBigMobile", "noMargin"]
     }
   },
 
@@ -259,34 +297,6 @@
         "tablet": "t-heading-5"
       },
       "blockClass": ["bottomCardsBodyBig", "noMargin", "leftPositioned"]
-    }
-  },
-  "rich-text#bottomCardsText1Mobile": {
-    "props": {
-      "text": "Find the best\n[agencies to build]()\nyour store.",
-      "textPosition": "RIGHT",
-      "font": { 
-        "phone": "t-heading-5"
-      },
-      "blockClass": ["bottomCardsBodyMobile", "noMargin"]
-    }
-  },
-  "rich-text#bottomCardsText2Mobile": {
-    "props": {
-      "text": "Find the best\n[solutions to grow]()\nyour business.",
-      "font": { 
-        "phone": "t-heading-5"
-      },
-      "blockClass": ["bottomCardsBodyMobile", "noMargin", "leftPositioned"]
-    }
-  },
-  "rich-text#bottomCardsText3Mobile": {
-    "props": {
-      "text": "[Develop apps]()\n for global\nclients.",
-      "font": { 
-        "mobile": "t-heading-5"
-      },
-    "blockClass": ["bottomCardsBodyBigMobile", "noMargin", "leftPositioned"]
     }
   },
   "link#bottomCardsLink1": {
