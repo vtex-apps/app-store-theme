@@ -38,22 +38,6 @@
       "responsive-layout.phone#all-apps"
     ]
   },
-  "flex-layout.row#search-bar": {
-    "props": {
-      "blockClass": "searchBar"
-    },
-    "children": ["flex-layout.col#search-bar"]
-  },
-  "flex-layout.col#search-bar": {
-    "children": ["search-bar#all-apps"]
-  },
-  "search-bar#all-apps": {
-    "props": {
-      "blockClass": "allApps",
-      "placeholder": "Search an app",
-      "hasIconLeft": true
-    }
-  },
   "flex-layout.row#banners": {
     "props": {
       "marginTop": 9,

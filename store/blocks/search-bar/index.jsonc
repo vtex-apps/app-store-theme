@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#search-bar": {
+    "props": {
+      "blockClass": "searchBar"
+    },
+    "children": ["flex-layout.col#search-bar"]
+  },
+  "flex-layout.col#search-bar": {
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "Search an app",
+      "hasIconLeft": true
+    }
+  }
+}

@@ -5,6 +5,7 @@
     },
     "blocks": [
       "stack-layout#cover",
+      "flex-layout.row#search-bar",
       "flex-layout.row#main-container"
     ]
   },
