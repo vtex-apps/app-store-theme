@@ -81,11 +81,13 @@
 .container--bottomCardsBodyMobile{
   align-items: center;
   justify-content: center;
+  margin-right: 2rem;
 }
 
 .container--bottomCardsBodyBigMobile{
   align-items: center;
   justify-content: center;
+  margin-right: 3rem;
 }
 
 .paragraph--bottomCardsBodyBigMobile {

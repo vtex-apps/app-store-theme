@@ -42,7 +42,7 @@
       "blockClass": "bottomCardMobileContainer",
       "preserveLayoutOnMobile": true,
       "horizontalAlign": "right",
-      "preventVerticalStretch": true
+      "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#bottomCardsText1Mobile",
@@ -53,7 +53,8 @@
     "props": {
       "blockClass": "bottomCardMobileContainer",
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "right"
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#bottomCardsText2Mobile",
@@ -64,7 +65,8 @@
     "props": {
       "blockClass": "bottomCardMobile3Container",
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "right"
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#bottomCardsText3Mobile",
@@ -74,25 +76,25 @@
   "image#bottomCard1Mobile": {
     "props": {
       "blockClass": "bottomCardImageMobile",
-      "height": "8rem",
-      "width": "9rem",
-      "src": "assets/newBottomCard1.jpg"
+      "height": "128px",
+      "width": "126px",
+      "src": "assets/newCardBottomMobile3.png"
     }
   },
   "image#bottomCard2Mobile": {
     "props": {
       "blockClass": "bottomCardImageMobile",
-      "height": "8rem",
-      "width": "9rem",
-      "src": "assets/newBottomCard2.jpg"
+      "height": "128px",
+      "width": "126px",
+      "src": "assets/newCardBottomMobile2.png"
     }
   },
   "image#bottomCard3Mobile": {
     "props": {
       "blockClass": "bottomCardImageMobile",
-      "height": "8rem",
-      "width": "9rem",
-      "src": "assets/newBottomCard3.jpg"
+      "height": "128px",
+      "width": "126px",
+      "src": "assets/newCardBottomMobile1.png"
     }
   },
 
