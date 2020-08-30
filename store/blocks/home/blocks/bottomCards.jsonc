@@ -41,7 +41,6 @@
     "props": {
       "blockClass": "bottomCardMobileContainer",
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "right",
       "preventHorizontalStretch": true
     },
     "children": [
@@ -53,7 +52,6 @@
     "props": {
       "blockClass": "bottomCardMobileContainer",
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "right",
       "preventHorizontalStretch": true
     },
     "children": [
@@ -65,7 +63,6 @@
     "props": {
       "blockClass": "bottomCardMobile3Container",
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "right",
       "preventHorizontalStretch": true
     },
     "children": [

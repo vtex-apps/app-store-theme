@@ -76,23 +76,24 @@
 .paragraph--bottomCardsBodyMobile {
   line-height: 1.17;
   font-size: 1.125rem;
+  padding-left: 2rem;
 }
 
 .container--bottomCardsBodyMobile{
   align-items: center;
   justify-content: center;
-  margin-right: 2rem;
 }
 
 .container--bottomCardsBodyBigMobile{
   align-items: center;
   justify-content: center;
-  margin-right: 3rem;
 }
 
 .paragraph--bottomCardsBodyBigMobile {
   line-height: 1.17;
+  font-size: 1.125rem;
   color: white;
+  padding-left: 2rem;
 }
 
 .link--bottomCardsBodyBig {

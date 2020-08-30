@@ -147,6 +147,13 @@
   background-color: #142032;
 }
 
+.flexRowContent--bottomCardMobileContainer {
+  justify-content: space-between;
+}
+.flexRowContent--bottomCardMobile3Container {
+  justify-content: space-between;
+}
+
 /**
   Tablet
 */
