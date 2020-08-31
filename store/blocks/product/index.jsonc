@@ -2,7 +2,6 @@
   "store.product": {
     "children": [
       "flex-layout.row#search-bar",
-      "breadcrumb#main",
       "flex-layout.row#mainContainer"
     ]
   },
@@ -14,24 +13,24 @@
   "flex-layout.row#mainContainer": {
     "props": {
       "horizontalAlign": "CENTER",
-      "marginTop": 8,
       "marginBottom": 10,
       "blockClass": "mainContainer"
     },
     "children": [
-      "flex-layout.col#main"
+      "flex-layout.col#mainWrapper"
     ]
   },
-  "flex-layout.col#main": {
+  "flex-layout.col#mainWrapper": {
     "props": {
       "marginTop": 8,
       "rowGap": 9
     },
     "children": [
-      "flex-layout.row#productContent"
+      "breadcrumb#main",
+      "flex-layout.row#pdp"
     ]
   },
-  "flex-layout.row#productContent": {
+  "flex-layout.row#pdp": {
     "props": {
       "preventHorizontalStretch": true,
       "colGap": 6

@@ -24,9 +24,3 @@
   border-bottom: 1px solid #E3E4E6;
   max-width: 90rem;
 }
-
-@media(min-width: 80rem) {
-  .container--main  {
-    padding-left: 9rem;
-  }
-}
