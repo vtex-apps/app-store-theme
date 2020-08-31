@@ -9,14 +9,7 @@
       "flex-layout.col#appOverview",
       "flex-layout.col#appFeatures",
       "flex-layout.col#appPricing",
-      "flex-layout.col#appScreenshots",
-      "product-reviews#reviews"
+      "flex-layout.col#appScreenshots"
     ]
-  },
-  "product-reviews#reviews": {
-    "props": {
-      "blockClass": "reviews",
-      "htmlId": "reviews"
-    }
   }
 }
