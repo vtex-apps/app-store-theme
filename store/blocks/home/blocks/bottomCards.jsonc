@@ -262,7 +262,10 @@
     "props": {
       "blockClass": "noMargin",
       "text": "Explore our ecosystem",
-      "font": "t-heading-4"
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "t-heading-5"
+      }
     }
   },
   "rich-text#bottomCardsText1": {
