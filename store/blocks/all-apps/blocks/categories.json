@@ -1,74 +1,236 @@
 {
+  "flex-layout.row#marketing": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#marketing"
+    ]
+  },
+  "flex-layout.col#marketing": {
+    "children": [
+      "rich-text#marketing",
+      "search-result-layout.customQuery#marketing"
+    ]
+  },
+  
+  "flex-layout.row#omnichannel": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#omnichannel"
+    ]
+  },
+  "flex-layout.col#omnichannel": {
+    "children": [
+      "rich-text#omnichannel",
+      "search-result-layout.customQuery#omnichannel"
+    ]
+  },
+
+  "flex-layout.row#privacy": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#privacy"
+    ]
+  },
+  "flex-layout.col#privacy": {
+    "children": [
+      "rich-text#privacy",
+      "search-result-layout.customQuery#privacy"
+    ]
+  },
+
+  "flex-layout.row#review": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#review"
+    ]
+  },
+  "flex-layout.col#review": {
+    "children": [
+      "rich-text#review",
+      "search-result-layout.customQuery#review"
+    ]
+  },
+
+
+  "flex-layout.row#customerSupport": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#customerSupport"
+    ]
+  },
+  "flex-layout.col#customerSupport": {
+    "children": [
+      "rich-text#customerSupport",
+      "search-result-layout.customQuery#customerSupport"
+    ]
+  },
+
+  "flex-layout.row#channels": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#channels"
+    ]
+  },
+  "flex-layout.col#channels": {
+    "children": [
+      "rich-text#channels",
+      "search-result-layout.customQuery#channels"
+    ]
+  },
+
+  "flex-layout.row#finance": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#finance"
+    ]
+  },
+  "flex-layout.col#finance": {
+    "children": [
+      "rich-text#finance",
+      "search-result-layout.customQuery#finance"
+    ]
+  },
+
+  "flex-layout.row#developer": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#developer"
+    ]
+  },
+  "flex-layout.col#developer": {
+    "children": [
+      "rich-text#developer",
+      "search-result-layout.customQuery#developer"
+    ]
+  },
+
+
   "rich-text#marketing": {
     "props": {
       "htmlId": "marketing",
       "blockClass": "categories",
-      "font": "t-heading-4",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
       "textPosition": "LEFT",
-      "text": "**Marketing and affiliate programs**"
+      "text": "Marketing and affiliate programs"
     }
   },
   "rich-text#review": {
     "props": {
       "htmlId": "review",
       "blockClass": "categories",
-      "font": "t-heading-4",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
       "textPosition": "LEFT",
-      "text": "**Reviews, ratings and analytics**"
+      "text": "Reviews, ratings and analytics"
     }
   },
   "rich-text#customerSupport": {
     "props": {
       "htmlId": "customerSupport",
       "blockClass": "categories",
-      "font": "t-heading-4",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
       "textPosition": "LEFT",
-      "text": "**Customer support and notifications**"
+      "text": "Customer support and notifications"
     }
   },
   "rich-text#channels": {
     "props": {
       "htmlId": "channels",
       "blockClass": "categories",
-      "font": "t-heading-4",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
       "textPosition": "LEFT",
-      "text": "**Marketplaces and channels**"
+      "text": "Marketplaces and channels"
     }
   },
   "rich-text#finance": {
     "props": {
       "htmlId": "finance",
       "blockClass": "categories",
-      "font": "t-heading-4",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
       "textPosition": "LEFT",
-      "text": "**Finance and taxes**"
+      "text": "Finance and taxes"
     }
   },
   "rich-text#omnichannel": {
     "props": {
       "htmlId": "omnichannel",
       "blockClass": "categories",
-      "font": "t-heading-4",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
       "textPosition": "LEFT",
-      "text": "**Logistics**"
+      "text": "Logistics"
     }
   },
   "rich-text#privacy": {
     "props": {
       "htmlId": "privacy",
       "blockClass": "categories",
-      "font": "t-heading-4",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
       "textPosition": "LEFT",
-      "text": "**Privacy and security**"
+      "text": "Privacy and security"
     }
   },
   "rich-text#developer": {
     "props": {
       "htmlId": "developer",
       "blockClass": "categories",
-      "font": "t-heading-4",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
       "textPosition": "LEFT",
-      "text": "**Developer tools**"
+      "text": "Developer tools"
     }
   },
   "search-result-layout.customQuery#marketing": {
@@ -83,9 +245,6 @@
     "blocks": ["search-result-layout.desktop#marketing"]
   },
   "search-result-layout.desktop#marketing": {
-    "props": {
-      "blockClass": "borderBottom"
-    },
     "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#review": {
@@ -100,9 +259,6 @@
     "blocks": ["search-result-layout.desktop#review"]
   },
   "search-result-layout.desktop#review": {
-    "props": {
-      "blockClass": "borderBottom"
-    },
     "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#customerSupport": {
@@ -117,9 +273,6 @@
     "blocks": ["search-result-layout.desktop#marketing"]
   },
   "search-result-layout.desktop#customerSupport": {
-    "props": {
-      "blockClass": "borderBottom"
-    },
     "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#channels": {
@@ -134,9 +287,6 @@
     "blocks": ["search-result-layout.desktop#channels"]
   },
   "search-result-layout.desktop#channels": {
-    "props": {
-      "blockClass": "borderBottom"
-    },
     "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#finance": {
@@ -151,9 +301,6 @@
     "blocks": ["search-result-layout.desktop#finance"]
   },
   "search-result-layout.desktop#finance": {
-    "props": {
-      "blockClass": "borderBottom"
-    },
     "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#omnichannel": {
@@ -168,9 +315,6 @@
     "blocks": ["search-result-layout.desktop#omnichannel"]
   },
   "search-result-layout.desktop#omnichannel": {
-    "props": {
-      "blockClass": "borderBottom"
-    },
     "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#privacy": {
@@ -185,9 +329,6 @@
     "blocks": ["search-result-layout.desktop#privacy"]
   },
   "search-result-layout.desktop#privacy": {
-    "props": {
-      "blockClass": "borderBottom"
-    },
     "children": ["search-content#defaultSearch"]
   },
   "search-result-layout.customQuery#developer": {
@@ -202,9 +343,6 @@
     "blocks": ["search-result-layout.desktop#developer"]
   },
   "search-result-layout.desktop#developer": {
-    "props": {
-      "blockClass": "lastPadding"
-    },
     "children": ["search-content#defaultSearch"]
   }
 }

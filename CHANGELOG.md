@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Fixed
+- All Apps container, margins and banner
+
 ## [0.14.0] - 2020-08-31
 ## Added
 - Links to `bottomCards` and `infoCard`
