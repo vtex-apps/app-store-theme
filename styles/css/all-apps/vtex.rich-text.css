@@ -6,10 +6,6 @@
   color: #f71963;
 }
 
-.wrapper--categories {
-  margin: 3rem 0 0 0;
-}
-
 .paragraph--categories {
   margin: 0;
   padding: 0;
@@ -20,7 +16,7 @@
 }
 
 .container--categories {
-  padding-bottom: 1rem
+  padding-bottom: 2rem
 }
 
 @media(min-width: 600px){

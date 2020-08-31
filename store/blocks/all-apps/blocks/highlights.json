@@ -1,21 +1,35 @@
 {
+  "flex-layout.row#mainHighlights": {
+    "props": {
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#mainHighlights"
+    ]
+  },
+  "flex-layout.col#mainHighlights": { 
+    "props": {
+      "rowGap": 5
+    },
+    "children": [
+      "rich-text#highlights",
+      "flex-layout.row#highlights"
+    ]
+  },
   "rich-text#highlights": {
     "props": {
-      "font": "t-heading-3",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "t-heading-5"
+      },
       "textPosition": "LEFT",
       "text": "Highlights"
     }
   },
-  "slider-layout#highlights": {
+  "flex-layout.row#highlights": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 2,
-        "phone": 1
-      },
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never",
-      "blockClass": "borderBottom"
+      "colGap": 7
     },
     "children": [
       "flex-layout.row#all-apps-highlight-1",
@@ -25,27 +39,15 @@
     ]
   },
   "flex-layout.row#all-apps-highlight-1": {
-    "props": {
-      "blockClass": "hMargin"
-    },
     "children": ["flex-layout.col#all-apps-highlight-1"]
   },
   "flex-layout.row#all-apps-highlight-2": {
-    "props": {
-      "blockClass": "hMargin"
-    },
     "children": ["flex-layout.col#all-apps-highlight-2"]
   },
   "flex-layout.row#all-apps-highlight-3": {
-    "props": {
-      "blockClass": "hMargin"
-    },
     "children": ["flex-layout.col#all-apps-highlight-3"]
   },
   "flex-layout.row#all-apps-highlight-4": {
-    "props": {
-      "blockClass": "hMargin"
-    },
     "children": ["flex-layout.col#all-apps-highlight-4"]
   },
   "flex-layout.col#all-apps-highlight-1": {
@@ -59,14 +61,18 @@
     "props": {
       "blockClass": "allAppsHighlight",
       "src": "https://extensions.vtexassets.com/assets/vtex.file-manager-graphql/images/template%20%282%29___81fd011195a0b8acef1b74ab9e7b1567.png",
-      "maxHeight": "unset"
+      "height": "204px",
+      "width": "352px"
     }
   },
   "rich-text#all-apps-highlight-1": {
     "props": {
       "blockClass": "noMargin",
-      "font": "t-heading-4",
-      "text": "**Mercado Libre**"
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-6" 
+      },
+      "text": "Mercado Libre"
     }
   },
   "rich-text#all-apps-highlight-1-description": {
@@ -87,14 +93,18 @@
     "props": {
       "blockClass": "allAppsHighlight",
       "src": "https://extensions.vtexassets.com/assets/vtex.file-manager-graphql/images/template%20%282%29___81fd011195a0b8acef1b74ab9e7b1567.png",
-      "maxHeight": "unset"
+      "height": "204px",
+      "width": "352px"
     }
   },
   "rich-text#all-apps-highlight-2": {
     "props": {
       "blockClass": "noMargin",
-      "font": "t-heading-4",
-      "text": "**Apple Pay**"
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-6" 
+      },
+      "text": "Apple Pay"
     }
   },
   "rich-text#all-apps-highlight-2-description": {
@@ -115,14 +125,18 @@
     "props": {
       "blockClass": "allAppsHighlight",
       "src": "https://extensions.vtexassets.com/assets/vtex.file-manager-graphql/images/template%20%282%29___81fd011195a0b8acef1b74ab9e7b1567.png",
-      "maxHeight": "unset"
+      "height": "204px",
+      "width": "352px"
     }
   },
   "rich-text#all-apps-highlight-3": {
     "props": {
       "blockClass": "noMargin",
-      "font": "t-heading-4",
-      "text": "**Loggi**"
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-6" 
+      },
+      "text": "Loggi"
     }
   },
   "rich-text#all-apps-highlight-3-description": {
@@ -144,14 +158,18 @@
     "props": {
       "blockClass": "allAppsHighlight",
       "src": "https://extensions.vtexassets.com/assets/vtex.file-manager-graphql/images/template%20%282%29___81fd011195a0b8acef1b74ab9e7b1567.png",
-      "maxHeight": "unset"
+      "height": "204px",
+      "width": "352px"
     }
   },
   "rich-text#all-apps-highlight-4": {
     "props": {
       "blockClass": "noMargin",
-      "font": "t-heading-4",
-      "text": "**Google Shopping**"
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-6" 
+      },
+      "text": "Google Shopping"
     }
   },
   "rich-text#all-apps-highlight-4-description": {

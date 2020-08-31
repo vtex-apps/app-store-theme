@@ -12,6 +12,10 @@
   padding-top: 1.5rem;
 }
 
+.flexRow--borderBottom {
+  border-bottom: 1px solid #cacbcc;
+}
+
 .flexCol--allAppsLeftCol {
   margin-right: 1.5rem;
 }
@@ -44,9 +48,11 @@
 }
 
 .flexRow--allAppsContainer {
-  padding-top: 1.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  max-width: 90rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flexCol--allAppsEarnMoney {
