@@ -97,7 +97,7 @@
 
   "rich-text#bottomCardsText1Mobile": {
     "props": {
-      "text": "Find the best\n[agencies to build]()\nyour store.",
+      "text": "Find the best\n[agencies to build](http://store.vtex.com/en/agencias)\nyour store.",
       "font": { 
         "phone": "t-heading-5"
       },
@@ -106,7 +106,7 @@
   },
   "rich-text#bottomCardsText2Mobile": {
     "props": {
-      "text": "Find the best\n[solutions to grow]()\nyour business.",
+      "text": "Find the best\n[solutions to grow](/all-apps)\nyour business.",
       "font": { 
         "phone": "t-heading-5"
       },
@@ -115,7 +115,7 @@
   },
   "rich-text#bottomCardsText3Mobile": {
     "props": {
-      "text": "[Develop apps]()\n for global\nclients.",
+      "text": "[Develop apps](https://vtex.com/us-en/partner/)\n for global\nclients.",
       "font": { 
         "phone": "t-heading-5"
       },
@@ -262,12 +262,15 @@
     "props": {
       "blockClass": "noMargin",
       "text": "Explore our ecosystem",
-      "font": "t-heading-4"
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "t-heading-5"
+      }
     }
   },
   "rich-text#bottomCardsText1": {
     "props": {
-      "text": "Find the best [agencies to build]()\nyour store.",
+      "text": "Find the best [agencies to build](http://store.vtex.com/en/agencias)\nyour store.",
       "font": { 
         "phone": "t-heading-5",
         "desktop": "t-heading-4",
@@ -278,7 +281,7 @@
   },
   "rich-text#bottomCardsText2": {
     "props": {
-      "text": "Find the best\n[solutions to grow]()\nyour business.",
+      "text": "Find the best\n[solutions to grow](/all-apps)\nyour business.",
       "font": { 
         "phone": "t-heading-5",
         "desktop": "t-heading-4",
@@ -289,7 +292,7 @@
   },
   "rich-text#bottomCardsText3": {
     "props": {
-      "text": "[Develop apps]() for global\nclients and leveraging\n your business.",
+      "text": "[Develop apps](https://vtex.com/us-en/partner/) for global\nclients and leveraging\n your business.",
       "font": { 
         "mobile": "t-heading-5",
         "desktop": "t-heading-4",
@@ -302,7 +305,7 @@
     "props": { 
       "blockClass": "cardButton",
       "label": "FIND AN AGENCY",
-      "href": "#",
+      "href": "http://store.vtex.com/en/agencias",
       "displayMode": "button"
     }
   },
@@ -310,7 +313,7 @@
     "props": { 
       "blockClass": "cardButton",
       "label": "FIND SOLUTIONS",  
-      "href": "#",
+      "href": "/all-apps",
       "displayMode": "button"
     }
   },
@@ -318,7 +321,7 @@
     "props": { 
       "blockClass": "cardButton",
       "label": "BECOME A DEVELOPER",
-      "href": "#",
+      "href": "https://vtex.com/us-en/partner/",
       "displayMode": "button"
     }
   }

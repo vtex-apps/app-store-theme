@@ -128,8 +128,8 @@
     "props": {
       "blockClass": "noMargin",
       "font": {
-        "desktop": "t-heading-5",
-        "mobile": "t-heading-4"
+        "desktop": "t-heading-4",
+        "mobile": "t-heading-5"
       },
       "text": "Top categories"
     }

@@ -93,7 +93,7 @@
     "props": { 
       "blockClass": "cardButton",
       "label": "EXPLORE ALL",
-      "href": "#",
+      "href": "/all-apps",
       "displayMode": "button"
     }
   },
@@ -151,7 +151,7 @@
   "link#homeInfoCardMobile": { 
     "props": { 
       "label": "EXPLORE ALL",
-      "href": "#",
+      "href": "/all-apps",
       "displayMode": "button"
     }
   },
