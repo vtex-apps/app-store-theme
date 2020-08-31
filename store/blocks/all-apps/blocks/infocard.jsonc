@@ -1,20 +1,20 @@
 {
-  "responsive-layout.desktop#infocard": {
+  "responsive-layout.desktop#infocardAllApps": {
     "children": [
-      "flex-layout.row#infocard-desktop"
+      "flex-layout.row#infocard-desktopAllApps"
     ]
   },
-  "responsive-layout.tablet#infocard": {
+  "responsive-layout.tablet#infocardAllApps": {
     "children": [
-      "flex-layout.row#infocard-desktop"
+      "flex-layout.row#infocard-desktopAllApps"
     ]
   },
-  "responsive-layout.phone#infocard": {
+  "responsive-layout.phone#infocardAllApps": {
     "children": [
-      "flex-layout.row#infocard-mobile"
+      "flex-layout.row#infocard-mobileAllApps"
     ]
   },
-  "flex-layout.row#infocard-desktop": {
+  "flex-layout.row#infocard-desktopAllApps": {
     "props": {
       "blockClass": "infocardHome",
       "marginTop": 10,
@@ -23,11 +23,11 @@
       "paddingBottom": 9
     },
     "children": [
-      "flex-layout.col#textAndButton",
-      "flex-layout.col#image"
+      "flex-layout.col#textAndButtonAllApps",
+      "flex-layout.col#imageAllApps"
     ]
   },
-  "flex-layout.row#infocard-mobile": {
+  "flex-layout.row#infocard-mobileAllApps": {
     "props": {
       "blockClass": ["infocardHome", "infocardHomeMobile"],
       "marginTop": 10,
@@ -36,11 +36,11 @@
       "paddingBottom": 9
     },
     "children": [
-      "flex-layout.col#imageMobile",
-      "flex-layout.col#textAndButtonMobile"
+      "flex-layout.col#imageMobileAllApps",
+      "flex-layout.col#textAndButtonMobileAllApps"
     ]
   },
-  "flex-layout.row#infocard": {
+  "flex-layout.row#infocardAllApps": {
     "props": {
       "blockClass": "infocardHome",
       "marginTop": 10,
@@ -49,23 +49,22 @@
       "paddingBottom": 9
     },
     "children": [
-      "flex-layout.col#textAndButton",
-      "flex-layout.col#image"
+      "flex-layout.col#textAndButtonAllApps",
+      "flex-layout.col#imageAllApps"
     ]
   },
-  "flex-layout.col#textAndButton": {
+  "flex-layout.col#textAndButtonAllApps": {
     "props": {
       "paddingLeft": 8,
       "verticalAlign": "middle",
       "horizontalAlign": "left"
     },
     "children": [ 
-      "rich-text#homeinfoCardTitle",
-      "rich-text#homeinfoCardBody",
-      "link#homeInfoCard"
+      "rich-text#infoCardTitleAllApps",
+      "rich-text#infoCardBodyAllApps"
     ]
   },
-  "rich-text#homeinfoCardTitle": {
+  "rich-text#infoCardTitleAllApps": {
     "props": { 
       "blockClass": "infoCardTitle",
       "textAlignment": "LEFT",
@@ -77,7 +76,7 @@
       }
     }
   },
-  "rich-text#homeinfoCardBody": {
+  "rich-text#infoCardBodyAllApps": {
     "props": { 
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
@@ -89,42 +88,33 @@
       }
     }
   },
-  "link#homeInfoCard": { 
-    "props": { 
-      "blockClass": "cardButton",
-      "label": "EXPLORE ALL",
-      "href": "/all-apps",
-      "displayMode": "button"
-    }
-  },
-  "flex-layout.col#image": { 
+  "flex-layout.col#imageAllApps": { 
     "props": {
       "blockClass": "bannerHome",
       "verticalAlign": "middle"
     },
     "children": [
-      "image#infoCardImage"
+      "image#infoCardImageAllApps"
     ]
   },
-  "image#infoCardImage": { 
+  "image#infoCardImageAllApps": { 
     "props": {
       "src": "assets/banner-home.jpg"
     }
   },
 
   //mobile
-  "flex-layout.col#textAndButtonMobile": {
+  "flex-layout.col#textAndButtonMobileAllApps": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
     "children": [ 
-      "rich-text#homeinfoCardTitleMobile",
-      "rich-text#homeinfoCardBodyMobile",
-      "link#homeInfoCard"
+      "rich-text#infoCardTitleMobileAllApps",
+      "rich-text#infoCardBodyMobileAllApps"
     ]
   },
-  "rich-text#homeinfoCardTitleMobile": {
+  "rich-text#infoCardTitleMobileAllApps": {
     "props": { 
       "blockClass": "infoCardTitle",
       "textAlignment": "CENTER",
@@ -136,7 +126,7 @@
       }
     }
   },
-  "rich-text#homeinfoCardBodyMobile": {
+  "rich-text#infoCardBodyMobileAllApps": {
     "props": { 
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -148,14 +138,7 @@
       }
     }
   },
-  "link#homeInfoCardMobile": { 
-    "props": { 
-      "label": "EXPLORE ALL",
-      "href": "/all-apps",
-      "displayMode": "button"
-    }
-  },
-  "flex-layout.col#imageMobile": { 
+  "flex-layout.col#imageMobileAllApps": { 
     "props": {
       "verticalAlign": "middle"
     },
@@ -163,7 +146,7 @@
       "image#infoCardImage"
     ]
   },
-  "image#infoCardImageMobile": { 
+  "image#infoCardImageMobileAllApps": { 
     "props": {
       "src": "assets/banner-home.jpg"
     }

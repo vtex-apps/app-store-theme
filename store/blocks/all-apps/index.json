@@ -14,7 +14,9 @@
   },
   "flex-layout.col#allapps-container": {
     "children": [
-      "flex-layout.row#banners",
+      "responsive-layout.desktop#infocardAllApps",
+      "responsive-layout.phone#infocardAllApps",
+      "responsive-layout.tablet#infocardAllApps",
       "flex-layout.row#mainHighlights",
       "flex-layout.row#marketing",
       "flex-layout.row#review",
@@ -28,34 +30,5 @@
       "responsive-layout.tablet#all-apps",
       "responsive-layout.phone#all-apps"
     ]
-  },
-  "flex-layout.row#banners": {
-    "props": {
-      "marginTop": 9,
-      "marginBottom": 8
-    },
-    "children": ["list-context.image-list#demo"]
-  },
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 720,
-      "images": [{
-        "image": "https://i.imgur.com/irYHIAJ.png",
-        "mobileImage": "https://i.imgur.com/irYHIAJ.png"
-      }]
-    }
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
   }
 }
