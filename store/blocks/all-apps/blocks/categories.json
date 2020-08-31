@@ -143,7 +143,7 @@
       "blockClass": "categories",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
       "text": "Marketing and affiliate programs"
@@ -155,7 +155,7 @@
       "blockClass": "categories",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
       "text": "Reviews, ratings and analytics"
@@ -167,7 +167,7 @@
       "blockClass": "categories",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
       "text": "Customer support and notifications"
@@ -179,7 +179,7 @@
       "blockClass": "categories",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
       "text": "Marketplaces and channels"
@@ -191,7 +191,7 @@
       "blockClass": "categories",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
       "text": "Finance and taxes"
@@ -203,7 +203,7 @@
       "blockClass": "categories",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
       "text": "Logistics"
@@ -215,7 +215,7 @@
       "blockClass": "categories",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
       "text": "Privacy and security"
@@ -227,7 +227,7 @@
       "blockClass": "categories",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
       "text": "Developer tools"

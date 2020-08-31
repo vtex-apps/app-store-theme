@@ -70,7 +70,7 @@
       "blockClass": "noMargin",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "text": "Mercado Libre"
     }
@@ -102,7 +102,7 @@
       "blockClass": "noMargin",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "text": "Apple Pay"
     }
@@ -134,7 +134,7 @@
       "blockClass": "noMargin",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "text": "Loggi"
     }
@@ -167,7 +167,7 @@
       "blockClass": "noMargin",
       "font": { 
         "desktop": "t-heading-5", 
-        "mobile": "t-heading-6" 
+        "mobile": "t-heading-5" 
       },
       "text": "Google Shopping"
     }
