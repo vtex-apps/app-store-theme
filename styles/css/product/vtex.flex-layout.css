@@ -1,6 +1,5 @@
-.flexRow--main {
-  padding-left: 13rem;
-  padding-right: 13rem;
+.flexRow--mainContainer {
+  max-width: 90rem;
 }
 
 .flexCol--topBar {
@@ -41,3 +40,18 @@
 .flexRow--supportItem {
   margin-bottom: 1rem;
 }
+
+@media (min-width: 40rem) {
+  .flexRow--mainContainer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media(min-width: 80rem) {
+  .flexRow--mainContainer {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+

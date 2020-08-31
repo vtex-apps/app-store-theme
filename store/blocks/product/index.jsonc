@@ -3,7 +3,7 @@
     "children": [
       "flex-layout.row#search-bar",
       "breadcrumb#main",
-      "flex-layout.row#main"
+      "flex-layout.row#mainContainer"
     ]
   },
   "breadcrumb#main": {
@@ -11,10 +11,12 @@
       "blockClass": "main"
     }
   },
-  "flex-layout.row#main": {
+  "flex-layout.row#mainContainer": {
     "props": {
+      "horizontalAlign": "CENTER",
       "marginTop": 8,
-      "blockClass": "main"
+      "marginBottom": 10,
+      "blockClass": "mainContainer"
     },
     "children": [
       "flex-layout.col#main"
@@ -22,6 +24,7 @@
   },
   "flex-layout.col#main": {
     "props": {
+      "marginTop": 8,
       "rowGap": 9
     },
     "children": [
