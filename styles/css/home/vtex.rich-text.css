@@ -74,24 +74,26 @@
 }
 
 .paragraph--bottomCardsBodyMobile {
-  color: white;
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-weight: 500;
   line-height: 1.17;
   font-size: 1.125rem;
+  padding-left: 2rem;
+}
+
+.container--bottomCardsBodyMobile{
+  align-items: center;
+  justify-content: center;
+}
+
+.container--bottomCardsBodyBigMobile{
+  align-items: center;
+  justify-content: center;
 }
 
 .paragraph--bottomCardsBodyBigMobile {
-  color: white;
-  font-weight: 500;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1.5rem;
-  padding-top: 2rem;
   line-height: 1.17;
   font-size: 1.125rem;
+  color: white;
+  padding-left: 2rem;
 }
 
 .link--bottomCardsBodyBig {
@@ -99,18 +101,11 @@
 }
 
 
-.link--bottomCardsBody {
-}
-
 
 .link--bottomCardsBodyBigMobile {
   color: white;
 }
 
-
-.link--bottomCardsBodyMobile {
-  color: white;
-}
 
 .paragraph--testimonyBody {
   font-weight: 300;

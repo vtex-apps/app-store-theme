@@ -36,8 +36,8 @@
       "paddingBottom": 9
     },
     "children": [
-      "flex-layout.col#image",
-      "flex-layout.col#textAndButton"
+      "flex-layout.col#imageMobile",
+      "flex-layout.col#textAndButtonMobile"
     ]
   },
   "flex-layout.row#infocard": {
@@ -110,5 +110,63 @@
     "props": {
       "src": "assets/banner-home.jpg"
     }
+  },
+
+  //mobile
+  "flex-layout.col#textAndButtonMobile": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [ 
+      "rich-text#homeInforCardTitleMobile",
+      "rich-text#homeInforCardBodyMobile",
+      "link#homeInfoCard"
+    ]
+  },
+  "rich-text#homeInforCardTitleMobile": {
+    "props": { 
+      "blockClass": "infoCardTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "One click to go.",
+      "font": {
+        "desktop": "t-heading-1",
+        "mobile": "t-heading-4"
+      }
+    }
+  },
+  "rich-text#homeInforCardBodyMobile": {
+    "props": { 
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "homeInfoCardBody",
+      "text": "Save time and money by taking\nadvantage of apps that are\nalready **programmed, tested**\n**and reviewed**.",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "t-paragraph"
+      }
+    }
+  },
+  "link#homeInfoCardMobile": { 
+    "props": { 
+      "label": "EXPLORE ALL",
+      "href": "#",
+      "displayMode": "button"
+    }
+  },
+  "flex-layout.col#imageMobile": { 
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#infoCardImage"
+    ]
+  },
+  "image#infoCardImageMobile": { 
+    "props": {
+      "src": "assets/banner-home.jpg"
+    }
   }
+
 }
