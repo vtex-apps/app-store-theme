@@ -2,15 +2,15 @@
   "flex-layout.col#specifications": {
     "props": {
       "blockClass": "specifications",
-      "rowGap": 8,
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "rowGap": 0
     },
     "children": [
       "flex-layout.col#appOverview",
       "flex-layout.col#appFeatures",
+      "condition-layout.product#additionalInformation",
       "flex-layout.col#appPricing",
-      "flex-layout.col#appScreenshots",
-      "condition-layout.product#additionalInformation"
+      "flex-layout.col#appScreenshots"
     ]
   },
   "condition-layout.product#additionalInformation": {

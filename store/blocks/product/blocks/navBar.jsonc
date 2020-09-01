@@ -9,9 +9,9 @@
     "children": [
       "rich-text#overview",
       "rich-text#features",
+      "condition-layout.product#additionalInformationMenu",
       "rich-text#pricing",
-      "rich-text#screenshots",
-      "condition-layout.product#additionalInformationMenu"
+      "rich-text#screenshots"
     ]
   },
   "rich-text#overview": {

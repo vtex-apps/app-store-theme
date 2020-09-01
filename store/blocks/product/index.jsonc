@@ -46,7 +46,7 @@
       "blockClass": "pdpContainer",
       "marginRight": 0,
       "preventHorizontalStretch": true,
-      "rowGap": 8
+      "rowGap": 0
     },
     "children": [
       "flex-layout.col#topBar",

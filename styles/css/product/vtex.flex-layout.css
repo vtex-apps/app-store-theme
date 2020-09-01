@@ -41,6 +41,10 @@
   margin-bottom: 1rem;
 }
 
+.flexCol--appSpecificationContainer {
+  padding-top: 3rem;
+}
+
 @media (min-width: 40rem) {
   .flexRow--mainContainer {
     padding-left: 3rem;
