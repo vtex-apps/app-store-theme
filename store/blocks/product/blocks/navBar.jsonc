@@ -9,9 +9,9 @@
     "children": [
       "rich-text#overview",
       "rich-text#features",
+      "condition-layout.product#additionalInformationMenu",
       "rich-text#pricing",
-      "rich-text#screenshots",
-      "rich-text#reviews"
+      "rich-text#screenshots"
     ]
   },
   "rich-text#overview": {
@@ -42,11 +42,32 @@
       "text": "[Screenshots](#screenshots)"
     }
   },
-  "rich-text#reviews": {
+  "rich-text#additionalInformationMenu": {
     "props": {
       "blockClass": "navBarItem",
       "font": "t-small",
-      "text": "[Reviews](#reviews)"
+      "text": "[Additional information](#additionalInformation)"
     }
+  },
+  "condition-layout.product#additionalInformationMenu": {
+    "children": [
+      "condition.product#additionalInformationMenu"
+    ]
+  },
+  "condition.product#additionalInformationMenu": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "verb": "contains",
+          "object": [
+            "additionalInformation"
+          ]
+        }
+      ]
+    },
+    "children": [
+      "rich-text#additionalInformationMenu"
+    ]
   }
 }

@@ -56,7 +56,7 @@
     },
     "children": [
       "rich-text#version",
-      "product-identifier.product#version"
+      "product-specification-badges#major"
     ]
   },
   "rich-text#version": {
@@ -69,11 +69,16 @@
       "text": "**Latest version**"
     }
   },
-  "product-identifier.product#version": {
+  "product-specification-badges#major": {
     "props": {
-      "blockClass": "sideBarTitle",
-      "idField": "skuReferenceId",
-      "label": "hide"
+      "blockClass": "major",
+      "specificationGroupName": "App Data",
+      "specificationsOptions": [
+        {
+          "displayValue": "SPECIFICATION_VALUE",
+          "specificationName": "Major"
+        }
+      ]
     }
   },
   "flex-layout.col#supportContainer": {
