@@ -19,9 +19,6 @@
   padding-bottom: 2rem
 }
 
-@media(min-width: 600px){
-  .paragraph--bigTitle {
-    font-size: 4rem;
-  }
+.paragraph--bigTitle {
+  color: white;
 }
-

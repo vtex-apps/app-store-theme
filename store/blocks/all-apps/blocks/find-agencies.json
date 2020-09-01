@@ -14,7 +14,7 @@
       "blockClass": "allAppsBottomLeft",
       "text": "Find the best agencies to build your store.",
       "font": {
-        "desktop": "t-heading-2",
+        "desktop": "t-heading-4",
         "phone": "t-heading-4"
       }
     }
@@ -28,7 +28,7 @@
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
-        "size": "large"
+        "size": "regular"
       }
     }
   }
