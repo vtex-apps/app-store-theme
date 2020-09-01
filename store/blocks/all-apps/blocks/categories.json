@@ -239,7 +239,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "138",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": ["search-result-layout.desktop#marketing"]
@@ -253,7 +254,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "144",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": ["search-result-layout.desktop#review"]
@@ -267,7 +269,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "140",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": ["search-result-layout.desktop#marketing"]
@@ -281,7 +284,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "141",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": ["search-result-layout.desktop#channels"]
@@ -295,7 +299,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "143",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": ["search-result-layout.desktop#finance"]
@@ -309,7 +314,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "145",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": ["search-result-layout.desktop#omnichannel"]
@@ -323,7 +329,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "142",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": ["search-result-layout.desktop#privacy"]
@@ -337,7 +344,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "146",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": ["search-result-layout.desktop#developer"]
