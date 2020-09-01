@@ -9,7 +9,29 @@
       "flex-layout.col#appOverview",
       "flex-layout.col#appFeatures",
       "flex-layout.col#appPricing",
-      "flex-layout.col#appScreenshots"
+      "flex-layout.col#appScreenshots",
+      "condition-layout.product#additionalInformation"
+    ]
+  },
+  "condition-layout.product#additionalInformation": {
+    "children": [
+      "condition.product#additionalInformation"
+    ]
+  },
+  "condition.product#additionalInformation": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "verb": "contains",
+          "object": [
+            "additionalInformation"
+          ]
+        }
+      ]
+    },
+    "children": [
+      "flex-layout.col#appAdditionalInformation"
     ]
   }
 }

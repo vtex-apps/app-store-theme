@@ -10,7 +10,8 @@
       "rich-text#overview",
       "rich-text#features",
       "rich-text#pricing",
-      "rich-text#screenshots"
+      "rich-text#screenshots",
+      "condition-layout.product#additionalInformationMenu"
     ]
   },
   "rich-text#overview": {
@@ -40,5 +41,33 @@
       "font": "t-small",
       "text": "[Screenshots](#screenshots)"
     }
+  },
+  "rich-text#additionalInformationMenu": {
+    "props": {
+      "blockClass": "navBarItem",
+      "font": "t-small",
+      "text": "[Additional information](#additionalInformation)"
+    }
+  },
+  "condition-layout.product#additionalInformationMenu": {
+    "children": [
+      "condition.product#additionalInformationMenu"
+    ]
+  },
+  "condition.product#additionalInformationMenu": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "verb": "contains",
+          "object": [
+            "additionalInformation"
+          ]
+        }
+      ]
+    },
+    "children": [
+      "rich-text#additionalInformationMenu"
+    ]
   }
 }
