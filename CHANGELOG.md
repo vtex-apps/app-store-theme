@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Adjusted bottom content of all apps on image size, font size and text color, missing buttons and testimonies 
+
 ## [0.14.0] - 2020-08-31
 ## Added
 - Links to `bottomCards` and `infoCard`
