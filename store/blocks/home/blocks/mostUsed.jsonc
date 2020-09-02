@@ -54,7 +54,8 @@
         "maxItemsPerPage": 8,
         "orderByField": "OrderByReleaseDateDESC",
         "queryField": "139",
-        "mapField": "productClusterIds"
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
       }
     },
     "blocks": [
