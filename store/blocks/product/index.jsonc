@@ -23,7 +23,7 @@
   "flex-layout.col#mainWrapper": {
     "props": {
       "marginTop": 8,
-      "rowGap": 9
+      "rowGap": 0
     },
     "children": [
       "breadcrumb#main",
