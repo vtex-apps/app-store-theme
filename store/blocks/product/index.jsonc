@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "flex-layout.row#search-bar",
-      "flex-layout.row#mainContainer"
+      "flex-layout.row#mainContainer",
+      "store.not-found"
     ]
   },
   "breadcrumb#main": {
