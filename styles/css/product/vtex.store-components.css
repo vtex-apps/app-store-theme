@@ -2,6 +2,16 @@
   border-radius: 0.25rem;
   border: 1px solid #E3E4E6;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.875rem;
+  height: 9.875rem;
+}
+
+.productImageTag--productLogo {
+  width: 6.25rem !important;
+  height: 6.25rem !important;
 }
 
 .productImagesContainer--screenshots {
@@ -15,7 +25,7 @@
 }
 
 .productBrand--appName {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 0;
   padding-bottom: 0;
   line-height: 1;
