@@ -1,5 +1,7 @@
 .flexRow--searchContainer {
-  max-width: 90rem;
+  width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 9rem;
   padding-right: 9rem;
   padding-top: 2.5rem;
