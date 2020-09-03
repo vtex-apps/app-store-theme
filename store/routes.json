@@ -1,5 +1,9 @@
 {
   "store.custom#all-apps": {
-    "path": "/all-apps"
+    "path": "/all-apps",
+    "props": {
+      "title": "All Apps - VTEX App Store",
+      "isSitemapEntry": true
+    }
   }
 }
