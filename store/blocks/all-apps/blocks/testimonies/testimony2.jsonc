@@ -1,0 +1,63 @@
+
+{
+  "flex-layout.row#testimonyallapps2": {
+    "props": {
+      "blockClass": "testimonyAllApps",
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#testimonyallappscolImg2",
+      "flex-layout.col#testimonyallappscolText2"
+    ]
+  },
+  "flex-layout.col#testimonyallappscolImg2": {
+    "props": {
+      "blockClass": "testimonyAllApps",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#testimonyallapps2"]
+  },
+  "flex-layout.col#testimonyallappscolText2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": ["testimonyTextCol", "testimonyCol"]
+    },
+    "children": [
+      "rich-text#testimonyTextallapps2",
+      "rich-text#testimonyAuthorallapps2"
+    ]
+  },
+  "image#testimonyallapps2": {
+    "props": {
+      "width": 120,
+      "height": 120,
+      "src": "assets/testimonyPlaceholder.png",
+      "blockClass": "testimonyImg"
+    }
+  },
+  "rich-text#testimonyTextallapps2": {
+    "props": {
+      "blockClass": "testimonyBodyAllApps",
+      "textAlignment": "CENTER",
+      "textColor": "c-action-secondary",
+      "text": "“Apps have saved us a tremendous amount of time and money.”",
+      "font": {
+        "desktop": "t-heading-4",
+        "mobile": "t-heading-4"
+      }
+    }
+  },
+  "rich-text#testimonyAuthorallapps2": {
+    "props": {
+      "blockClass": "testimonyAuthorAllApps",
+      "textColor": "c-action-secondary",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-5",
+      "text": "— Morgan Haynes, COO at Karm"
+    }
+  }
+}

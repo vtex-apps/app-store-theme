@@ -17,8 +17,8 @@
   "flex-layout.row#infocard-desktopAllApps": {
     "props": {
       "blockClass": "infocardHome",
-      "marginTop": 10,
-      "marginBottom": 10,
+      "marginTop": 8,
+      "marginBottom": 4,
       "paddingTop": 9,
       "paddingBottom": 9
     },
@@ -30,8 +30,8 @@
   "flex-layout.row#infocard-mobileAllApps": {
     "props": {
       "blockClass": ["infocardHome", "infocardHomeMobile"],
-      "marginTop": 10,
-      "marginBottom": 8,
+      "marginTop": 4,
+      "marginBottom": 4,
       "paddingTop": 9,
       "paddingBottom": 9
     },
@@ -43,8 +43,8 @@
   "flex-layout.row#infocardAllApps": {
     "props": {
       "blockClass": "infocardHome",
-      "marginTop": 10,
-      "marginBottom": 10,
+      "marginTop": 4,
+      "marginBottom": 4,
       "paddingTop": 9,
       "paddingBottom": 9
     },

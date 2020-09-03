@@ -16,9 +16,35 @@
 }
 
 .container--categories {
-  padding-bottom: 2rem
+  padding-bottom: 2rem;
 }
 
 .paragraph--bigTitle {
   color: white;
 }
+
+.paragraph--testimonyBodyAllApps {
+  font-weight: 300;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .paragraph--testimonyBodyAllApps {
+    text-align: center;
+  }
+
+  .container--testimonyAuthorAllApps {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .paragraph--testimonyBodyAllApps {
+    text-align: center;
+  }
+}
+
+/* flexRowContent: height 100%
+flexRowContent--allAppsEarnMoney: height 100%
+flex no primeiro stack item do earnMoney */
+
+

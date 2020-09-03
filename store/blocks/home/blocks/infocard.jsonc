@@ -91,7 +91,7 @@
   },
   "link#homeInfoCard": { 
     "props": { 
-      "blockClass": "cardButton",
+      "blockClass": ["cardButton", "rebelPink"],
       "label": "EXPLORE ALL",
       "href": "/all-apps",
       "displayMode": "button"

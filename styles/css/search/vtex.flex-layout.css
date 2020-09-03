@@ -1,0 +1,16 @@
+.flexRow--searchContainer {
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 4rem;
+}
+
+@media(max-width: 600px){ 
+  .flexRow--searchContainer {
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

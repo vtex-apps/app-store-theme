@@ -48,6 +48,7 @@
     "props": {
       "verticalAlign": "middle",
       "blockClass": "textAlignLeft",
+      "paddingBottom": 0,
       "marginLeft": 6
     },
     "children": [

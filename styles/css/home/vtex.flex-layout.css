@@ -31,10 +31,6 @@
   max-width: 96rem;
 }
 
-.flexRowContent--infocardHome {
-  margin-top: 6rem;
-}
-
 .flexColChild--bottomCardsCol {
   padding-bottom: 0;
 }
@@ -77,6 +73,10 @@
 .flexCol--textAlignLeft {
   text-align: left;
   justify-content: flex-start;
+}
+
+.flexColChild--textAlignLeft {
+  padding-bottom: 0;
 }
 
 .flexCol--card1Color {
