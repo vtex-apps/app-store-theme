@@ -133,6 +133,11 @@
   background-color: #FFF;
 }
 
+.flexColChild--bottomCards{
+  height: 310px !important;
+  padding-bottom: 0;
+}
+
 .flexCol--lastBottomCard {
   background-color: #142032;
 }
