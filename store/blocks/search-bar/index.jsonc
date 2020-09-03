@@ -9,9 +9,16 @@
     "children": ["search-bar"]
   },
   "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "placeholder": "Search an app",
-      "hasIconLeft": true
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#defaultSearch"],
+    "props": {
+      "autocompleteWidth": 100,
+      "__unstableProductOriginVtex": true
     }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "flex-layout.col#appAdditionalInformation": {
+    "props": {
+      "blockClass": "appSpecificationContainer",
+      "rowGap": 5,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#AdditionalInformationHeader",
+      "flex-layout.row#AdditionalInformationContent"
+    ]
+  },
+  "rich-text#AdditionalInformationHeader": {
+    "props": {
+      "blockClass": "specificationName",
+      "text": "**Additional Information**",
+      "htmlId": "additionalInformation"
+    }
+  },
+  "flex-layout.row#AdditionalInformationContent": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "colGap": 0
+    },
+    "children": [
+      "specification-text#additionalInformation"
+    ]
+  },
+  "specification-text#additionalInformation": {
+    "props": {
+      "groupName": "App Data",
+      "specificationName": "additionalInformation"
+    }
+  }
+}

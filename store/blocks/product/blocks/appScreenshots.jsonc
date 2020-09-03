@@ -1,6 +1,7 @@
 {
   "flex-layout.col#appScreenshots": {
     "props": {
+      "blockClass": "appSpecificationContainer",
       "rowGap": 5,
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true

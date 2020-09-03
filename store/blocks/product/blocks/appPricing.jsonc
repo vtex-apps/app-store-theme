@@ -1,6 +1,7 @@
 {
   "flex-layout.col#appPricing": {
     "props": {
+      "blockClass": "appSpecificationContainer",
       "rowGap": 5,
       "preventVerticalStretch": true
     },

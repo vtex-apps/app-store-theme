@@ -7,15 +7,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### Fixed
-- Adjusted bottom content of all apps on image size, font size and text color, missing buttons and testimonies 
+## Fixed
+- Bottom cards of all apps page, some minor fixes and drawer styling
 
-## [0.14.0] - 2020-08-31
+## [0.16.0] - 2020-09-02
+
+## [0.15.0] - 2020-09-01
 ## Added
-- Links to `bottomCards` and `infoCard`
+- `Major` specification
+- `additionalInformation` specification
 
-## Changed 
-- Font size of Titles
+## Fixed
+- `PDP` container, margins
+
+## [0.14.1] - 2020-08-31
 
 ## Fixed
 - All Apps container, margins and banner

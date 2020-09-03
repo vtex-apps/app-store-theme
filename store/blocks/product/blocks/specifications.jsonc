@@ -2,21 +2,36 @@
   "flex-layout.col#specifications": {
     "props": {
       "blockClass": "specifications",
-      "rowGap": 8,
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "rowGap": 0
     },
     "children": [
       "flex-layout.col#appOverview",
       "flex-layout.col#appFeatures",
+      "condition-layout.product#additionalInformation",
       "flex-layout.col#appPricing",
-      "flex-layout.col#appScreenshots",
-      "product-reviews#reviews"
+      "flex-layout.col#appScreenshots"
     ]
   },
-  "product-reviews#reviews": {
+  "condition-layout.product#additionalInformation": {
+    "children": [
+      "condition.product#additionalInformation"
+    ]
+  },
+  "condition.product#additionalInformation": {
     "props": {
-      "blockClass": "reviews",
-      "htmlId": "reviews"
-    }
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "verb": "contains",
+          "object": [
+            "additionalInformation"
+          ]
+        }
+      ]
+    },
+    "children": [
+      "flex-layout.col#appAdditionalInformation"
+    ]
   }
 }
