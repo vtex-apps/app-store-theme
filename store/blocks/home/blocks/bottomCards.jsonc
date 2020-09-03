@@ -49,7 +49,7 @@
   "link#bottomCard2Mobile": {
     "props": {
       "blockClass":"bottomCardMobileLink",
-      "href": "http://store.vtex.com/en/agencias"
+      "href": "/all-apps"
     },
     "children": [
       "flex-layout.row#bottomCard2Mobile"
@@ -58,7 +58,7 @@
   "link#bottomCard3Mobile": {
     "props": {
       "blockClass":"bottomCardMobileLink",
-      "href": "http://store.vtex.com/en/agencias"
+      "href": "https://vtex.com/us-en/partner/"
     },
     "children": [
       "flex-layout.row#bottomCard3Mobile"
