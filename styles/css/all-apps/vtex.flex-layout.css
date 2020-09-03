@@ -32,7 +32,6 @@
 
 .flexCol--allAppsEarnMoney {
   padding: 3rem 0 0 4rem;
-  border-radius: 8px;
 }
 
 .flexRow--earnMoneyText {
@@ -56,7 +55,6 @@
 
 .flexCol--allAppsEarnMoney {
   padding: 1rem 0 0 1rem;
-  border-radius: 8px;
 }
 
 .flexRow--searchBar {
@@ -107,6 +105,5 @@
 
   .flexCol--allAppsEarnMoney {
     padding: 3rem 0 0 4rem;
-    border-radius: 8px;
   }
 }

@@ -15,7 +15,6 @@
   "flex-layout.col#allapps-container": {
     "children": [
       "responsive-layout.desktop#infocardAllApps",
-      "responsive-layout.phone#infocardAllApps",
       "responsive-layout.tablet#infocardAllApps",
       "flex-layout.row#mainHighlights",
       "flex-layout.row#marketing",
