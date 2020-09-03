@@ -74,6 +74,7 @@
     "children": [
       "logo#mobile",
       "flex-layout.col#spacer",
+      "locale-switcher",
       "drawer"
     ]
   },
