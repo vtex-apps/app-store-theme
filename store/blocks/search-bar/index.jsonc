@@ -11,7 +11,9 @@
   "search-bar": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Search an app",
+      "hasIconLeft": true
     }
   },
   "autocomplete-result-list.v2": {
