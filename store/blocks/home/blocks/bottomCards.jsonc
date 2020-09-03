@@ -246,7 +246,7 @@
       "height": "auto",
       "width": "auto",
       "src": "assets/newBottomCard3.jpg",
-      "blockClass": "bottomCards"
+      "blockClass": "lastBottomCard"
     }
   },
   "flex-layout.col#bottomCardsCard1": {

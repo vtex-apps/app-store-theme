@@ -28,6 +28,7 @@
   padding: 0;
 }
 
-.imageElement--bottomCardImageMobile {
-
+.imageElement--bottomCards {
+  height: 100% !important;
+  max-width: none;
 }
