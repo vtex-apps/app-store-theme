@@ -29,6 +29,6 @@
 }
 
 .imageElement--bottomCards {
-  height: 100% !important;
+  object-fit: cover;
   max-width: none;
 }

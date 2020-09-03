@@ -227,16 +227,16 @@
   },
   "image#bottomCard1": {
     "props": {
-      "height": "auto",
-      "width": "auto",
+      "height": "100%",
+      "width": "100%",
       "src": "assets/newBottomCard1.jpg",
       "blockClass": "bottomCards"
     }
   },
   "image#bottomCard2": {
     "props": {
-      "height": "auto",
-      "width": "auto",
+      "height": "100%",
+      "width": "100%",
       "src": "assets/newBottomCard2.jpg",
       "blockClass": "bottomCards"
     }
