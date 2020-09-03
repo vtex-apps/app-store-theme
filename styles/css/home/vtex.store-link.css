@@ -40,3 +40,7 @@
   width: 100%;
   text-align: right;
 }
+
+.link--bottomCardMobileLink {
+  text-decoration: none;
+}

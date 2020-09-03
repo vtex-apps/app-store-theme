@@ -32,8 +32,35 @@
       "rowGap": 5
     },
     "children": [ 
-      "flex-layout.row#bottomCard1Mobile",
-      "flex-layout.row#bottomCard2Mobile",
+      "link#bottomCard1Mobile",
+      "link#bottomCard2Mobile",
+      "link#bottomCard3Mobile"
+    ]
+  },
+  "link#bottomCard1Mobile": {
+    "props": {
+      "blockClass":"bottomCardMobileLink",
+      "href": "http://store.vtex.com/en/agencias"
+    },
+    "children": [
+      "flex-layout.row#bottomCard1Mobile"
+    ]
+  },
+  "link#bottomCard2Mobile": {
+    "props": {
+      "blockClass":"bottomCardMobileLink",
+      "href": "http://store.vtex.com/en/agencias"
+    },
+    "children": [
+      "flex-layout.row#bottomCard2Mobile"
+    ]
+  },
+  "link#bottomCard3Mobile": {
+    "props": {
+      "blockClass":"bottomCardMobileLink",
+      "href": "http://store.vtex.com/en/agencias"
+    },
+    "children": [
       "flex-layout.row#bottomCard3Mobile"
     ]
   },
@@ -97,7 +124,7 @@
 
   "rich-text#bottomCardsText1Mobile": {
     "props": {
-      "text": "Find the best\n[agencies to build](http://store.vtex.com/en/agencias)\nyour store.",
+      "text": "Find the best\nagencies to build\nyour store.",
       "font": { 
         "phone": "t-heading-5"
       },
@@ -106,7 +133,7 @@
   },
   "rich-text#bottomCardsText2Mobile": {
     "props": {
-      "text": "Find the best\n[solutions to grow](/all-apps)\nyour business.",
+      "text": "Find the best\nsolutions to grow\nyour business.",
       "font": { 
         "phone": "t-heading-5"
       },
@@ -115,7 +142,7 @@
   },
   "rich-text#bottomCardsText3Mobile": {
     "props": {
-      "text": "[Develop apps](https://vtex.com/us-en/partner/)\n for global\nclients.",
+      "text": "Develop apps\n for global\nclients.",
       "font": { 
         "phone": "t-heading-5"
       },

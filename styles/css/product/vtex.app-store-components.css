@@ -1,14 +1,14 @@
 .listItemContent {
   font-weight: 300;
-  font-size: 21px;
+  font-size: 1rem;
   line-height: 26px;
   letter-spacing: -0.2px;
 }
 
 .paragraph {
   letter-spacing: -0.013rem;
-  font-size: 1.3125rem;
+  font-size: 1rem;
   text-align: left;
   font-weight: 300;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
