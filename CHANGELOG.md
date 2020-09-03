@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.17.1] - 2020-09-03
+
 ## Fixed
 - Bottom cards of all apps page, some minor fixes and drawer styling
 
