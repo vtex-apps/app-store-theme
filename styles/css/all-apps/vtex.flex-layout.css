@@ -7,9 +7,9 @@
   background-color: #003352;
   box-sizing: border-box;
   border-radius: 8px;
-  height: 100%;
   display: flex;
   padding-top: 1.5rem;
+  width: 100%;
 }
 
 .flexRow--borderBottom {
@@ -74,6 +74,14 @@
   align-items: flex-end;
 }
 
+.flexRowContent--allAppsEarnMoney {
+  height: 100%;
+}
+
+.flexRow--allAppsEarnMoney {
+  height: 100%;
+}
+
 @media (min-width: 600px) {
   .flexRow--allAppsContainer {
     max-width: 90rem;
@@ -84,7 +92,17 @@
   }
 
   .flexRow--testimonyAllApps {
+    width: 100%;
     padding-top: 0
+  }
+
+  .flexCol--testimonyTextCol {
+    padding-right: 1rem;
+  }
+  
+  .flexCol--testimonyAllApps {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   .flexCol--allAppsEarnMoney {

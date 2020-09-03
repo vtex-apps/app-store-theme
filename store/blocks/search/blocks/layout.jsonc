@@ -26,6 +26,7 @@
   },
   "flex-layout.row#searchContainer": { 
     "props": { 
+      "blockClass": "searchContainer",
       "paddingTop": 3
     },
     "children": [

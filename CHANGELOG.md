@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Fixed
+- Bottom cards of all apps page, some minor fixes and drawer styling
+
 ## [0.17.0] - 2020-09-03
 ## Changed
 - PDP font size

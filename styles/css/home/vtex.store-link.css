@@ -6,8 +6,10 @@
   background-color: #142032;
 }
 
-.link--cardButton {
+.link--rebelPink {
   background-color: #F71963;
+}
+.link--cardButton {
   height: 4rem;
   width: 100%;
   max-width: 16.75rem;
@@ -16,12 +18,6 @@
 
 .link--cardButton:hover {
   background-color: #e20851;
-}
-
-
-.label--cardButton{ 
-  /* padding-left: 0;
-  padding-right: 0; */
 }
 
 .link--categoryCard{
@@ -35,7 +31,7 @@
   line-height: 1.6rem;
   letter-spacing: -0.2px;
   margin: 0;
-  max-width: 9.6rem;
+  max-width: 10rem;
   display: inline-block;
 }
 

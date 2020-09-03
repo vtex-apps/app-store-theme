@@ -14,7 +14,7 @@
     },
     "children": [
       "flex-layout.row#all-apps-earn-money",
-      "flex-layout.row#testimonyallapps",
+      "slider-layout#testimonyallapps",
       "flex-layout.row#all-apps-two"
     ]
   },
@@ -24,7 +24,7 @@
     },
     "children": [
       "flex-layout.row#all-apps-earn-money",
-      "flex-layout.row#testimonyallapps",
+      "slider-layout#testimonyallapps",
       "flex-layout.col#all-apps-find-agencies",
       "flex-layout.col#all-apps-discovery"
     ]
@@ -35,10 +35,10 @@
     },
     "children": [
       "flex-layout.col#all-apps-left",
-      "flex-layout.row#all-apps-right"
+      "flex-layout.col#all-apps-right"
     ]
   },
-  "flex-layout.row#all-apps-right": {
+  "flex-layout.col#all-apps-right": {
     "children": ["flex-layout.row#all-apps-earn-money"]
   },
   "flex-layout.col#all-apps-left": {
@@ -47,7 +47,7 @@
       "rowGap": "6"
     },
     "children": [
-      "flex-layout.row#testimonyallapps",
+      "slider-layout#testimonyallapps",
       "flex-layout.row#all-apps-two"
     ]
   },
@@ -60,65 +60,5 @@
       "flex-layout.col#all-apps-find-agencies",
       "flex-layout.col#all-apps-discovery"
     ]
-  },
-  "flex-layout.row#testimonyallapps": {
-    "props": {
-      "blockClass": "testimonyAllApps",
-      "preventHorizontalStretch": true,
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "flex-layout.col#testimonyallappscolImg",
-      "flex-layout.col#testimonyallappscolText"
-    ]
-  },
-  "flex-layout.col#testimonyallappscolImg": {
-    "props": {
-      "blockClass": "testimonyAllApps",
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
-    },
-    "children": ["image#testimonyallapps"]
-  },
-  "flex-layout.col#testimonyallappscolText": {
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center",
-      "blockClass": ["testimonyTextCol", "testimonyCol"]
-    },
-    "children": [
-      "rich-text#testimonyTextallapps",
-      "rich-text#testimonyAuthorallapps"
-    ]
-  },
-  "image#testimonyallapps": {
-    "props": {
-      "width": 120,
-      "height": "auto",
-      "src": "assets/testimonyPlaceholder.png",
-      "blockClass": "testimonyImg"
-    }
-  },
-  "rich-text#testimonyTextallapps": {
-    "props": {
-      "blockClass": "testimonyBody",
-      "textAlignment": "CENTER",
-      "textColor": "c-action-secondary",
-      "text": "“Apps have saved us a tremendous amount of time and money.”",
-      "font": {
-        "desktop": "t-heading-4",
-        "mobile": "t-heading-4"
-      }
-    }
-  },
-  "rich-text#testimonyAuthorallapps": {
-    "props": {
-      "blockClass": "testimonyAuthor",
-      "textColor": "c-action-secondary",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-5",
-      "text": "— Morgan Haynes, COO at Karm"
-    }
   }
 }

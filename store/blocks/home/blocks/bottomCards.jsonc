@@ -330,7 +330,7 @@
   },
   "link#bottomCardsLink1": {
     "props": { 
-      "blockClass": "cardButton",
+      "blockClass": ["cardButton", "rebelPink"],
       "label": "FIND AN AGENCY",
       "href": "http://store.vtex.com/en/agencias",
       "displayMode": "button"
@@ -338,7 +338,7 @@
   },
   "link#bottomCardsLink2": {
     "props": { 
-      "blockClass": "cardButton",
+      "blockClass": ["cardButton", "rebelPink"],
       "label": "FIND SOLUTIONS",  
       "href": "/all-apps",
       "displayMode": "button"
@@ -346,7 +346,7 @@
   },
   "link#bottomCardsLink3": {
     "props": { 
-      "blockClass": "cardButton",
+      "blockClass": ["cardButton", "rebelPink"],
       "label": "BECOME A DEVELOPER",
       "href": "https://vtex.com/us-en/partner/",
       "displayMode": "button"

@@ -12,11 +12,12 @@
 .imageElement--earnMoney {
   border-radius: 0.5rem;
   height: auto;
+  object-fit: cover;
 }
 
 @media (min-width: 600px) {
   .imageElement--earnMoney {
     border-radius: 0.5rem;
-    height: 100%;
+    object-fit: cover;
   }
 }

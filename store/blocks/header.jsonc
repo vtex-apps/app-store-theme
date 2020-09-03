@@ -40,7 +40,8 @@
     "children": [
       "logo",
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#main-menu"
+      "vtex.menu@2.x:menu#main-menu",
+      "locale-switcher"
     ]
   },
   "flex-layout.col#spacer": {
@@ -73,6 +74,7 @@
     "children": [
       "logo#mobile",
       "flex-layout.col#spacer",
+      "locale-switcher",
       "drawer"
     ]
   },
@@ -123,7 +125,8 @@
     "children": [
       "logo",
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#main-menu"
+      "vtex.menu@2.x:menu#main-menu",
+      "locale-switcher"
     ]
   },
   "flex-layout.row#header-mobilehome": {
@@ -135,6 +138,7 @@
     "children": [
       "logo#mobile",
       "flex-layout.col#spacer",
+      "locale-switcher",
       "drawer"
     ]
   }

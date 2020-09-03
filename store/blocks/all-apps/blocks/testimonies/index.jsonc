@@ -1,0 +1,22 @@
+{
+  "slider-layout#testimonyallapps": { 
+    "props": { 
+      "itemsPerPage": {
+        "desktop": 1,
+        "mobile": 1
+      },
+      "autoplay": { 
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": false,
+      "showPaginationDots": false
+    },
+    "children": [
+      "flex-layout.row#testimonyallapps1",
+      "flex-layout.row#testimonyallapps2",
+      "flex-layout.row#testimonyallapps3"
+    ]
+  }
+}
