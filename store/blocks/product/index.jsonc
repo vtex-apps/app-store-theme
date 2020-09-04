@@ -2,6 +2,12 @@
   "store.product": {
     "children": [
       "flex-layout.row#search-bar",
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
+    ]
+  },
+  "responsive-layout.desktop#desktop": {
+    "children": [
       "flex-layout.row#mainContainer"
     ]
   },
