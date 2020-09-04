@@ -9,7 +9,8 @@
       "flex-layout.col#appOverview",
       "flex-layout.col#appFeatures",
       "condition-layout.product#additionalInformation",
-      "flex-layout.col#appPricing"
+      "flex-layout.col#appPricing",
+      "flex-layout.col#appScreenshots"
     ]
   }
 

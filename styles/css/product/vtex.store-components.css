@@ -3,6 +3,10 @@
     width: 9.875rem;
     height: 9.875rem;
   }
+  .productImagesContainer--screenshots {
+    width: 696px;
+  }
+  
 }
 
 
@@ -23,7 +27,7 @@
 }
 
 .productImagesContainer--screenshots {
-  width: 696px;
+  width: 343px;
   border-radius: 8px;
   background-color: #F2F4F5;
 }
