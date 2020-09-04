@@ -69,6 +69,11 @@
   .flexRowContent--brand {
     width: 100%;
   }
+
+  .flexRow--brand {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media(min-width: 80rem) {

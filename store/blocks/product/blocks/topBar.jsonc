@@ -61,6 +61,7 @@
   "flex-layout.row#brand": {
     "props": {
       "colGap": 3,
+      "preventVerticalStretch": true,
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",

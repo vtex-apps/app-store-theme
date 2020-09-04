@@ -1,15 +1,3 @@
-@media(min-width: 600px) {
-  .productImage--productLogo {
-    width: 9.875rem;
-    height: 9.875rem;
-  }
-  .productImagesContainer--screenshots {
-    width: 696px;
-  }
-  
-}
-
-
 .productImage--productLogo {
   border-radius: 0.25rem;
   border: 1px solid #E3E4E6;
@@ -74,4 +62,15 @@
   }
 }
 
-
+@media (min-width: 40rem) {
+  .buttonContainer :global(.vtex-button) {
+    width: fit-content
+  }
+  .productImage--productLogo {
+    width: 9.875rem !important;
+    height: 9.875rem !important;
+  }
+  .productImagesContainer--screenshots {
+    width: 696px;
+  } 
+}
