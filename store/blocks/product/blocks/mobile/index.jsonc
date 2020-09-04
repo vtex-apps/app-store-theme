@@ -32,8 +32,14 @@
     ]
   },
   "flex-layout.col#informationContainer": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "rowGap": 1
+    },
     "children": [
-      "product-name"
+      "product-name",
+      "flex-layout.row#brand"
     ]
   }
 }

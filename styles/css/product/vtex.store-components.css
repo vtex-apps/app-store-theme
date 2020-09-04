@@ -13,8 +13,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 7.5rem !important;
+  height: 7.5rem !important;
 }
 
 .productImageTag--productLogo {

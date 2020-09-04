@@ -33,9 +33,8 @@
   justify-content: space-between;
 }
 
-.flexRow--brand {
-  display: flex;
-  align-items: center;
+.flexRowContent--brand {
+  width: fit-content;
 }
 
 .flexCol--specifications {
@@ -49,7 +48,7 @@
 }
 
 .flexCol--appSpecificationContainer {
-  padding-top: 3rem;
+  padding-top: 2.5rem;
 }
 
 @media (min-width: 40rem) {
@@ -61,6 +60,14 @@
     padding-right: 3rem;
     padding-left: 3rem;
     padding-bottom: 6rem;
+  }
+
+  .flexCol--appSpecificationContainer {
+    padding-top: 3rem;
+  }
+
+  .flexRowContent--brand {
+    width: 100%;
   }
 }
 
