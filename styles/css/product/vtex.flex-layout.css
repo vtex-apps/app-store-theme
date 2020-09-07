@@ -1,3 +1,10 @@
+.flexRow--mainContainerMobile {
+  padding-top: 3.125rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 3rem;
+}
+
 .flexRow--mainContainer {
   max-width: 90rem;
 }
@@ -26,15 +33,14 @@
   justify-content: space-between;
 }
 
-.flexRow--brand {
-  display: flex;
-  align-items: center;
+.flexRowContent--brand {
+  width: fit-content;
 }
 
 .flexCol--specifications {
-  padding-right: 3rem;
-  padding-left: 3rem;
-  padding-bottom: 6rem;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
 }
 
 .flexRow--supportItem {
@@ -42,13 +48,31 @@
 }
 
 .flexCol--appSpecificationContainer {
-  padding-top: 3rem;
+  padding-top: 2.5rem;
 }
 
 @media (min-width: 40rem) {
   .flexRow--mainContainer {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+  .flexCol--specifications {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 6rem;
+  }
+
+  .flexCol--appSpecificationContainer {
+    padding-top: 3rem;
+  }
+
+  .flexRowContent--brand {
+    width: 100%;
+  }
+
+  .flexRow--brand {
+    display: flex;
+    align-items: center;
   }
 }
 

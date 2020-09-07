@@ -1,0 +1,45 @@
+{
+  "responsive-layout.mobile#mobile": {
+    "children": [
+      "flex-layout.row#mainContainerMobile"
+    ]
+  },
+  "flex-layout.row#mainContainerMobile": {
+    "props": {
+      "blockClass": "mainContainerMobile"
+    },
+    "children": [
+      "flex-layout.col#pdpContainerMobile"
+    ]
+  },
+  "flex-layout.col#pdpContainerMobile": {
+    "props": {
+      "rowGap": 6
+    },
+    "children": [
+      "flex-layout.row#productOverview",
+      "account-dialog",
+      "flex-layout.col#specificationsMobile"
+    ]
+  },
+  "flex-layout.row#productOverview": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": [ 
+      "product-images#productLogo",
+      "flex-layout.col#informationContainer"
+    ]
+  },
+  "flex-layout.col#informationContainer": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "rowGap": 1
+    },
+    "children": [
+      "product-name",
+      "flex-layout.row#brand"
+    ]
+  }
+}

@@ -47,3 +47,13 @@
 .dialogInput :global(.vtex-styleguide-9-x-input) {
   background-color: white;
 }
+
+.buttonContainer :global(.vtex-button) {
+  width: 100%
+}
+
+@media (min-width: 40rem) {
+  .buttonContainer :global(.vtex-button) {
+    width: fit-content
+  }
+}

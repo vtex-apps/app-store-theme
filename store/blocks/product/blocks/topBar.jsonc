@@ -62,6 +62,8 @@
     "props": {
       "colGap": 3,
       "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
       "colSizing": "auto",
       "blockClass": "brand"
     },
@@ -73,7 +75,8 @@
   "flex-layout.row#vendor": {
     "props": {
       "colSizing": "auto",
-      "colGap": 2
+      "colGap": 2,
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "rich-text#by",

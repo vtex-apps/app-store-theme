@@ -1,0 +1,17 @@
+{
+  "flex-layout.col#specificationsMobile": {
+    "props": {
+      "blockClass": "specifications",
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.col#appOverview",
+      "flex-layout.col#appFeatures",
+      "condition-layout.product#additionalInformation",
+      "flex-layout.col#appPricing",
+      "flex-layout.col#appScreenshots"
+    ]
+  }
+
+}
