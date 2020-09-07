@@ -6,9 +6,10 @@
   background-color: #142032;
 }
 
-.link--rebelPink {
+.link--rebelPink, .link--rebelPink:focus {
   background-color: #F71963;
 }
+
 .link--cardButton {
   height: 4rem;
   width: 100%;

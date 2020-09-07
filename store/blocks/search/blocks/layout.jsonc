@@ -6,6 +6,15 @@
       "search-not-found-layout"
     ]
   },
+  "search-not-found-layout": {
+    "children": ["flex-layout.row#notfound"]
+  },
+  "flex-layout.row#notfound": {
+    "children": ["not-found"],
+    "props": {
+      "fullWidth": true
+    }
+  },
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchContainer"

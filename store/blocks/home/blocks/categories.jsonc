@@ -138,6 +138,7 @@
     "props": {
       "blockClass": "categoryCard",
       "href": "/all-apps#marketing",
+      "scrollTo": "marketing",
       "label": "Marketing and affiliate programs"
     }
   },
@@ -145,6 +146,7 @@
     "props": {
       "blockClass": "categoryCard",
       "href": "/all-apps#customerSupport",
+      "scrollTo": "customerSupport",
       "label": "Customer support and notifications"
     }
   },
@@ -152,6 +154,7 @@
     "props": {
       "blockClass": "categoryCard",
       "href": "/all-apps#channels",
+      "scrollTo": "channels",
       "label": "Marketplaces and channels"
     }
   },
@@ -159,6 +162,7 @@
     "props": {
       "blockClass": "categoryCard",
       "href": "/all-apps#review",
+      "scrollTo": "review",
       "label": "Reviews, ratings and analytics"
     }
   }
