@@ -111,8 +111,7 @@
       "condition-layout.product#faq",
       "condition-layout.product#documentation",
       "flex-layout.row#website",
-      "flex-layout.row#getSupport",
-      "flex-layout.row#privacyPolicy"
+      "flex-layout.row#getSupport"
     ]
   },
   "condition-layout.product#faq": {
