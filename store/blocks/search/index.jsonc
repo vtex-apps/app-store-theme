@@ -6,7 +6,7 @@
     ],
     "props": { 
       "context": { 
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "__unstableProductOriginVtex": true
       }
