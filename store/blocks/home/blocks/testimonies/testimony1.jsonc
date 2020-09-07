@@ -37,7 +37,7 @@
     "props": {
       "width": 120,
       "height": "auto",
-      "src": "assets/marin.jpg",
+      "src": "assets/testimonial-marin.jpg",
       "blockClass": "testimonyImg"
     }
   },

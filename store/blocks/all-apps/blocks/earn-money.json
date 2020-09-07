@@ -14,7 +14,7 @@
   "image#all-apps-earn-money": {
     "props": {
       "width": "auto",
-      "src": "assets/earnMoney.png",
+      "src": "assets/earn-money.jpg",
       "blockClass": "earnMoney"
     }
   },

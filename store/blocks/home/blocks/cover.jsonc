@@ -57,14 +57,14 @@
     "props": {
       "height": "480px",
       "blockClass": "coverImage",
-      "src": "assets/newHero.png"
+      "src": "assets/hero-desktop.jpg"
     }
   },
   "image#cover-mobile": {
     "props": {
       "height": "400px",
       "blockClass": "coverImage",
-      "src": "assets/hero_mobile.png"
+      "src": "assets/hero-mobile.jpg"
     }
   },
   "rich-text#store-headline": {

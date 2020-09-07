@@ -34,7 +34,7 @@
     "props": {
       "width": 120,
       "height": 120,
-      "src": "assets/testimonyPlaceholder.png",
+      "src": "assets/testimonial-fabio.jpg",
       "blockClass": "testimonyImg"
     }
   },
