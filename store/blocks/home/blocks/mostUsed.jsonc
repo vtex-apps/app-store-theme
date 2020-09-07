@@ -55,7 +55,9 @@
         "orderByField": "OrderByReleaseDateDESC",
         "queryField": "139",
         "mapField": "productClusterIds",
-        "__unstableProductOriginVtex": true
+        "__unstableProductOriginVtex": true,
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": [

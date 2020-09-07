@@ -19,7 +19,9 @@
     "blocks": ["product-summary.shelf#defaultSearch"],
     "props": {
       "autocompleteWidth": 100,
-      "__unstableProductOriginVtex": true
+      "__unstableProductOriginVtex": true,
+      "simulationBehavior": "skip", 
+      "skusFilter": "FIRST_AVAILABLE"
     }
   }
 }
