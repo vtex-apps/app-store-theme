@@ -331,6 +331,7 @@
   "link#bottomCardsLink1": {
     "props": { 
       "blockClass": ["cardButton", "rebelPink"],
+      "target": "_blank",
       "label": "FIND AN AGENCY",
       "href": "http://store.vtex.com/en/agencias",
       "displayMode": "button"
@@ -348,6 +349,7 @@
     "props": { 
       "blockClass": ["cardButton", "rebelPink"],
       "label": "BECOME A DEVELOPER",
+      "target": "_blank",
       "href": "https://vtex.com/us-en/partner/",
       "displayMode": "button"
     }
