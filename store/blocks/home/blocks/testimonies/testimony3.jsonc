@@ -37,7 +37,7 @@
     "props": {
       "width": 120,
       "height": "auto",
-      "src": "assets/ranieri.jpg",
+      "src": "assets/testimonial-ranieri.jpg",
       "blockClass": "testimonyImg"
     }
   },
