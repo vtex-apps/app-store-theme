@@ -6,7 +6,9 @@
     "blocks": [
       "stack-layout#cover",
       "flex-layout.row#search-bar",
-      "flex-layout.row#main-container"
+      "flex-layout.row#main-container",
+      "__fold__",
+      "flex-layout.row#main-container-2"
     ]
   },
   "flex-layout.row#main-container": {
@@ -27,7 +29,19 @@
       "responsive-layout.tablet#categories",
       "responsive-layout.desktop#infocard",
       "responsive-layout.phone#infocard",
-      "responsive-layout.tablet#infocard",
+      "responsive-layout.tablet#infocard"
+    ]
+  },
+  "flex-layout.row#main-container-2": {
+    "props": {
+      "blockClass": "mainContainer"
+    },
+    "children": [
+      "flex-layout.col#main-container-2"
+    ]
+  },
+  "flex-layout.col#main-container-2": {
+    "children": [
       "responsive-layout.desktop#testimonies",
       "responsive-layout.tablet#testimonies",
       "responsive-layout.phone#testimonies",
