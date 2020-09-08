@@ -14,7 +14,6 @@
     },
     "children": [
       "flex-layout.row#all-apps-earn-money",
-      "slider-layout#testimonyallapps",
       "flex-layout.row#all-apps-two"
     ]
   },
@@ -24,7 +23,6 @@
     },
     "children": [
       "flex-layout.row#all-apps-earn-money",
-      "slider-layout#testimonyallapps",
       "flex-layout.col#all-apps-find-agencies",
       "flex-layout.col#all-apps-discovery"
     ]
