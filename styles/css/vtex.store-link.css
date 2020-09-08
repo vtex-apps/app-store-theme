@@ -1,0 +1,9 @@
+.label--footerInfo {
+  line-height: 1.3125rem;
+  color: #ccced8;
+  font-size: 0.875rem;
+}
+
+.link--footerInfo {
+  text-decoration: none;
+}
