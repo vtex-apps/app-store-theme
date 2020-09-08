@@ -242,7 +242,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#marketing"]
@@ -259,7 +259,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#review"]
@@ -276,7 +276,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#marketing"]
@@ -293,7 +293,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#channels"]
@@ -310,7 +310,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#finance"]
@@ -327,7 +327,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#omnichannel"]
@@ -344,7 +344,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#privacy"]
@@ -361,7 +361,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#developer"]

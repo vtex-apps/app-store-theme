@@ -21,7 +21,7 @@
       "autocompleteWidth": 100,
       "__unstableProductOriginVtex": true,
       "simulationBehavior": "skip", 
-      "skusFilter": "ALL"
+      "skusFilter": "FIRST_AVAILABLE"
     }
   }
 }

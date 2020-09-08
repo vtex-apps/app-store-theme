@@ -57,7 +57,7 @@
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
-        "skusFilter": "ALL"
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": [
