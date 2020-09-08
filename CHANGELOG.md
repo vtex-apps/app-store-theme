@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.21.4] - 2020-09-08
+
 ## Fixed	
 
 - Account dialog input style when errors occur
