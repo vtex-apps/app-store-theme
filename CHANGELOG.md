@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Fixed 
+- Typo on simulationBehavior and changed skusFilter
+
 ## [0.21.4] - 2020-09-08
 
 ## Fixed	
