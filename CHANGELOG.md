@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Removed
+- Testimonies from all apps mobile
+
 ## [0.22.1] - 2020-09-08
 
 ## Fixed 
