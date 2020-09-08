@@ -16,7 +16,6 @@
     "children": [
       "responsive-layout.desktop#infocardAllApps",
       "responsive-layout.tablet#infocardAllApps",
-      "flex-layout.row#mainHighlights",
       "flex-layout.row#marketing",
       "flex-layout.row#review",
       "flex-layout.row#customerSupport",
