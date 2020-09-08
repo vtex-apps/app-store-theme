@@ -20,7 +20,7 @@
     "props": {
       "autocompleteWidth": 100,
       "__unstableProductOriginVtex": true,
-      "simulationBehavior": "deafult", 
+      "simulationBehavior": "skip", 
       "skusFilter": "ALL"
     }
   }

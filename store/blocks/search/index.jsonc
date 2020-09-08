@@ -7,7 +7,7 @@
     "props": { 
       "context": { 
         "skusFilter": "ALL",
-        "simulationBehavior": "deafult",
+        "simulationBehavior": "skip",
         "__unstableProductOriginVtex": true
       }
     }

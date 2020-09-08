@@ -56,7 +56,7 @@
         "queryField": "139",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },

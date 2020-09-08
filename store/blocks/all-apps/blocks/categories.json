@@ -241,7 +241,7 @@
         "queryField": "138",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },
@@ -258,7 +258,7 @@
         "queryField": "144",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },
@@ -275,7 +275,7 @@
         "queryField": "140",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },
@@ -292,7 +292,7 @@
         "queryField": "141",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },
@@ -309,7 +309,7 @@
         "queryField": "143",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },
@@ -326,7 +326,7 @@
         "queryField": "145",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },
@@ -343,7 +343,7 @@
         "queryField": "142",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },
@@ -360,7 +360,7 @@
         "queryField": "146",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
+        "simulationBehavior": "skip", 
         "skusFilter": "ALL"
       }
     },
