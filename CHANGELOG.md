@@ -7,19 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.21.3] - 2020-09-08
-
-## Removed
-
-- Highlights from all apps Page
-
-## [0.21.2] - 2020-09-08
-
-## Fixed
-
-- Links and padding of home page
-
-## [0.21.1] - 2020-09-08
+- Account dialog input style when errors occur
 
 ## [0.21.0] - 2020-09-07
 

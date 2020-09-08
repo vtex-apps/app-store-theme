@@ -40,10 +40,6 @@
   align-items: center;
 }
 
-.dialogInput :global(.vtex-input-prefix__group) {
-  border: 2px solid #CACBCC;
-}
-
 .dialogInput :global(.vtex-styleguide-9-x-input) {
   background-color: white;
 }
