@@ -56,8 +56,29 @@
     },
     "children": [
       "rich-text#version",
-      "product-specification-badges#major"
+      "flex-layout.row#major"
     ]
+  },
+  "flex-layout.row#major": {
+    "props": {
+      "colGap": 0,
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "product-specification-badges#major",
+      "rich-text#dotX"
+    ]
+  },
+  "rich-text#dotX": {
+    "props": {
+      "blockClass": "dotX",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
+      },
+      "text": ".x"
+    }
   },
   "rich-text#version": {
     "props": {
