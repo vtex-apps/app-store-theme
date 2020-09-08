@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.21.2] - 2020-09-08
+
 ## Fixed
 
 - Links and padding of home page
