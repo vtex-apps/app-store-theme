@@ -169,8 +169,8 @@
   },
   "flex-layout.row#bottomCards": {
     "props": { 
-      "marginTop": 10,
-      "marginBottom": 10,
+      "marginTop": 8,
+      "marginBottom": 8,
       "preventVerticalStretch": true
     },
     "children": [

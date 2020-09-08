@@ -50,28 +50,28 @@
       "horizontalAlign": "right"
     },
     "children": [
-      "rich-text#contact",
-      "rich-text#privacy-policy"
+      "link#contact",
+      "link#privacy-policy"
     ]
   },
-  "rich-text#contact": {
+
+  "link#contact": {
     "props": {
       "blockClass": "footerInfo",
-      "font": {
-        "desktop": "t-heading-4",
-        "mobile": "body"
-      },
-      "text": "[Contato](https://vtex.com/br-pt/contato/)"
+      "target": "blank",
+      "label": "Contato",
+      "href": "https://vtex.com/en-us/contact/",
+      "displayMode": "link"
     }
   },
-  "rich-text#privacy-policy": {
+
+  "link#privacy-policy": {
     "props": {
       "blockClass": "footerInfo",
-      "font": {
-        "desktop": "t-heading-4",
-        "mobile": "body"
-      },
-      "text": "[Política de privacidade](https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy)"
+      "target": "blank",
+      "label": "Política de privacidade",
+      "href": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
+      "displayMode": "link"
     }
   }
 }
