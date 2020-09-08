@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Removed
+
+- Highlights from all apps Page
+
 ## [0.21.2] - 2020-09-08
 
 ## Fixed
