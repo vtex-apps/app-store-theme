@@ -6,8 +6,8 @@
     ],
     "props": { 
       "context": { 
-        "skusFilter": "ALL",
-        "simulationBehavior": "deafult",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "__unstableProductOriginVtex": true
       }
     }

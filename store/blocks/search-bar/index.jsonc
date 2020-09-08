@@ -20,8 +20,8 @@
     "props": {
       "autocompleteWidth": 100,
       "__unstableProductOriginVtex": true,
-      "simulationBehavior": "deafult", 
-      "skusFilter": "ALL"
+      "simulationBehavior": "skip", 
+      "skusFilter": "FIRST_AVAILABLE"
     }
   }
 }

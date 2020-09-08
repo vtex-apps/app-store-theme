@@ -241,8 +241,8 @@
         "queryField": "138",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
-        "skusFilter": "ALL"
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#marketing"]
@@ -258,8 +258,8 @@
         "queryField": "144",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
-        "skusFilter": "ALL"
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#review"]
@@ -275,8 +275,8 @@
         "queryField": "140",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
-        "skusFilter": "ALL"
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#marketing"]
@@ -292,8 +292,8 @@
         "queryField": "141",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
-        "skusFilter": "ALL"
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#channels"]
@@ -309,8 +309,8 @@
         "queryField": "143",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
-        "skusFilter": "ALL"
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#finance"]
@@ -326,8 +326,8 @@
         "queryField": "145",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
-        "skusFilter": "ALL"
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#omnichannel"]
@@ -343,8 +343,8 @@
         "queryField": "142",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
-        "skusFilter": "ALL"
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#privacy"]
@@ -360,8 +360,8 @@
         "queryField": "146",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "deafult", 
-        "skusFilter": "ALL"
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#developer"]
