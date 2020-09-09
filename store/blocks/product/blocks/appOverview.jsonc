@@ -19,8 +19,11 @@
   },
   "flex-layout.row#appOverviewContent": {
     "props": {
+      "blockClass": "appOverviewContent",
+      "preventVerticalStretch": true,
       "preventHorizontalStretch": true,
-      "colGap": 0
+      "colGap": 0,
+      "rowGap": 0
     },
     "children": [
       "specification-text#overview",
