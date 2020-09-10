@@ -6,6 +6,7 @@
     ],
     "props": { 
       "context": { 
+        "maxItemsPerPage": 50,
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "__unstableProductOriginVtex": true
