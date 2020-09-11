@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Fixed 
+- Removed `preventHorizontalStretch` that broke search result
+
 ## [0.24.0] - 2020-09-11
 ## Fixed
 - Horizontal scroll of `search-result` mobile
