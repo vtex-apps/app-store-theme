@@ -9,6 +9,7 @@
 
 @media(max-width: 600px){ 
   .flexRow--searchContainer {
+    width: fit-content;
     padding-top: .5rem;
     padding-left: 1rem;
     padding-right: 1rem;
