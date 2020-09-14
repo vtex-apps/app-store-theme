@@ -1,0 +1,22 @@
+{
+  "store.custom#terms-of-service": { 
+    "blocks": [
+      "flex-layout.row#terms-container"
+    ]
+  },
+  "flex-layout.row#terms-container": {
+    "props": { 
+      "blockClass": "allAppsContainer",
+      "marginTop": 9,
+      "marginBottom": 9
+    },
+    "children": [
+      "rich-text#terms-of-service"
+    ]
+  },
+  "rich-text#terms-of-service": {
+    "props": {
+      "text": "Hello"
+    }
+  }
+}
