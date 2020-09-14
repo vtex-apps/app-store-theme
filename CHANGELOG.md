@@ -7,8 +7,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
 ## Added
 - Terms of service custom layout
+
+## [0.24.1] - 2020-09-11
+
+## Fixed 
+- Removed `preventHorizontalStretch` that broke search result
+
+## [0.24.0] - 2020-09-11
+## Fixed
+- Horizontal scroll of `search-result` mobile
+- Number of items in `search-result` page
+- Padding between logo and app name in PDP mobile
+
+## [0.23.0] - 2020-09-10
+## Added
+- PDP mobile adjusts
 
 ## [0.22.2] - 2020-09-08
 

@@ -11,3 +11,22 @@
   line-height: 2rem;
   letter-spacing: -0.0125rem;
 }
+
+.listItemContainer:last-child {
+  padding-bottom: 0;
+}
+
+@media(max-width: 40rem) {
+  .listItemContainer:first-child {
+    padding-top: 0rem;
+  }
+  .listItemContainer {
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .listItemValue {
+    width: 100%;
+  }
+}

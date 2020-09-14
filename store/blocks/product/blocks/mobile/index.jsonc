@@ -24,7 +24,9 @@
   },
   "flex-layout.row#productOverview": {
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "colGap": 6
     },
     "children": [ 
       "product-images#productLogo",
