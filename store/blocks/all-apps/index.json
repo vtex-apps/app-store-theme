@@ -24,6 +24,7 @@
       "flex-layout.row#omnichannel",
       "flex-layout.row#privacy",
       "flex-layout.row#developer",
+      "flex-layout.row#storeDesign",
       "responsive-layout.desktop#all-apps",
       "responsive-layout.tablet#all-apps",
       "responsive-layout.phone#all-apps"

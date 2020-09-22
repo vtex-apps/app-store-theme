@@ -135,8 +135,22 @@
       "search-result-layout.customQuery#developer"
     ]
   },
-
-
+  "flex-layout.row#storeDesign": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": [
+      "flex-layout.col#storeDesign"
+    ]
+  },
+  "flex-layout.col#storeDesign": {
+    "children": [
+      "rich-text#storeDesign",
+      "search-result-layout.customQuery#storeDesign"
+    ]
+  },
   "rich-text#marketing": {
     "props": {
       "htmlId": "marketing",
@@ -206,7 +220,7 @@
         "mobile": "t-heading-5" 
       },
       "textPosition": "LEFT",
-      "text": "Logistics"
+      "text": "Logistics and productivity"
     }
   },
   "rich-text#privacy": {
@@ -231,6 +245,18 @@
       },
       "textPosition": "LEFT",
       "text": "Developer tools"
+    }
+  },
+  "rich-text#storeDesign": {
+    "props": {
+      "htmlId": "storeDesign",
+      "blockClass": "categories",
+      "font": { 
+        "desktop": "t-heading-5", 
+        "mobile": "t-heading-5" 
+      },
+      "textPosition": "LEFT",
+      "text": "Store design"
     }
   },
   "search-result-layout.customQuery#marketing": {
@@ -367,6 +393,23 @@
     "blocks": ["search-result-layout.desktop#developer"]
   },
   "search-result-layout.desktop#developer": {
+    "children": ["search-content#defaultSearch"]
+  },
+  "search-result-layout.customQuery#storeDesign": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 8,
+        "orderByField": "OrderByTopSaleDESC",
+        "queryField": "147",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true,
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#storeDesign"]
+  },
+  "search-result-layout.desktop#storeDesign": {
     "children": ["search-content#defaultSearch"]
   }
 }
