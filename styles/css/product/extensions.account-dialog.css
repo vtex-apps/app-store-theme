@@ -48,7 +48,11 @@
   width: 100%
 }
 
-@media (min-width: 40rem) {
+.buttonContainer--pdpTablet {
+  padding-top: 0.5rem;
+}
+
+@media (min-width: 80rem) {
   .buttonContainer :global(.vtex-button) {
     width: fit-content
   }

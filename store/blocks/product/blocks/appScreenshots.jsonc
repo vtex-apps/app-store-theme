@@ -8,7 +8,7 @@
     },
     "children": [
       "rich-text#appScreenshotsHeader",
-      "product-images#screenshots"
+      "app-images-slider#screenshots"
     ]
   },
   "rich-text#appScreenshotsHeader": {
@@ -18,17 +18,17 @@
       "htmlId": "screenshots"
     }
   },
-  "product-images#screenshots": {
+  "app-images-slider#screenshots": {
     "props": {
-      "blockClass": "screenshots",
-      "thumbnailsOrientation": "horizontal",
-      "hiddenImages": [
-        "logoOld",
-        "logo"
-      ],
-      "contentType": "images",
-      "thumbnailMaxHeight": true,
-      "showNavigationArrows": true
+      "filterPattern": "screenshot",
+      "sliderLayoutProps": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        }
+      },
+      "blockClass": "screenshots"
     }
   }
 }

@@ -12,3 +12,12 @@
   font-weight: 300;
   line-height: 1.5rem;
 }
+
+.appImage--screenshots {
+  max-height: 380px;
+  object-fit: contain;
+}
+
+.sliderLayoutContainer--screenshots {
+  background-color: #f3f4f5;
+}

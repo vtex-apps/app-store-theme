@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#search-bar",
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      "responsive-layout.phone#mobile",
+      "responsive-layout.tablet#tablet"
     ]
   },
   "responsive-layout.desktop#desktop": {
