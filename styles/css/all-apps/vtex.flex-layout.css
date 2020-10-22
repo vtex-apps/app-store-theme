@@ -80,7 +80,16 @@
   height: 100%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 40rem) { 
+  .flexRow--allAppsContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 80rem) {
   .flexRow--allAppsContainer {
     max-width: 90rem;
     padding-left: 9rem;

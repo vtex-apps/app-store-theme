@@ -32,3 +32,7 @@
   object-fit: cover;
   max-width: none;
 }
+.imageElement--lastBottomCard {
+  object-fit: cover;
+  max-width: none;
+}

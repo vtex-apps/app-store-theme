@@ -5,6 +5,13 @@
   padding-bottom: 3rem;
 }
 
+.flexRow--mainContainerTablet {
+  padding-top: 3.125rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+
 .flexRow--mainContainer {
   max-width: 90rem;
 }
@@ -69,6 +76,7 @@
 
   .flexRowContent--brand {
     width: 100%;
+    justify-content: start;
   }
 
   .flexRow--brand {
