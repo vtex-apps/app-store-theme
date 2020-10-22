@@ -20,6 +20,7 @@
   },
   "app-images-slider#screenshots": {
     "props": {
+      "orderBy": "imageLabel",
       "filterPattern": "screenshot",
       "sliderLayoutProps": {
         "itemsPerPage": {
