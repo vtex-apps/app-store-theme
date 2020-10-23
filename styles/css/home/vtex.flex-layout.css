@@ -158,13 +158,19 @@
   justify-content: space-between;
 }
 
+.flexRowContent--firstBottomCardsTablet {
+  height: 100%;
+}
+
+
+
 /**
   Tablet
 */
 
 @media (min-width: 40rem) {
   .flexColChild--bottomCards{
-    height: 260px !important;
+    height: 100% !important;
   }
 
   .flexRow--testimonyContainer {

@@ -221,8 +221,7 @@
     "props": {
       "blockClass": "bottomCardsContainerTablet",
       "colGap": 4,
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
+      "preventHorizontalStretch": true
     },
     "children": [
       "flex-layout.row#FirstBottomCardsBodyTablet",
@@ -231,6 +230,7 @@
   },
   "flex-layout.row#FirstBottomCardsBodyTablet": {
     "props": {
+      "blockClass": "firstBottomCardsTablet",
       "colGap": 4,
       "preventHorizontalStretch": false,
       "preventVerticalStretch": true
