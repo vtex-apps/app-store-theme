@@ -18,4 +18,13 @@
   .imageElement--earnMoney {
     object-fit: cover;
   }
+  .imageElement--earnMoney {
+    width: 100% !important;
+  } 
+}
+
+@media (min-width: 80rem) {
+  .imageElement--earnMoney {
+    width: auto !important;
+  } 
 }
