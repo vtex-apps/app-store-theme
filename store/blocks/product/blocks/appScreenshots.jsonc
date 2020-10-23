@@ -21,7 +21,7 @@
   "app-images-slider#screenshots": {
     "props": {
       "orderBy": "imageLabel",
-      "filterPattern": "screenshot",
+      "filterPattern": "screenshotDesktop",
       "sliderLayoutProps": {
         "itemsPerPage": {
           "desktop": 1,
