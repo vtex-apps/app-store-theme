@@ -130,8 +130,13 @@
   },
   "checkout-step-group#app-store": {
     "children": [
-      "payment-step"
+      "payment-step#app-store"
     ]
+  },
+  "payment-step#app-store": {
+    "props": {
+      "billingAddressType": "new"
+    }
   },
   "app-terms-of-service#terms": {
     "props": {

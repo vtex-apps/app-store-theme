@@ -4931,6 +4931,10 @@ verror@1.10.0:
   version "0.12.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.app-store-components@0.12.0/public/@types/vtex.app-store-components#6fe6fb5826887cc9e8a4c263dedfca842dee02f6"
 
+"vtex.app-store-price@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.app-store-price@1.1.0/public/@types/vtex.app-store-price":
+  version "1.1.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.app-store-price@1.1.0/public/@types/vtex.app-store-price#882561807e6094eef99f5d14a85fdc1180c4a634"
+
 "vtex.breadcrumb@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.breadcrumb@1.9.1/public/@types/vtex.breadcrumb":
   version "1.9.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.breadcrumb@1.9.1/public/@types/vtex.breadcrumb#015bac17938f439d0deb97236fa54f724165fb6b"
@@ -4942,6 +4946,10 @@ verror@1.10.0:
 "vtex.checkout-cart@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-cart@0.33.0/public/@types/vtex.checkout-cart":
   version "0.33.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-cart@0.33.0/public/@types/vtex.checkout-cart#0b713ce02dbcead8f4fe28640839e251a2755c8a"
+
+"vtex.checkout-step-group@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-step-group@0.11.0/public/@types/vtex.checkout-step-group":
+  version "0.11.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-step-group@0.11.0/public/@types/vtex.checkout-step-group#caae8acb3a3e3ef26eabbc2484409232db8bc414"
 
 "vtex.checkout-summary@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-summary@0.17.0/public/@types/vtex.checkout-summary":
   version "0.17.0"
