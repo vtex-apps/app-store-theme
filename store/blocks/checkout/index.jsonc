@@ -1,5 +1,9 @@
 {
   "store.checkout.order-form": {
+    "parent": {
+      "header": "header",
+      "footer": "footer"
+    },
     "blocks": [
       "responsive-container#checkout"
     ]
@@ -25,10 +29,8 @@
     },
     "flex-layout.col#checkout-desktop": {
       "children": [
-        "image#logo",
         "checkout-step-group#app-store",
-        "review-container#desktop",
-        "footer-layout#checkout"
+        "review-container#desktop"
       ],
       "props": {
         "blockClass": "checkoutColumn",
