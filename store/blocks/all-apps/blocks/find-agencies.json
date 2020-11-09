@@ -22,9 +22,9 @@
 
   "link#all-apps-find-agencies": {
     "props": {
-      "blockClass": "cardButton",
-      "label": "EXPLORE ALL",
-      "href": "#",
+      "blockClass": ["cardButton", "rebelPink"],
+      "label": "FIND AN AGENCY",
+      "href": "http://store.vtex.com/en/agencias/",
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary",

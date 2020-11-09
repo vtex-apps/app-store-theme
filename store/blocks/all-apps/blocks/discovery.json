@@ -19,9 +19,9 @@
 
   "link#all-apps-discovery": {
     "props": {
-      "blockClass": "cardButton",
-      "label": "EXPLORE ALL",
-      "href": "#",
+      "blockClass": ["cardButton", "rebelPink"],
+      "label": "GET TO KNOW VTEX",
+      "href": "https://vtex.com/us-en/",
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
