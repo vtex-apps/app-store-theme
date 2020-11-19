@@ -293,7 +293,7 @@
   },
   "flex-layout.col#systemCompatibility": {
     "props": {
-      "blockClass": "productHeading", // de onde vem o "productHeading"?
+      "blockClass": "productHeading",
       "rowGap": 1
     },
     "children": [
