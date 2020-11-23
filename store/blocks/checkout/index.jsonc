@@ -1,12 +1,16 @@
 {
   "store.checkout.order-form": {
-    "parent": {
-      "header": "header",
-      "footer": "footer"
-    },
     "blocks": [
       "responsive-container#checkout"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.app-store-condition#checkout"
+    }
+  },
+  "challenge.app-store-condition#checkout": {
+    "props": {
+      "redirectPath": "/cart"
+    }
   },
   "responsive-container#checkout": {
     "children": [
@@ -29,8 +33,10 @@
     },
     "flex-layout.col#checkout-desktop": {
       "children": [
+        "image#logo",
         "checkout-step-group#app-store",
-        "review-container#desktop"
+        "review-container#desktop",
+        "footer-layout#checkout"
       ],
       "props": {
         "blockClass": "checkoutColumn",
