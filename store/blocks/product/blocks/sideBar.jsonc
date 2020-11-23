@@ -293,7 +293,7 @@
   },
   "flex-layout.col#systemCompatibility": {
     "props": {
-      "blockClass": "productHeading", // de onde vem o "productHeading"?
+      "blockClass": "productHeading",
       "rowGap": 1
     },
     "children": [
@@ -325,7 +325,7 @@
   },
   "flex-layout.col#developmentEffort": {
     "props": {
-      "blockClass": "productHeading", // de onde vem o "productHeading"?
+      "blockClass": "productHeading",
       "rowGap": 1
     },
     "children": [
@@ -340,7 +340,7 @@
         "desktop": "body",
         "mobile": "body"
       },
-      "text": "**Development Effort**"
+      "text": "**Setup Effort**"
     }
   },
   "product-specification-badges#developmentEffort": {
