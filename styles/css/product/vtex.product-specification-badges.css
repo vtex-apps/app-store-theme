@@ -67,5 +67,5 @@
 .badgeContainer--subscriptionMessage{
   border-radius: 8px;
   background-color: rgba(255, 0, 0, 0.075);
-  position: absolute;
+  position: relative;
 }
