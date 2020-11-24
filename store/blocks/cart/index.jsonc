@@ -1,9 +1,9 @@
 {
   "store.checkout.cart": {
-    "blocks": ["checkout-cart"]
-    // "parent": {
-    //   "challenge": "challenge.app-store-condition#cart"
-    // }
+    "blocks": ["checkout-cart"],
+    "parent": {
+      "challenge": "challenge.app-store-condition#cart"
+    }
   },
   "store.checkout.cart-add": {
     "blocks": ["checkout-cart-add"],
