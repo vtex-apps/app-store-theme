@@ -27,6 +27,8 @@
       "responsive-layout.desktop#categories",
       "responsive-layout.phone#categories",
       "responsive-layout.tablet#categories",
+      "flex-layout.row#shelfHighlights",
+      "search-result-layout.customQuery#highlights",
       "responsive-layout.desktop#infocard",
       "responsive-layout.phone#infocard",
       "responsive-layout.tablet#infocard"
