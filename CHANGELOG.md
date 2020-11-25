@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.29.0] - 2020-11-24
 - adds a highlights shelf on the home page
 
+## [0.29.0] - 2020-11-24
+- adds a highlights shelf on the home page
+
 ## [0.28.1] - 2020-11-09
 ## Fixed 
 - Bottom cards layout (Home and all-apps)
