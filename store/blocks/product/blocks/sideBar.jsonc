@@ -9,6 +9,8 @@
       "product-images#productLogo",
       "flex-layout.col#partnerContainer",
       "flex-layout.col#versionContainer",
+      "flex-layout.col#systemCompatibility",
+      "flex-layout.col#developmentEffort",
       "flex-layout.col#supportContainer"
     ]
   },
@@ -287,6 +289,70 @@
       "blockClass": "supportOption",
       "href": "{specificationGroups.App Data.specifications.privacyURL}",
       "label": "Privacy policy"
+    }
+  },
+  "flex-layout.col#systemCompatibility": {
+    "props": {
+      "blockClass": "productHeading",
+      "rowGap": 1
+    },
+    "children": [
+      "rich-text#compatibility",
+      "product-specification-badges#systemCompatibility"
+    ]
+  },
+  "rich-text#compatibility": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
+      },
+      "text": "**Compatibility**"
+    }
+  },
+  "product-specification-badges#systemCompatibility": {
+    "props": {
+      "blockClass": "systemCompatibility",
+      "specificationGroupName": "App Data",
+      "specificationsOptions": [
+        {
+          "displayValue": "SPECIFICATION_VALUE",
+          "specificationName": "requiredTechnologies"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#developmentEffort": {
+    "props": {
+      "blockClass": "productHeading",
+      "rowGap": 1
+    },
+    "children": [
+      "rich-text#developmentEffort",
+      "product-specification-badges#developmentEffort"
+    ]
+  },
+  "rich-text#developmentEffort": {
+    "props": {
+      "blockClass": "sideBarTitle",
+      "font": {
+        "desktop": "body",
+        "mobile": "body"
+      },
+      "text": "**Setup Effort**"
+    }
+  },
+  "product-specification-badges#developmentEffort": {
+    "props": {
+      "blockClass": "developmentEffort",
+      "specificationGroupName": "App Data",
+      "specificationsOptions": [
+        {
+          "displayValue": "SPECIFICATION_VALUE",
+          "specificationName": "selfserviceLevel"
+        }
+      ]
     }
   }
 }
