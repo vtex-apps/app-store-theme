@@ -1,7 +1,7 @@
 {
   "vendor": "extensions",
   "name": "appstoretheme",
-  "version": "0.29.0",
+  "version": "0.30.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
