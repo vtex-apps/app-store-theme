@@ -59,7 +59,8 @@
     "vtex.render-runtime": "8.x",
     "vtex.checkout-step-group": "0.x",
     "vtex.checkout": "2.x",
-    "vtex.checkout-cart": "0.x"
+    "vtex.checkout-cart": "0.x",
+    "vtex.checkout-summary": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

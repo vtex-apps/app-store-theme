@@ -23,7 +23,7 @@
     "flex-layout.row#container-desktop": {
       "children": [
         "flex-layout.col#checkout-desktop",
-        "flex-layout.col#items-summary-desktop"
+        "app-store-price#checkout"
       ],
       "props": {
         "blockClass": "checkoutContainer",
@@ -44,7 +44,12 @@
         "width": "60%"
       }
     },
-  "checkout-step-group#app-store": {
-    "children": ["payment-step"]
-  }
+    "app-store-price#checkout": {
+      "props": {
+        "blockClass": "checkoutAppPrice"
+      }
+    },
+    "checkout-step-group#app-store": {
+      "children": ["payment-step"]
+    }
 }
