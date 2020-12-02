@@ -3,7 +3,8 @@
     "children": [
       "menu-item#appinstegration",
       "menu-item#becomepartner",
-      "menu-item#findagency"
+      "menu-item#findagency",
+      "login-logout#login"
     ]
   },
   "menu-item#appinstegration": {
@@ -49,6 +50,13 @@
         "tagTitle": "Find an agency",
         "text": "FIND AN AGENCY"
       }
+    }
+  },
+  "login-logout#login": {
+    "props": {
+      "id": "menu-item-login",
+      "loginText": "LOGIN",
+      "logoutText": "LOGOUT"
     }
   }
 }

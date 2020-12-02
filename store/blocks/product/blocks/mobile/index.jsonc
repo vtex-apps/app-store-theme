@@ -18,7 +18,7 @@
     },
     "children": [
       "flex-layout.row#productOverview",
-      "account-dialog",
+      "button-get-app",
       "flex-layout.col#specificationsMobile"
     ]
   },

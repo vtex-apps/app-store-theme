@@ -13,6 +13,10 @@
   line-height: 1.5rem;
 }
 
+.styledLoginLogout {
+  color: white
+}
+
 .appImage--screenshots {
   max-height: 380px;
   object-fit: contain;
