@@ -24,7 +24,7 @@
   },
   "responsive-layout.tablet#header-tablet": {
     "children": [
-      "flex-layout.row#header"
+      "flex-layout.row#header-mobile"
     ]
   },
   "responsive-layout.phone#header-phone": {

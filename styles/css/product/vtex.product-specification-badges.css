@@ -32,3 +32,40 @@
   letter-spacing: -0.013rem;
   line-height: 1.5rem;
 }
+
+.badgeContainer--systemCompatibility {
+  margin: 0px;
+  padding: 0px;
+}
+
+.badgeText--systemCompatibility {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+  color: #727273;
+  letter-spacing: -0.013rem;
+  line-height: 1.5rem;
+}
+
+.badgeContainer--developmentEffort {
+  margin: 0px;
+  padding: 0px;
+}
+
+.badgeText--developmentEffort {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+  color: #727273;
+  letter-spacing: -0.013rem;
+  line-height: 1.5rem;
+}
+
+
+.badgeContainer--subscriptionMessage{
+  border-radius: 0.5rem;
+  background-color: rgba(255, 0, 0, 0.075);
+  position: relative;
+}

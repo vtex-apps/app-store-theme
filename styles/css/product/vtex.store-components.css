@@ -14,16 +14,6 @@
   height: 6.25rem !important;
 }
 
-.productImagesContainer--screenshots {
-  width: 100%;
-  border-radius: 8px;
-  background-color: #F2F4F5;
-}
-
-.carouselGaleryThumbs--screenshots {
-  display: none;
-}
-
 .productBrand--appName {
   font-size: 1.6rem;
   margin-bottom: 0;
@@ -75,7 +65,4 @@
     width: 9.875rem !important;
     height: 9.875rem !important;
   }
-  .productImagesContainer--screenshots {
-    width: 696px;
-  } 
 }

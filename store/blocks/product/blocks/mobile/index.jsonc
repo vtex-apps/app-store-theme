@@ -1,5 +1,5 @@
 {
-  "responsive-layout.mobile#mobile": {
+  "responsive-layout.phone#mobile": {
     "children": [
       "flex-layout.row#mainContainerMobile"
     ]
@@ -43,5 +43,55 @@
       "product-name",
       "flex-layout.row#brand"
     ]
+  },
+  //Tablet
+  "responsive-layout.tablet#tablet": {
+    "children": [
+      "flex-layout.row#mainContainerTablet"
+    ]
+  },
+  "flex-layout.row#mainContainerTablet": {
+    "props": {
+      "blockClass": "mainContainerTablet"
+    },
+    "children": [
+      "flex-layout.col#pdpContainerTablet"
+    ]
+  },
+  "flex-layout.col#pdpContainerTablet": {
+    "props": {
+      "rowGap": 6
+    },
+    "children": [
+      "flex-layout.row#productOverviewTablet",
+      "flex-layout.col#specificationsMobile"
+    ]
+  },
+  "flex-layout.row#productOverviewTablet": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "colGap": 6
+    },
+    "children": [ 
+      "product-images#productLogo",
+      "flex-layout.col#informationContainerTablet"
+    ]
+  },
+  "flex-layout.col#informationContainerTablet": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 1
+    },
+    "children": [
+      "product-name",
+      "flex-layout.row#brand",
+      "account-dialog#pdpTablet"
+    ]
+  },
+  "account-dialog#pdpTablet": {
+    "props": {
+      "blockClass": "pdpTablet"
+    }
   }
 }

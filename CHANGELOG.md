@@ -9,6 +9,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - App Store login component
 
+## [0.30.0] - 2020-11-25
+## Added
+- Compatibility
+- Development effort
+- External subscriptions
+## [0.29.0] - 2020-11-24
+- adds a highlights shelf on the home page
+
+## [0.29.0] - 2020-11-24
+- adds a highlights shelf on the home page
+
+## [0.28.1] - 2020-11-09
+## Fixed 
+- Bottom cards layout (Home and all-apps)
+
+## [0.28.0] - 2020-10-23
+## [0.27.0] - 2020-10-22
+## Changed 
+- screenshots filter to show only desktop images
+
+## [0.27.0] - 2020-10-22
+## Fixed 
+- Tablet Layout and carrousel
+
 ## [0.26.0] - 2020-09-22
 ## Added
 - Terms of service custom layout
