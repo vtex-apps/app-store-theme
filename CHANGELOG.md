@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## Fixed
+- Increase in the maximum number of products per category presented in "all apps" (8 -> 80).
 
 ## [0.30.1] - 2020-12-03
 ## Fixed
