@@ -14,13 +14,17 @@
   },
   "responsive-container#checkout": {
     "children": [
-      "responsive-container.desktop#checkout"
+      "responsive-container.desktop#checkout",
+      "responsive-container.mobile#checkout"
     ]
   },
   "responsive-container.desktop#checkout": {
     "children": ["flex-layout.row#container-desktop"]
   },
-    "flex-layout.row#container-desktop": {
+  "responsive-container.mobile#checkout": {
+    "children": ["flex-layout.row#container-mobile"]
+  },
+  "flex-layout.row#container-desktop": {
       "children": [
         "flex-layout.col#checkout-desktop",
         "app-store-price#checkout"
@@ -33,9 +37,9 @@
     },
     "flex-layout.col#checkout-desktop": {
       "children": [
-        "image#logo",
         "checkout-step-group#app-store",
         "review-container#desktop",
+        "app-terms-of-service",
         "footer-layout#checkout"
       ],
       "props": {
@@ -50,6 +54,31 @@
       }
     },
     "checkout-step-group#app-store": {
+      "children": ["payment-step"]
+    },
+    "flex-layout.row#container-mobile": {
+      "children": ["flex-layout.col#checkout-mobile"],
+      "props": {
+        "blockClass": "checkoutContainer",
+        "paddingTop": 6,
+        "fullWidth": true
+      }
+    },
+  
+    "flex-layout.col#checkout-mobile": {
+      "children": [
+        "flex-layout.row#checkout-mobile-header",
+        "checkout-step-group#checkout-mobile",
+        "review-container#mobile",
+        "app-terms-of-service",
+        "footer-layout#checkout-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "checkoutColumnMobile"
+      }
+    },
+    "checkout-step-group#checkout-mobile": {
       "children": ["payment-step"]
     }
 }

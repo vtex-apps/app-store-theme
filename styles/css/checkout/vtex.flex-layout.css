@@ -1,3 +1,9 @@
 .flexRowContent--checkoutContainer {
   padding-top: 5rem;
 }
+.flexRow--checkoutContainer {
+  background-color: #fff;
+}
+.flexRow--checkoutColumnMobile {
+  background-color: #fff;
+}
