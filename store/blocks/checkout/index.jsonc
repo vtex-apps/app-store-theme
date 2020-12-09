@@ -39,7 +39,7 @@
       "children": [
         "checkout-step-group#app-store",
         "review-container#desktop",
-        "app-terms-of-service",
+        "app-terms-of-service#terms",
         "footer-layout#checkout"
       ],
       "props": {
@@ -70,7 +70,7 @@
         "flex-layout.row#checkout-mobile-header",
         "checkout-step-group#checkout-mobile",
         "review-container#mobile",
-        "app-terms-of-service",
+        "app-terms-of-service#terms",
         "footer-layout#checkout-mobile"
       ],
       "props": {
@@ -80,5 +80,10 @@
     },
     "checkout-step-group#checkout-mobile": {
       "children": ["payment-step"]
+    },
+    "app-terms-of-service#terms": {
+      "props": {
+        "blockClass": "appTerms"
+      }
     }
 }
