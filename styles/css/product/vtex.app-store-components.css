@@ -13,6 +13,23 @@
   line-height: 1.5rem;
 }
 
+.wrapper--appTerms {
+  overflow-wrap: anywhere;
+}
+.paragraph--appTerms {
+  font-size: 0.875rem;
+}
+
+.heading--appTerms {
+  font-size: 1.25rem;
+}
+
+@media(min-width: 40rem) {
+  .wrapper--appTerms {
+    overflow-wrap: anywhere;
+  } 
+}
+
 .appImage--screenshots {
   max-height: 380px;
   object-fit: contain;
