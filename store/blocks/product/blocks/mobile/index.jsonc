@@ -40,7 +40,7 @@
       "rowGap": 1
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "flex-layout.row#brand"
     ]
   },
@@ -84,7 +84,7 @@
       "rowGap": 1
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "flex-layout.row#brand",
       "account-dialog#pdpTablet"
     ]

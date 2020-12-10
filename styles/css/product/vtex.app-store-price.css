@@ -19,8 +19,6 @@
 .container--checkoutAppPrice {
   display: flex;
   flex-direction: column;
-  padding-top: 10rem;
-  padding-left: 3rem;
 }
 
 @media(max-width: 40rem) {

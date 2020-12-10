@@ -7,3 +7,11 @@
 .flexRow--checkoutColumnMobile {
   background-color: #fff;
 }
+
+.flexCol--checkoutSummaryDesktop {
+  margin-left: 3rem;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
