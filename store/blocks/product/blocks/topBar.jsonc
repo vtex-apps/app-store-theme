@@ -30,11 +30,11 @@
       "rowGap": 1
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "flex-layout.row#CategoryAndSeller"
     ]
   },
-  "product-name": {
+  "vtex.store-components:product-name": {
     "props": {
       "blockClass": "appName"
     }
@@ -80,7 +80,7 @@
     },
     "children": [
       "rich-text#by",
-      "product-brand#brand"
+      "vtex.store-components:product-brand#brand"
     ]
   },
   "rich-text#by": {
@@ -90,7 +90,7 @@
       "textColor": "c-muted-2"
     }
   },
-  "product-brand#brand": {
+  "vtex.store-components:product-brand#brand": {
     "props": {
       "blockClass": "brand",
       "displayMode": "text"

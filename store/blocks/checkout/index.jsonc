@@ -27,16 +27,65 @@
   "flex-layout.row#container-desktop": {
       "children": [
         "flex-layout.col#checkout-desktop",
-        "app-store-price#checkout"
+        "flex-layout.col#items-summary-desktop"
       ],
       "props": {
         "blockClass": "checkoutContainer",
         "preserveLayoutOnMobile": true,
         "fullWidth": true
       }
-    },
-    "flex-layout.col#checkout-desktop": {
+  },
+  "flex-layout.col#items-summary-desktop": {
+    "children": [
+      "checkout-product-list",
+      "app-store-price#checkout"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "checkoutSummaryDesktop"
+    }
+  },
+  "checkout-product-list": {
+    "blocks": ["product-list#checkout"]
+  }, 
+  "product-list#checkout": {
+    "blocks": [
+      "product-list-content-desktop"
+    ]
+  },
+  "product-list-content-desktop": {
+    "children": ["flex-layout.row#list-row.desktop"]
+  },
+  "flex-layout.row#list-row.desktop": {
+    "children": [
+      "product-list-image",
+      "flex-layout.col#product-summary-information"
+    ],
+    "props": {
+      "colGap": 5,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "product-list-image": {
+    "props": {
+      "blockClass": "checkoutProductSummary"
+    }
+  },
+  "flex-layout.col#product-summary-information": {
+    "children": [
+      "vtex.product-list:product-name",
+      "product-quantity-label"
+    ],
+    "props": {
+      "rowGap": 4,
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#checkout-desktop": {
       "children": [
+        "image#checkout-logo",
         "checkout-step-group#app-store",
         "review-container#desktop",
         "app-terms-of-service#terms",
@@ -46,6 +95,13 @@
         "blockClass": "checkoutColumn",
         "preventVerticalStretch": true,
         "width": "60%"
+      }
+    },
+    "image#checkout-logo": {
+      "props": {
+        "width": 120,
+        "src": "assets/checkout-logo.png",
+        "link": "/"
       }
     },
     "app-store-price#checkout": {

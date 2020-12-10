@@ -32,7 +32,7 @@
     },
     "children": [
       "rich-text#partner",
-      "product-brand#partnerName"
+      "vtex.store-components:product-brand#partnerName"
     ]
   },
   "rich-text#partner": {
@@ -45,7 +45,7 @@
       "text": "**Partner**"
     }
   },
-  "product-brand#partnerName": {
+  "vtex.store-components:product-brand#partnerName": {
     "props": {
       "blockClass": "partnerName",
       "displayMode": "text"
