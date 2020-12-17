@@ -38,7 +38,7 @@
   "flex-layout.col#items-summary-desktop": {
     "children": [
       "checkout-product-list",
-      "app-store-price#checkout"
+      "checkout-price#checkout"
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -104,7 +104,7 @@
         "link": "/"
       }
     },
-    "app-store-price#checkout": {
+    "checkout-price#checkout": {
       "props": {
         "blockClass": "checkoutAppPrice"
       }
