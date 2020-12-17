@@ -15,3 +15,16 @@
   border-radius: 0.5rem;
   padding: 1rem;
 }
+
+:global(.vtex-input-prefix__group) :first-child {
+  background-color: #fff;
+}
+
+:global(.vtex-dropdown) :first-child :first-child  {
+  background-color: #fff;
+}
+
+:global(.vtex-styleguide-9-x-input){
+  background-color: #fff;
+}
+
