@@ -16,10 +16,6 @@
   padding-bottom: 0;
 }
 
-.container--checkoutAppPrice {
-  display: flex;
-  flex-direction: column;
-}
 
 @media(max-width: 40rem) {
   .listItemContainer:first-child {

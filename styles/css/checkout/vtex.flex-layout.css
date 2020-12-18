@@ -4,6 +4,12 @@
 .flexRow--checkoutContainer {
   background-color: #fff;
 }
+
+.flexRow--checkoutContainerMobile {
+  background-color: #fff;
+  padding: 0rem 1rem;
+}
+
 .flexRow--checkoutColumnMobile {
   background-color: #fff;
 }
@@ -28,3 +34,10 @@
   background-color: #fff;
 }
 
+.flexColChild--checkoutColumn:last-child { 
+  margin-top: 0 !important;
+}
+
+.flexColChild--checkoutColumnMobile:last-child {
+  margin-top: 0 !important;
+}
