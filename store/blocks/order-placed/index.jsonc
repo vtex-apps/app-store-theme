@@ -16,7 +16,6 @@
     "children": [
       "op-confirmation-icon",
       "op-confirmation-title",
-      "op-confirmation-message",
       "flex-layout.row#confirmation-buttons"
     ]
   },
@@ -31,7 +30,7 @@
     "children": ["flex-layout.col#confirmation-buttons"]
   },
   "flex-layout.col#confirmation-buttons": {
-    "children": ["op-print-button"]
+    "children": ["app-install-button"]
   },
   "op-section#notices": {
     "props": {
