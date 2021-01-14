@@ -52,7 +52,7 @@
     "vtex.store-image": "0.x",
     "extensions.account-dialog": "0.x",
     "vtex.condition-layout": "1.x",
-    "vtex.app-store-price": "0.x",
+    "vtex.app-store-price": "1.x",
     "vtex.app-store-components": "0.x",
     "vtex.search": "1.x",
     "vtex.search-page-context": "0.x",

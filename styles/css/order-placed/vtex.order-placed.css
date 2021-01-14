@@ -1,0 +1,23 @@
+.packageHeaderColumn {
+  display: none;
+}
+
+.productQuantity {
+  display: none;
+}
+
+.productPrice {
+  display: none;
+}
+
+.productImageWrapper {
+  background-color: #FFFF;
+}
+
+.orderSoldBy {
+  display: none;
+}
+
+.package {
+  margin: 2rem 0;
+}
