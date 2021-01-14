@@ -16,6 +16,7 @@
     "children": [
       "op-confirmation-icon",
       "op-confirmation-title",
+      "account-label",
       "flex-layout.row#confirmation-buttons"
     ]
   },
@@ -44,9 +45,18 @@
   "op-order": {
     "children": [
       "flex-layout.row#order-header",
-      "op-order-split-notice",
       "op-section#payments",
-      "op-order-total"
+      "flex-layout.row#appSummary"
+    ]
+  },
+  "flex-layout.row#appSummary": {
+    "props": {
+      "blockClass": "orderAppSummary",
+      "marginTop": 4
+    },
+    "children": [
+      "op-order-delivery-packages",
+      "order-price"
     ]
   },
   // each order header
