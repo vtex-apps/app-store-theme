@@ -5,7 +5,8 @@
     ],
     "parent": {
       "challenge": "challenge.app-store-condition#checkout",
-      "footer": "footer"
+      "footer": "footer",
+      "header": "header"
     }
   },
   "challenge.app-store-condition#checkout": {
@@ -39,7 +40,8 @@
   "flex-layout.col#items-summary-desktop": {
     "children": [
       "checkout-product-list",
-      "checkout-price#checkout"
+      "checkout-price#checkout",
+      "fee-charged-message"
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -86,7 +88,6 @@
   },
   "flex-layout.col#checkout-desktop": {
       "children": [
-        "image#checkout-logo",
         "checkout-step-group#app-store",
         "review-container#desktop",
         "app-terms-of-service#terms"
