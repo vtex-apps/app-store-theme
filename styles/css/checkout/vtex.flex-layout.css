@@ -1,5 +1,6 @@
 .flexRowContent--checkoutContainer {
   padding-top: 5rem;
+  min-height: 75vh !important;
 }
 .flexRow--checkoutContainer {
   background-color: #fff;

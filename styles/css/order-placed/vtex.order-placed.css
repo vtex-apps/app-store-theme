@@ -11,7 +11,11 @@
 }
 
 .productImageWrapper {
+  height: 100px;
+  width: 100px;
   background-color: #FFFF;
+  border-radius: 0.25rem;
+  border: 1px solid #E3E4E6;
 }
 
 .orderSoldBy {

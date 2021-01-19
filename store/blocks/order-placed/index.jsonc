@@ -15,15 +15,14 @@
     },
     "children": [
       "op-confirmation-icon",
-      "op-confirmation-title",
-      "account-label",
+      "confirmation-message",
       "flex-layout.row#confirmation-buttons"
     ]
   },
   "flex-layout.row#confirmation-buttons": {
     "props": {
       "blockClass": "confirmationButtons",
-      "marginTop": 8,
+      "marginTop": 6,
       "marginBottom": 8,
       "horizontalAlign": "center",
       "preventHorizontalStretch": true
