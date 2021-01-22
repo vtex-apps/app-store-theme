@@ -1,0 +1,20 @@
+{
+  "store.custom#order-form-loading": { 
+    "blocks": [
+      "flex-layout.row#order-form-loading"
+    ],
+    "parent": {
+      "challenge": "challenge.app-store-condition",
+      "footer": "footer",
+      "header": "header"
+    }
+  },
+  "flex-layout.row#order-form-loading": {
+    "props": {
+      "blockClass": "orderFormLoading"
+    },
+    "children": [
+      "order-form-loading"
+    ]
+  }
+}
