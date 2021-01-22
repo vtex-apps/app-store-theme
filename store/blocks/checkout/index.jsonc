@@ -21,21 +21,37 @@
     ]
   },
   "responsive-container.desktop#checkout": {
-    "children": ["flex-layout.row#container-desktop"]
+    "children": [
+      "flex-layout.row#container-desktop"
+    ]
   },
   "responsive-container.mobile#checkout": {
-    "children": ["flex-layout.row#container-mobile"]
+    "children": [
+      "flex-layout.row#container-mobile"
+    ]
   },
   "flex-layout.row#container-desktop": {
-      "children": [
-        "flex-layout.col#checkout-desktop",
-        "flex-layout.col#items-summary-desktop"
-      ],
-      "props": {
-        "blockClass": "checkoutContainer",
-        "preserveLayoutOnMobile": true,
-        "fullWidth": true
-      }
+    "children": [
+      "flex-layout.col#checkout-desktop",
+      "flex-layout.col#items-summary-desktop"
+    ],
+    "props": {
+      "blockClass": "checkoutContainer",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#checkout-desktop": {
+    "children": [
+      "checkout-step-group#app-store",
+      "review-container#desktop",
+      "app-terms-of-service#terms"
+    ],
+    "props": {
+      "blockClass": "checkoutColumn",
+      "preventVerticalStretch": true,
+      "width": "60%"
+    }
   },
   "flex-layout.col#items-summary-desktop": {
     "children": [
@@ -49,15 +65,19 @@
     }
   },
   "checkout-product-list": {
-    "blocks": ["product-list#checkout"]
-  }, 
+    "blocks": [
+      "product-list#checkout"
+    ]
+  },
   "product-list#checkout": {
     "blocks": [
       "product-list-content-desktop"
     ]
   },
   "product-list-content-desktop": {
-    "children": ["flex-layout.row#list-row.desktop"]
+    "children": [
+      "flex-layout.row#list-row.desktop"
+    ]
   },
   "flex-layout.row#list-row.desktop": {
     "children": [
@@ -86,60 +106,41 @@
       "preventVerticalStretch": true
     }
   },
-  "flex-layout.col#checkout-desktop": {
-      "children": [
-        "checkout-step-group#app-store",
-        "review-container#desktop",
-        "app-terms-of-service#terms"
-      ],
-      "props": {
-        "blockClass": "checkoutColumn",
-        "preventVerticalStretch": true,
-        "width": "60%"
-      }
-    },
-    "image#checkout-logo": {
-      "props": {
-        "width": 120,
-        "src": "assets/checkout-logo.png"
-      }
-    },
-    "checkout-price#checkout": {
-      "props": {
-        "blockClass": "checkoutAppPrice"
-      }
-    },
-    "checkout-step-group#app-store": {
-      "children": ["payment-step"]
-    },
-    "flex-layout.row#container-mobile": {
-      "children": ["flex-layout.col#checkout-mobile"],
-      "props": {
-        "blockClass": "checkoutContainerMobile",
-        "paddingTop": 6,
-        "fullWidth": true
-      }
-    },
-  
-    "flex-layout.col#checkout-mobile": {
-      "children": [
-        "image#checkout-logo",
-        "checkout-step-group#checkout-mobile",
-        "checkout-price#checkout",
-        "review-container#mobile",
-        "app-terms-of-service#terms"
-      ],
-      "props": {
-        "preventVerticalStretch": true,
-        "blockClass": "checkoutColumnMobile"
-      }
-    },
-    "checkout-step-group#checkout-mobile": {
-      "children": ["payment-step"]
-    },
-    "app-terms-of-service#terms": {
-      "props": {
-        "blockClass": "appTerms"
-      }
+  "flex-layout.row#container-mobile": {
+    "children": [
+      "flex-layout.col#checkout-mobile"
+    ],
+    "props": {
+      "blockClass": "checkoutContainerMobile",
+      "paddingTop": 6,
+      "fullWidth": true
     }
+  },
+  "flex-layout.col#checkout-mobile": {
+    "children": [
+      "checkout-step-group#app-store",
+      "checkout-price#checkout",
+      "review-container#mobile",
+      "app-terms-of-service#terms"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "checkoutColumnMobile"
+    }
+  },
+  "checkout-step-group#app-store": {
+    "children": [
+      "payment-step"
+    ]
+  },
+  "app-terms-of-service#terms": {
+    "props": {
+      "blockClass": "appTerms"
+    }
+  },
+  "checkout-price#checkout": {
+    "props": {
+      "blockClass": "checkoutAppPrice"
+    }
+  }
 }

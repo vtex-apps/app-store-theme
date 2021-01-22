@@ -2,6 +2,7 @@
   padding-top: 5rem;
   min-height: 75vh !important;
 }
+
 .flexRow--checkoutContainer {
   background-color: #fff;
 }
@@ -9,11 +10,17 @@
 .flexRow--checkoutContainerMobile {
   background-color: #fff;
   padding: 0rem 1rem;
+  min-height: 78vh;
 }
 
 .flexRow--checkoutColumnMobile {
   background-color: #fff;
 }
+
+.flexCol--checkoutColumnMobile {
+  min-height: 100% !important;
+}
+
 
 .flexCol--checkoutSummaryDesktop {
   margin-left: 3rem;
