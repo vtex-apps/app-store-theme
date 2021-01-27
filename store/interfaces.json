@@ -1,0 +1,6 @@
+{
+  "shelf-container": {
+    "component": "ShelfContainer",
+    "composition": "children"
+  }
+}

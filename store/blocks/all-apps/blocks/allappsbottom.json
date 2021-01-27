@@ -44,18 +44,13 @@
       "blockClass": "allAppsLeftCol",
       "rowGap": "6"
     },
-    "children": [
-      "flex-layout.row#bottomCardsLeft"
-    ]
+    "children": ["flex-layout.row#bottomCardsLeft"]
   },
-  "flex-layout.row#bottomCardsLeft": { 
+  "flex-layout.row#bottomCardsLeft": {
     "props": {
       "colGap": 6
     },
-    "children": [
-      "flex-layout.col#bottomCard1",
-      "flex-layout.col#bottomCard2"
-    ]
+    "children": ["flex-layout.col#bottomCard1", "flex-layout.col#bottomCard2"]
   },
   "flex-layout.row#all-apps-two": {
     "props": {

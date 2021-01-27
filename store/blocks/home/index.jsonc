@@ -21,13 +21,11 @@
   },
   "flex-layout.col#main-container": {
     "children": [
-      "flex-layout.row#homeShelf",
       "search-result-layout.customQuery#mostUsed",
       "flex-layout.row#categoriesTitle",
       "responsive-layout.desktop#categories",
       "responsive-layout.phone#categories",
       "responsive-layout.tablet#categories",
-      "flex-layout.row#shelfHighlights",
       "search-result-layout.customQuery#highlights",
       "responsive-layout.desktop#infocard",
       "responsive-layout.phone#infocard",
