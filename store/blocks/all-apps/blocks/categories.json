@@ -1,264 +1,4 @@
 {
-  "flex-layout.row#marketing": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#marketing"
-    ]
-  },
-  "flex-layout.col#marketing": {
-    "children": [
-      "rich-text#marketing",
-      "search-result-layout.customQuery#marketing"
-    ]
-  },
-  
-  "flex-layout.row#omnichannel": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#omnichannel"
-    ]
-  },
-  "flex-layout.col#omnichannel": {
-    "children": [
-      "rich-text#omnichannel",
-      "search-result-layout.customQuery#omnichannel"
-    ]
-  },
-
-  "flex-layout.row#privacy": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#privacy"
-    ]
-  },
-  "flex-layout.col#privacy": {
-    "children": [
-      "rich-text#privacy",
-      "search-result-layout.customQuery#privacy"
-    ]
-  },
-
-  "flex-layout.row#review": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#review"
-    ]
-  },
-  "flex-layout.col#review": {
-    "children": [
-      "rich-text#review",
-      "search-result-layout.customQuery#review"
-    ]
-  },
-
-
-  "flex-layout.row#customerSupport": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#customerSupport"
-    ]
-  },
-  "flex-layout.col#customerSupport": {
-    "children": [
-      "rich-text#customerSupport",
-      "search-result-layout.customQuery#customerSupport"
-    ]
-  },
-
-  "flex-layout.row#channels": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#channels"
-    ]
-  },
-  "flex-layout.col#channels": {
-    "children": [
-      "rich-text#channels",
-      "search-result-layout.customQuery#channels"
-    ]
-  },
-
-  "flex-layout.row#finance": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#finance"
-    ]
-  },
-  "flex-layout.col#finance": {
-    "children": [
-      "rich-text#finance",
-      "search-result-layout.customQuery#finance"
-    ]
-  },
-
-  "flex-layout.row#developer": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#developer"
-    ]
-  },
-  "flex-layout.col#developer": {
-    "children": [
-      "rich-text#developer",
-      "search-result-layout.customQuery#developer"
-    ]
-  },
-  "flex-layout.row#storeDesign": {
-    "props": {
-      "paddingTop": 8,
-      "paddingBottom": 8,
-      "blockClass": "borderBottom"
-    },
-    "children": [
-      "flex-layout.col#storeDesign"
-    ]
-  },
-  "flex-layout.col#storeDesign": {
-    "children": [
-      "rich-text#storeDesign",
-      "search-result-layout.customQuery#storeDesign"
-    ]
-  },
-  "rich-text#marketing": {
-    "props": {
-      "htmlId": "marketing",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Marketing and affiliate programs"
-    }
-  },
-  "rich-text#review": {
-    "props": {
-      "htmlId": "review",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Reviews, ratings and analytics"
-    }
-  },
-  "rich-text#customerSupport": {
-    "props": {
-      "htmlId": "customerSupport",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Customer support and notifications"
-    }
-  },
-  "rich-text#channels": {
-    "props": {
-      "htmlId": "channels",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Marketplaces and channels"
-    }
-  },
-  "rich-text#finance": {
-    "props": {
-      "htmlId": "finance",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Finance and taxes"
-    }
-  },
-  "rich-text#omnichannel": {
-    "props": {
-      "htmlId": "omnichannel",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Logistics and productivity"
-    }
-  },
-  "rich-text#privacy": {
-    "props": {
-      "htmlId": "privacy",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Privacy and security"
-    }
-  },
-  "rich-text#developer": {
-    "props": {
-      "htmlId": "developer",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Developer tools"
-    }
-  },
-  "rich-text#storeDesign": {
-    "props": {
-      "htmlId": "storeDesign",
-      "blockClass": "categories",
-      "font": { 
-        "desktop": "t-heading-5", 
-        "mobile": "t-heading-5" 
-      },
-      "textPosition": "LEFT",
-      "text": "Store design"
-    }
-  },
   "search-result-layout.customQuery#marketing": {
     "props": {
       "querySchema": {
@@ -267,14 +7,17 @@
         "queryField": "138",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#marketing"]
   },
   "search-result-layout.desktop#marketing": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#marketing"]
+  },
+  "shelf-container#marketing": {
+    "children": ["flex-layout.row#marketing"]
   },
   "search-result-layout.customQuery#review": {
     "props": {
@@ -284,14 +27,17 @@
         "queryField": "144",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#review"]
   },
   "search-result-layout.desktop#review": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#review"]
+  },
+  "shelf-container#review": {
+    "children": ["flex-layout.row#review"]
   },
   "search-result-layout.customQuery#customerSupport": {
     "props": {
@@ -301,14 +47,17 @@
         "queryField": "140",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#marketing"]
   },
   "search-result-layout.desktop#customerSupport": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#customerSupport"]
+  },
+  "shelf-container#customerSupport": {
+    "children": ["flex-layout.row#customerSupport"]
   },
   "search-result-layout.customQuery#channels": {
     "props": {
@@ -318,14 +67,17 @@
         "queryField": "141",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#channels"]
   },
   "search-result-layout.desktop#channels": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#channels"]
+  },
+  "shelf-container#channels": {
+    "children": ["flex-layout.row#channels"]
   },
   "search-result-layout.customQuery#finance": {
     "props": {
@@ -335,14 +87,17 @@
         "queryField": "143",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#finance"]
   },
   "search-result-layout.desktop#finance": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#finance"]
+  },
+  "shelf-container#finance": {
+    "children": ["flex-layout.row#finance"]
   },
   "search-result-layout.customQuery#omnichannel": {
     "props": {
@@ -352,14 +107,17 @@
         "queryField": "145",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#omnichannel"]
   },
   "search-result-layout.desktop#omnichannel": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#omnichannel"]
+  },
+  "shelf-container#omnichannel": {
+    "children": ["flex-layout.row#omnichannel"]
   },
   "search-result-layout.customQuery#privacy": {
     "props": {
@@ -369,14 +127,17 @@
         "queryField": "142",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#privacy"]
   },
   "search-result-layout.desktop#privacy": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#privacy"]
+  },
+  "shelf-container#privacy": {
+    "children": ["flex-layout.col#privacy"]
   },
   "search-result-layout.customQuery#developer": {
     "props": {
@@ -386,14 +147,17 @@
         "queryField": "146",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#developer"]
   },
   "search-result-layout.desktop#developer": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#developer"]
+  },
+  "shelf-container#developer": {
+    "children": ["flex-layout.row#developer"]
   },
   "search-result-layout.customQuery#storeDesign": {
     "props": {
@@ -403,13 +167,230 @@
         "queryField": "147",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
+        "simulationBehavior": "skip",
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
     "blocks": ["search-result-layout.desktop#storeDesign"]
   },
   "search-result-layout.desktop#storeDesign": {
-    "children": ["search-content#defaultSearch"]
+    "children": ["shelf-container#storeDesign"]
+  },
+  "shelf-container#storeDesign": {
+    "children": ["flex-layout.row#storeDesign"]
+  },
+  "flex-layout.row#marketing": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#marketing"]
+  },
+  "flex-layout.col#marketing": {
+    "children": ["rich-text#marketing", "search-content#defaultSearch"]
+  },
+
+  "flex-layout.row#omnichannel": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#omnichannel"]
+  },
+  "flex-layout.col#omnichannel": {
+    "children": ["rich-text#omnichannel", "search-content#defaultSearch"]
+  },
+
+  "flex-layout.row#privacy": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#privacy"]
+  },
+  "flex-layout.col#privacy": {
+    "children": ["rich-text#privacy", "search-content#defaultSearch"]
+  },
+
+  "flex-layout.row#review": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#review"]
+  },
+  "flex-layout.col#review": {
+    "children": ["rich-text#review", "search-content#defaultSearch"]
+  },
+
+  "flex-layout.row#customerSupport": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#customerSupport"]
+  },
+  "flex-layout.col#customerSupport": {
+    "children": ["rich-text#customerSupport", "search-content#defaultSearch"]
+  },
+
+  "flex-layout.row#channels": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#channels"]
+  },
+  "flex-layout.col#channels": {
+    "children": ["rich-text#channels", "search-content#defaultSearch"]
+  },
+
+  "flex-layout.row#finance": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#finance"]
+  },
+  "flex-layout.col#finance": {
+    "children": ["rich-text#finance", "search-content#defaultSearch"]
+  },
+
+  "flex-layout.row#developer": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#developer"]
+  },
+  "flex-layout.col#developer": {
+    "children": ["rich-text#developer", "search-content#defaultSearch"]
+  },
+  "flex-layout.row#storeDesign": {
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "borderBottom"
+    },
+    "children": ["flex-layout.col#storeDesign"]
+  },
+  "flex-layout.col#storeDesign": {
+    "children": ["rich-text#storeDesign", "search-content#defaultSearch"]
+  },
+  "rich-text#marketing": {
+    "props": {
+      "htmlId": "marketing",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Marketing and affiliate programs"
+    }
+  },
+  "rich-text#review": {
+    "props": {
+      "htmlId": "review",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Reviews, ratings and analytics"
+    }
+  },
+  "rich-text#customerSupport": {
+    "props": {
+      "htmlId": "customerSupport",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Customer support and notifications"
+    }
+  },
+  "rich-text#channels": {
+    "props": {
+      "htmlId": "channels",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Marketplaces and channels"
+    }
+  },
+  "rich-text#finance": {
+    "props": {
+      "htmlId": "finance",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Finance and taxes"
+    }
+  },
+  "rich-text#omnichannel": {
+    "props": {
+      "htmlId": "omnichannel",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Logistics and productivity"
+    }
+  },
+  "rich-text#privacy": {
+    "props": {
+      "htmlId": "privacy",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Privacy and security"
+    }
+  },
+  "rich-text#developer": {
+    "props": {
+      "htmlId": "developer",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Developer tools"
+    }
+  },
+  "rich-text#storeDesign": {
+    "props": {
+      "htmlId": "storeDesign",
+      "blockClass": "categories",
+      "font": {
+        "desktop": "t-heading-5",
+        "mobile": "t-heading-5"
+      },
+      "textPosition": "LEFT",
+      "text": "Store design"
+    }
   }
 }

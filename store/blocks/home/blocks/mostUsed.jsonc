@@ -1,4 +1,31 @@
 {
+  "search-result-layout.customQuery#mostUsed": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 8,
+        "orderByField": "OrderByReleaseDateDESC",
+        "queryField": "139",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true,
+        "simulationBehavior": "skip", 
+        "skusFilter": "FIRST_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#mostUsed"
+    ]
+  },
+  "search-result-layout.desktop#mostUsed": {
+    "children": [
+      "shelf-container#mostUsed"
+    ]
+  },
+  "shelf-container#mostUsed": {
+    "children": [
+      "flex-layout.row#homeShelf",
+      "search-content#defaultSearch"
+    ]
+  },
   "flex-layout.row#homeShelf": {
     "props": {
       "blockClass": "homeShelf"
@@ -47,26 +74,5 @@
       "href": "/all-apps",
       "label": "Explore all apps"
     }
-  },
-  "search-result-layout.customQuery#mostUsed": {
-    "props": {
-      "querySchema": {
-        "maxItemsPerPage": 8,
-        "orderByField": "OrderByReleaseDateDESC",
-        "queryField": "139",
-        "mapField": "productClusterIds",
-        "__unstableProductOriginVtex": true,
-        "simulationBehavior": "skip", 
-        "skusFilter": "FIRST_AVAILABLE"
-      }
-    },
-    "blocks": [
-      "search-result-layout.desktop#mostUsed"
-    ]
-  },
-  "search-result-layout.desktop#mostUsed": {
-    "children": [
-      "search-content#defaultSearch"
-    ]
   }
 }
