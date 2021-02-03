@@ -1,0 +1,15 @@
+.storeSelectorContainer {
+  display: flex;
+  align-items: center;
+  padding-right: 0;
+}
+
+.storeSelectorButtonText {
+  font-size: 1rem;
+  color: white
+}
+
+.storeSelectorButton {
+  font-size: 1rem;
+  color: white
+}
