@@ -51,7 +51,7 @@
         "skusFilter": "FIRST_AVAILABLE"
       }
     },
-    "blocks": ["search-result-layout.desktop#marketing"]
+    "blocks": ["search-result-layout.desktop#customerSupport"]
   },
   "search-result-layout.desktop#customerSupport": {
     "children": ["shelf-container#customerSupport"]
@@ -137,7 +137,7 @@
     "children": ["shelf-container#privacy"]
   },
   "shelf-container#privacy": {
-    "children": ["flex-layout.col#privacy"]
+    "children": ["flex-layout.row#privacy"]
   },
   "search-result-layout.customQuery#developer": {
     "props": {
