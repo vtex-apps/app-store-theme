@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.32.0] - 2021-02-08
+
 ### Added
 
 - Store selector to the page header
