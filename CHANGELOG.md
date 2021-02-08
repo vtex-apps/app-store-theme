@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Store selector to the page header
+
 ## [0.31.0] - 2021-01-27
 ### Added
 - Hide shelf if there is no product
