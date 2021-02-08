@@ -1,7 +1,11 @@
 {
   "vendor": "extensions",
   "name": "appstoretheme",
+<<<<<<< HEAD
   "version": "0.33.0",
+=======
+  "version": "0.32.0",
+>>>>>>> 57abb4a... Release v0.32.0
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
