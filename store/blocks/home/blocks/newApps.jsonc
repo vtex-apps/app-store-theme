@@ -1,10 +1,10 @@
 {
-  "search-result-layout.customQuery#highlights": {
+  "search-result-layout.customQuery#newApps": {
     "props": {
       "querySchema": {
         "maxItemsPerPage": 4,
         "orderByField": "OrderByReleaseDateDESC",
-        "queryField": "148",
+        "queryField": "150",
         "mapField": "productClusterIds",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip", 
@@ -12,38 +12,38 @@
       }
     },
     "blocks": [
-      "search-result-layout.desktop#highlights"
+      "search-result-layout.desktop#newApps"
     ]
   },
-  "search-result-layout.desktop#highlights": {
+  "search-result-layout.desktop#newApps": {
     "children": [
-      "shelf-container#highlights"
+      "shelf-container#newApps"
     ]
   },
-  "shelf-container#highlights": {
+  "shelf-container#newApps": {
     "children": [
-      "flex-layout.row#shelfHighlights",
+      "flex-layout.row#shelfNewApps",
       "search-content#defaultSearch"
     ]
   },
-  "flex-layout.row#shelfHighlights": {
+  "flex-layout.row#shelfNewApps": {
     "props": {
       "blockClass": "homeShelf"
     },
     "children": [
-      "flex-layout.col#shelfHighlightsTitle"
+      "flex-layout.col#shelfNewAppsTitle"
     ]
   },
-  "flex-layout.col#shelfHighlightsTitle": {
+  "flex-layout.col#shelfNewAppsTitle": {
     "props": {
       "rowGap": 3,
       "verticalAlign": "bottom"
     },
     "children": [
-      "rich-text#shelfHighlightsTitle"
+      "rich-text#shelfNewAppsTitle"
     ]
   },
-  "rich-text#shelfHighlightsTitle": {
+  "rich-text#shelfNewAppsTitle": {
     "props": {
       "blockClass": "noMargin",
       "font": {
@@ -51,7 +51,7 @@
         "mobile": "t-heading-5"
       },
       "textPosition": "LEFT",
-      "text": "Highlighted apps"
+      "text": "New apps"
     }
   }
 }

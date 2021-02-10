@@ -22,11 +22,12 @@
   "flex-layout.col#main-container": {
     "children": [
       "search-result-layout.customQuery#mostUsed",
+      "search-result-layout.customQuery#highlights",
+      "search-result-layout.customQuery#newApps",
       "flex-layout.row#categoriesTitle",
       "responsive-layout.desktop#categories",
       "responsive-layout.phone#categories",
       "responsive-layout.tablet#categories",
-      "search-result-layout.customQuery#highlights",
       "responsive-layout.desktop#infocard",
       "responsive-layout.phone#infocard",
       "responsive-layout.tablet#infocard"

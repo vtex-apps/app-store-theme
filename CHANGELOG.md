@@ -6,7 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- New shelf with "new apps"
 
+## Fixed
+- Remove redundant "explore all apps" links
 ## [0.31.1] - 2021-02-04
 ### Fixed
 - Duplicated categories on the `all apps` page.
