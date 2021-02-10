@@ -13,3 +13,19 @@
   font-size: 1rem;
   color: white
 }
+
+.styledLoginLogout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  color: white;
+  margin-right: 2rem;
+}
+
+@media(max-width: 66rem) {
+  .styledLoginLogout {
+    margin: 0 1.5rem;
+  }
+}
