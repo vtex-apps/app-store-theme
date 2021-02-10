@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.33.0] - 2021-02-10
+## Fixed
+- Problem between the two releases made for version `0.32.0` 
 ## [0.32.0] - 2021-02-10
 ### Added
 - New shelf with "new apps"
