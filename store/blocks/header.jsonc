@@ -42,8 +42,16 @@
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#main-menu",
       "app-store-selector",
-      "locale-switcher"
+      "locale-switcher",
+      "login-logout#login"
     ]
+  },
+  "login-logout#login": {
+    "props": {
+      "id": "menu-item-login",
+      "loginText": "LOGIN",
+      "logoutText": "LOGOUT"
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -82,7 +90,13 @@
   },
   "drawer": {
     "children": [
-      "vtex.menu@2.x:menu#main-menu"
+      "flex-layout.col#drawer-content"
+    ]
+  },
+  "flex-layout.col#drawer-content": {
+    "children": [
+      "vtex.menu@2.x:menu#main-menu",
+      "login-logout#login"
     ]
   },
   //header da home
@@ -122,14 +136,16 @@
   "flex-layout.row#headerhome": {
     "props": {
       "blockClass": "transparent",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
     },
     "children": [
       "logo",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#main-menu",
       "app-store-selector",
-      "locale-switcher"
+      "locale-switcher",
+      "login-logout#login"
     ]
   },
   "flex-layout.row#header-mobilehome": {
