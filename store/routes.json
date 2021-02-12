@@ -5,5 +5,12 @@
       "title": "All Apps - VTEX App Store",
       "isSitemapEntry": true
     }
+  },
+  "store.custom#order-form-loading": {
+    "path": "/order-form-loading",
+    "props": {
+      "title": "Order Form Loading - VTEX App Store",
+      "isSitemapEntry": true
+    }
   }
 }
