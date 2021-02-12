@@ -2419,9 +2419,9 @@ extend@~3.0.2:
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
-"extensions.account-dialog@https://globalstore--extensions.myvtex.com/_v/private/typings/linked/v1/extensions.account-dialog@0.7.0+build1612978679/public/@types/extensions.account-dialog":
-  version "0.7.0"
-  resolved "https://globalstore--extensions.myvtex.com/_v/private/typings/linked/v1/extensions.account-dialog@0.7.0+build1612978679/public/@types/extensions.account-dialog#3e8eeaf38a07c60c2ff708d39c73f6dd5ab6e66d"
+"extensions.account-dialog@http://extensions.vtexassets.com/_v/public/typings/v1/extensions.account-dialog@0.8.0/public/@types/extensions.account-dialog":
+  version "0.8.0"
+  resolved "http://extensions.vtexassets.com/_v/public/typings/v1/extensions.account-dialog@0.8.0/public/@types/extensions.account-dialog#115edd2e18ca92e430c04a5161c71954c11dfa0a"
 
 extglob@^2.0.4:
   version "2.0.4"
@@ -4927,9 +4927,9 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-"vtex.app-store-components@https://globalstore--extensions.myvtex.com/_v/private/typings/linked/v1/vtex.app-store-components@0.10.0+build1612960559/public/@types/vtex.app-store-components":
-  version "0.10.0"
-  resolved "https://globalstore--extensions.myvtex.com/_v/private/typings/linked/v1/vtex.app-store-components@0.10.0+build1612960559/public/@types/vtex.app-store-components#1eebf8039bbd47c022b6de35ad12ceb71ab60a4d"
+"vtex.app-store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.app-store-components@0.11.0/public/@types/vtex.app-store-components":
+  version "0.11.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.app-store-components@0.11.0/public/@types/vtex.app-store-components#886e7c6f519ea8b2c31032ba6ad3c461d5e5f6ee"
 
 "vtex.app-store-price@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.app-store-price@1.1.0/public/@types/vtex.app-store-price":
   version "1.1.0"
@@ -5047,9 +5047,9 @@ verror@1.10.0:
   version "0.2.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-page-context@0.2.0/public/@types/vtex.search-page-context#1b37f20648d8e4ff062ae9fffb0aa2718f172af7"
 
-"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.93.1/public/@types/vtex.search-result":
-  version "3.93.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.93.1/public/@types/vtex.search-result#c9cd64553e2547895ad62a23830f172f1b4a373f"
+"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.95.0/public/@types/vtex.search-result":
+  version "3.95.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.95.0/public/@types/vtex.search-result#29dbb1eee00ad36a90841f2c8bdfa0c23ed3f8b8"
 
 "vtex.search@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@1.4.3/public/@types/vtex.search":
   version "1.4.3"
@@ -5099,17 +5099,17 @@ verror@1.10.0:
   version "0.9.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-image@0.9.1/public/@types/vtex.store-image#8039653f6e3651a09befb4cfccc467107de73cc4"
 
-"vtex.store-link@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-link@0.7.2/public/@types/vtex.store-link":
-  version "0.7.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-link@0.7.2/public/@types/vtex.store-link#85592500cfcd9213ba4e8cbdf4d2d8bdd62e103a"
+"vtex.store-link@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-link@0.7.3/public/@types/vtex.store-link":
+  version "0.7.3"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-link@0.7.3/public/@types/vtex.store-link#05d45ff8d502a6d9628c356851538c82814c25af"
 
 "vtex.store@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.111.1/public/@types/vtex.store":
   version "2.111.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.111.1/public/@types/vtex.store#2edbd48a1857368e475484d0db606a627a89729f"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.135.2/public/@types/vtex.styleguide":
-  version "9.135.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.135.2/public/@types/vtex.styleguide#bed07ae468480d4c5f2b8f65d46e72d452936f80"
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.135.1/public/@types/vtex.styleguide":
+  version "9.135.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.135.1/public/@types/vtex.styleguide#ed8d203eff74ed072b6e2f6ddb66d0c92b797ade"
 
 "vtex.tab-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.tab-layout@0.4.2/public/@types/vtex.tab-layout":
   version "0.4.2"
