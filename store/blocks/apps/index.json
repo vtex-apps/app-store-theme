@@ -1,0 +1,18 @@
+{
+  "store.custom#apps": {
+    "blocks": ["flex-layout.row#apps-container"]
+  },
+  "flex-layout.row#apps-container": {
+    "props": {
+      "blockClass": "apps-container",
+      "paddingBottom": 10
+    },
+    "children": ["flex-layout.col#apps-container"]
+  },
+  "flex-layout.col#apps-container": {
+    "children": ["app-sales-channel#app-sc"]
+  },
+  "app-sales-channel#app-sc": {
+    "props": {}
+  }
+}

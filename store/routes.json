@@ -9,7 +9,13 @@
   "store.custom#order-form-loading": {
     "path": "/order-form-loading",
     "props": {
-      "title": "Order Form Loading - VTEX App Store",
+      "title": "Order Form Loading - VTEX App Store"
+    }
+  },
+  "store.custom#apps": {
+    "path": "/apps",
+    "props": {
+      "title": "Apps - VTEX App Store",
       "isSitemapEntry": true
     }
   }
