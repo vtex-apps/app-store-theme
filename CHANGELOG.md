@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - App by Sales Channel page
+- Replace GET APP with "Conditional Get App by Sales Channel" component
 
 ## [0.32.0] - 2021-02-08
 
