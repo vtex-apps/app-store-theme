@@ -18,7 +18,7 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "extensions.account-dialog": "http://extensions.vtexassets.com/_v/public/typings/v1/extensions.account-dialog@0.8.0/public/@types/extensions.account-dialog",
+    "extensions.account-dialog": "http://extensions.vtexassets.com/_v/public/typings/v1/extensions.account-dialog@0.9.0/public/@types/extensions.account-dialog",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
     "vtex.app-store-components": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.app-store-components@0.12.0/public/@types/vtex.app-store-components",

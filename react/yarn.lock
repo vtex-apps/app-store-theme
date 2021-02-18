@@ -2419,9 +2419,9 @@ extend@~3.0.2:
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
-"extensions.account-dialog@http://extensions.vtexassets.com/_v/public/typings/v1/extensions.account-dialog@0.8.0/public/@types/extensions.account-dialog":
-  version "0.8.0"
-  resolved "http://extensions.vtexassets.com/_v/public/typings/v1/extensions.account-dialog@0.8.0/public/@types/extensions.account-dialog#115edd2e18ca92e430c04a5161c71954c11dfa0a"
+"extensions.account-dialog@http://extensions.vtexassets.com/_v/public/typings/v1/extensions.account-dialog@0.9.0/public/@types/extensions.account-dialog":
+  version "0.9.0"
+  resolved "http://extensions.vtexassets.com/_v/public/typings/v1/extensions.account-dialog@0.9.0/public/@types/extensions.account-dialog#0b4ab9fffa46520dd3614c372a0b4037ac196171"
 
 extglob@^2.0.4:
   version "2.0.4"

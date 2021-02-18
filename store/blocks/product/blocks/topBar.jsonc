@@ -114,7 +114,7 @@
       "colGap": 9
     },
     "children": [
-      "button-get-app"
+      "conditional-get-app-by-sales-channel"
     ]
   }
 }
