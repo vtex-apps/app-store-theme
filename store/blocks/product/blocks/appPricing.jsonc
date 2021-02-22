@@ -7,7 +7,7 @@
     },
     "children": [
       "rich-text#appPricingHeader",
-      "app-store-price",
+      "vtex.app-store-price:product-price",
       "condition-layout.product#subscriptionMessage"
     ]
   },

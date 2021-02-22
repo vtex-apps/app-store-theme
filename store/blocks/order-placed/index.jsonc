@@ -1,0 +1,111 @@
+{
+  "order-placed": {
+    "blocks": [
+      "op-header",
+      "op-order"
+    ]
+  },
+  "op-header": {
+    "children": [
+      "op-section#confirmation"
+    ]
+  },
+  "op-section#confirmation": {
+    "props": {
+      "name": "confirmation",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "op-confirmation-icon",
+      "confirmation-message",
+      "flex-layout.row#confirmation-buttons"
+    ]
+  },
+  "flex-layout.row#confirmation-buttons": {
+    "props": {
+      "blockClass": "confirmationButtons",
+      "marginTop": 6,
+      "marginBottom": 8,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#confirmation-buttons"
+    ]
+  },
+  "flex-layout.col#confirmation-buttons": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "app-install-button"
+    ]
+  },
+  "op-section#notices": {
+    "props": {
+      "name": "notices",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "op-notices"
+    ]
+  },
+  // each order section
+  "op-order": {
+    "children": [
+      "flex-layout.row#order-header",
+      "op-section#payments",
+      "flex-layout.row#appSummary"
+    ]
+  },
+  "flex-layout.row#appSummary": {
+    "props": {
+      "blockClass": "orderAppSummary",
+      "marginTop": 4
+    },
+    "children": [
+      "op-order-delivery-packages",
+      "order-price"
+    ]
+  },
+  // each order header
+  "flex-layout.row#order-header": {
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colGap": 5,
+      "marginBottom": 5
+    },
+    "children": [
+      "flex-layout.col#order-header-info"
+    ]
+  },
+  "flex-layout.col#order-header-info": {
+    "children": [
+      "op-order-number",
+      "op-order-datetime",
+      "op-order-seller"
+    ]
+  },
+  "flex-layout.col#order-header-options": {
+    "children": [
+      "responsive-layout.desktop#order-options-desktop"
+    ]
+  },
+  "responsive-layout.desktop#order-options-desktop": {
+    "children": [
+      "op-order-options"
+    ]
+  },
+  // payment section
+  "op-section#payments": {
+    "props": {
+      "name": "paymentMethods"
+    },
+    "children": [
+      "op-order-payment"
+    ]
+  }
+}

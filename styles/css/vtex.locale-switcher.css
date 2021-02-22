@@ -1,13 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 0;
+  padding: 0;
+}
+
 .buttonText {
   font-size: 1rem;
-  color: white
+  color: white;
 }
 
 .button {
   font-size: 1rem;
-  color: white
-}
-
-.container {
-  padding-right: 1rem;
+  color: white;
+  margin: 0;
 }

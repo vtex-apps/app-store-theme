@@ -52,11 +52,16 @@
     "vtex.store-image": "0.x",
     "extensions.account-dialog": "0.x",
     "vtex.condition-layout": "1.x",
-    "vtex.app-store-price": "0.x",
+    "vtex.app-store-price": "1.x",
     "vtex.app-store-components": "0.x",
     "vtex.search": "1.x",
     "vtex.search-page-context": "0.x",
-    "vtex.render-runtime": "8.x"
+    "vtex.render-runtime": "8.x",
+    "vtex.checkout-step-group": "0.x",
+    "vtex.checkout": "2.x",
+    "vtex.checkout-cart": "0.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-list": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

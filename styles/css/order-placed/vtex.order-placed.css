@@ -1,0 +1,48 @@
+.packageHeaderColumn {
+  display: none;
+}
+
+.productQuantity {
+  display: none;
+}
+
+.productPrice {
+  display: none;
+}
+
+.productImageWrapper {
+  height: 100px;
+  width: 100px;
+  background-color: #FFFF;
+  border-radius: 0.25rem;
+  border: 1px solid #E3E4E6;
+}
+
+.orderSoldBy {
+  display: none;
+}
+
+.productWrapper {
+  display: flex;
+}
+
+.productImageColumn {
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+
+.package {
+  margin: 1rem 0;
+} 
+
+.orderPlacedHeader {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media(min-width: 40rem) {
+  .package {
+    margin: 2rem 0;
+  } 
+}
+

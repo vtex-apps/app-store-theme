@@ -1,0 +1,6 @@
+.flexRowContent--orderAppSummary {
+  display: flex;
+  flex-direction: column;
+  max-width: 680px;
+}
+

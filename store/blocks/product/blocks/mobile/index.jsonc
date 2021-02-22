@@ -18,7 +18,7 @@
     },
     "children": [
       "flex-layout.row#productOverview",
-      "account-dialog",
+      "conditional-get-app-by-sales-channel",
       "flex-layout.col#specificationsMobile"
     ]
   },
@@ -40,7 +40,7 @@
       "rowGap": 1
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "flex-layout.row#brand"
     ]
   },
@@ -84,12 +84,12 @@
       "rowGap": 1
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "flex-layout.row#brand",
-      "account-dialog#pdpTablet"
+      "conditional-get-app-by-sales-channel#pdpTablet"
     ]
   },
-  "account-dialog#pdpTablet": {
+  "conditional-get-app-by-sales-channel#pdpTablet": {
     "props": {
       "blockClass": "pdpTablet"
     }

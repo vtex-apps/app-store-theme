@@ -1,0 +1,16 @@
+
+
+@media(min-width: 40rem) {
+  .container--checkoutAppPrice {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media(min-width: 80rem) {
+  .container--checkoutAppPrice {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}

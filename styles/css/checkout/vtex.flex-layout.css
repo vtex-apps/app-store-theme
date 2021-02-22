@@ -1,0 +1,51 @@
+.flexRowContent--checkoutContainer {
+  padding-top: 5rem;
+  min-height: 75vh !important;
+}
+
+.flexRow--checkoutContainer {
+  background-color: #fff;
+}
+
+.flexRow--checkoutContainerMobile {
+  background-color: #fff;
+  padding: 0rem 1rem;
+  min-height: 78vh;
+}
+
+.flexRow--checkoutColumnMobile {
+  background-color: #fff;
+}
+
+.flexCol--checkoutColumnMobile {
+  min-height: 100% !important;
+}
+
+
+.flexCol--checkoutSummaryDesktop {
+  margin-left: 3rem;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+:global(.vtex-input-prefix__group) :first-child {
+  background-color: #fff;
+}
+
+:global(.vtex-dropdown) :first-child :first-child  {
+  background-color: #fff;
+}
+
+:global(.vtex-styleguide-9-x-input){
+  background-color: #fff;
+}
+
+.flexColChild--checkoutColumn:last-child { 
+  margin-top: 0 !important;
+}
+
+.flexColChild--checkoutColumnMobile:last-child {
+  margin-top: 0 !important;
+}
