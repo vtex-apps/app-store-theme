@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.34.0] - 2021-02-22
 ### Added
 - App by Sales Channel page
 - Replace GET APP with "Conditional Get App by Sales Channel" component
