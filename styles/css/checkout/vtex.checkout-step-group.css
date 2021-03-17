@@ -5,3 +5,7 @@
 .billingAddressSectionContainer {
   display: none;
 }
+
+.creditCardExtraDataMessage {
+  display: none;
+}
