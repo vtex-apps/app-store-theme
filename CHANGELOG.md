@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.35.2] - 2021-03-17
+
 ### Changed
 
 - Hide Extra Data message in payment step
