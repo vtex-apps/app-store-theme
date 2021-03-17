@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Hide billing address in payment step
+
 ## [0.35.0] - 2021-02-22
 ### Fixed
 - Fix min-height of order-form-loading page
