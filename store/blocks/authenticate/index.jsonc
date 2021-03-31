@@ -1,0 +1,5 @@
+{
+  "store.custom#authenticate": {
+    "blocks": ["account-dialog-challenge"]
+  }
+}
