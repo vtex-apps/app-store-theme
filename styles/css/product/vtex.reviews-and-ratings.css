@@ -3,21 +3,25 @@
   align-items: center;
 }
 
-.stars {
+.star {
+  font-size: 22px;
+}
+
+.star--filled {
   color: #f2c94c
 }
 
 .container {
   margin: 0;
-  padding: 0;
+  padding: 3rem 0 0 0;
   max-width: 100%;
 }
 
 
 .reviewsHeading {
-  margin-top: 0;
-  font-size: 1.313rem;
-  color: #3F3F40;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: -0.013rem;
   line-height: 1.625rem;
