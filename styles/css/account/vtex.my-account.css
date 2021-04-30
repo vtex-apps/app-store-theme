@@ -13,3 +13,7 @@
 .menuLinks > div :nth-child(2) {
   display: none;
 }
+
+.menuLinks :first-child[href="#/orders"]{
+  display: none;
+}
