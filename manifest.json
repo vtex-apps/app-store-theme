@@ -48,7 +48,6 @@
     "vtex.sticky-layout": "0.x",
     "vtex.store-link": "0.x",
     "vtex.seller-selector": "0.x",
-    "vtex.reviews-and-ratings": "1.x",
     "vtex.store-image": "0.x",
     "extensions.account-dialog": "0.x",
     "vtex.condition-layout": "1.x",
@@ -64,6 +63,9 @@
     "vtex.product-list": "0.x",
     "vtex.my-orders-app": "3.x",
     "vtex.my-cards": "1.x"
+  },
+  "peerDependencies": {
+    "vtex.reviews-and-ratings": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

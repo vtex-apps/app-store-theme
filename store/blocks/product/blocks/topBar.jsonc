@@ -114,7 +114,31 @@
       "colGap": 9
     },
     "children": [
+      "flex-layout.col#rating",
       "conditional-get-app-by-sales-channel"
     ]
+  },
+  "flex-layout.col#rating": {
+    "props": {
+      "rowGap": 0,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#rating",
+      "product-rating-summary#rating"
+    ]
+  },
+  "rich-text#rating": {
+    "props": {
+      "blockClass": "noMarginAndPadding",
+      "text": "Overall rating",
+      "font": "t-mini",
+      "textColor": "c-muted-1"
+    }
+  },
+  "product-rating-summary#rating": {
+    "props": {
+      "blockClass": "rating"
+    }
   }
 }

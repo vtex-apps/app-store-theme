@@ -4995,6 +4995,14 @@ verror@1.10.0:
   version "1.20.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-account@1.20.0/public/@types/vtex.my-account#edf1817e96799daca1b16bf76383b8e2d7c340f9"
 
+"vtex.my-cards@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-cards@1.11.1/public/@types/vtex.my-cards":
+  version "1.11.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-cards@1.11.1/public/@types/vtex.my-cards#1cd1b91c57c3c4df4521c01e56f7bda651c6f219"
+
+"vtex.my-orders-app@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-orders-app@3.14.1/public/@types/vtex.my-orders-app":
+  version "3.14.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-orders-app@3.14.1/public/@types/vtex.my-orders-app#a310c4ee94855fd8329d2fa7e9c20e635c87d51f"
+
 "vtex.order-placed@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-placed@2.11.0/public/@types/vtex.order-placed":
   version "2.11.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-placed@2.11.0/public/@types/vtex.order-placed#082748e5ad96aac34002674e47facc74bf31d3cc"
@@ -5038,6 +5046,10 @@ verror@1.10.0:
 "vtex.responsive-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.2/public/@types/vtex.responsive-layout":
   version "0.1.2"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.2/public/@types/vtex.responsive-layout#e33f23a78afb3ffb8ff8aedc77b1ca6728583e72"
+
+"vtex.reviews-and-ratings@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@2.10.0/public/@types/vtex.reviews-and-ratings":
+  version "2.10.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@2.10.0/public/@types/vtex.reviews-and-ratings#006e6416aea0c008e90fb943c58e5ea969520cec"
 
 "vtex.rich-text@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.14.0/public/@types/vtex.rich-text":
   version "0.14.0"
