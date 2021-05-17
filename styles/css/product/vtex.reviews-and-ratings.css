@@ -8,7 +8,7 @@
 }
 
 .star--filled {
-  color: #f2c94c
+  color: #f2c94c;
 }
 
 .container {
@@ -17,6 +17,13 @@
   max-width: 100%;
 }
 
+.formContainer {
+  background-color: #fff;
+}
+
+.formContainer :global(.vtex-card) {
+  background-color: #fff;
+}
 
 .reviewsHeading {
   padding: 0;
