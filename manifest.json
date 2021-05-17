@@ -61,7 +61,9 @@
     "vtex.checkout": "2.x",
     "vtex.checkout-cart": "0.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.product-list": "0.x"
+    "vtex.product-list": "0.x",
+    "vtex.my-orders-app": "3.x",
+    "vtex.my-cards": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

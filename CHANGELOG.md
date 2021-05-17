@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Removed
+
+- Some `My Orders` section, such as Addresses, and unnecessary info and actions
+
 ## [0.36.1] - 2021-05-17
 
 ### Changed

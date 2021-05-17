@@ -1,0 +1,19 @@
+.passwordBoxContainer,
+.newsletterBoxContainer,
+.boxContainerFooter,
+.phoneNumberContainer,
+.genderContainer,
+.emailContainer,
+.lastNameSubContainer,
+.menuLink,
+.cancelBtn {
+  display: none;
+}
+
+.menuLinks > div :nth-child(2) {
+  display: none;
+}
+
+.menuLinks :first-child[href="#/orders"]{
+  display: none;
+}
