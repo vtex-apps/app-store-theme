@@ -1,0 +1,38 @@
+.oAuthTitle {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0125rem;
+}
+
+.content {
+  padding: 0 0 2rem 0;
+}
+
+.dialogAction {
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.dialogInput :global(.vtex-styleguide-9-x-input) {
+  background-color: white;
+}
+
+.buttonContainer :global(.vtex-button) {
+  width: 100%;
+}
+
+.buttonContainer--pdpTablet {
+  padding-top: 0.5rem;
+}
+
+@media (min-width: 80rem) {
+  .buttonContainer :global(.vtex-button) {
+    width: fit-content;
+  }
+}

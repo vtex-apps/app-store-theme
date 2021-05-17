@@ -18,5 +18,12 @@
       "title": "Apps - VTEX App Store",
       "isSitemapEntry": true
     }
+  },
+  "store.custom#authenticate": {
+    "path": "/authenticate",
+    "props": {
+      "title": "Authenticate - VTEX App Store",
+      "isSitemapEntry": false
+    }
   }
 }
