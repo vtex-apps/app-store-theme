@@ -34,6 +34,7 @@
     },
     "children": [
       "breadcrumb#main",
+      "flex-layout.row#compatibility-alert",
       "flex-layout.row#pdp"
     ]
   },
@@ -59,5 +60,19 @@
       "flex-layout.col#topBar",
       "flex-layout.col#specifications"
     ]
+  },
+  "flex-layout.row#compatibility-alert": {
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": 4
+    }, 
+    "children": [
+      "compatibility-alert"
+    ]
+  },
+  "compatibility-alert": {
+    "props": {
+      "blockClass": "compatibility-alert"
+    }
   }
 }
