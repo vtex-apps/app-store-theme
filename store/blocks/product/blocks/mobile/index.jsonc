@@ -17,6 +17,7 @@
       "rowGap": 6
     },
     "children": [
+      "flex-layout.row#compatibility-alert",
       "flex-layout.row#productOverview",
       "button-get-app",
       "flex-layout.col#specificationsMobile"
@@ -63,6 +64,7 @@
       "rowGap": 6
     },
     "children": [
+      "flex-layout.row#compatibility-alert",
       "flex-layout.row#productOverviewTablet",
       "flex-layout.col#specificationsMobile"
     ]
@@ -92,6 +94,20 @@
   "button-get-app#pdpTablet": {
     "props": {
       "blockClass": "pdpTablet"
+    }
+  },
+  "flex-layout.row#compatibility-alert": {
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": 4
+    }, 
+    "children": [
+      "compatibility-alert"
+    ]
+  },
+  "compatibility-alert": {
+    "props": {
+      "blockClass": "compatibility-alert"
     }
   }
 }
