@@ -115,7 +115,7 @@
     },
     "children": [
       "flex-layout.col#rating",
-      "conditional-get-app-by-sales-channel"
+      "button-get-app"
     ]
   },
   "flex-layout.col#rating": {
