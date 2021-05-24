@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- `Get App` button redirects to checkout in all sales channels
+
+### Removed
+
+- Native `Boleto Bancário` payment option
+
 ## [1.0.0] - 2021-05-18
 
 ### Added
