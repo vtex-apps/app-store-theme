@@ -13,3 +13,7 @@
 .bankInvoiceOption {
   display: none;
 }
+
+.summaryInstallmentsMessage {
+  display: none;
+}
