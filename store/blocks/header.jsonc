@@ -43,10 +43,10 @@
       "vtex.menu@2.x:menu#main-menu",
       "app-store-selector",
       "locale-switcher",
-      "login-logout#login"
+      "login-menu#login"
     ]
   },
-  "login-logout#login": {
+  "login-menu#login": {
     "props": {
       "id": "menu-item-login",
       "loginText": "LOGIN",
@@ -96,7 +96,7 @@
   "flex-layout.col#drawer-content": {
     "children": [
       "vtex.menu@2.x:menu#main-menu",
-      "login-logout#login"
+      "login-menu#login"
     ]
   },
   //header da home
@@ -145,7 +145,7 @@
       "vtex.menu@2.x:menu#main-menu",
       "app-store-selector",
       "locale-switcher",
-      "login-logout#login"
+      "login-menu#login"
     ]
   },
   "flex-layout.row#header-mobilehome": {
