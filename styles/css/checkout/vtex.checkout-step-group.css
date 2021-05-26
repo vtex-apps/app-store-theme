@@ -9,3 +9,11 @@
 .creditCardExtraDataMessage {
   display: none;
 }
+
+.bankInvoiceOption {
+  display: none;
+}
+
+.summaryInstallmentsMessage {
+  display: none;
+}

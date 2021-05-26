@@ -18,7 +18,7 @@
     },
     "children": [
       "flex-layout.row#productOverview",
-      "conditional-get-app-by-sales-channel",
+      "button-get-app",
       "flex-layout.col#specificationsMobile"
     ]
   },
@@ -86,10 +86,10 @@
     "children": [
       "vtex.store-components:product-name",
       "flex-layout.row#brand",
-      "conditional-get-app-by-sales-channel#pdpTablet"
+      "button-get-app#pdpTablet"
     ]
   },
-  "conditional-get-app-by-sales-channel#pdpTablet": {
+  "button-get-app#pdpTablet": {
     "props": {
       "blockClass": "pdpTablet"
     }
