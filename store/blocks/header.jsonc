@@ -50,7 +50,8 @@
     "props": {
       "id": "menu-item-login",
       "loginText": "LOGIN",
-      "logoutText": "LOGOUT"
+      "logoutText": "LOGOUT",
+      "blockClass": "login"
     }
   },
   "flex-layout.col#spacer": {
