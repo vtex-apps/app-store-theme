@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Use `login-menu` block instead of `login-logout`
+
 ## [1.1.0] - 2021-05-26
 
 ### Changed
