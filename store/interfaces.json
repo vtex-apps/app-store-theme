@@ -2,5 +2,8 @@
   "shelf-container": {
     "component": "ShelfContainer",
     "composition": "children"
+  },
+  "not-found-box": {
+    "component": "NotFoundBox"
   }
 }
