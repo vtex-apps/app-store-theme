@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.1] - 2021-06-23
+
 ## [1.3.0] - 2021-06-23
 ### Added
 - Adds compatibility alert component to product page
