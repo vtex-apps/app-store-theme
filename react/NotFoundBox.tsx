@@ -16,7 +16,7 @@ const NotFoundBox = () => {
             <FormattedMessage id="store/not-found-box-title" />
           </h2>
           <p className="flex center gray">
-            <FormattedMessage id="store/not-found-box-subtitle" />
+            <FormattedMessage id="store/not-found-box-text" />
           </p>
           <div className="flex center pt4">
             <Link to={ALL_APPS_PATH}>

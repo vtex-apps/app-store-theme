@@ -1,5 +1,6 @@
 {
-  "store/not-found-button": "Back to store",
-  "store/not-found-box-subtext": "Try changing currency or choose another similar app from the same category",
-  "store/not-found-box-title": "App unavailable for this currency"
+  "store/not-found-button": "Volver a la tienda",
+  "store/not-found-box-text": "Intente cambiar la moneda o elija otra aplicación semejante de la misma categoría",
+  "store/not-found-box-title": "Aplicación no disponible para esta moneda"
 }
+
