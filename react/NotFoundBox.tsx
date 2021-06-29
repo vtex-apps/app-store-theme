@@ -9,8 +9,8 @@ const ALL_APPS_PATH = '/all-apps'
 
 const NotFoundBox = () => {
   return (
-		<div className={styles.notFoundBox}>
-			<Box noPadding={true}>
+    <div className={styles.notFoundBox}>
+      <Box noPadding={true}>
         <div className="flex flex-column bg-white pa8">
           <h2 className="flex center mid-gray b mb0">
             <FormattedMessage id="store/not-found-box-title" />
