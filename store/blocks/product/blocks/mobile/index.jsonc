@@ -102,12 +102,12 @@
       "paddingBottom": 4
     }, 
     "children": [
-      "compatibility-alert"
+      "compatibility-alert#pdp"
     ]
   },
-  "compatibility-alert": {
+  "compatibility-alert#pdp": {
     "props": {
-      "blockClass": "compatibility-alert"
+      "blockClass": "pdpCompatibilityAlert"
     }
   }
 }
