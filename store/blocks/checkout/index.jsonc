@@ -76,7 +76,8 @@
   },
   "product-list-content-desktop": {
     "children": [
-      "flex-layout.row#list-row.desktop"
+      "flex-layout.row#list-row.desktop",
+      "compatibility-alert#checkout"
     ]
   },
   "flex-layout.row#list-row.desktop": {
@@ -141,6 +142,11 @@
   "checkout-price#checkout": {
     "props": {
       "blockClass": "checkoutAppPrice"
+    }
+  },
+  "compatibility-alert#checkout": {
+    "props": {
+      "blockClass": "checkoutCompatibilityAlert"
     }
   }
 }
