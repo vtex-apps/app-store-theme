@@ -77,7 +77,7 @@
   "product-list-content-desktop": {
     "children": [
       "flex-layout.row#list-row.desktop",
-      "compatibility-alert#checkout"
+      "vtex.app-store-compatibility-alert:compatibility-alert#checkout"
     ]
   },
   "flex-layout.row#list-row.desktop": {
@@ -144,7 +144,7 @@
       "blockClass": "checkoutAppPrice"
     }
   },
-  "compatibility-alert#checkout": {
+  "vtex.app-store-compatibility-alert:compatibility-alert#checkout": {
     "props": {
       "blockClass": "checkoutCompatibilityAlert"
     }
