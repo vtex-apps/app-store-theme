@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.5.2] - 2021-07-22
+### Removed
+- Breadcrumbs from product details page
+
 ## [1.5.1] - 2021-07-13
 ### Chore
 - Uses compatibility alert from new app
