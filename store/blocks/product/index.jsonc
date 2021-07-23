@@ -12,11 +12,6 @@
       "flex-layout.row#mainContainer"
     ]
   },
-  "breadcrumb#main": {
-    "props": {
-      "blockClass": "main"
-    }
-  },
   "flex-layout.row#mainContainer": {
     "props": {
       "horizontalAlign": "CENTER",
@@ -33,7 +28,6 @@
       "rowGap": 0
     },
     "children": [
-      "breadcrumb#main",
       "flex-layout.row#compatibility-alert",
       "flex-layout.row#pdp"
     ]
