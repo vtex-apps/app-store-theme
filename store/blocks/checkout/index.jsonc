@@ -32,35 +32,27 @@
   },
   "flex-layout.row#container-desktop": {
     "children": [
-      "flex-layout.col#checkout-desktop",
-      "flex-layout.col#items-summary-desktop"
+      "flex-layout.col#content-desktop"
     ],
-    "props": {
-      "blockClass": "checkoutContainer",
+    "props": {  
+      "preventHorizontalStretch": true,
+      "blockClass": "checkoutContainerAppStore",
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "horizontalAlign": "center"
     }
   },
-  "flex-layout.col#checkout-desktop": {
+  "flex-layout.col#content-desktop": {
     "children": [
-      "checkout-step-group#app-store",
-      "review-container#desktop",
-      "app-terms-of-service#terms"
-    ],
-    "props": {
-      "blockClass": "checkoutColumn",
-      "preventVerticalStretch": true,
-      "width": "60%"
-    }
+      "flex-layout.col#items-summary-desktop",
+      "flex-layout.col#container-cta"
+    ]
   },
   "flex-layout.col#items-summary-desktop": {
     "children": [
       "checkout-product-list",
-      "checkout-price#checkout",
-      "fee-charged-message"
+      "checkout-price#checkout"
     ],
     "props": {
-      "preventVerticalStretch": true,
       "blockClass": "checkoutSummaryDesktop"
     }
   },
@@ -105,6 +97,15 @@
       "rowGap": 3,
       "preserveLayoutOnMobile": true,
       "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#container-cta": {
+    "children": [
+      "buy-app-button",
+      "app-terms-of-service#terms"
+    ],
+    "props": {
+      "horizontalAlign": "center"
     }
   },
   "flex-layout.row#container-mobile": {
