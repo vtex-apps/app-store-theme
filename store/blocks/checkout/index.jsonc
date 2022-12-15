@@ -43,17 +43,17 @@
   },
   "flex-layout.col#content-desktop": {
     "children": [
-      "flex-layout.col#items-summary-desktop",
+      "flex-layout.col#items-summary",
       "flex-layout.col#container-cta"
     ]
   },
-  "flex-layout.col#items-summary-desktop": {
+  "flex-layout.col#items-summary": {
     "children": [
       "checkout-product-list",
       "checkout-price#checkout"
     ],
     "props": {
-      "blockClass": "checkoutSummaryDesktop"
+      "blockClass": "checkoutItemsSummary"
     }
   },
   "checkout-product-list": {
@@ -120,21 +120,19 @@
   },
   "flex-layout.col#checkout-mobile": {
     "children": [
-      "checkout-step-group#app-store",
-      "checkout-price#checkout",
-      "review-container#mobile",
-      "app-terms-of-service#terms"
+      "flex-layout.col#items-summary",
+      "flex-layout.col#container-cta"
     ],
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "checkoutColumnMobile"
     }
   },
-  "checkout-step-group#app-store": {
-    "children": [
-      "payment-step"
-    ]
-  },
+  // "checkout-step-group#app-store": {
+  //   "children": [
+  //     "payment-step"
+  //   ]
+  // },
   "app-terms-of-service#terms": {
     "props": {
       "blockClass": "appTerms"
