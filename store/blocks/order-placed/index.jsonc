@@ -56,7 +56,6 @@
   "op-order": {
     "children": [
       "flex-layout.row#order-header",
-      "op-section#payments",
       "flex-layout.row#appSummary"
     ]
   },
@@ -97,15 +96,6 @@
   "responsive-layout.desktop#order-options-desktop": {
     "children": [
       "op-order-options"
-    ]
-  },
-  // payment section
-  "op-section#payments": {
-    "props": {
-      "name": "paymentMethods"
-    },
-    "children": [
-      "op-order-payment"
     ]
   }
 }
