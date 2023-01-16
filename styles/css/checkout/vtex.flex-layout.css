@@ -22,13 +22,19 @@
 }
 
 
-.flexCol--checkoutSummaryDesktop {
-  margin-left: 3rem;
+.flexCol--checkoutItemsSummary {
+  margin: auto;
   height: fit-content;
   width: fit-content;
   border-radius: 0.5rem;
   padding: 1rem;
+  margin-bottom: 2rem;
 }
+
+.flexRow--checkoutContainerAppStore {
+  margin-top: 6rem;
+}
+
 
 :global(.vtex-input-prefix__group) :first-child {
   background-color: #fff;
