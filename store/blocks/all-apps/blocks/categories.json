@@ -2,7 +2,7 @@
   "search-result-layout.customQuery#marketing": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "138",
         "mapField": "productClusterIds",
@@ -22,7 +22,7 @@
   "search-result-layout.customQuery#review": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "144",
         "mapField": "productClusterIds",
@@ -42,7 +42,7 @@
   "search-result-layout.customQuery#customerSupport": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "140",
         "mapField": "productClusterIds",
@@ -62,7 +62,7 @@
   "search-result-layout.customQuery#channels": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "141",
         "mapField": "productClusterIds",
@@ -82,7 +82,7 @@
   "search-result-layout.customQuery#finance": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "143",
         "mapField": "productClusterIds",
@@ -102,7 +102,7 @@
   "search-result-layout.customQuery#omnichannel": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "145",
         "mapField": "productClusterIds",
@@ -122,7 +122,7 @@
   "search-result-layout.customQuery#privacy": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "142",
         "mapField": "productClusterIds",
@@ -142,7 +142,7 @@
   "search-result-layout.customQuery#developer": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "146",
         "mapField": "productClusterIds",
@@ -162,7 +162,7 @@
   "search-result-layout.customQuery#storeDesign": {
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 80,
+        "maxItemsPerPage": 50,
         "orderByField": "OrderByTopSaleDESC",
         "queryField": "147",
         "mapField": "productClusterIds",
