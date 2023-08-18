@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Number of apps shown in the all-apps pages - Product search API only supports now 50 results 
+
 ## [1.6.0] - 2023-01-16
 ### Changed
 - Removed credit card component and added custom buy app button to place orders with cash as a payment system (Phasing out VTEX Payment)
