@@ -6,12 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-
-## [1.6.1] - 2023-08-18
-
 ### Changed
 - Fixed links
 - Added App Store's T&Cs
+
+## [1.6.1] - 2023-08-18
 
 ### Fixed
 - Number of apps shown in the all-apps pages - Product search API only supports now 50 results 
