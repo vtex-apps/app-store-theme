@@ -24,7 +24,7 @@
     "props": {
       "blockClass": ["cardButton", "rebelPink"],
       "label": "FIND AN AGENCY",
-      "href": "http://store.vtex.com/en/agencias/",
+      "href": "https://vtex.com/us-en/",
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary",

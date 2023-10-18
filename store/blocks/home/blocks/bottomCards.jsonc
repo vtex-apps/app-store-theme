@@ -375,7 +375,7 @@
       "blockClass": ["cardButton", "rebelPink"],
       "target": "_blank",
       "label": "FIND AN AGENCY",
-      "href": "http://store.vtex.com/en/agencias",
+      "href": "https://vtex.com/us-en/",
       "displayMode": "button"
     }
   },
