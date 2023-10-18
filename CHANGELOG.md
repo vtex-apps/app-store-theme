@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.6.1] - 2023-08-18
 
+### Changed
+- Fixed links
+- Added App Store's T&Cs
+
 ### Fixed
 - Number of apps shown in the all-apps pages - Product search API only supports now 50 results 
 
