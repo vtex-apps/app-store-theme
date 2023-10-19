@@ -52,7 +52,7 @@
     "props": {
       "blockClass": "allAppsEarnMoney",
       "label": "BECOME A PARTNER",
-      "href": "#",
+      "href": "https://vtex.com/us-en/partner/",
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary",

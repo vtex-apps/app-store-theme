@@ -21,7 +21,7 @@
     "props": {
       "blockClass": ["cardButton", "rebelPink"],
       "label": "GET TO KNOW VTEX",
-      "href": "https://vtex.com/us-en/",
+      "href": "https://vtex.com/en-us/",
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
